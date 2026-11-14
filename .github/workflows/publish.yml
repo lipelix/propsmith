@@ -98,10 +98,11 @@ jobs:
 
       - run: npm run site:data
 
+      # The runner draws WebGL in software on two cores: the live-viewer test needs more than the local 30 s.
       - name: End-to-end tests
         run: |
           npx playwright install --with-deps chromium
-          npm run test:e2e
+          npm run test:e2e -- --timeout=180000
 
       - name: Build the site
         if: github.event_name == 'pull_request' || github.ref != 'refs/heads/main'
