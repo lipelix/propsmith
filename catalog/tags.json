@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "note": "Canonical asset tags, grouped into the catalogue facets. An asset takes its tags from here; a tag must not repeat its family or an alias. Add a tag here before using it.",
+  "groups": {
+    "material": [
+      "wood",
+      "stone",
+      "clay",
+      "iron",
+      "straw",
+      "cloth",
+      "rope",
+      "thatch",
+      "plaster"
+    ],
+    "setting": [
+      "village",
+      "farm",
+      "market",
+      "square",
+      "inn",
+      "temple",
+      "house",
+      "road",
+      "garden",
+      "dungeon",
+      "crypt",
+      "forest"
+    ],
+    "use": [
+      "storage",
+      "transport",
+      "seating",
+      "work",
+      "lighting",
+      "water",
+      "planting",
+      "trade",
+      "worship",
+      "cooking",
+      "boundary"
+    ],
+    "look": [
+      "round",
+      "boxy",
+      "tall",
+      "low",
+      "long",
+      "small",
+      "large",
+      "roofed",
+      "open",
+      "ornate",
+      "plain"
+    ],
+    "condition": ["new", "worn", "weathered", "broken", "mossy"]
+  }
+}
