@@ -62,6 +62,33 @@
         }
       ]
     },
+    "signpost_wood": {
+      "inputHash": "a8ce8add1064fa5c4f172aa0e9f4752ad6db91e2b478f6f4f47aacbac40b9787",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "signpost_wood",
+          "tris": 2196,
+          "bbox": {
+            "min": [-0.6072, -0.2687, -0.0035],
+            "max": [0.6073, 0.2847, 2.345]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "signpost_iron", "source": "palette" },
+            { "name": "signpost_oak", "source": "palette" },
+            { "name": "signpost_plank", "source": "palette" },
+            { "name": "signpost_plank_old", "source": "palette" },
+            { "name": "signpost_stone", "source": "palette" },
+            { "name": "signpost_stone_dark", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "well_stone": {
       "inputHash": "73fedf39045e3629ed1f1bd4322810e40008b372ae45e153547a638b9eb5cdea",
       "libVersion": 1,

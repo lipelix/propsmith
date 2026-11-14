@@ -2,7 +2,7 @@
 
 Design: [`2026-11-14-propsmith-design.md`](2026-11-14-propsmith-design.md).
 
-**Status:** Tasks 1–4 done 2026-11-14 (3 and 4 in one PR: the build prints the check report); Task 5 (skill and `new`) next.
+**Status:** Milestone A (Tasks 1–5) done 2026-11-14; `signpost_wood` is the first generated asset. Task 6 (GLB bake, stop and show) next.
 
 ## Source material
 

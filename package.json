@@ -17,7 +17,8 @@
     "catalog": "tsx tools/catalog.ts",
     "build": "tsx tools/build.ts",
     "textures": "tsx tools/textures.ts",
-    "catalog:check": "tsx tools/check.ts"
+    "catalog:check": "tsx tools/check.ts",
+    "new": "tsx tools/new.ts"
   },
   "dependencies": {
     "zod": "^4.6.7"
