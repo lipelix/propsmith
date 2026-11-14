@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "status": "approved 2026-11-12 (Phase 12 Task 0, #39): variant B, soft Kuwahara",
+  "tileMetres": 1.5,
+  "pxPerTile": 128,
+  "camera": {
+    "elevationDeg": 30,
+    "yawDeg": 45
+  },
+  "samples": 32,
+  "look": "AgX - Medium High Contrast",
+  "exposure": -0.15,
+  "sun": {
+    "fromScreenDeg": -45,
+    "elevationDeg": 48,
+    "energy": 6.0,
+    "color": [1.0, 0.87, 0.7],
+    "angleDeg": 4
+  },
+  "sky": {
+    "color": [0.5, 0.56, 0.68],
+    "strength": 0.55
+  },
+  "ao": {
+    "distance": 0.6
+  },
+  "post": {
+    "kuwahara": {
+      "size": 3,
+      "uniformity": 4,
+      "sharpness": 0.6,
+      "eccentricity": 1.0
+    },
+    "saturation": 1.08,
+    "value": 1.0,
+    "gain": [1.04, 1.0, 0.94]
+  },
+  "spriteShadow": {
+    "opacity": 0.6
+  },
+  "ground": {
+    "texture": "ambientcg:PavingStones046",
+    "metresPerRepeat": 2.2,
+    "tint": [0.85, 0.74, 0.58],
+    "normalStrength": 0.9
+  }
+}

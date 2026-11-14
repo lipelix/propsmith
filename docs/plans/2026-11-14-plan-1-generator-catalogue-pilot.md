@@ -2,7 +2,7 @@
 
 Design: [`2026-11-14-propsmith-design.md`](2026-11-14-propsmith-design.md).
 
-**Status:** Tasks 1–2 done 2026-11-14; Task 3 (library and build) next.
+**Status:** Tasks 1–4 done 2026-11-14 (3 and 4 in one PR: the build prints the check report); Task 5 (skill and `new`) next.
 
 ## Source material
 

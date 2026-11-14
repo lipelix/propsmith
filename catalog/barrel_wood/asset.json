@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "barrel_wood",
+  "name": "Wooden barrel",
+  "description": "A short wooden barrel about 0.6 m wide and 0.9 m high, its curved staves of slightly varied wood held by three dark iron hoops and closed with a plank lid.",
+  "category": "container",
+  "family": "barrel",
+  "tags": [
+    "wood",
+    "iron",
+    "storage",
+    "village",
+    "inn",
+    "market",
+    "round",
+    "worn"
+  ],
+  "aliases": ["cask", "keg", "tun"],
+  "variants": ["barrel_wood"],
+  "size": { "x": 1.5, "y": 1.5, "z": 0.975 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A short wooden barrel, about 0.6 m wide and 0.9 m high, with curved staves of slightly varied wood, three dark iron hoops and a plank lid. Footprint 1x1 tile. Container; no interaction, destructible (wood, closed mesh), dynamic bake; blocks movement, does not block sight, cover half."
+  },
+  "licence": "CC0-1.0"
+}

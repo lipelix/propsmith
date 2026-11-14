@@ -22,7 +22,7 @@ export const INDEX_FILE = "catalog/index.json";
 const TAGS_FILE = "catalog/tags.json";
 const LEDGER_FILE = "catalog/textures.json";
 const LIB_DIR = "lib/propsmith";
-const BUILD_SCRIPT = "tools/blender/build.py";
+const BLENDER_DIR = "tools/blender";
 
 export interface IndexEntry {
   id: string;
@@ -78,7 +78,8 @@ export function usedTextures(source: string): string[] {
 }
 
 /**
- * Hashes the inputs of an asset: its folder, the Blender library and the build script (path and bytes each); when
+ * Hashes the inputs of an asset: its folder, the Blender library, the build script and its review style (path and
+ * bytes each); when
  * its asset.py uses textures, also the texture ledger, which pins their files by SHA-256.
  */
 export function inputHash(root: string, id: string): string {
@@ -89,7 +90,7 @@ export function inputHash(root: string, id: string): string {
   const paths = [
     ...files(root, `${CATALOG_DIR}/${id}`),
     ...files(root, LIB_DIR),
-    BUILD_SCRIPT,
+    ...files(root, BLENDER_DIR),
     ...(textured ? [LEDGER_FILE] : []),
   ].filter((path) => existsSync(join(root, path)));
   for (const path of paths) {
