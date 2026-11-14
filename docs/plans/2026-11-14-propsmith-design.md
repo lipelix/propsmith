@@ -15,15 +15,15 @@ contributions, a search site and a JSON index).
 
 ## Decisions
 
-| #   | Decision                                                                                                  | Why                                                                                                         |
-| --- | --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| 1   | The generator and the catalogue are cut out of srd-iso-rpg; srd consumes the catalogue.                   | One source of truth, usable by other games.                                                                 |
-| 2   | The canonical asset is the source (`asset.py` + `asset.json`); the GLB is derived from it.                | Source is small, reviewable text and rebuilds byte-identical. No Git LFS.                                   |
-| 3   | Models are Blender `bpy` scripts on a small shape and material library, not CAD.                          | Game props need textures, wear and organic shapes; the library and checks already exist in srd.             |
-| 4   | Public repo `lipelix/propsmith`, code MIT, catalogue assets CC0-1.0, textures only from a CC0 ledger.     | Anyone may use a prop in any game without asking.                                                           |
-| 5   | The site is static, hosted on Cloudflare Pages with Cloudflare Web Analytics, set up as code (OpenTofu). | The owner wants Cloudflare's metrics; no server to run.                                                     |
-| 6   | Game facts stay in the game.                                                                              | Tiles, cover, hit points, camera and post-processing differ per game; the catalogue stays engine-agnostic. |
-| 7   | Work is tracked as an HQ plan: one plan issue, one sub-issue per task, one PR per task.                  | Same flow as the owner's other projects.                                                                    |
+| #   | Decision                                                                                                 | Why                                                                                                        |
+| --- | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| 1   | The generator and the catalogue are cut out of srd-iso-rpg; srd consumes the catalogue.                  | One source of truth, usable by other games.                                                                |
+| 2   | The canonical asset is the source (`asset.py` + `asset.json`); the GLB is derived from it.               | Source is small, reviewable text and rebuilds byte-identical. No Git LFS.                                  |
+| 3   | Models are Blender `bpy` scripts on a small shape and material library, not CAD.                         | Game props need textures, wear and organic shapes; the library and checks already exist in srd.            |
+| 4   | Public repo `lipelix/propsmith`, code MIT, catalogue assets CC0-1.0, textures only from a CC0 ledger.    | Anyone may use a prop in any game without asking.                                                          |
+| 5   | The site is static, hosted on Cloudflare Pages with Cloudflare Web Analytics, set up as code (OpenTofu). | The owner wants Cloudflare's metrics; no server to run.                                                    |
+| 6   | Game facts stay in the game.                                                                             | Tiles, cover, hit points, camera and post-processing differ per game; the catalogue stays engine-agnostic. |
+| 7   | Work is tracked as an HQ plan: one plan issue, one sub-issue per task, one PR per task.                  | Same flow as the owner's other projects.                                                                   |
 
 ## The cut
 
