@@ -7,3 +7,8 @@ __pycache__
 .env.*
 site/dist
 site/public/data
+
+# OpenTofu
+infra/.terraform/
+infra/*.tfstate*
+infra/env.auto.tfvars
