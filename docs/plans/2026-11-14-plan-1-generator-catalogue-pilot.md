@@ -2,7 +2,7 @@
 
 Design: [`2026-11-14-propsmith-design.md`](2026-11-14-propsmith-design.md).
 
-**Status:** Milestone A (Tasks 1–5) done 2026-11-14; `signpost_wood` is the first generated asset. Task 6 (GLB bake, stop and show) next.
+**Status:** Milestone A (Tasks 1–5) done 2026-11-14. The owner asked to try an asset in the game right away, so the pilot (Tasks 9–10) ran before Milestone B: `signpost_wood` stands in the srd-iso-rpg village (lipelix/srd-iso-rpg#89, waiting for the owner's look). Task 6 (GLB bake, stop and show) next.
 
 ## Source material
 

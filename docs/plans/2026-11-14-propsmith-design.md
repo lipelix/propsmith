@@ -100,8 +100,11 @@ bake.
 - Blender pipelines: pin the repo at a tag (`"propsmith": "github:lipelix/propsmith#vX.Y.Z"`), read
   `catalog/<id>/asset.py` and import `lib/propsmith`.
 
-srd-iso-rpg does the last one: its `props:build` loads the catalogue asset, renders sprites with its own `style.json`,
-and its input hash covers the pinned asset and library.
+srd-iso-rpg starts with a lighter variant of the last one (pilot, 2026-11-14): `npm run props:import -- <asset>` copies
+the pinned `asset.py` into the game as `prop.py` with its imports turned to the game's own copy of the library (the same
+API), and drafts the game's `prop.json` with pack provenance. A test keeps the copy equal to the pinned catalogue. This
+changes no hashed input of the game's other props, so nothing else is rebuilt. Plan 1 Task 11 replaces the game's copy
+of the library with `lib/propsmith` itself.
 
 ## Contributing
 
