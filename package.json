@@ -24,6 +24,7 @@
     "site:data": "tsx tools/site-data.ts",
     "site:dev": "vite --config site/vite.config.ts",
     "site:build": "tsc --noEmit -p site && vite build --config site/vite.config.ts",
+    "site:publish": "tsc --noEmit -p site && vite build --config site/vite.config.ts --mode publish",
     "test:e2e": "playwright test"
   },
   "dependencies": {

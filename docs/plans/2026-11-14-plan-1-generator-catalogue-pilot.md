@@ -2,7 +2,7 @@
 
 Design: [`2026-11-14-propsmith-design.md`](2026-11-14-propsmith-design.md).
 
-**Status:** Milestone A (Tasks 1–5) done 2026-11-14. The owner asked to try an asset in the game right away, so the pilot (Tasks 9–10) ran before Milestone B: `signpost_wood` stands in the srd-iso-rpg village (lipelix/srd-iso-rpg#89, approved and merged 2026-11-14). Tasks 6 (GLB bake) and 7 (site: catalogue and an asset page with a live Blender-like view) done 2026-11-14. Task 8 (deploy) next; it needs the owner's Cloudflare token and domain.
+**Status:** Milestone A (Tasks 1–5) done 2026-11-14. The owner asked to try an asset in the game right away, so the pilot (Tasks 9–10) ran before Milestone B: `signpost_wood` stands in the srd-iso-rpg village (lipelix/srd-iso-rpg#89, approved and merged 2026-11-14). Tasks 6 (GLB bake) and 7 (site: catalogue and an asset page with a live Blender-like view) done 2026-11-14. Task 8 (deploy): `infra/` and the publish job merged 2026-11-14; the site stays on pages.dev (no custom domain for now), and the owner applies `infra/` with their Cloudflare token, which lets the publish job upload.
 
 ## Source material
 
@@ -61,6 +61,7 @@ One session takes one task, on its own branch and PR; merge when CI is green, th
 
 ## Open questions
 
-- Domain for the site (Task 8): a one-label name under an existing zone, or its own domain.
+- Domain for the site: pages.dev only for now (owner, 2026-11-14); a custom domain later is a Pages domain and a
+  CNAME in `infra/`.
 - Whether the catalogue carries more than one visual kit (the srd painterly village look is the first); decide when a
   second game needs it.

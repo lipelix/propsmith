@@ -1,0 +1,134 @@
+name: publish
+
+# Builds the catalogue, bakes the GLBs and uploads the site to the Cloudflare Pages project infra/ creates
+# (design: "Contributing"). Every asset is built and baked from scratch unless the cache below still holds it: the
+# build and the bake skip an asset whose input hash is unchanged. Only an asset whose checks are all OK is baked.
+#
+# A pull request that touches the pipeline runs everything but the upload, so a broken bake shows before the merge.
+on:
+  push:
+    branches: [main]
+  pull_request:
+    paths:
+      - ".github/workflows/publish.yml"
+      - "lib/**"
+      - "tools/blender/**"
+      - "tools/bake.ts"
+      - "tools/build.ts"
+      - "tools/site-data.ts"
+      - "tools/textures.ts"
+      - "site/vite.config.ts"
+      - "playwright.config.ts"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publish-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  # The Blender the committed measurements were built with (catalog/measurements.json).
+  BLENDER_VERSION: 5.2.2
+  BLENDER_SHA256: 84098912789dc450e95697c4184fb8a90acbe5111c2ba4aede3fecb57806a168
+
+jobs:
+  publish:
+    # GitHub's Ubuntu runner, not RUNNER_LABELS: the bake needs Blender's Linux build and Mesa's software OpenGL.
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run check
+
+      - name: Install Blender's system libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            xvfb libgl1 libegl1 libglx-mesa0 libegl-mesa0 libgl1-mesa-dri mesa-vulkan-drivers \
+            libxi6 libxkbcommon0 libxkbcommon-x11-0 libsm6 libxrender1 libxxf86vm1 libxfixes3 libxrandr2 libxinerama1 libxcursor1
+
+      - name: Cache Blender
+        id: blender-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/blender
+          key: blender-${{ env.BLENDER_VERSION }}-linux-x64
+
+      - name: Download Blender
+        if: steps.blender-cache.outputs.cache-hit != 'true'
+        run: |
+          archive="blender-${BLENDER_VERSION}-linux-x64.tar.xz"
+          curl -fsSL -o "$RUNNER_TEMP/$archive" "https://download.blender.org/release/Blender${BLENDER_VERSION%.*}/$archive"
+          echo "$BLENDER_SHA256  $RUNNER_TEMP/$archive" | sha256sum --check
+          mkdir -p ~/blender
+          tar -xf "$RUNNER_TEMP/$archive" -C ~/blender --strip-components=1
+
+      - name: Use Blender
+        run: |
+          echo "BLENDER=$HOME/blender/blender" >> "$GITHUB_ENV"
+          "$HOME/blender/blender" --version | head -1
+
+      # The build cache (.cache/<id>/, .cache/textures/) and the bake output (dist/catalog/), restored from the
+      # newest run; tools/build.ts and tools/bake.ts redo whatever no longer matches its input hash.
+      - name: Cache builds and bakes
+        uses: actions/cache@v4
+        with:
+          path: |
+            .cache
+            !.cache/e2e
+            dist/catalog
+          key: catalog-${{ env.BLENDER_VERSION }}-${{ hashFiles('catalog/**', 'lib/**', 'tools/**') }}
+          restore-keys: catalog-${{ env.BLENDER_VERSION }}-
+
+      - run: npm run textures
+
+      # xvfb gives Blender's OpenGL (EEVEE review snapshots and thumbnails) a display; Mesa draws in software.
+      - name: Build and bake
+        run: xvfb-run --auto-servernum npm run bake
+
+      - run: npm run site:data
+
+      # The runner draws WebGL in software on two cores: the live-viewer test needs more than the local 30 s.
+      - name: End-to-end tests
+        run: |
+          npx playwright install --with-deps chromium
+          npm run test:e2e -- --timeout=180000
+
+      - name: Build the site
+        if: github.event_name == 'pull_request' || github.ref != 'refs/heads/main'
+        run: npm run site:build
+
+      - name: Build the site with Web Analytics
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        env:
+          CF_WEB_ANALYTICS_TOKEN: ${{ vars.CF_WEB_ANALYTICS_TOKEN }}
+        run: npm run site:publish
+
+      - name: Deploy to Cloudflare Pages
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        env:
+          # A token from the personal Cloudflare account with Account · Cloudflare Pages · Edit only (infra/).
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          PAGES_PROJECT: ${{ vars.PAGES_PROJECT }}
+          SITE_URL: ${{ vars.SITE_URL }}
+        run: |
+          for name in CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID PAGES_PROJECT SITE_URL; do
+            if [ -z "${!name}" ]; then echo "Missing required setting: $name (apply infra/)"; exit 1; fi
+          done
+          npx --yes wrangler@4.162.0 pages deploy site/dist \
+            --project-name "$PAGES_PROJECT" \
+            --branch main \
+            --commit-hash "$GITHUB_SHA" \
+            --commit-dirty=false
+          echo "Deployed ${GITHUB_SHA} to ${SITE_URL}" >> "$GITHUB_STEP_SUMMARY"

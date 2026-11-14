@@ -23,6 +23,12 @@ props are published in an open catalogue.
 not committed: `npm run bake && npm run site:data` (needs Blender), then `npm run site:dev`. `npm run test:e2e`
 drives it in a browser and needs that data too, so it runs locally, not in CI.
 
+## Deploy
+
+`infra/` (OpenTofu, applied by the owner) creates the Cloudflare Pages project, Web Analytics and the repo secret and
+variables CI reads. `.github/workflows/publish.yml` builds, bakes, runs the e2e tests and uploads the site on every
+push to `main` (a PR that touches the pipeline runs it without the upload). The site is on `<project>.pages.dev` only.
+
 ## Plan sessions
 
 One session takes one plan item on its own branch and PR. When CI is green, squash-merge, close the item with a handoff
