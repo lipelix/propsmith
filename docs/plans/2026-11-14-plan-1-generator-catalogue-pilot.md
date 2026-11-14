@@ -2,7 +2,7 @@
 
 Design: [`2026-11-14-propsmith-design.md`](2026-11-14-propsmith-design.md).
 
-**Status:** Task 1 (scaffold) done 2026-11-14; Task 2 next.
+**Status:** Tasks 1–2 done 2026-11-14; Task 3 (library and build) next.
 
 ## Source material
 

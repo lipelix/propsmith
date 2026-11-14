@@ -13,7 +13,8 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "test": "vitest run",
-    "check": "npm run format:check && npm run lint && npm run typecheck && npm test"
+    "check": "npm run format:check && npm run lint && npm run typecheck && npm test && npm run catalog -- --check",
+    "catalog": "tsx tools/catalog.ts"
   },
   "dependencies": {
     "zod": "^4.6.7"
