@@ -1,0 +1,10 @@
+{
+  "name": "propsmith",
+  "description": "Write game props as Blender bpy models, build, check and look at them until they pass, and add them to the propsmith catalogue.",
+  "version": "0.1.0",
+  "author": { "name": "Libor Váchal" },
+  "homepage": "https://github.com/lipelix/propsmith",
+  "repository": "https://github.com/lipelix/propsmith",
+  "license": "MIT",
+  "keywords": ["blender", "game-assets", "props", "3d"]
+}

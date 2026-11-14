@@ -59,6 +59,28 @@
       "inputHash": "b62079456dd1e54a394b1d1cd2059586daab78105f4e4491efea9c31769cd67a"
     },
     {
+      "id": "signpost_wood",
+      "name": "Wooden signpost",
+      "description": "A square weathered oak post about 2.3 m high set in a low ring of stones, with two pointed plank arrow boards near the top pointing in opposite directions at slightly different heights and a small iron cap.",
+      "category": "decor",
+      "family": "signpost",
+      "tags": ["iron", "road", "stone", "tall", "village", "weathered", "wood"],
+      "aliases": [
+        "direction sign",
+        "fingerpost",
+        "guidepost",
+        "road sign",
+        "waymarker"
+      ],
+      "variants": ["signpost_wood"],
+      "size": { "x": 1.25, "y": 0.6, "z": 2.35 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "a8ce8add1064fa5c4f172aa0e9f4752ad6db91e2b478f6f4f47aacbac40b9787"
+    },
+    {
       "id": "well_stone",
       "name": "Stone well",
       "description": "A round drystone well with a plank roof on two posts, a winch with a crank and a bucket on a rope.",

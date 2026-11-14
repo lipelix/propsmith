@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "signpost_wood",
+  "name": "Wooden signpost",
+  "description": "A square weathered oak post about 2.3 m high set in a low ring of stones, with two pointed plank arrow boards near the top pointing in opposite directions at slightly different heights and a small iron cap.",
+  "category": "decor",
+  "family": "signpost",
+  "tags": ["wood", "stone", "iron", "village", "road", "tall", "weathered"],
+  "aliases": [
+    "fingerpost",
+    "guidepost",
+    "direction sign",
+    "road sign",
+    "waymarker"
+  ],
+  "variants": ["signpost_wood"],
+  "size": { "x": 1.25, "y": 0.6, "z": 2.35 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A wooden village signpost: a square weathered oak post about 2.3 m high set in a low ring of stones, with two pointed plank arrow boards near the top pointing in opposite directions at slightly different heights, and a small iron cap on the post."
+  },
+  "licence": "CC0-1.0"
+}
