@@ -113,9 +113,8 @@ test("the asset page renders live and every control changes the picture", async 
   await changed("grid");
 
   await page.getByRole("switch", { name: "Turntable" }).check({ force: true });
-  const a = await picture(page);
-  const b = await picture(page);
-  expect(a, "the turntable keeps turning").not.toBe(b);
+  await changed("the turntable");
+  await changed("the turntable, a moment later");
   await page.getByRole("button", { name: "Blender view" }).click();
   await expect(
     page.getByRole("switch", { name: "Turntable" }),
