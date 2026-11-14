@@ -1,2 +1,4 @@
 dist
 .cache
+site/dist
+site/public/data
