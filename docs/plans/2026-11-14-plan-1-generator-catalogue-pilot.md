@@ -2,7 +2,7 @@
 
 Design: [`2026-11-14-propsmith-design.md`](2026-11-14-propsmith-design.md).
 
-**Status:** Milestone A (Tasks 1–5) done 2026-11-14. The owner asked to try an asset in the game right away, so the pilot (Tasks 9–10) ran before Milestone B: `signpost_wood` stands in the srd-iso-rpg village (lipelix/srd-iso-rpg#89, approved and merged 2026-11-14). Task 6 (GLB bake, stop and show) next.
+**Status:** Milestone A (Tasks 1–5) done 2026-11-14. The owner asked to try an asset in the game right away, so the pilot (Tasks 9–10) ran before Milestone B: `signpost_wood` stands in the srd-iso-rpg village (lipelix/srd-iso-rpg#89, approved and merged 2026-11-14). Task 6 (GLB bake) built 2026-11-14 and waits for the owner's look at `npm run bake:look`; Task 7 (site) next.
 
 ## Source material
 
