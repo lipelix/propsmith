@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "id": "well_stone",
+  "name": "Stone well",
+  "description": "A round drystone well with a plank roof on two posts, a winch with a crank and a bucket on a rope.",
+  "category": "structure",
+  "family": "well",
+  "tags": ["stone", "wood", "village", "square", "water", "round", "roofed"],
+  "aliases": ["water well", "wishing well", "winch"],
+  "variants": ["well_stone"],
+  "size": { "x": 1.5, "y": 1.5, "z": 2.4 },
+  "anchors": [],
+  "closed": false,
+  "provenance": { "source": "handwritten" },
+  "licence": "CC0-1.0"
+}

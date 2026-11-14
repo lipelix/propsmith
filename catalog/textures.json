@@ -1,0 +1,89 @@
+{
+  "schema": 1,
+  "note": "CC0 texture ledger. Only CC0-1.0 entries validate. npm run textures downloads each zip into .cache/textures/, checks sha256 and downsizes the maps to resolution px. Assets use them by id: materials.texture(name, \"<id>\").",
+  "textures": {
+    "ambientcg:PavingStones046": {
+      "name": "Paving Stones 046",
+      "page": "https://ambientcg.com/view?id=PavingStones046",
+      "author": "ambientCG (Lennart Demes)",
+      "licence": "CC0-1.0",
+      "download": "https://ambientcg.com/get?file=PavingStones046_1K-JPG.zip",
+      "sha256": "a479a3e8db7eea8f3e931850ccd41c0f31b1b6fceee9cbd4ac519c8fef4c0024",
+      "maps": {
+        "color": "PavingStones046_1K-JPG_Color.jpg",
+        "ao": "PavingStones046_1K-JPG_AmbientOcclusion.jpg",
+        "normal": "PavingStones046_1K-JPG_NormalGL.jpg"
+      },
+      "resolution": 1024
+    },
+    "ambientcg:Wood049": {
+      "name": "Wood 049",
+      "page": "https://ambientcg.com/view?id=Wood049",
+      "author": "ambientCG (Lennart Demes)",
+      "licence": "CC0-1.0",
+      "download": "https://ambientcg.com/get?file=Wood049_1K-JPG.zip",
+      "sha256": "74ec51bcf5ddfc2e9af6205dc5cbcc90ad51c22117e013ff8b1c7258f8ecbc69",
+      "maps": {
+        "color": "Wood049_1K-JPG_Color.jpg",
+        "normal": "Wood049_1K-JPG_NormalGL.jpg"
+      },
+      "resolution": 512
+    },
+    "ambientcg:Grass004": {
+      "name": "Grass 004",
+      "page": "https://ambientcg.com/view?id=Grass004",
+      "author": "ambientCG (Lennart Demes)",
+      "licence": "CC0-1.0",
+      "download": "https://ambientcg.com/get?file=Grass004_1K-JPG.zip",
+      "sha256": "4b63495f459db8481f4d5144e4e9069345c81cf898cc71f2216f5dd3bb344469",
+      "maps": {
+        "color": "Grass004_1K-JPG_Color.jpg",
+        "ao": "Grass004_1K-JPG_AmbientOcclusion.jpg",
+        "normal": "Grass004_1K-JPG_NormalGL.jpg"
+      },
+      "resolution": 1024
+    },
+    "ambientcg:WoodFloor041": {
+      "name": "Wood Floor 041",
+      "page": "https://ambientcg.com/view?id=WoodFloor041",
+      "author": "ambientCG (Lennart Demes)",
+      "licence": "CC0-1.0",
+      "download": "https://ambientcg.com/get?file=WoodFloor041_1K-JPG.zip",
+      "sha256": "e7364ef32a8db269b2475e76a7e1832eca82bdf6574191cd96b1cdb2b362cdc6",
+      "maps": {
+        "color": "WoodFloor041_1K-JPG_Color.jpg",
+        "ao": "WoodFloor041_1K-JPG_AmbientOcclusion.jpg",
+        "normal": "WoodFloor041_1K-JPG_NormalGL.jpg"
+      },
+      "resolution": 1024
+    },
+    "ambientcg:Ground103": {
+      "name": "Ground 103",
+      "page": "https://ambientcg.com/view?id=Ground103",
+      "author": "ambientCG (Lennart Demes)",
+      "licence": "CC0-1.0",
+      "download": "https://ambientcg.com/get?file=Ground103_1K-JPG.zip",
+      "sha256": "735471be048f8c41120c3777a22b1f417bf511897c06f6f473edf0a05254362d",
+      "maps": {
+        "color": "Ground103_1K-JPG_Color.jpg",
+        "ao": "Ground103_1K-JPG_AmbientOcclusion.jpg",
+        "normal": "Ground103_1K-JPG_NormalGL.jpg"
+      },
+      "resolution": 1024
+    },
+    "ambientcg:PavingStones128": {
+      "name": "Paving Stones 128",
+      "page": "https://ambientcg.com/view?id=PavingStones128",
+      "author": "ambientCG (Lennart Demes)",
+      "licence": "CC0-1.0",
+      "download": "https://ambientcg.com/get?file=PavingStones128_1K-JPG.zip",
+      "sha256": "0a507f47fa86318ded7c128c1b7548ac5d6a50ae233905c2015dc2f704ac0d35",
+      "maps": {
+        "color": "PavingStones128_1K-JPG_Color.jpg",
+        "ao": "PavingStones128_1K-JPG_AmbientOcclusion.jpg",
+        "normal": "PavingStones128_1K-JPG_NormalGL.jpg"
+      },
+      "resolution": 1024
+    }
+  }
+}
