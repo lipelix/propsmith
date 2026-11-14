@@ -18,13 +18,17 @@
     "build": "tsx tools/build.ts",
     "textures": "tsx tools/textures.ts",
     "catalog:check": "tsx tools/check.ts",
-    "new": "tsx tools/new.ts"
+    "new": "tsx tools/new.ts",
+    "bake": "tsx tools/bake.ts",
+    "bake:look": "tsx tools/look.ts"
   },
   "dependencies": {
     "zod": "^4.6.7"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@google/model-viewer": "^4.4.0",
+    "@playwright/test": "1.63",
     "@types/node": "^26.6.6",
     "eslint": "^10.15.0",
     "eslint-config-prettier": "^10.1.8",
