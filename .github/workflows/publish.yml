@@ -103,8 +103,9 @@ jobs:
 
       # The build cache (.cache/<id>/, .cache/textures/) and the bake output (dist/catalog/), restored from the
       # newest run; tools/build.ts and tools/bake.ts redo whatever no longer matches its input hash.
-      - name: Cache builds and bakes
-        uses: actions/cache@v4
+      - name: Restore builds and bakes
+        id: catalog-cache
+        uses: actions/cache/restore@v4
         with:
           path: |
             .cache
@@ -118,6 +119,17 @@ jobs:
       # xvfb gives Blender's OpenGL (EEVEE review snapshots and thumbnails) a display; Mesa draws in software.
       - name: Build and bake
         run: xvfb-run --auto-servernum npm run bake
+
+      # Saved right after the bake, so a later failure (the e2e tests) does not cost a cold rebuild of every asset.
+      - name: Save builds and bakes
+        if: steps.catalog-cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            .cache
+            !.cache/e2e
+            dist/catalog
+          key: catalog-${{ env.BLENDER_VERSION }}-${{ hashFiles('catalog/**', 'lib/**', 'tools/**') }}
 
       - run: npm run site:data
 

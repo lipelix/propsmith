@@ -68,6 +68,8 @@ test("the catalogue searches, filters and opens an asset", async ({ page }) => {
 test("the asset page renders live and every control changes the picture", async ({
   page,
 }) => {
+  // A dozen WebGL pictures compared in turn: on the two-core runner's software renderer this nears the 3 min limit.
+  test.slow();
   await page.goto("/#/asset/well_stone");
   await ready(page);
   await page.waitForTimeout(500);
