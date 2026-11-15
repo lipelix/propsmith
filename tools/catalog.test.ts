@@ -8,6 +8,7 @@ import {
   declaredVariants,
   formatIndex,
   inputHash,
+  sourceProblems,
   usedTextures,
 } from "./catalog.ts";
 import { assetJson, TAGS } from "./testing.ts";
@@ -140,6 +141,41 @@ describe("source scanning", () => {
         'texture("a", "x:B")\nmaps("x:A")\ntexture(\'c\', \'x:B\', 2)\nmaterial("m", C)\n',
       ),
     ).toEqual(["x:A", "x:B"]);
+  });
+});
+
+describe("sourceProblems", () => {
+  it("accepts the library, math and random", () => {
+    expect(
+      sourceProblems(
+        "import math\nimport random\nfrom propsmith import anchor, prop\nfrom propsmith.shapes import box\n\n@prop\ndef a():\n    box('a', (1, 1, 1), (0, 0, 0.5), None)\n",
+      ),
+    ).toEqual([]);
+  });
+
+  it("names imports and names that reach beyond the model", () => {
+    expect(
+      sourceProblems(
+        "import os, math\nfrom urllib.request import urlopen\nimport bpy\nx = open('/etc/passwd')\ny = __import__('socket')\n",
+      ),
+    ).toEqual([
+      'line 1: import of "os" (only math, random and propsmith)',
+      'line 2: import of "urllib.request" (only math, random and propsmith)',
+      'line 3: import of "bpy" (only math, random and propsmith)',
+      'line 4: "open" is not allowed in an asset',
+      'line 5: "__import__" is not allowed in an asset',
+    ]);
+  });
+
+  it("fails the index for an asset that breaks the rule", () => {
+    addAsset(
+      "bad_wood",
+      {},
+      "import subprocess\nfrom propsmith import prop\n\n@prop\ndef bad_wood():\n    pass\n",
+    );
+    expect(() => buildIndex(root)).toThrow(
+      'bad_wood/asset.py line 1: import of "subprocess"',
+    );
   });
 });
 

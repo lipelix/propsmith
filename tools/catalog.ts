@@ -101,6 +101,44 @@ export function inputHash(root: string, id: string): string {
   return hash.digest("hex");
 }
 
+/** What an `asset.py` may import: the library and two pure standard modules. */
+const ALLOWED_IMPORTS = /^(math|random|propsmith(\.[a-z_]+)*)$/;
+/** Names that reach the file system, the network or other code. */
+const FORBIDDEN =
+  /\b(__import__|importlib|eval|exec|compile|open|globals|locals|getattr|setattr|__builtins__|__subclasses__|os|sys|subprocess|socket|urllib|requests|shutil|pathlib|ctypes|bpy)\b/;
+
+/**
+ * Problems of an `asset.py` as source: an import outside the library, `math` and `random`, or a name that reaches
+ * beyond the model (files, network, other code, `bpy` itself). This is a guard for review, not a sandbox: the build
+ * runs the file, so a human reads every new asset before it is merged. Comments and docstrings are not exempt; write
+ * them without these words.
+ */
+export function sourceProblems(source: string): string[] {
+  const problems: string[] = [];
+  for (const [i, line] of source.split("\n").entries()) {
+    const where = `line ${i + 1}`;
+    const imported = /^\s*(?:from\s+(\S+)\s+import\b|import\s+(.+))/.exec(line);
+    if (imported) {
+      const modules =
+        imported[1] !== undefined
+          ? [imported[1]]
+          : (imported[2] ?? "")
+              .split(",")
+              .map((m) => m.trim().split(/\s+/)[0] ?? "");
+      for (const module of modules)
+        if (!ALLOWED_IMPORTS.test(module))
+          problems.push(
+            `${where}: import of "${module}" (only math, random and propsmith)`,
+          );
+      continue;
+    }
+    const name = FORBIDDEN.exec(line)?.[1];
+    if (name !== undefined)
+      problems.push(`${where}: "${name}" is not allowed in an asset`);
+  }
+  return problems;
+}
+
 /** The variant functions `asset.py` registers with `@prop`, in file order. */
 export function declaredVariants(source: string): string[] {
   return [...source.matchAll(/^@prop\s*\n\s*def\s+([A-Za-z_]\w*)\s*\(/gm)].map(
@@ -160,7 +198,10 @@ export function buildIndex(root: string = ROOT): Index {
     }
     if (asset.id !== id)
       problems.push(`${id}: asset.json says id "${asset.id}"`);
-    const declared = declaredVariants(readFileSync(pyPath, "utf8"));
+    const source = readFileSync(pyPath, "utf8");
+    for (const problem of sourceProblems(source))
+      problems.push(`${id}/asset.py ${problem}`);
+    const declared = declaredVariants(source);
     if (declared.join(",") !== asset.variants.join(","))
       problems.push(
         `${id}: asset.json lists variants [${asset.variants.join(", ")}], asset.py registers [${declared.join(", ")}]`,

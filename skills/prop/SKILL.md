@@ -133,6 +133,8 @@ ledger.
 
 - Write outside `catalog/<id>/`, or touch other assets, the library, the review style, the ledger or the vocabulary.
 - Import meshes, images or textures from anywhere; a texture comes only from a ledger entry by id.
+- Import anything but `math`, `random` and `propsmith`, or use `bpy`, files, the network, `eval`, `exec` or
+  `getattr` tricks: the catalogue check refuses the asset. Shapes and materials come from the library.
 - Read sizes off pictures, or call an asset done with a `FAILED` or `NOT CHECKED` check.
 - Edit generated files (`catalog/index.json`, `catalog/measurements.json`): `npm run build` writes them.
 - Put game facts in `asset.json` (tiles, cover, hit points, interaction): the schema refuses them.
