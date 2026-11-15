@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "wall_timber_straight",
+  "name": "Half-timbered wall",
+  "description": "A straight section of half-timbered village house wall on a low fieldstone plinth: a dark weathered oak sill, corner posts, a top plate and one diagonal brace framing warm off-white lime plaster. It runs along the tile centre so sections join end to end. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so the party stays visible inside. Panel variants so a run of wall is not one repeated panel: `_window` (a small lattice window), `_plain` (plaster only), `_stone` (a high fieldstone base) and `_post` (a heavy corner post, the brace the other way), each also `_low`.",
+  "category": "structure",
+  "family": "wall",
+  "tags": [
+    "wood",
+    "plaster",
+    "stone",
+    "village",
+    "house",
+    "boundary",
+    "tall",
+    "weathered"
+  ],
+  "aliases": [
+    "timber frame",
+    "timber-framed wall",
+    "fachwerk",
+    "wattle and daub",
+    "house wall"
+  ],
+  "variants": [
+    "wall_timber_straight",
+    "wall_timber_straight_low",
+    "wall_timber_straight_window",
+    "wall_timber_straight_low_window",
+    "wall_timber_straight_plain",
+    "wall_timber_straight_low_plain",
+    "wall_timber_straight_stone",
+    "wall_timber_straight_low_stone",
+    "wall_timber_straight_post",
+    "wall_timber_straight_low_post"
+  ],
+  "size": { "x": 1.55, "y": 0.35, "z": 2.4 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A straight section of half-timbered village house wall, 1 tile long (1.5 m) along x through the tile centre, about 0.3 m thick and 2.4 m high. A low fieldstone plinth (0.3 m), dark weathered oak sill beam, corner posts at both ends, a top plate and one diagonal brace, with warm off-white lime plaster panels between the timbers (not pure white, slightly uneven). Footprint 1x1 tile; sections join end to end. Structure, static; blocks movement and sight, cover three-quarters, not destructible."
+  },
+  "licence": "CC0-1.0"
+}

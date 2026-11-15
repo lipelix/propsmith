@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "statue_stone",
+  "name": "Stone statue",
+  "description": "A weathered stone statue of a robed, hooded figure about 1.9 m tall, hands folded on the pommel of a point-down sword, on a square dressed-stone plinth 0.9 m wide and 0.5 m high with a moulded top edge. Worn grey-brown stone, simple robe folds, no face detail, a little moss at the plinth base.",
+  "category": "decor",
+  "family": "statue",
+  "tags": [
+    "stone",
+    "square",
+    "temple",
+    "worship",
+    "tall",
+    "weathered",
+    "mossy"
+  ],
+  "aliases": ["monument", "sculpture", "effigy", "guardian", "memorial"],
+  "variants": ["statue_stone"],
+  "size": { "x": 1.3, "y": 1.3, "z": 2.35 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A weathered stone statue for a village square or temple: a robed, hooded figure about 1.9 m tall, hands folded on the pommel of a sword resting point-down in front of it, standing on a square dressed-stone plinth 0.9 m wide and 0.5 m high with a moulded top edge. Worn grey-brown stone, simple folds in the robe, no fine face detail, a little moss at the plinth base. Footprint 1x1 tile, height about 1.6 tiles. Decor, static; blocks movement, does not block sight, cover three-quarters."
+  },
+  "licence": "CC0-1.0"
+}

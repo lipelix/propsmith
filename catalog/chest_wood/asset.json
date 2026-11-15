@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "id": "chest_wood",
+  "name": "Wooden chest",
+  "description": "A low oak plank chest, 0.9 m wide, 0.55 m deep and 0.6 m high, with a slightly domed lid, dark iron corner bands and straps, side ring handles and an iron hasp with a padlock on the front.",
+  "category": "container",
+  "family": "chest",
+  "tags": [
+    "wood",
+    "iron",
+    "house",
+    "inn",
+    "dungeon",
+    "storage",
+    "boxy",
+    "worn"
+  ],
+  "aliases": [
+    "treasure chest",
+    "storage chest",
+    "strongbox",
+    "coffer",
+    "trunk"
+  ],
+  "variants": ["chest_wood"],
+  "size": { "x": 0.95, "y": 0.65, "z": 0.65 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A wooden treasure/storage chest about 0.9 m wide, 0.55 m deep and 0.6 m high with a slightly domed lid, oak planks, dark iron corner bands and straps, and an iron hasp and padlock on the front (-y). Footprint 1x1 tile. Container; interact chest, destructible (wood, closed mesh), dynamic bake; blocks movement, does not block sight, cover half."
+  },
+  "licence": "CC0-1.0"
+}

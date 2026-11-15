@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "id": "flower_pot_clay",
+  "name": "Clay flower pot",
+  "description": "A terracotta pot of soil with green leaves and red and yellow flowers.",
+  "category": "decor",
+  "family": "pot",
+  "tags": ["clay", "village", "garden", "house", "planting", "small", "round"],
+  "aliases": ["flowerpot", "planter", "flowers", "terracotta"],
+  "variants": ["flower_pot_clay"],
+  "size": { "x": 0.5, "y": 0.5, "z": 0.55 },
+  "anchors": [],
+  "closed": true,
+  "provenance": { "source": "handwritten" },
+  "licence": "CC0-1.0"
+}

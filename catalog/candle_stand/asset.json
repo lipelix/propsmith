@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "candle_stand",
+  "name": "Wrought-iron candle stand",
+  "description": "A tall wrought-iron candle stand on a three-legged splayed foot, with a thin slightly twisted iron stem about 1.4 m high and a round drip pan at the top holding one thick ivory wax candle. Dark iron with worn highlights.",
+  "category": "light",
+  "family": "candle_stand",
+  "tags": ["iron", "temple", "house", "lighting", "worship", "tall", "worn"],
+  "aliases": [
+    "candlestick",
+    "candelabrum",
+    "candle holder",
+    "pricket stand",
+    "floor candlestick"
+  ],
+  "variants": ["candle_stand"],
+  "size": { "x": 0.8, "y": 0.8, "z": 1.5 },
+  "anchors": ["light:candle", "fire:candle"],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A tall wrought-iron candle stand for a temple or a house: a three-legged splayed iron foot, a thin slightly twisted iron stem about 1.4 m high, a round drip pan at the top holding one thick ivory wax candle. Dark iron with worn highlights. Footprint 1x1 tile, height about 1 tile. Light, static; blocks movement, does not block sight, cover none. Ambient anchors at the flame: light:candle (glow candle) and fire:candle."
+  },
+  "licence": "CC0-1.0"
+}

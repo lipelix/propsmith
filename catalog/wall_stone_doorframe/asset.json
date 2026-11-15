@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "wall_stone_doorframe",
+  "name": "Stone wall with doorway",
+  "description": "A section of village fieldstone wall, 1.5 m long, 0.45 m thick and 2.4 m high, with an empty door opening 1.0 m wide and 2.0 m high in the middle, framed by lighter dressed stone quoins on both jambs and a single heavy stone lintel, under a row of flat capstones. A wooden door (door_wood) is placed into the opening separately. The `_low` variant is a cutaway doorway: two quoined piers as high as the low walls, with no lintel.",
+  "category": "structure",
+  "family": "wall",
+  "tags": ["stone", "village", "house", "boundary", "tall", "weathered"],
+  "aliases": [
+    "doorway",
+    "door frame",
+    "gateway",
+    "entrance",
+    "stone doorframe"
+  ],
+  "variants": ["wall_stone_doorframe", "wall_stone_doorframe_low"],
+  "size": { "x": 1.5, "y": 0.5, "z": 2.4 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A section of the same village fieldstone wall as wall_stone_straight (1 tile long along x through the tile centre, about 0.45 m thick, 2.4 m high) with a door opening: a clear passage 1.0 m wide and 2.0 m high in the middle, framed by dressed lighter stone quoins on both jambs and a single heavy stone lintel above. Footprint 1x1 tile. A wooden door (door_wood, 1.0 x 2.0 m) is placed into the opening separately, so leave the opening empty. Structure, static; blocks movement and sight (the opening itself is handled by the door), cover three-quarters, not destructible."
+  },
+  "licence": "CC0-1.0"
+}

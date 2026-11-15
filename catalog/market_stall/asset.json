@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "market_stall",
+  "name": "Market stall",
+  "description": "A village market stall about 2.8 m long and 1.3 m deep: a wooden plank counter 0.9 m high on the front, four corner posts and a striped muted red and cream cloth awning sloping down toward the front, top at about 2.3 m. Small crates, baskets and round produce sit on the counter.",
+  "category": "furniture",
+  "family": "stall",
+  "tags": [
+    "wood",
+    "cloth",
+    "village",
+    "market",
+    "trade",
+    "roofed",
+    "long",
+    "worn"
+  ],
+  "aliases": ["booth", "stand", "awning", "vendor", "produce", "counter"],
+  "variants": ["market_stall"],
+  "size": { "x": 2.95, "y": 1.5, "z": 2.3 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A village market stall, footprint 2x1 tiles (about 2.8 m long along x, 1.3 m deep): a wooden plank counter 0.9 m high on the front (-y) side, four corner posts, and a striped cloth awning (muted red and cream) on a frame sloping down toward the front, top at about 2.3 m. A few goods on the counter: small crates, baskets and round produce. Furniture, static; blocks movement, does not block sight, cover half."
+  },
+  "licence": "CC0-1.0"
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "fence_wood",
+  "name": "Wooden rail fence",
+  "description": "A rustic fence section of weathered grey-brown wood: two round split posts near the ends and two slightly sagging split rails running the full tile, so sections join end to end.",
+  "category": "fence",
+  "family": "fence",
+  "tags": ["wood", "village", "farm", "boundary", "open", "plain", "weathered"],
+  "aliases": [
+    "rail fence",
+    "split rail fence",
+    "post and rail",
+    "fence section",
+    "paddock fence"
+  ],
+  "variants": ["fence_wood"],
+  "size": { "x": 1.5, "y": 0.2, "z": 1.15 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A rustic village rail fence section, 1 tile long (1.5 m) along x through the tile centre, about 1.1 m high: two round split posts near the ends and two slightly sagging, split horizontal rails between them, rails running the full tile width so sections join end to end. Weathered grey-brown wood. Footprint 1x1 tile. Fence category; no interaction, destructible (wood, closed mesh), dynamic bake; blocks movement, does not block sight, cover none."
+  },
+  "licence": "CC0-1.0"
+}

@@ -37,7 +37,9 @@ jobs:
   publish:
     # GitHub's Ubuntu runner, not RUNNER_LABELS: the bake needs Blender's Linux build and Mesa's software OpenGL.
     runs-on: ubuntu-24.04
-    timeout-minutes: 60
+    # A cold cache builds and bakes every variant, about a minute each on this runner (41 assets, 70 variants: about
+    # 80 minutes); a warm one redoes only what changed.
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
 

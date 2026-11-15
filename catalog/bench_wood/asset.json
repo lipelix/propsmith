@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "bench_wood",
+  "name": "Wooden bench",
+  "description": "A simple backless village bench, about 1.4 m long, 0.35 m deep and 0.45 m high: one thick plank seat on two splayed trestle legs joined by a pegged stretcher.",
+  "category": "furniture",
+  "family": "bench",
+  "tags": [
+    "wood",
+    "seating",
+    "village",
+    "inn",
+    "square",
+    "long",
+    "low",
+    "worn"
+  ],
+  "aliases": ["plank bench", "trestle bench", "form", "seat"],
+  "variants": ["bench_wood"],
+  "size": { "x": 1.45, "y": 0.5, "z": 0.5 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A simple village plank bench without a back, about 1.4 m long along x, 0.35 m deep, seat 0.45 m high: a thick plank seat on two splayed trestle legs with a stretcher between them. Footprint 1x1 tile. Furniture, static; blocks movement, does not block sight, cover none."
+  },
+  "licence": "CC0-1.0"
+}

@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "altar_stone",
+  "name": "Stone altar",
+  "description": "A village temple's altar of pale dressed grey stone on a slightly wider plinth step, with a carved band under its overhanging top slab, a dull red altar cloth over the top hanging down the front, and three short ivory candles in iron dishes. It stands toward the back of its tile, against a wall.",
+  "category": "decor",
+  "family": "altar",
+  "tags": [
+    "stone",
+    "cloth",
+    "iron",
+    "temple",
+    "village",
+    "worship",
+    "lighting",
+    "boxy"
+  ],
+  "aliases": ["shrine", "altar table", "offering table", "holy table"],
+  "variants": ["altar_stone"],
+  "size": { "x": 1.45, "y": 1.45, "z": 1.2 },
+  "anchors": ["light:candle_left", "light:candle_centre", "light:candle_right"],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A small village temple's stone altar, its front on -y: a solid block of pale dressed grey stone about 1.3 m long along x, 0.7 m deep and 0.95 m high on a slightly wider plinth step, a carved band under its overhanging top slab, a dull red altar cloth laid over the top and hanging down the front, and three short ivory wax candles in small iron dishes on the top (left, centre, right). Set toward the back (+y) of the tile so it stands against a wall. Footprint 1x1 tile. Decor, static; blocks movement, does not block sight, cover half. Ambient anchors at the three flames: light:candle_left, light:candle_centre, light:candle_right (glow candle each)."
+  },
+  "licence": "CC0-1.0"
+}

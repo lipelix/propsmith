@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "fireplace_stone",
+  "name": "Stone fireplace",
+  "description": "An inn's open hearth of rough grey-brown fieldstone, about 2.6 m wide, 0.9 m deep and 1.4 m high, built against a wall, with a dark arched fire opening under a heavy timber mantel beam, a low stone hearth slab in front, and burning logs on glowing embers inside under an iron pot hanging from a hook.",
+  "category": "furniture",
+  "family": "fireplace",
+  "tags": ["stone", "wood", "iron", "inn", "house", "cooking", "large", "worn"],
+  "aliases": [
+    "hearth",
+    "fireside",
+    "chimney piece",
+    "cooking fire",
+    "inglenook"
+  ],
+  "variants": ["fireplace_stone"],
+  "size": { "x": 2.65, "y": 1.55, "z": 1.45 },
+  "anchors": ["fire:hearth", "smoke:hearth", "light:hearth"],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "An inn's open stone hearth built against a wall, its front on -y: a block of rough grey-brown fieldstone about 2.6 m wide, 0.9 m deep and 1.4 m high with a dark arched fire opening in the front face, a heavy timber mantel beam over the opening, a low stone hearth slab in front, and inside a small heap of burning logs on glowing embers with an iron pot hanging from a hook. Set to the back (+y) of the footprint so it stands flush against a wall. Footprint 2x1 tiles, height about 1 tile. Furniture, static; blocks movement, does not block sight, cover half. Ambient anchors: fire:hearth on the logs, smoke:hearth at the top of the fire opening, light:hearth (glow brazier) just above the logs."
+  },
+  "licence": "CC0-1.0"
+}

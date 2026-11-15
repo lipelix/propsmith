@@ -1,5 +1,17 @@
 import { createHash } from "node:crypto";
+import { readFileSync } from "node:fs";
 import { expect, type Page, test } from "@playwright/test";
+
+/** The published catalogue, to count what the filters should leave. */
+const ASSETS = (
+  JSON.parse(readFileSync("catalog/index.json", "utf8")) as {
+    assets: { id: string; category: string; tags: string[] }[];
+  }
+).assets;
+const ironCount = ASSETS.filter((a) => a.tags.includes("iron")).length;
+const ironLightCount = ASSETS.filter(
+  (a) => a.tags.includes("iron") && a.category === "light",
+).length;
 
 /** A hash of what the 3D stage shows (the canvas and its backdrop), to tell that a control changed the picture. */
 async function picture(page: Page): Promise<string> {
@@ -22,23 +34,25 @@ test("the catalogue searches, filters and opens an asset", async ({ page }) => {
   });
   await page.goto("/");
   const tiles = page.locator(".tile");
-  await expect(tiles).toHaveCount(4);
+  await expect(tiles).toHaveCount(ASSETS.length);
 
   await page.getByRole("searchbox").fill("cask");
   await expect(tiles).toHaveCount(1);
   await expect(tiles.first()).toContainText("Wooden barrel");
   await expect(page.getByRole("heading", { level: 1 })).toHaveText(
-    "1 prop of 4",
+    `1 prop of ${ASSETS.length}`,
   );
 
   await page.getByRole("searchbox").fill("dragon");
   await expect(page.locator(".empty")).toContainText("Nothing matches");
   await page.getByRole("button", { name: "Clear filters" }).click();
-  await expect(tiles).toHaveCount(4);
+  await expect(tiles).toHaveCount(ASSETS.length);
 
   await page.getByRole("button", { name: /^iron/ }).click();
-  await expect(tiles).toHaveCount(3);
+  await expect(tiles).toHaveCount(ironCount);
   await page.getByRole("button", { name: /^light\b/ }).click();
+  await expect(tiles).toHaveCount(ironLightCount);
+  await page.getByRole("searchbox").fill("lantern");
   await expect(tiles).toHaveCount(1);
   await tiles.first().click();
 
@@ -135,5 +149,5 @@ test("an unknown asset says so and leads back", async ({ page }) => {
     "No asset",
   );
   await page.getByRole("link", { name: "Back to the catalogue" }).click();
-  await expect(page.locator(".tile")).toHaveCount(4);
+  await expect(page.locator(".tile")).toHaveCount(ASSETS.length);
 });

@@ -23,9 +23,9 @@
     "lantern"
   ],
   "variants": ["lamp_post"],
-  "size": { "x": 1.5, "y": 1.5, "z": 2.775 },
+  "size": { "x": 1.25, "y": 0.55, "z": 2.7 },
   "anchors": ["light:lantern", "fire:lantern"],
-  "closed": false,
+  "closed": true,
   "provenance": {
     "source": "generated",
     "prompt": "A village street lamp: a tall dark timber post about 2.6 m high on a small stone foot, with an iron bracket arm at the top from which hangs a small four-sided iron lantern with warm glass panes. Footprint 1x1 tile. Light category, static; blocks movement, does not block sight, cover none. Ambient anchors inside the lantern: light:lantern (glow candle) and fire:lantern."

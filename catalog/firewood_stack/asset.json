@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "firewood_stack",
+  "name": "Firewood stack",
+  "description": "A neat stack of split firewood logs for a village house wall, about 1.2 m long, 0.8 m high and 0.5 m deep: pale warm split faces and end grain, dark brown bark, the logs a little irregular in length and angle, resting on two short squared sleeper beams off the ground.",
+  "category": "decor",
+  "family": "firewood",
+  "tags": ["wood", "village", "house", "storage", "cooking", "long", "low"],
+  "aliases": ["woodpile", "log pile", "logs", "cordwood", "kindling"],
+  "variants": ["firewood_stack"],
+  "size": { "x": 1.3, "y": 0.55, "z": 0.85 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A neat stack of split firewood logs for a village house wall: about 1.2 m long, 0.8 m high and 0.5 m deep, the split faces pale warm wood and the bark dark brown, logs a little irregular in length and angle, resting on two short squared sleeper beams so it does not touch the ground; centred in its one-tile footprint. Static, blocks movement, not sight, cover half, not destructible."
+  },
+  "licence": "CC0-1.0"
+}

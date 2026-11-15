@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "haystack",
+  "name": "Haystack",
+  "description": "A rounded farm haystack about 1.4 m across and 1.7 m high: a lumpy dome of golden-brown straw with loose wisps at the base and a few darker weathered patches on top.",
+  "category": "decor",
+  "family": "haystack",
+  "tags": ["straw", "farm", "village", "round", "large", "weathered"],
+  "aliases": ["hay", "hayrick", "hay pile", "straw stack"],
+  "variants": ["haystack"],
+  "size": { "x": 1.4, "y": 1.45, "z": 1.65 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A rounded farm haystack about 1.4 m across and 1.7 m high, a lumpy dome of golden-brown straw with loose wisps at the base and a few darker weathered patches on top. Footprint 1x1 tile. Decor (vegetation is acceptable if it fits the schema better), static; blocks movement and sight, cover three-quarters. Keep the triangle count under budget: few blobs at low subdivision."
+  },
+  "licence": "CC0-1.0"
+}
