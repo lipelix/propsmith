@@ -28,6 +28,8 @@ drives it in a browser and needs that data too, so it runs locally, not in CI.
 `infra/` (OpenTofu, applied by the owner) creates the Cloudflare Pages project, Web Analytics and the repo secret and
 variables CI reads. `.github/workflows/publish.yml` builds, bakes, runs the e2e tests and uploads the site on every
 push to `main` (a PR that touches the pipeline runs it without the upload). The site is on `<project>.pages.dev` only.
+`./infra/apply.sh` asks for the tokens in the terminal, applies the stack without writing them to disk and starts the
+first publish (`--plan` only shows the plan).
 
 ## Plan sessions
 
