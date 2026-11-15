@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "fountain_stone",
+  "name": "Stone fountain",
+  "description": "An octagonal dressed-stone basin about 2.6 m across with a 0.6 m rim around still water, and a central stone pillar carrying a smaller upper bowl at about 1.6 m. Weathered grey-brown stone with a little moss at the base.",
+  "category": "decor",
+  "family": "fountain",
+  "tags": [
+    "stone",
+    "village",
+    "square",
+    "water",
+    "large",
+    "ornate",
+    "weathered",
+    "mossy"
+  ],
+  "aliases": ["basin", "town fountain", "water feature"],
+  "variants": ["fountain_stone"],
+  "size": { "x": 2.8, "y": 2.85, "z": 1.95 },
+  "anchors": ["water:basin", "water:spout"],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "The village square's stone fountain: an octagonal basin about 2.6 m across with a 0.6 m high dressed-stone rim and a still water surface inside, and a central stone pillar carrying a smaller upper bowl at about 1.6 m from which water would spill. Weathered grey-brown stone, a little moss at the base. Footprint 2x2 tiles. Decor, static; blocks movement, does not block sight, cover half. Ambient water anchors: water:basin on the basin's water surface and water:spout at the upper bowl."
+  },
+  "licence": "CC0-1.0"
+}

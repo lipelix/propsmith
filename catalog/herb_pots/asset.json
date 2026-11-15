@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "id": "herb_pots",
+  "name": "Herb pots",
+  "description": "A small cluster of three weathered, desaturated terracotta pots of different sizes, the largest about 0.3 m high, with bushy green herbs: basil-like leaves, a fine thyme-like shrub and one with a few small pale lilac flowers.",
+  "category": "decor",
+  "family": "pot",
+  "tags": [
+    "clay",
+    "village",
+    "garden",
+    "house",
+    "planting",
+    "small",
+    "round",
+    "weathered"
+  ],
+  "aliases": [
+    "herbs",
+    "potted herbs",
+    "planters",
+    "basil",
+    "thyme",
+    "terracotta",
+    "kitchen garden"
+  ],
+  "variants": ["herb_pots"],
+  "size": { "x": 0.65, "y": 0.6, "z": 0.55 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A small cluster of three clay pots of herbs of different sizes (the largest about 0.3 m high) with bushy green herbs: basil-like leaves, a thyme-like fine shrub and one with a few small pale lilac flowers, the terracotta desaturated and weathered. Inside one tile. Small decor: static, blocks nothing, cover none, not destructible."
+  },
+  "licence": "CC0-1.0"
+}

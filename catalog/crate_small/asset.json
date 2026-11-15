@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "crate_small",
+  "name": "Small wooden crates",
+  "description": "Two small wooden crates stacked, the top one smaller and slightly turned, each with plank sides, darker corner battens and a lid, about 0.35 m and 0.28 m cubes, total height about 0.6 m. Variant `crate_small_open`: one open small crate (no lid) full of round dull red and green apples.",
+  "category": "decor",
+  "family": "crate",
+  "tags": ["wood", "market", "farm", "storage", "small", "boxy", "worn"],
+  "aliases": ["box", "apple crate", "produce crate"],
+  "variants": ["crate_small", "crate_small_open"],
+  "size": { "x": 0.4, "y": 0.4, "z": 0.65 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "Two small wooden crates stacked, the top one smaller and slightly turned, each with plank sides, darker corner battens and a lid, about 0.35 m and 0.28 m cubes, total height about 0.6 m. Variant `crate_small_open`: one open small crate (no lid) full of round dull red and green apples. Small decor: static, blocks nothing, cover none, not destructible."
+  },
+  "licence": "CC0-1.0"
+}

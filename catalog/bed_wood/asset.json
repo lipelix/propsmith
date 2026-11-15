@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "bed_wood",
+  "name": "Wooden bed",
+  "description": "A simple village bed, about 2.0 m long and 1.0 m wide: a low wooden frame on four short square legs with a 0.9 m plank headboard and a lower footboard, a straw mattress under an off-white linen sheet, a pillow at the head and a blue-grey wool blanket folded back over the lower half.",
+  "category": "furniture",
+  "family": "bed",
+  "tags": ["wood", "cloth", "straw", "house", "inn", "village", "low", "plain"],
+  "aliases": ["cot", "bedstead", "bunk", "sleeping place"],
+  "variants": ["bed_wood"],
+  "size": { "x": 2.05, "y": 1.05, "z": 0.9 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A simple village bed: a low wooden frame about 2.0 m long along x and 1.0 m wide on four short square legs, a 0.9 m high plank headboard at the -x end and a lower footboard at the +x end, a straw-filled mattress under an off-white linen sheet, a pillow at the head and a dull blue-grey wool blanket folded back over the lower half. Footprint 2x1 tiles, height about 0.6 tile. Furniture, static; blocks movement, does not block sight, cover none."
+  },
+  "licence": "CC0-1.0"
+}

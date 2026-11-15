@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "sacks_grain",
+  "name": "Grain sacks",
+  "description": "A heap of three plump burlap grain sacks, two lying side by side and one propped on top, each tied at the neck with twine; the coarse cloth is a warm desaturated tan with a darker patch or two, slightly slumped and lumpy, about 0.7 m high. A variant is a single upright sack about 0.6 m high.",
+  "category": "container",
+  "family": "sack",
+  "tags": ["cloth", "farm", "village", "storage", "low", "worn"],
+  "aliases": ["grain sack", "flour sack", "burlap sack", "sacking", "bag"],
+  "variants": ["sacks_grain", "sacks_grain_one"],
+  "size": { "x": 1.05, "y": 1.15, "z": 0.75 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A heap of three plump burlap grain sacks for a village yard or storeroom: two lying side by side and one propped on top, tied at the neck with twine, the coarse cloth a warm desaturated tan with a darker patch or two, slightly slumped and lumpy. About 0.7 m high, inside one tile. Container family sack. Static (not destructible, not interactive), blocks movement, does not block sight, cover half. A variant `sacks_grain_one` is a single upright sack, about 0.6 m high, that blocks nothing (cover none)."
+  },
+  "licence": "CC0-1.0"
+}

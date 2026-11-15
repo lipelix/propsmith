@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "farm_tools",
+  "name": "Farm tools on a trestle",
+  "description": "A pitchfork and a wooden rake, heads on the ground, leaning together against a short X-legged wooden trestle with a cross bar; the hafts are weathered ash about 1.6 m tall, the fork has dark iron tines and the rake a pegged wooden head.",
+  "category": "decor",
+  "family": "tools",
+  "tags": ["wood", "iron", "farm", "village", "work", "tall", "weathered"],
+  "aliases": [
+    "pitchfork",
+    "hayfork",
+    "rake",
+    "trestle",
+    "sawhorse",
+    "implements"
+  ],
+  "variants": ["farm_tools"],
+  "size": { "x": 1.15, "y": 1.25, "z": 1.65 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A pitchfork and a wooden rake leaning together against a short wooden trestle (two crossed legs and a cross bar), about 1.6 m tall at the handle tops, the hafts weathered ash, the fork's tines dark iron and the rake head wooden with pegs. Fits inside one tile. Static, blocks movement (it is in the way), not sight, cover none, not destructible."
+  },
+  "licence": "CC0-1.0"
+}

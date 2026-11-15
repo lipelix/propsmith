@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "table_wood",
+  "name": "Wooden trestle table",
+  "description": "A sturdy inn table, about 1.35 m long, 0.8 m wide, top at 0.75 m: thick oak planks with slight gaps between them on four square legs with stretchers, a single pewter mug standing on it.",
+  "category": "furniture",
+  "family": "table",
+  "tags": ["wood", "inn", "village", "house", "long", "plain", "worn"],
+  "aliases": [
+    "trestle table",
+    "inn table",
+    "tavern table",
+    "dining table",
+    "board"
+  ],
+  "variants": ["table_wood"],
+  "size": { "x": 1.4, "y": 0.85, "z": 0.9 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A sturdy inn trestle table, about 1.35 m long along x, 0.8 m wide, top at 0.75 m: thick oak planks with a slight gap between them, four square legs with stretchers, and a single pewter mug standing on it. Footprint 1x1 tile. Furniture, static; blocks movement, does not block sight, cover none."
+  },
+  "licence": "CC0-1.0"
+}

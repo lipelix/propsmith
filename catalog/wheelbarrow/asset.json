@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "wheelbarrow",
+  "name": "Wooden wheelbarrow",
+  "description": "An old wooden wheelbarrow, about 1.4 m long and 0.6 m wide, with a plank tray with sloped sides about 0.6 m high, one spoked wooden wheel with an iron tyre at the front and two long handles to the back resting on two short legs. It holds a few logs or some earth.",
+  "category": "decor",
+  "family": "wheelbarrow",
+  "tags": [
+    "wood",
+    "iron",
+    "village",
+    "farm",
+    "garden",
+    "transport",
+    "work",
+    "worn"
+  ],
+  "aliases": ["barrow", "handbarrow", "logs", "earth", "dirt"],
+  "variants": ["wheelbarrow", "wheelbarrow_earth"],
+  "size": { "x": 1.5, "y": 0.75, "z": 0.75 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "An old wooden wheelbarrow: a plank tray with sloped sides, one spoked wooden wheel with an iron tyre at the front (+x), two long handles to the back resting on two short legs, about 1.4 m long and 0.6 m wide, the tray about 0.6 m high. It holds a few logs or some earth. Footprint one tile (the longest diagonal fits). Static, blocks movement, not sight, cover half, not destructible."
+  },
+  "licence": "CC0-1.0"
+}

@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "crate_wood",
+  "name": "Wooden crate",
+  "description": "A plain wooden shipping crate, about 0.75 m on each side, made of slightly uneven nailed planks with darker corner battens and a plank lid.",
+  "category": "container",
+  "family": "crate",
+  "tags": ["wood", "storage", "market", "village", "boxy", "plain", "worn"],
+  "aliases": ["box", "shipping crate", "packing case"],
+  "variants": ["crate_wood"],
+  "size": { "x": 0.8, "y": 0.8, "z": 0.8 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A plain wooden shipping crate, about 0.75 m on each side, made of slightly uneven nailed planks with darker corner battens and a plank lid. Footprint 1x1 tile. Container; no interaction, destructible (wood, closed mesh), dynamic bake; blocks movement, does not block sight, cover half."
+  },
+  "licence": "CC0-1.0"
+}

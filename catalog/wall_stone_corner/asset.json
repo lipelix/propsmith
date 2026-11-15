@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "wall_stone_corner",
+  "name": "Fieldstone wall corner",
+  "description": "An L-shaped corner of village fieldstone wall, 0.45 m thick and 2.4 m high: rough grey-brown stone blocks in staggered courses over recessed mortar, tied by alternating quoins at a square corner pier, with flat capstones on top. One arm runs from the tile centre to the +x edge, the other to the +y edge, meeting straight wall sections at the tile edges. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so the party stays visible inside.",
+  "category": "structure",
+  "family": "wall",
+  "tags": ["stone", "village", "boundary", "tall", "weathered", "plain"],
+  "aliases": ["corner", "wall corner", "drystone wall", "masonry"],
+  "variants": ["wall_stone_corner", "wall_stone_corner_low"],
+  "size": { "x": 1.5, "y": 1.5, "z": 2.4 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "An L-shaped corner of the same village fieldstone wall as wall_stone_straight (about 0.45 m thick, 2.4 m high, rough grey-brown stone blocks in staggered courses, flat capstones on top). Footprint 1x1 tile: one arm runs from the tile centre to the +x edge, the other from the tile centre to the +y edge, joined in a square corner pier at the centre, so it meets straight sections (which run along x through the tile centre) at tile edges. Structure, static; blocks movement and sight, cover three-quarters, not destructible. Keep the triangle count well under budget."
+  },
+  "licence": "CC0-1.0"
+}

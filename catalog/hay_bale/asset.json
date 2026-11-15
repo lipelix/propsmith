@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "hay_bale",
+  "name": "Hay bale",
+  "description": "A rectangular straw hay bale bound with two twine bands, about 0.9 m long, 0.5 m wide and 0.45 m high, golden but slightly desaturated, with loose wisps sticking out of its edges and a few strands on the ground around it. A variant stacks two bales side by side with a third across them on top, about 0.9 m high.",
+  "category": "decor",
+  "family": "hay_bale",
+  "tags": ["straw", "rope", "farm", "village", "storage", "boxy", "low"],
+  "aliases": ["bale", "straw bale", "hay", "hay block"],
+  "variants": ["hay_bale", "hay_bale_stack"],
+  "size": { "x": 1.45, "y": 1.35, "z": 0.95 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A rectangular straw hay bale bound with two twine bands, about 0.9 m long, 0.5 m wide and 0.45 m high, golden but slightly desaturated straw with loose wisps sticking out of its edges and a few strands on the ground around it. Variant `hay_bale_stack`: two bales on the ground side by side and one across them on top (about 0.9 m high), still inside one tile. Static, blocks movement, not sight, cover half, not destructible."
+  },
+  "licence": "CC0-1.0"
+}

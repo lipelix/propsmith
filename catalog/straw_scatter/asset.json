@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "straw_scatter",
+  "name": "Straw scatter",
+  "description": "Loose straw strewn on the ground: a thin flat drift of pale golden stalks crossing each other, at most a few centimetres high. Variants are a thin drift and a small trampled heap.",
+  "category": "decor",
+  "family": "litter",
+  "tags": ["straw", "village", "farm", "road", "small", "low", "worn"],
+  "aliases": ["loose straw", "hay", "chaff", "bedding", "strewn straw"],
+  "variants": ["straw_scatter", "straw_scatter_heap"],
+  "size": { "x": 0.55, "y": 0.5, "z": 0.15 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "Loose straw strewn on the ground: a thin flat drift of pale golden stalks crossing each other, at most a few centimetres high. Two variants: straw_scatter (a thin drift), straw_scatter_heap (a small trampled heap). Ground decor scattered by the bake around a village (never placed by hand): category vegetation or decor, footprint 1 x 1 tile, all four rotations, it does not block movement or sight, no cover, not destructible, bake static. Keep the model small and centred (well inside 0.6 m across), low, cheap (under 1,500 triangles per variant), earthy painterly palette so it sits on sandy dirt and olive grass."
+  },
+  "licence": "CC0-1.0"
+}

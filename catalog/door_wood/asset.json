@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "door_wood",
+  "name": "Wooden plank door",
+  "description": "A sturdy closed village door, 1.0 m wide, 2.0 m high and 0.08 m thick, of vertical oak planks held by two horizontal ledges and a diagonal brace on the back, with two black iron strap hinges and a ring handle on the front. It fits the opening of wall_stone_doorframe.",
+  "category": "door",
+  "family": "door",
+  "tags": ["wood", "iron", "village", "house", "inn", "tall", "plain", "worn"],
+  "aliases": [
+    "plank door",
+    "wooden door",
+    "oak door",
+    "ledged and braced door"
+  ],
+  "variants": ["door_wood"],
+  "size": { "x": 1.05, "y": 0.2, "z": 2 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A sturdy village plank door, 1.0 m wide, 2.0 m high and about 0.08 m thick, standing closed and upright along x through the tile centre (it fits the opening of wall_stone_doorframe). Vertical oak planks with slight jitter, two horizontal ledges and a diagonal brace on the back, two black iron strap hinges and a ring handle on the front (-y). Footprint 1x1 tile. Door category; interact door, destructible (wood, closed mesh), dynamic bake; blocks movement and sight while closed, cover three-quarters."
+  },
+  "licence": "CC0-1.0"
+}

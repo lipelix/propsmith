@@ -8,7 +8,7 @@
   "tags": ["stone", "wood", "village", "square", "water", "round", "roofed"],
   "aliases": ["water well", "wishing well", "winch"],
   "variants": ["well_stone"],
-  "size": { "x": 1.5, "y": 1.5, "z": 2.4 },
+  "size": { "x": 1.6, "y": 1.35, "z": 2.3 },
   "anchors": [],
   "closed": false,
   "provenance": { "source": "handwritten" },

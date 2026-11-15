@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "cart_hand",
+  "name": "Handcart",
+  "description": "A two-wheeled wooden handcart parked on its stand, loaded with two grain sacks.",
+  "category": "decor",
+  "family": "cart",
+  "tags": [
+    "wood",
+    "iron",
+    "village",
+    "farm",
+    "market",
+    "road",
+    "transport",
+    "worn"
+  ],
+  "aliases": ["handcart", "barrow", "wagon", "sacks"],
+  "variants": ["cart_hand"],
+  "size": { "x": 1.2, "y": 2.1, "z": 0.9 },
+  "anchors": [],
+  "closed": true,
+  "provenance": { "source": "handwritten" },
+  "licence": "CC0-1.0"
+}

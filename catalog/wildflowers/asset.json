@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "wildflowers",
+  "name": "Wildflowers",
+  "description": "A small patch of wildflowers among a few olive grass blades: thin stems about 0.2 m high topped with tiny flat blossoms. One variant has white and yellow blossoms, the other pale violet and white.",
+  "category": "vegetation",
+  "family": "flowers",
+  "tags": ["village", "road", "garden", "small", "low"],
+  "aliases": ["wildflower", "meadow flowers", "blossoms", "daisies"],
+  "variants": ["wildflowers", "wildflowers_violet"],
+  "size": { "x": 0.35, "y": 0.35, "z": 0.25 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A small patch of wildflowers growing among a few grass blades: thin stems about 0.2 m high with tiny flat blossoms. Two variants: wildflowers (white and yellow blossoms), wildflowers_violet (pale violet and white). Ground decor scattered by the bake around a village (never placed by hand): category vegetation or decor, footprint 1 x 1 tile, all four rotations, it does not block movement or sight, no cover, not destructible, bake static. Keep the model small and centred (well inside 0.6 m across), low, cheap (under 1,500 triangles per variant), earthy painterly palette so it sits on sandy dirt and olive grass."
+  },
+  "licence": "CC0-1.0"
+}

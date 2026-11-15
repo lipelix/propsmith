@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "wall_stone_straight",
+  "name": "Fieldstone wall section",
+  "description": "A straight 1-tile section of village fieldstone wall, 0.45 m thick and 2.4 m high, running along the tile's centre: rough grey-brown blocks in staggered courses with recessed mortar, topped by a row of flat capstones. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so the party stays visible inside. The `_end` variants finish a run at a gap with a pier of big dressed quoins at the +x end.",
+  "category": "structure",
+  "family": "wall",
+  "tags": ["stone", "village", "boundary", "tall", "weathered"],
+  "aliases": ["stone wall", "fieldstone wall", "masonry", "wall segment"],
+  "variants": [
+    "wall_stone_straight",
+    "wall_stone_straight_low",
+    "wall_stone_straight_end",
+    "wall_stone_straight_low_end"
+  ],
+  "size": { "x": 1.55, "y": 0.6, "z": 2.4 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A straight section of village fieldstone wall, 1 tile long (1.5 m), about 0.45 m thick and 2.4 m high. Rough, slightly irregular grey-brown stone blocks laid in staggered courses with recessed mortar, a row of flat capstones on top. Footprint 1x1 tile; the wall runs along x through the centre of the tile, spanning the full tile width so sections join end to end. Structure, static; blocks movement and sight, cover three-quarters, not destructible. Keep the triangle count well under budget: about 25-35 blocks, few segments."
+  },
+  "licence": "CC0-1.0"
+}

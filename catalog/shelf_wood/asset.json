@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "shelf_wood",
+  "name": "Merchant's wooden shelf",
+  "description": "A merchant's wooden shelf unit, open at the front, standing flush against a wall: about 1.35 m wide, 0.45 m deep and 1.5 m high, with two plank sides, a back of vertical boards and three shelves plus the top holding clay jars, a folded bolt of dull cloth, small wooden boxes and a coil of rope.",
+  "category": "furniture",
+  "family": "shelf",
+  "tags": ["wood", "market", "house", "storage", "trade", "tall", "worn"],
+  "aliases": [
+    "shelves",
+    "shelving",
+    "bookcase",
+    "shop shelf",
+    "rack",
+    "cupboard"
+  ],
+  "variants": ["shelf_wood"],
+  "size": { "x": 1.4, "y": 1.5, "z": 1.5 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A merchant's wooden shelf unit standing against a wall, open front on -y: about 1.35 m wide, 0.45 m deep and 1.5 m high, two plank sides, a back of vertical boards, three shelves plus the top holding a few goods: clay jars, a folded bolt of dull cloth, small wooden boxes and a coil of rope. Set to the back (+y) edge of the tile so it stands flush against a wall. Footprint 1x1 tile, height 1 tile. Furniture, static; blocks movement, does not block sight, cover half."
+  },
+  "licence": "CC0-1.0"
+}

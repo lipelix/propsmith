@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "bucket_wood",
+  "name": "Wooden bucket",
+  "description": "A small wooden water bucket about 0.35 m high and 0.3 m across, its tapered staves held by two dark iron hoops, with an iron bail handle and dark water inside. The tipped variant lies empty on its side.",
+  "category": "decor",
+  "family": "bucket",
+  "tags": [
+    "wood",
+    "iron",
+    "water",
+    "village",
+    "farm",
+    "small",
+    "round",
+    "worn"
+  ],
+  "aliases": ["pail", "water bucket"],
+  "variants": ["bucket_wood", "bucket_wood_tipped"],
+  "size": { "x": 0.45, "y": 0.45, "z": 0.5 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A small wooden water bucket of staves with two dark iron hoops and an iron bail handle, about 0.35 m high and 0.3 m across, standing on the ground with dark water inside. Variant `bucket_wood_tipped`: the same bucket lying on its side, empty. Small decor: static, blocks nothing, cover none, not destructible."
+  },
+  "licence": "CC0-1.0"
+}

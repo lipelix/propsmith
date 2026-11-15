@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "chopping_block",
+  "name": "Chopping block",
+  "description": "A thick round chopping block cut from a tree trunk, about 0.5 m across and 0.45 m high, with a pale ringed top and dark bark. A wood axe with a dark iron head and an ash haft is stuck into its top at an angle, and a few split logs and chips lie around it.",
+  "category": "decor",
+  "family": "chopping_block",
+  "tags": ["wood", "iron", "village", "farm", "work", "round", "low", "worn"],
+  "aliases": ["stump", "axe", "splitting block", "woodcutting"],
+  "variants": ["chopping_block"],
+  "size": { "x": 1.05, "y": 1.15, "z": 1 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A thick round chopping block cut from a tree trunk (about 0.5 m across and 0.45 m high, pale cut top with rings, dark bark) with a wood axe stuck into its top at an angle, the axe head dark iron and the haft ash, and a few split logs and chips lying around it. Inside one tile. Static, blocks movement, not sight, cover half, not destructible."
+  },
+  "licence": "CC0-1.0"
+}
