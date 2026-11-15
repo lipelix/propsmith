@@ -16,7 +16,7 @@ case "${1:-}" in
   *) echo "usage: $0 [--plan]" >&2; exit 2 ;;
 esac
 
-for tool in tofu gh; do
+for tool in tofu gh curl; do
   command -v "$tool" >/dev/null 2>&1 || { echo "Missing required tool: $tool" >&2; exit 1; }
 done
 
@@ -72,18 +72,56 @@ fi
 
 echo
 echo "State lives in Terraform Cloud (organization lipelix, workspace propsmith)."
-if ! tofu init -input=false >/tmp/propsmith-tofu-init.log 2>&1; then
-  if grep -qiE "token|unauthorized|credentials|login" /tmp/propsmith-tofu-init.log; then
+# OpenTofu's remote backend creates a missing workspace with its own version number, which Terraform Cloud does not
+# know ("does not resolve to a version of Terraform"). So the workspace is created here first, through the API, with
+# local execution: Terraform Cloud then only keeps the state and never needs a version of its own.
+create_workspace() {
+  local credentials="$HOME/.terraform.d/credentials.tfrc.json" token status
+  command -v python3 >/dev/null 2>&1 || { echo "Missing required tool: python3" >&2; return 1; }
+  [ -f "$credentials" ] || { echo "No Terraform Cloud login found ($credentials): run tofu login app.terraform.io" >&2; return 1; }
+  token="$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1]))["credentials"]["app.terraform.io"]["token"])' "$credentials")"
+  status="$(curl -sS -o /tmp/propsmith-workspace.json -w '%{http_code}' \
+    -X POST "https://app.terraform.io/api/v2/organizations/lipelix/workspaces" \
+    -H "Authorization: Bearer $token" -H "Content-Type: application/vnd.api+json" \
+    -d '{"data":{"type":"workspaces","attributes":{"name":"propsmith","execution-mode":"local"}}}')"
+  if [ "$status" = "201" ]; then
+    echo "Created the Terraform Cloud workspace propsmith (local execution)."
+  else
+    echo "Terraform Cloud refused to create the workspace (HTTP $status):" >&2
+    cat /tmp/propsmith-workspace.json >&2; echo >&2
+    echo "Create it by hand: app.terraform.io -> lipelix -> New -> Workspace -> CLI-driven -> name propsmith," >&2
+    echo "then Settings -> General -> Execution Mode: Local. Then run this script again." >&2
+    rm -f /tmp/propsmith-workspace.json
+    return 1
+  fi
+  rm -f /tmp/propsmith-workspace.json
+}
+
+INIT_LOG="$(mktemp -t propsmith-init)"
+init() { tofu init -input=false >"$INIT_LOG" 2>&1; }
+if ! init; then
+  if grep -q "does not resolve to a version of Terraform" "$INIT_LOG"; then
+    echo "The workspace does not exist yet."
+    create_workspace
+    init || { cat "$INIT_LOG" >&2; rm -f "$INIT_LOG"; exit 1; }
+  elif grep -qiE "token|unauthorized|credentials|login" "$INIT_LOG"; then
     echo "Not logged in to Terraform Cloud. Logging in (a browser opens; paste the token it gives you):"
     tofu login app.terraform.io
-    tofu init -input=false
+    if ! init; then
+      if grep -q "does not resolve to a version of Terraform" "$INIT_LOG"; then
+        create_workspace
+        init || { cat "$INIT_LOG" >&2; rm -f "$INIT_LOG"; exit 1; }
+      else
+        cat "$INIT_LOG" >&2; rm -f "$INIT_LOG"; exit 1
+      fi
+    fi
   else
-    cat /tmp/propsmith-tofu-init.log >&2
-    rm -f /tmp/propsmith-tofu-init.log
+    cat "$INIT_LOG" >&2
+    rm -f "$INIT_LOG"
     exit 1
   fi
 fi
-rm -f /tmp/propsmith-tofu-init.log
+rm -f "$INIT_LOG"
 
 remote_hint() {
   cat >&2 <<'HINT'
