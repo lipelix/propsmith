@@ -6,10 +6,11 @@ resource "github_actions_secret" "cloudflare_api_token" {
   plaintext_value = var.pages_deploy_token
 }
 
-resource "github_actions_variable" "cloudflare_account_id" {
-  repository    = var.github_repo
-  variable_name = "CLOUDFLARE_ACCOUNT_ID"
-  value         = var.cloudflare_account_id
+# Not a credential, but it identifies the account: a secret, so the public build log masks it.
+resource "github_actions_secret" "cloudflare_account_id" {
+  repository      = var.github_repo
+  secret_name     = "CLOUDFLARE_ACCOUNT_ID"
+  plaintext_value = var.cloudflare_account_id
 }
 
 resource "github_actions_variable" "pages_project" {
