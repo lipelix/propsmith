@@ -6,7 +6,6 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import box, cylinder, torus
 
-TILE = 1.5  # metres per tile; the footprint is 1x1 tile, height 0.65 tile = 0.975 m
 R_BLOCK, H_BLOCK = 0.25, 0.45  # the trunk block: 0.5 m across, 0.45 m high
 CUT = 0.02  # thickness of the pale cut face on top
 HAFT_L, HAFT_R = 0.72, 0.021  # axe haft length and radius

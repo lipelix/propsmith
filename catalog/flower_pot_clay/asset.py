@@ -1,4 +1,4 @@
-"""A terracotta pot with red and yellow flowers (hand-written, Phase 12 Task 0)."""
+"""A terracotta pot with red and yellow flowers (hand-written)."""
 import math
 import random
 

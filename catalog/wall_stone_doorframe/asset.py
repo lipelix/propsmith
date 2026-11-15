@@ -6,18 +6,18 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import box
 
-TILE = 1.5  # metres per tile
-# Overall dimensions: the wall runs along x through the tile centre, full tile long, like wall_stone_straight.
-L = 1 * TILE  # wall length (x), 1.5 m
+MODULE = 1.5  # metres: the length wall and fence sections join at
+# Overall dimensions: the wall runs along x through the origin, one module long, like wall_stone_straight.
+L = MODULE  # wall length (x), 1.5 m
 T = 0.45  # wall thickness (y)
-H = 2.4  # wall height, 1.6 tiles
+H = 2.4  # wall height
 OPEN_W, OPEN_H = 1.0, 2.0  # clear door passage, matches door_wood
 PIER = (L - OPEN_W) / 2  # each jamb pier, 0.25 m
 LINTEL_H = 0.32
 CAP_H = H - OPEN_H - LINTEL_H  # capstone row on top, 0.08 m
 COURSES = 7  # quoin courses up each jamb
-# The `_low` variant: a cutaway doorway for roofless village buildings (Phase 13 Decision 1), two quoined piers with
-# no lintel, as high as the `_low` walls. Picked in Phase 13 Task 0; the location look prototype overrides it.
+# The `_low` variant: a cutaway doorway for buildings shown without a roof, two quoined piers with no lintel, as
+# high as the `_low` walls.
 LOW_H = 1.38
 GAP = 0.016  # mortar joint
 

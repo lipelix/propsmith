@@ -6,9 +6,9 @@ from propsmith import anchor, prop
 from propsmith.materials import material
 from propsmith.shapes import blob, box, cylinder
 
-TILE = 1.5  # metres per tile
-# Footprint 1x1 tile = 1.5 x 1.5 m; height 0.8 tile = 1.2 m. The altar stands toward the back (+y) of the tile.
-BACK = 0.72  # y of the plinth's back face (tile edge at 0.75)
+# About 1.4 m wide (x), 0.8 m deep (y) and 1.15 m high with the candles. The altar stands behind the origin (+y),
+# its back 0.72 m from it, so it can go against a wall.
+BACK = 0.72  # y of the plinth's back face
 PLINTH_W, PLINTH_D, PLINTH_H = 1.42, 0.80, 0.12
 BODY_W, BODY_D = 1.24, 0.62
 BAND_W, BAND_D, BAND_H = 1.28, 0.66, 0.08
@@ -23,7 +23,7 @@ CANDLE_X = 0.46
 
 STONE = (0.36, 0.34, 0.30)
 STONE_OLD = (0.32, 0.305, 0.27)
-CLOTH = (0.15, 0.07, 0.055)  # a dull madder red (#86: was too saturated)
+CLOTH = (0.15, 0.07, 0.055)  # a dull madder red, not too saturated
 HEM = (0.34, 0.26, 0.13)
 IRON = (0.05, 0.05, 0.05)
 WAX = (0.50, 0.47, 0.38)

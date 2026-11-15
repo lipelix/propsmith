@@ -7,8 +7,7 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import box, cylinder
 
-TILE = 1.5  # metres per tile
-# Overall size: 2.0 m long along x, 1.0 m wide (footprint 2x1 tiles = 3.0 x 1.5 m, height 0.6 tile = 0.9 m).
+# Overall size: 2.0 m long along x, 1.0 m wide, the headboard about 0.9 m high.
 L = 2.0  # frame length (x)
 W = 1.0  # frame width (y)
 POST = 0.08  # square corner posts (the four short legs run up into them)

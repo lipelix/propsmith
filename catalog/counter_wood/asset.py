@@ -6,9 +6,8 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import box, cylinder
 
-TILE = 1.5  # metres per tile
-# Footprint 2x1 tiles (3.0 x 1.5 m), height 0.7 tile = 1.05 m. The counter is about 2.6 m long, 0.7 m deep and its top
-# surface sits at 0.92 m so the little scale on it stays under the height.
+# The counter is about 2.6 m long, 0.7 m deep and its top surface sits at 0.92 m, so the little scale on it stays
+# under 1.05 m.
 L = 2.6  # body length (x)
 D = 0.7  # body depth (y)
 H = 0.92  # top surface height

@@ -7,8 +7,7 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import blob, cylinder
 
-TILE = 1.5  # metres per tile
-# Footprint 1x1 tile (1.5 x 1.5 m), height 1.2 tiles (1.8 m); the stack is about 1.4 m across and 1.7 m high.
+# The stack is about 1.4 m across and 1.7 m high.
 R = 0.62  # base radius of the stack, metres
 H = 1.7  # overall height, metres
 BODY_H = 0.85  # height of the slightly tapering lower body

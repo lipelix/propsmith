@@ -8,8 +8,7 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import blob, box, cylinder, torus
 
-TILE = 1.5  # metres per tile
-# Footprint 1x1 tile (1.5 x 1.5 m); the barrow runs along x, about 1.4 m long and 0.6 m wide, the tray rim ~0.6 m high.
+# The barrow runs along x, about 1.4 m long and 0.6 m wide, the tray rim ~0.6 m high.
 WHEEL_R = 0.25  # outer radius of the iron tyre
 WHEEL_X = 0.49  # axle position along x (front)
 RAIL_FRONT = (0.56, 0.09, WHEEL_R)  # front end of a handle rail (x, |y|, z)

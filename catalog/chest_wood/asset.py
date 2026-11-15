@@ -7,8 +7,7 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import box, torus
 
-TILE = 1.5  # metres per tile
-# Overall dimensions (real-world chest, well inside the 1x1 tile = 1.5 x 1.5 m footprint).
+# Overall dimensions (metres), a real-world chest.
 W, D, H = 0.9, 0.54, 0.6  # lid width (x), lid depth (y), total height (z)
 BW, BD = W - 0.02, D - 0.02  # body, inset under the lid band
 BODY_H = 0.40  # top of the box body

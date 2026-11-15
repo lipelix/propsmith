@@ -7,8 +7,7 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import box, cylinder, torus
 
-TILE = 1.5  # metres per tile
-# Overall dimensions: fits the 1.0 x 2.0 m opening of wall_stone_doorframe, along x through the tile centre.
+# Overall dimensions: fits the 1.0 x 2.0 m opening of wall_stone_doorframe, along x through the origin.
 W, H = 1.0, 2.0  # door leaf width (x) and height (z)
 PLANKS = 6
 PLANK_T = 0.045  # plank thickness (y)

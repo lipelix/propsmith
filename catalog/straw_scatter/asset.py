@@ -7,8 +7,7 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import blob, box
 
-TILE = 1.5  # metres per tile
-# Footprint 1x1 tile (1.5 x 1.5 m), height 0.1 tile (0.15 m). The straw stays well inside 0.6 m across.
+# The straw stays under 0.15 m high and well inside 0.6 m across.
 DRIFT_R = 0.16  # metres, radius within which the stalk centres of the drift lie
 DRIFT_H = 0.025  # metres, how high the crossing stalks pile up in the middle of the drift
 HEAP_R = 0.15  # metres, radius of the trampled heap's core

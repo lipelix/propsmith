@@ -7,8 +7,7 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import blob, cylinder
 
-TILE = 1.5  # metres per tile
-# Footprint 1x1 tile (1.5 x 1.5 m), height 0.2 tile (0.3 m). The patch itself stays well inside 0.6 m across.
+# The patch stays under 0.3 m high and well inside 0.6 m across.
 PATCH_R = 0.14  # metres, radius of the circle the stems root in
 STEM_H = 0.2  # metres, typical stem height
 STEM_R = 0.0035  # metres, stem radius at the base

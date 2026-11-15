@@ -7,8 +7,7 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import blob, box, cylinder
 
-TILE = 1.5  # metres per tile
-# Footprint 1x1 tile (1.5 x 1.5 m), height 1.6 tiles = 2.4 m: a 0.5 m plinth and a ~1.86 m figure.
+# About 2.35 m high: a 0.5 m plinth and a ~1.86 m figure.
 PLINTH_W, PLINTH_H = 0.9, 0.5
 FIGURE_H = 1.86
 Z0 = PLINTH_H  # the figure stands on the plinth top

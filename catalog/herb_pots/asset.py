@@ -7,8 +7,7 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import blob, cylinder, torus
 
-TILE = 1.5  # metres per tile
-# Footprint 1x1 tile (1.5 x 1.5 m), height 0.4 tile (0.6 m). The cluster itself stays inside about 0.6 m across.
+# The cluster stays under 0.6 m high and inside about 0.6 m across.
 # Pots: (name, x, y, bottom radius, top radius, height). The largest is 0.3 m high.
 BIG = ("big", -0.11, 0.08, 0.11, 0.145, 0.30)
 MID = ("mid", 0.17, 0.11, 0.085, 0.11, 0.22)

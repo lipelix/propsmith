@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "wall_stone_corner",
   "name": "Fieldstone wall corner",
-  "description": "An L-shaped corner of village fieldstone wall, 0.45 m thick and 2.4 m high: rough grey-brown stone blocks in staggered courses over recessed mortar, tied by alternating quoins at a square corner pier, with flat capstones on top. One arm runs from the tile centre to the +x edge, the other to the +y edge, meeting straight wall sections at the tile edges. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so the party stays visible inside.",
+  "description": "An L-shaped corner of village fieldstone wall, 0.45 m thick and 2.4 m high: rough grey-brown stone blocks in staggered courses over recessed mortar, tied by alternating quoins at a square corner pier, with flat capstones on top. One arm runs 0.75 m from the corner to +x, the other to +y, where they meet 1.5 m straight wall sections. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so what is inside stays visible.",
   "category": "structure",
   "family": "wall",
   "tags": ["stone", "village", "boundary", "tall", "weathered", "plain"],

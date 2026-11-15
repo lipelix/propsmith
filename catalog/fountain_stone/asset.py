@@ -7,8 +7,7 @@ from propsmith import anchor, prop
 from propsmith.materials import material
 from propsmith.shapes import blob, box, cylinder, torus
 
-TILE = 1.5  # metres per tile
-# Footprint 2x2 tiles = 3 x 3 m, height 1.4 tiles = 2.1 m.
+# Overall dimensions: about 2.7 m across and 1.9 m high.
 BASIN_R = 1.3  # corner radius of the octagonal rim: 2.6 m across
 PLINTH_R = 1.4  # corner radius of the low step the rim stands on
 PLINTH_H = 0.1

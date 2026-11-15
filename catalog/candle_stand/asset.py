@@ -7,8 +7,7 @@ from propsmith import anchor, prop
 from propsmith.materials import material
 from propsmith.shapes import blob, box, cylinder, torus
 
-TILE = 1.5  # metres per tile
-# Footprint 1x1 tile = 1.5 x 1.5 m, height 1 tile = 1.5 m: the stand is about 1.3 m to the pan, the wick tip 1.48 m.
+# The stand is about 1.3 m to the pan, the wick tip 1.48 m; the legs reach about 0.4 m from the stem.
 HUB_Z = 0.26  # where the three legs meet the stem
 LEG_REACH = 0.36  # leg tip distance from the axis
 LEG_TIP_Z = 0.035

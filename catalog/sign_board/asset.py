@@ -8,8 +8,7 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import box, cylinder, torus
 
-TILE = 1.5  # metres per tile
-# Footprint 1x1 tile = 1.5 x 1.5 m; the post top is 2.2 m, its cap about 2.27 m (height 1.55 tiles = 2.325 m).
+# The post top is at 2.2 m, its cap about 2.27 m.
 FOOT_W, FOOT_TOP_W, FOOT_H = 0.42, 0.34, 0.24  # stone footing: square, tapering
 POST = 0.15  # post section
 POST_X = -0.5  # post stands towards -x so the board hangs near the centre

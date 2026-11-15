@@ -5,8 +5,7 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import box, cylinder
 
-TILE = 1.5  # metres per tile
-# Overall size: about 0.75 m on each side (the footprint is 1x1 tile = 1.5 x 1.5 m, height 0.55 tile = 0.825 m).
+# Overall size: about 0.75 m on each side.
 S = 0.75  # outer width and depth, battens included
 H = 0.75  # overall height, lid included
 BT = 0.025  # batten thickness

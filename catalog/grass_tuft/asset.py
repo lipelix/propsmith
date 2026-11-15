@@ -7,8 +7,7 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import blob, cylinder
 
-TILE = 1.5  # metres per tile
-# Footprint 1x1 tile (1.5 x 1.5 m), height 0.3 tile (0.45 m). The tuft itself stays well inside 0.6 m across.
+# The tuft stays under 0.45 m high and well inside 0.6 m across.
 SHORT_H = 0.25  # metres, blade length of the short tuft
 TALL_H = 0.36  # metres, blade length of the tall tuft
 STALK_H = 0.43  # metres, seed-head stalks of the tall tuft

@@ -7,8 +7,7 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import box, cylinder
 
-TILE = 1.5  # metres per tile
-# Overall dimensions: the footprint is 1x1 tile (1.5 x 1.5 m), handle tops at 1.6 m (height 1.1 tile = 1.65 m).
+# Overall dimensions: handle tops at 1.6 m.
 TOP_Z = 1.6  # handle tops, metres
 # Trestle: an X of two legs at each end, the bar lying in the upper V; it runs along x, centred on y = 0.
 BAR_Z, BAR_R, BAR_HALF = 0.70, 0.045, 0.56

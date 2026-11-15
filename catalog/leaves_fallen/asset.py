@@ -9,8 +9,7 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import blob, box
 
-TILE = 1.5  # metres per tile
-# Footprint 1x1 tile (1.5 x 1.5 m), height 0.1 tile (0.15 m). The leaves stay well inside 0.6 m across.
+# The leaves stay under 0.15 m high and well inside 0.6 m across.
 LEAF_L = 0.08  # metres, leaf length tip to stalk
 LEAF_W = 0.042  # metres, leaf width at its widest
 LEAF_T = 0.006  # metres, leaf thickness

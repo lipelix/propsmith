@@ -9,8 +9,7 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import box, cylinder
 
-TILE = 1.5  # metres per tile
-# Overall dimensions: footprint 1x1 tile (1.5 x 1.5 m); the stack is 1.2 m long (x), 0.5 m deep (y), 0.8 m high.
+# Overall dimensions: the stack is 1.2 m long (x), 0.5 m deep (y), 0.8 m high.
 STACK_W = 1.2  # length of the stack along x
 LOG_L = (0.42, 0.5)  # log length range along y (the stack's depth, about 0.5 m)
 LOG_R = 0.066  # radius of a round log
