@@ -25,11 +25,26 @@ case "${1:-}" in
   *) echo "usage: $0 [--plan | --reset | --forget]" >&2; exit 2 ;;
 esac
 
-# The Keychain is the store; without it (not macOS) every run asks.
+# The Keychain is the store; without it (not macOS, or a terminal that may not use it) every run asks.
 KEYCHAIN=0
 if command -v security >/dev/null 2>&1; then KEYCHAIN=1; fi
+# A terminal outside the desktop session (ssh, tmux started by a service) finds the login Keychain locked and fails
+# with "User interaction is not allowed". Unlock it once, with the macOS password, or go on without saving.
+keychain_works() {
+  security add-generic-password -U -s "$SERVICE-probe" -a probe -w probe >/dev/null 2>&1 &&
+    security delete-generic-password -s "$SERVICE-probe" -a probe >/dev/null 2>&1
+}
+if [ "$KEYCHAIN" = 1 ] && ! keychain_works; then
+  echo "The login Keychain is locked in this terminal. Unlock it to keep the values (your macOS password):"
+  if security unlock-keychain && keychain_works; then
+    echo "Unlocked."
+  else
+    echo "The Keychain stays unavailable: this run asks for every value and saves nothing."
+    KEYCHAIN=0
+  fi
+fi
 saved() { [ "$KEYCHAIN" = 1 ] && security find-generic-password -s "$SERVICE" -a "$1" -w 2>/dev/null; }
-save() { [ "$KEYCHAIN" = 1 ] && security add-generic-password -U -s "$SERVICE" -a "$1" -w "$2"; }
+save() { [ "$KEYCHAIN" = 1 ] && security add-generic-password -U -s "$SERVICE" -a "$1" -w "$2" 2>/dev/null; }
 forget() {
   local name
   for name in $NAMES; do
@@ -48,8 +63,10 @@ for tool in tofu gh curl; do
   command -v "$tool" >/dev/null 2>&1 || { echo "Missing required tool: $tool" >&2; exit 1; }
 done
 
-# Tokens of other accounts in this shell must not leak into the providers: every value comes from the prompts below.
-unset CF_API_TOKEN CLOUDFLARE_API_TOKEN CLOUDFLARE_API_KEY CLOUDFLARE_EMAIL GITHUB_TOKEN GH_TOKEN TF_VAR_github_token
+# Cloudflare tokens of other accounts in this shell must not leak into the provider: every value comes from the
+# prompts below. GitHub's variables stay: the provider is given its token explicitly, and gh (which starts the
+# publish at the end) may be logged in through them.
+unset CF_API_TOKEN CLOUDFLARE_API_TOKEN CLOUDFLARE_API_KEY CLOUDFLARE_EMAIL TF_VAR_github_token
 
 # ask <variable> <label> <hint> <pattern> <what the pattern means> [secret]
 ask() {
@@ -205,7 +222,12 @@ if [ "$answer" != "yes" ]; then
 fi
 
 # The workflow is started with your own gh login, not with the token typed above.
-gh workflow run publish --repo "$REPO" --ref main
+if ! gh workflow run publish --repo "$REPO" --ref main; then
+  echo >&2
+  echo "The stack is applied; only starting the publish failed. Log in (gh auth login -h github.com) and run:" >&2
+  echo "  gh workflow run publish --repo $REPO --ref main" >&2
+  exit 1
+fi
 echo "Started. Waiting for the run to appear..."
 sleep 8
 RUN="$(gh run list --repo "$REPO" --workflow publish --branch main --limit 1 --json databaseId -q '.[0].databaseId')"
