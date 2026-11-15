@@ -8,10 +8,10 @@ from propsmith import anchor, prop
 from propsmith.materials import material
 from propsmith.shapes import blob, box, cylinder, torus
 
-TILE = 1.5  # metres per tile
-# Footprint 2x1 tiles = 3.0 x 1.5 m, height 1 tile = 1.5 m. The block stands flush with the back (+y) edge.
+# The stone block is 2.6 m wide (x), 0.9 m deep (y) and about 1.4 m high. It stands behind the origin (+y), its back
+# 0.75 m from it, so it can go against a wall.
 W, D = 2.6, 0.9  # stone block width (x) and depth (y)
-BACK = 1 * TILE / 2  # back face on the footprint's +y edge
+BACK = 0.75  # y of the back face
 FRONT = BACK - D  # front face of the block
 BODY_H = 1.34  # top of the stone courses (under the capstones)
 CAP_H = 0.08  # capstones, top at 1.42 m
@@ -42,7 +42,7 @@ FLAME = (0.5, 0.3, 0.07)
 IRON = (0.075, 0.07, 0.065)  # a touch lighter than usual so the pot reads against the soot
 IRON_WORN = (0.16, 0.14, 0.12)  # rubbed rim of the pot
 FLOOR = (0.13, 0.11, 0.09)  # sooty hearth stone inside the opening
-HEARTH = (0.115, 0.1, 0.085)  # worn, smoke-darkened slabs in front (#86: the cap stone read pale under the glow)
+HEARTH = (0.115, 0.1, 0.085)  # worn, smoke-darkened slabs in front, dark enough not to read pale under the glow
 
 
 def _widths(rnd, total, n):

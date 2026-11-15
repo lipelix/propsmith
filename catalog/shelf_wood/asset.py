@@ -7,12 +7,12 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import box, cylinder, torus
 
-TILE = 1.5  # metres per tile
-# Overall size: 1.35 m wide (x), 0.45 m deep (y), 1.5 m high with the goods on top (footprint 1x1, height 1 tile).
+# Overall size: 1.35 m wide (x), 0.45 m deep (y), 1.5 m high with the goods on top. The unit stands behind the
+# origin (+y), its back 0.74 m from it, so it can go against a wall.
 W = 1.35
 D = 0.45
 H_TOP = 1.32  # top surface of the carcass; goods on top reach about 1.5 m
-BACK_Y = 1 * TILE / 2 - 0.01  # outer face of the back, flush with the tile's +y edge
+BACK_Y = 0.75 - 0.01  # outer face of the back
 FRONT_Y = BACK_Y - D
 MID_Y = (BACK_Y + FRONT_Y) / 2
 SIDE_T = 0.035  # plank sides

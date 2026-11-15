@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "wall_stone_straight",
   "name": "Fieldstone wall section",
-  "description": "A straight 1-tile section of village fieldstone wall, 0.45 m thick and 2.4 m high, running along the tile's centre: rough grey-brown blocks in staggered courses with recessed mortar, topped by a row of flat capstones. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so the party stays visible inside. The `_end` variants finish a run at a gap with a pier of big dressed quoins at the +x end.",
+  "description": "A straight 1.5 m section of village fieldstone wall, 0.45 m thick and 2.4 m high: rough grey-brown blocks in staggered courses with recessed mortar, topped by a row of flat capstones. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so what is inside stays visible. The `_end` variants finish a run at a gap with a pier of big dressed quoins at the +x end.",
   "category": "structure",
   "family": "wall",
   "tags": ["stone", "village", "boundary", "tall", "weathered"],

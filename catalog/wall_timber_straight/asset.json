@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "wall_timber_straight",
   "name": "Half-timbered wall",
-  "description": "A straight section of half-timbered village house wall on a low fieldstone plinth: a dark weathered oak sill, corner posts, a top plate and one diagonal brace framing warm off-white lime plaster. It runs along the tile centre so sections join end to end. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so the party stays visible inside. Panel variants so a run of wall is not one repeated panel: `_window` (a small lattice window), `_plain` (plaster only), `_stone` (a high fieldstone base) and `_post` (a heavy corner post, the brace the other way), each also `_low`.",
+  "description": "A straight section of half-timbered village house wall on a low fieldstone plinth: a dark weathered oak sill, corner posts, a top plate and one diagonal brace framing warm off-white lime plaster. Each section is 1.5 m long, so sections join end to end. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so what is inside stays visible. Panel variants so a run of wall is not one repeated panel: `_window` (a small lattice window), `_plain` (plaster only), `_stone` (a high fieldstone base) and `_post` (a heavy corner post, the brace the other way), each also `_low`.",
   "category": "structure",
   "family": "wall",
   "tags": [

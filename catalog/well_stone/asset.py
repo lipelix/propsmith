@@ -1,4 +1,4 @@
-"""A round drystone well with a plank roof, a winch and a bucket (hand-written, Phase 12 Task 0)."""
+"""A round drystone well with a plank roof, a winch and a bucket (hand-written)."""
 import math
 import random
 

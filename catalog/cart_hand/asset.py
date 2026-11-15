@@ -1,4 +1,4 @@
-"""A two-wheeled wooden handcart with sacks, parked on a stand (hand-written, Phase 12 Task 0)."""
+"""A two-wheeled wooden handcart with sacks, parked on a stand (hand-written)."""
 import math
 import random
 

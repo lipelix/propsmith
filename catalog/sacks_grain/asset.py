@@ -9,8 +9,7 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import blob, cylinder, torus
 
-TILE = 1.5  # metres per tile
-# Footprint 1x1 tile (1.5 x 1.5 m), height 0.5 tile (0.75 m); the heap is about 0.7 m high.
+# The heap is about 0.7 m high.
 LIE_L = 0.88  # body length of a lying sack, metres
 LIE_R = 0.28  # body half-width of a lying sack
 LIE_FLAT = 0.85  # vertical squash of a lying sack (it slumps)

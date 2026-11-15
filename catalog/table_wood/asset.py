@@ -6,8 +6,7 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import box, cylinder, torus
 
-TILE = 1.5  # metres per tile
-# Overall size: 1.35 m long along x, 0.8 m wide, top at 0.75 m (footprint 1x1 tile, height 0.6 tile = 0.9 m).
+# Overall size: 1.35 m long along x, 0.8 m wide, top at 0.75 m.
 L = 1.35  # top length (x)
 D = 0.8  # top width (y)
 H = 0.75  # top surface height

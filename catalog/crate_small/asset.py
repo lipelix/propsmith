@@ -7,8 +7,7 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import blob, box
 
-TILE = 1.5  # metres per tile
-# Overall sizes: a 0.35 m crate with a 0.28 m crate on top, about 0.63 m tall (footprint 1x1 tile, height 0.45 tile).
+# Overall sizes: a 0.35 m crate with a 0.28 m crate on top, about 0.63 m tall.
 BIG = 0.35  # outer size of the bottom crate, lid included
 SMALL = 0.28  # outer size of the top crate
 TOP_YAW = 14  # degrees the top crate is turned

@@ -7,8 +7,7 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import box
 
-TILE = 1.5  # metres per tile
-# Footprint 1x1 tile (1.5 x 1.5 m), height 0.65 tile (0.975 m): one bale 0.45 m high, the stack 0.9 m.
+# One bale is 0.45 m high, the stack 0.9 m.
 L, W, H = 0.9, 0.5, 0.45  # bale length (local x), width (y), height, metres
 FLAKES = 6  # compressed slabs a bale is made of, across its length
 BAND_X = 0.22  # twine bands at +-BAND_X along the bale

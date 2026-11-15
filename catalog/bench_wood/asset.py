@@ -7,8 +7,7 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import box, cylinder
 
-TILE = 1.5  # metres per tile
-# Overall size: 1.4 m long along x, 0.35 m deep, seat top 0.45 m (footprint 1x1 tile, height 0.32 tile = 0.48 m).
+# Overall size: 1.4 m long along x, 0.35 m deep, seat top 0.45 m.
 L = 1.4  # seat length
 D = 0.35  # seat depth
 H = 0.45  # seat top height

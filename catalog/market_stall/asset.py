@@ -7,8 +7,7 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import blob, box, cylinder, torus
 
-TILE = 1.5  # metres per tile
-# Footprint 2x1 tiles = 3.0 x 1.5 m; the stall itself is about 2.8 x 1.3 m, the awning top about 2.3 m.
+# The stall is about 2.8 x 1.3 m, the awning top about 2.3 m.
 L, D = 2.8, 1.3
 POST = 0.09  # post section
 PX, PY = L / 2 - POST / 2, D / 2 - POST / 2  # post centres

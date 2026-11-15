@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "altar_stone",
   "name": "Stone altar",
-  "description": "A village temple's altar of pale dressed grey stone on a slightly wider plinth step, with a carved band under its overhanging top slab, a dull red altar cloth over the top hanging down the front, and three short ivory candles in iron dishes. It stands toward the back of its tile, against a wall.",
+  "description": "A village temple's altar of pale dressed grey stone on a slightly wider plinth step, with a carved band under its overhanging top slab, a dull red altar cloth over the top hanging down the front, and three short ivory candles in iron dishes. It stands behind its origin, so it can go against a wall.",
   "category": "decor",
   "family": "altar",
   "tags": [

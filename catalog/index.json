@@ -5,7 +5,7 @@
     {
       "id": "altar_stone",
       "name": "Stone altar",
-      "description": "A village temple's altar of pale dressed grey stone on a slightly wider plinth step, with a carved band under its overhanging top slab, a dull red altar cloth over the top hanging down the front, and three short ivory candles in iron dishes. It stands toward the back of its tile, against a wall.",
+      "description": "A village temple's altar of pale dressed grey stone on a slightly wider plinth step, with a carved band under its overhanging top slab, a dull red altar cloth over the top hanging down the front, and three short ivory candles in iron dishes. It stands behind its origin, so it can go against a wall.",
       "category": "decor",
       "family": "altar",
       "tags": [
@@ -29,7 +29,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "622392e9f44e23d720bb54b601c9281a6c0c8772a34284b9b7404234a5ee0cd8"
+      "inputHash": "71a1180cdb3e6a4b5bc37febc33a0226b2ad7199d9b4c1898c643e416b535fce"
     },
     {
       "id": "barrel_wood",
@@ -54,7 +54,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "9a6fc0737506d2659c1c5404370f8a1e5960cc19ba52526434c15c527e12f93e"
+      "inputHash": "4fc1ec58097f1d6a2d69ccf2183339742fb9ce9e21a2de01681ce9c727543e13"
     },
     {
       "id": "bed_wood",
@@ -79,7 +79,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "805d751d0f8e21d60089acdd555d8da3896ac5503b51e67e02e2a978ea5d5796"
+      "inputHash": "6ac9afbee10d0d43d50388ae97a1992b2cc2974e9d6e324fe1b927197dbbcc18"
     },
     {
       "id": "bench_wood",
@@ -104,7 +104,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "466a2947b8b090fb0993aaa26840ca489097ceddafd317c36d8f3d5dc54788c1"
+      "inputHash": "648215e9f84e9342c1c2f0629114dbb165aa0fc2bc9f780c9abc7cf7fd354abd"
     },
     {
       "id": "bucket_wood",
@@ -129,7 +129,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "25476ae945e81d4428bf702e99b28acf3195a115eda31dee58281ccf62358157"
+      "inputHash": "43c783c804b2431db8d473d93f7b66a0c89da636e66ac2be418d12dad4adfee7"
     },
     {
       "id": "candle_stand",
@@ -159,7 +159,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "590d6610bdd9cf9b6617c712826516348840a2a1bc38bd0756b0480a74fa696e"
+      "inputHash": "069e0f55904739e6cb53ca9ee502f1a7c5d3fb09e3369180b45b9d03c36eac3a"
     },
     {
       "id": "cart_hand",
@@ -184,7 +184,7 @@
       "closed": true,
       "source": "handwritten",
       "licence": "CC0-1.0",
-      "inputHash": "0e2d353c3aca7c14131dbf5fda7c28a789741a961b93fa755aee248a0d3e5519"
+      "inputHash": "67af58d600d578242e3faa1df4c5d955152fe3f001f5ad75ecc217c20278cc7b"
     },
     {
       "id": "chest_wood",
@@ -215,7 +215,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "ce85cda9a9eafc9019de242282f320e4ec978f662e220e37d412518250551e65"
+      "inputHash": "3831e2dd75928f9a8efcd549e7e19794a1bd8e7e145c32acf9a43e05c585f713"
     },
     {
       "id": "chopping_block",
@@ -240,7 +240,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "756970bf4682ccd9fb36daf660f7b2670476c29ac1b4bb659f6e721ea8f416b6"
+      "inputHash": "b3e3adf0dd9e14c4a1ce2f65c59ce8c426eae54b8309477eb0f595580285c1a2"
     },
     {
       "id": "counter_wood",
@@ -256,7 +256,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "937940c86b82068947500aebdbb8296022e0b94aff8e6dc5f0060343b4568d89"
+      "inputHash": "92b4523dbdb021902d74c7d3ba646881846cebde7df4c1e83975ffa9f27540e9"
     },
     {
       "id": "crate_small",
@@ -272,7 +272,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "34e8e4c146cac758d54bd4e855686baaec898662ad4d4c708528f8b49d1a9c95"
+      "inputHash": "9eb45b569b62c09988a4929f22f0faf9e928c5208a7531f2b6562c56b767e1dc"
     },
     {
       "id": "crate_wood",
@@ -288,7 +288,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "27c45cdee42b95c0e015783e1874c19eca26502114dce02d0463cd0cc8ec030b"
+      "inputHash": "a1af54e6d8a26d3da939a5c7aeab12e808d31c59e28ad5cc3c82e76d411cd156"
     },
     {
       "id": "door_wood",
@@ -318,7 +318,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "80f397f861ae71da63361de5967e3b447f03a865cdbcb1ca2ca72d6b4faa3bbc"
+      "inputHash": "dba54c2e899e7e94ce864bf2a709293c2ad6c2fbfbd899849469cbe2bb155591"
     },
     {
       "id": "farm_tools",
@@ -341,12 +341,12 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "5f36d25a9799907c2ae66728de887cd9aff2d0d9d5b7ab607f3df8e6e0747c42"
+      "inputHash": "cd886719d47eea96c62f7f1d7c7ca24f68906ea8bad47a76bcb4d7d12087963f"
     },
     {
       "id": "fence_wood",
       "name": "Wooden rail fence",
-      "description": "A rustic fence section of weathered grey-brown wood: two round split posts near the ends and two slightly sagging split rails running the full tile, so sections join end to end.",
+      "description": "A rustic fence section of weathered grey-brown wood: two round split posts near the ends and two slightly sagging split rails running the full 1.5 m, so sections join end to end.",
       "category": "fence",
       "family": "fence",
       "tags": [
@@ -371,7 +371,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "3ede9ef383a411947ca3e9c57c592849c546104d8134cfab421415d9acbf1135"
+      "inputHash": "aa378194da12b10bfd73ba727a78f8c337d6d0ed524df8766891e0ebedb96580"
     },
     {
       "id": "fireplace_stone",
@@ -402,7 +402,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "be8905a688c9bbca41909b00c4da2458dfa7b33768511224eb6c9427758bda7b"
+      "inputHash": "180ec84f99eaeeca5915714a10efa965ca7a66756a52b1191cf9f0d2e8034759"
     },
     {
       "id": "firewood_stack",
@@ -418,7 +418,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "992341a050351b8619dc2d8bdbdba714beee0dff454d54c6ea353da8ea7ae8f1"
+      "inputHash": "8e377edb344b6dee90f0119272851e40a91f5323ff27dd1fb96896d1fb683df7"
     },
     {
       "id": "flower_pot_clay",
@@ -442,7 +442,7 @@
       "closed": true,
       "source": "handwritten",
       "licence": "CC0-1.0",
-      "inputHash": "4b8c8c62d56368c148a838961afdcb6aea167e19672cb7b445a5d5ff54b5b08f"
+      "inputHash": "8ae3d8665dced07873aa2f87da540a4378c0e1820bc11ab02a76d5a9d96140a5"
     },
     {
       "id": "fountain_stone",
@@ -467,7 +467,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "f535b18d5dfa9903c95fa23f4f5433fbe745dd9fa23cc4bda6e7a67103a4f484"
+      "inputHash": "a7fecf74619c8b09ccf64610972c5966521bcd0d679e0bd38042159bfbc8a6b8"
     },
     {
       "id": "grass_tuft",
@@ -483,7 +483,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "446eaf34f3ab60950248b3d67fdda89a589df9438ec109fb1208b76271c710fc"
+      "inputHash": "2c0de7e2eae6860fcffe2278a56b80f91150856c8e5b7a9717c932ae326470e9"
     },
     {
       "id": "hay_bale",
@@ -499,7 +499,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "0a5ee75965844285f3252fc98d0efe716224745bcbb5777c16d4d0d78b8477cd"
+      "inputHash": "925af0d92c4d464d130f8405d4cdad639dde09639811be70f4585a8ce1f18a67"
     },
     {
       "id": "haystack",
@@ -515,7 +515,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "7e19b3c68861fe8a4dc587371785c9ec0910fcdb688877ff47accd29b69bfacd"
+      "inputHash": "326f9393e77cea5ffacfb256beb63354dc7df593ad8c8a3c50e6862ed9c482cb"
     },
     {
       "id": "herb_pots",
@@ -548,7 +548,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "2cba5462af38bd281bf3e9a33a555deed5921ca42ac0f3cb8c5c76490e64b1f1"
+      "inputHash": "6246b10089158bb38d458215615aec5a4cc189fd5878e0c93a41155aa34a5f97"
     },
     {
       "id": "lamp_post",
@@ -579,7 +579,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "ad629d6bb1ba868750f27a7e43e764aa4f2efe8262a688e37d1520e05a688d46"
+      "inputHash": "724af666bc17f5306268743e9b517fbaebd3f0561b9fb686983312f4f29a0d66"
     },
     {
       "id": "leaves_fallen",
@@ -609,7 +609,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "841a11014be72d50d9950460f94768d210791919a7b2b74101ae3e82138dd736"
+      "inputHash": "b425c89ee9d8e2d9bede741f54ffffe83883234e4af6c2b493427ad860f25558"
     },
     {
       "id": "market_stall",
@@ -634,7 +634,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "b9804e4c453bc8ead7c581d199c4e3fb2cdb09d73f0cd274654045b5cbdc7ef9"
+      "inputHash": "03fbeea90316653a312f2c0921effe548e94eabb86d0e8314df51379f4b861be"
     },
     {
       "id": "pebbles",
@@ -650,7 +650,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "77868bd4503d03920f6b14f6a9bef53d5f4c1c2b66d2d1a454f2e3e7c5a37fcd"
+      "inputHash": "fd223b557d43a09f05bbebb0cd9eee513d593d7ac882b28ee057fd66e682ad89"
     },
     {
       "id": "sacks_grain",
@@ -666,7 +666,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "d940eeeccca4a18ac3c752a1620e9c42ffe1df152b8e9e25a6199675004909ff"
+      "inputHash": "9196ee4fc062d99492a6592f0e9655a302b069af56f041722ad6ed07236dca46"
     },
     {
       "id": "shelf_wood",
@@ -689,7 +689,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "87863dc7f4d2f1f676b9826db8f4e15eeaf6b56c3738443f86727dafb1bc08a5"
+      "inputHash": "49181076e06365a945c0d86219925c94b004ebe8376015d01a51b5f70e03293f"
     },
     {
       "id": "sign_board",
@@ -720,7 +720,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "c5c38cc6ac225598c8c0483dcc150f53f20e26c9abe540372a3eb79c1223d0f6"
+      "inputHash": "7d9ec81ae585b8df3cc3ef2286d6ae67f4ed6116ee2c9255bd89857b47a9a37f"
     },
     {
       "id": "signpost_wood",
@@ -766,7 +766,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "c1e5fbe410583d36496843af2e8441e71d88345585645e75e884f05be2f38d64"
+      "inputHash": "d898d7365ab5ffb8ddd5fb2ee24e991ad095168cd47cf486a7356202886a0e0e"
     },
     {
       "id": "straw_scatter",
@@ -782,7 +782,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "41eaf83033cc54ada37c969741e9f4865c79412c135284e2336cd074d5c08eac"
+      "inputHash": "89baa7b1742971c0be8a88f1b997547f8b2ca702573392bd25c28c8b04840a31"
     },
     {
       "id": "table_wood",
@@ -804,12 +804,12 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "22ec5a9957f2804e2d0b0bb292e4cda79a3103450e941ab04165b6a1b4bdc5c6"
+      "inputHash": "a7841b1add2af09d25b2cf83a698c7be9927e5f28385ec23e70314e9dbb8870b"
     },
     {
       "id": "wall_stone_corner",
       "name": "Fieldstone wall corner",
-      "description": "An L-shaped corner of village fieldstone wall, 0.45 m thick and 2.4 m high: rough grey-brown stone blocks in staggered courses over recessed mortar, tied by alternating quoins at a square corner pier, with flat capstones on top. One arm runs from the tile centre to the +x edge, the other to the +y edge, meeting straight wall sections at the tile edges. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so the party stays visible inside.",
+      "description": "An L-shaped corner of village fieldstone wall, 0.45 m thick and 2.4 m high: rough grey-brown stone blocks in staggered courses over recessed mortar, tied by alternating quoins at a square corner pier, with flat capstones on top. One arm runs 0.75 m from the corner to +x, the other to +y, where they meet 1.5 m straight wall sections. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so what is inside stays visible.",
       "category": "structure",
       "family": "wall",
       "tags": ["boundary", "plain", "stone", "tall", "village", "weathered"],
@@ -820,7 +820,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "f50e883753a561c2b0693788935482d9ba4f4594d537bb6e7cbc24cf873d2c6e"
+      "inputHash": "65fc0c253264bc82e0d02f8a59b3caf96ed2e99d689a9595745d958a31d84ca3"
     },
     {
       "id": "wall_stone_doorframe",
@@ -842,12 +842,12 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "bb1b52643a7dbe808401c1713ea6bdb20b70122f62ffbc19b87d459fc7a05a92"
+      "inputHash": "ace328990beccc72c0835157528132dc20591aa7c311b587243130e71c65908d"
     },
     {
       "id": "wall_stone_straight",
       "name": "Fieldstone wall section",
-      "description": "A straight 1-tile section of village fieldstone wall, 0.45 m thick and 2.4 m high, running along the tile's centre: rough grey-brown blocks in staggered courses with recessed mortar, topped by a row of flat capstones. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so the party stays visible inside. The `_end` variants finish a run at a gap with a pier of big dressed quoins at the +x end.",
+      "description": "A straight 1.5 m section of village fieldstone wall, 0.45 m thick and 2.4 m high: rough grey-brown blocks in staggered courses with recessed mortar, topped by a row of flat capstones. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so what is inside stays visible. The `_end` variants finish a run at a gap with a pier of big dressed quoins at the +x end.",
       "category": "structure",
       "family": "wall",
       "tags": ["boundary", "stone", "tall", "village", "weathered"],
@@ -863,12 +863,12 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "c4f04fadd0a072ee708ae543cc78907879e00d904849444df8d9f387e40d8fd1"
+      "inputHash": "d5cb5e378364fa42971441dae2088ad834024fc4f07193d12ddc70ce2e552cc0"
     },
     {
       "id": "wall_timber_straight",
       "name": "Half-timbered wall",
-      "description": "A straight section of half-timbered village house wall on a low fieldstone plinth: a dark weathered oak sill, corner posts, a top plate and one diagonal brace framing warm off-white lime plaster. It runs along the tile centre so sections join end to end. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so the party stays visible inside. Panel variants so a run of wall is not one repeated panel: `_window` (a small lattice window), `_plain` (plaster only), `_stone` (a high fieldstone base) and `_post` (a heavy corner post, the brace the other way), each also `_low`.",
+      "description": "A straight section of half-timbered village house wall on a low fieldstone plinth: a dark weathered oak sill, corner posts, a top plate and one diagonal brace framing warm off-white lime plaster. Each section is 1.5 m long, so sections join end to end. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so what is inside stays visible. Panel variants so a run of wall is not one repeated panel: `_window` (a small lattice window), `_plain` (plaster only), `_stone` (a high fieldstone base) and `_post` (a heavy corner post, the brace the other way), each also `_low`.",
       "category": "structure",
       "family": "wall",
       "tags": [
@@ -905,7 +905,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "78876ed1a5fcafd99d7adb27dd55ae20e01a5265ef15de3f31556c68f04660ee"
+      "inputHash": "6f3aed83764c6f71f858160d3e8fe224b494393226f48633a423e7ed67b078e1"
     },
     {
       "id": "well_stone",
@@ -929,7 +929,7 @@
       "closed": false,
       "source": "handwritten",
       "licence": "CC0-1.0",
-      "inputHash": "eef983165ca732a0f9b23002eb04605743ffe2206d77531e4f4778e14a682e52"
+      "inputHash": "f7a886b9c227d8a329141a39f5e897d84e7f5c47da1bf95294bcddb56f0bff60"
     },
     {
       "id": "wheelbarrow",
@@ -954,7 +954,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "62e00d0fab4c486377d77c32768acd0be9b40d062622f1b3caddb2d3d43e83e5"
+      "inputHash": "c10297f27aa0f7536ae14d42c57dbcc73de356a1061e0df0833513ab69739780"
     },
     {
       "id": "wildflowers",
@@ -970,7 +970,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "469c167df13353d58b14ec633974fb8770c90096b237e3f36a9769d52f6490dc"
+      "inputHash": "4b4758a525777ef242efa410401592a7034615cf281ead9f86ed0955b4a9af02"
     }
   ]
 }

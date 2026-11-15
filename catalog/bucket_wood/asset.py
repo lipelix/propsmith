@@ -9,8 +9,6 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import box, cylinder, torus
 
-TILE = 1.5  # metres per tile; the footprint is 1x1 tile, height 0.35 tile = 0.525 m
-
 # Overall dimensions (metres), from the description: about 0.35 m high and 0.3 m across.
 H = 0.35  # stave height
 R_TOP = 0.15  # outer radius at the rim

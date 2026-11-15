@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "fence_wood",
   "name": "Wooden rail fence",
-  "description": "A rustic fence section of weathered grey-brown wood: two round split posts near the ends and two slightly sagging split rails running the full tile, so sections join end to end.",
+  "description": "A rustic fence section of weathered grey-brown wood: two round split posts near the ends and two slightly sagging split rails running the full 1.5 m, so sections join end to end.",
   "category": "fence",
   "family": "fence",
   "tags": ["wood", "village", "farm", "boundary", "open", "plain", "weathered"],

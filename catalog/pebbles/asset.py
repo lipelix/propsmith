@@ -7,8 +7,7 @@ from propsmith import prop
 from propsmith.materials import material
 from propsmith.shapes import blob
 
-TILE = 1.5  # metres per tile
-# Footprint 1x1 tile (1.5 x 1.5 m), height 0.1 tile (0.15 m). The stones stay well inside 0.6 m across.
+# The stones stay under 0.15 m high and well inside 0.6 m across.
 SCATTER_R = 0.2  # metres, outer radius of the small scatter
 CLUSTER_R = 0.24  # metres, outer radius of the cluster
 FIST_R = 0.055  # metres, half-width of the fist-sized stone
