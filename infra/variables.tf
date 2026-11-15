@@ -1,4 +1,4 @@
-# Personal Cloudflare account (never the Heureka one): Account · Cloudflare Pages · Edit and
+# The Cloudflare account that owns the site: Account · Cloudflare Pages · Edit and
 # Account · Account Settings · Edit (creates the Web Analytics site, API rum/site_info). Used only to apply this stack.
 variable "cloudflare_api_token" {
   type      = string
