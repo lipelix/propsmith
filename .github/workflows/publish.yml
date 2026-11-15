@@ -57,21 +57,42 @@ jobs:
             xvfb libgl1 libegl1 libglx-mesa0 libegl-mesa0 libgl1-mesa-dri mesa-vulkan-drivers \
             libxi6 libxkbcommon0 libxkbcommon-x11-0 libsm6 libxrender1 libxxf86vm1 libxfixes3 libxrandr2 libxinerama1 libxcursor1
 
-      - name: Cache Blender
+      - name: Restore Blender
         id: blender-cache
-        uses: actions/cache@v4
+        uses: actions/cache/restore@v4
         with:
           path: ~/blender
           key: blender-${{ env.BLENDER_VERSION }}-linux-x64
 
+      # download.blender.org sometimes answers a runner with 403, so the official mirrors are tried in turn. The
+      # archive is pinned by SHA-256, whichever server it comes from.
       - name: Download Blender
         if: steps.blender-cache.outputs.cache-hit != 'true'
         run: |
           archive="blender-${BLENDER_VERSION}-linux-x64.tar.xz"
-          curl -fsSL -o "$RUNNER_TEMP/$archive" "https://download.blender.org/release/Blender${BLENDER_VERSION%.*}/$archive"
+          path="Blender${BLENDER_VERSION%.*}/$archive"
+          for base in \
+            https://download.blender.org/release \
+            https://mirror.clarkson.edu/blender/release \
+            https://ftp.nluug.nl/pub/graphics/blender/release \
+            https://mirrors.ocf.berkeley.edu/blender/release \
+            https://ftp.halifax.rwth-aachen.de/blender/release; do
+            echo "Trying $base"
+            if curl -fsSL --retry 2 --retry-delay 5 -o "$RUNNER_TEMP/$archive" "$base/$path"; then break; fi
+            rm -f "$RUNNER_TEMP/$archive"
+          done
+          if [ ! -f "$RUNNER_TEMP/$archive" ]; then echo "::error::No server delivered $archive"; exit 1; fi
           echo "$BLENDER_SHA256  $RUNNER_TEMP/$archive" | sha256sum --check
           mkdir -p ~/blender
           tar -xf "$RUNNER_TEMP/$archive" -C ~/blender --strip-components=1
+
+      # Saved right away, so a later failure in this job does not cost another 380 MB download.
+      - name: Save Blender
+        if: steps.blender-cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: ~/blender
+          key: blender-${{ env.BLENDER_VERSION }}-linux-x64
 
       - name: Use Blender
         run: |
