@@ -90,7 +90,7 @@ ask cloudflare_account_id \
 
 ask cloudflare_api_token \
   "2/4  Cloudflare ADMIN token (only this script uses it)" \
-  "My Profile -> API Tokens -> Create Token -> Custom: Account - Cloudflare Pages - Edit, Account - Account Settings - Edit" \
+  "My Profile -> API Tokens -> Create Token -> Custom, Account permissions: Cloudflare Pages Edit, Account Settings Edit, Account Settings Read, Account Analytics Read" \
   '^[A-Za-z0-9_-]{30,}$' "a token of 30 or more letters, digits, - or _" secret
 
 ask pages_deploy_token \
