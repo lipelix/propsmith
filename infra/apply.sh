@@ -1,20 +1,48 @@
 #!/usr/bin/env bash
 # Applies infra/ (the Cloudflare Pages project, Web Analytics, the repository secret and variables) and starts the
-# first publish. It asks for the four values one by one, hides the tokens while you type and hands them to OpenTofu
-# through the environment of this run only: nothing is written to disk and nothing lands in the shell history.
+# first publish. It asks for the four values one by one, hides the tokens while you type and keeps them in the macOS
+# Keychain (service "propsmith-infra"), so the next run asks nothing. They reach OpenTofu through the environment of
+# the run only: nothing is written to a file in the repository and nothing lands in the shell history.
 #
-#   ./infra/apply.sh            ask, show the plan, ask again, apply, then offer to publish
-#   ./infra/apply.sh --plan     ask and show the plan only
+#   ./infra/apply.sh            use the saved values (ask for missing ones), show the plan, ask, apply, offer to publish
+#   ./infra/apply.sh --plan     show the plan only
+#   ./infra/apply.sh --reset    forget the saved values and ask for all four again
+#   ./infra/apply.sh --forget   forget the saved values and stop
 set -euo pipefail
 
 cd "$(dirname "$0")"
 REPO="lipelix/propsmith"
+SERVICE="propsmith-infra"
+NAMES="cloudflare_account_id cloudflare_api_token pages_deploy_token github_token"
 PLAN_ONLY=0
+RESET=0
+FORGET=0
 case "${1:-}" in
   "") ;;
   --plan) PLAN_ONLY=1 ;;
-  *) echo "usage: $0 [--plan]" >&2; exit 2 ;;
+  --reset) RESET=1 ;;
+  --forget) FORGET=1 ;;
+  *) echo "usage: $0 [--plan | --reset | --forget]" >&2; exit 2 ;;
 esac
+
+# The Keychain is the store; without it (not macOS) every run asks.
+KEYCHAIN=0
+if command -v security >/dev/null 2>&1; then KEYCHAIN=1; fi
+saved() { [ "$KEYCHAIN" = 1 ] && security find-generic-password -s "$SERVICE" -a "$1" -w 2>/dev/null; }
+save() { [ "$KEYCHAIN" = 1 ] && security add-generic-password -U -s "$SERVICE" -a "$1" -w "$2"; }
+forget() {
+  local name
+  for name in $NAMES; do
+    if [ "$KEYCHAIN" = 1 ]; then security delete-generic-password -s "$SERVICE" -a "$name" >/dev/null 2>&1 || true; fi
+  done
+}
+
+if [ "$FORGET" = 1 ]; then
+  forget
+  echo "Forgot the saved values."
+  exit 0
+fi
+if [ "$RESET" = 1 ]; then forget; fi
 
 for tool in tofu gh curl; do
   command -v "$tool" >/dev/null 2>&1 || { echo "Missing required tool: $tool" >&2; exit 1; }
@@ -26,6 +54,12 @@ unset CF_API_TOKEN CLOUDFLARE_API_TOKEN CLOUDFLARE_API_KEY CLOUDFLARE_EMAIL GITH
 # ask <variable> <label> <hint> <pattern> <what the pattern means> [secret]
 ask() {
   local name="$1" label="$2" hint="$3" pattern="$4" meaning="$5" secret="${6:-}" value=""
+  value="$(saved "$name" || true)"
+  if [ -n "$value" ] && printf '%s' "$value" | grep -Eq "$pattern"; then
+    echo "$label: saved in the Keychain"
+    export "TF_VAR_$name=$value"
+    return
+  fi
   echo
   echo "$label"
   echo "  $hint"
@@ -39,10 +73,15 @@ ask() {
     if printf '%s' "$value" | grep -Eq "$pattern"; then break; fi
     echo "  That does not look right: expected $meaning. Try again (Ctrl-C to stop)."
   done
+  if save "$name" "$value"; then echo "  Saved in the Keychain."; fi
   export "TF_VAR_$name=$value"
 }
 
-echo "propsmith: deploy setup. Four values; the tokens are not shown while you type or paste."
+if [ "$KEYCHAIN" = 1 ]; then
+  echo "propsmith: deploy setup. Values are kept in the Keychain; a missing one is asked for (tokens stay hidden)."
+else
+  echo "propsmith: deploy setup. No Keychain here, so the four values are asked for on every run (tokens stay hidden)."
+fi
 
 ask cloudflare_account_id \
   "1/4  Cloudflare account ID (personal account)" \
@@ -50,7 +89,7 @@ ask cloudflare_account_id \
   '^[0-9a-f]{32}$' "32 hex characters"
 
 ask cloudflare_api_token \
-  "2/4  Cloudflare ADMIN token (used by this run only)" \
+  "2/4  Cloudflare ADMIN token (only this script uses it)" \
   "My Profile -> API Tokens -> Create Token -> Custom: Account - Cloudflare Pages - Edit, Account - Account Settings - Edit" \
   '^[A-Za-z0-9_-]{30,}$' "a token of 30 or more letters, digits, - or _" secret
 
@@ -138,6 +177,7 @@ trap 'rm -f "$PLAN"' EXIT
 echo
 if ! tofu plan -input=false -out="$PLAN"; then
   remote_hint
+  echo "If a token was refused (wrong, expired, missing a permission): ./infra/apply.sh --reset asks for them again." >&2
   exit 1
 fi
 
