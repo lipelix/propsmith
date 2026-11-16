@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "bush_flowering",
+  "name": "Flowering bush",
+  "description": "A round shrub about 0.8 m across and 0.65 m high: a dense dome of pointed leaf cards round a dark core, deep green inside and underneath, olive at the sides and lit yellow-green on the top and outer rims, dotted with a few dozen small five-petal blossoms on the lit top. Variants have warm cream or soft yellow blossoms.",
+  "category": "vegetation",
+  "family": "bush",
+  "tags": ["village", "garden", "forest", "road", "round", "low"],
+  "aliases": ["shrub", "flowering shrub", "blossom bush", "flower bush"],
+  "variants": ["bush_flowering", "bush_flowering_yellow"],
+  "size": {
+    "x": 0.8,
+    "y": 0.75,
+    "z": 0.7
+  },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A round flowering shrub, like bush_round but dotted with small blossoms clustered on the lit top and outer rims: dark green foliage dome about 0.8 m across and 0.65 m high. Two variants: bush_flowering (off-white blossoms, warm cream not pure white) and bush_flowering_yellow (soft yellow blossoms). Blossoms are tiny low-poly clusters of 4 to 6 petals or small squashed blobs, a few dozen of them. Category vegetation. Under 3,500 triangles per variant. Painted look (match a painted isometric forest road): foliage is clumped leaf cards with value variation, never single flat planes and never one smooth blob. Build each clump from many small leaf cards (thin bevel-free boxes about 4 mm thick, or strongly squashed subdiv=1 blobs) tilted at seeded angles around a darker core, in three greens: a deep shadow green inside and underneath, a mid olive green, and a lit yellow-green on the top and outer rims, so it reads dark inside, lit at the rims. Earthy, slightly desaturated palette like grass_tuft and pebbles (olive about (0.1, 0.13, 0.035) linear). Low triangle count, decor scale."
+  },
+  "licence": "CC0-1.0"
+}

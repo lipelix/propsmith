@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "rock_mossy",
+  "name": "Mossy boulder",
+  "description": "A rounded, weathered cool-grey boulder with thick clumped moss cushions in three greens on its upward-facing top and ledges, a little moss creeping down the shoulders and bare stone on the sides and base. Variants are a boulder with a smaller stone leaning against it, a small single stone and a large heap of three stacked, merged boulders.",
+  "category": "decor",
+  "family": "rock",
+  "tags": ["stone", "forest", "road", "round", "weathered", "mossy"],
+  "aliases": ["boulder", "mossy stone", "moss rock", "outcrop"],
+  "variants": ["rock_mossy", "rock_mossy_small", "rock_mossy_large"],
+  "size": { "x": 1.25, "y": 0.9, "z": 0.8 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A rounded weathered grey boulder with moss on its top faces: soft rounded stone (cool grey, about (0.3, 0.3, 0.28) linear, darker in the cracks), thick moss cushions only on the upward-facing top surfaces and ledges, a little moss creeping down the shoulders, bare stone on the sides and the base sitting on the ground. Three variants: rock_mossy (about 0.7 m across, 0.5 m high, one boulder with a crack or a second smaller stone leaning against it), rock_mossy_small (about 0.35 m across, 0.25 m high) and rock_mossy_large (about 1.2 m across, 0.8 m high, two or three stacked and merged boulders). Moss uses the clumped painted-look idea: small lumpy cushions in three greens, darker in the hollows, lit on top. Category decor. Under 4,000 triangles per variant. Painted look (match a painted isometric forest road): foliage is clumped leaf cards with value variation, never single flat planes and never one smooth blob. Build each clump from many small leaf cards (thin bevel-free boxes about 4 mm thick, or strongly squashed subdiv=1 blobs) tilted at seeded angles around a darker core, in three greens: a deep shadow green inside and underneath, a mid olive green, and a lit yellow-green on the top and outer rims, so it reads dark inside, lit at the rims. Earthy, slightly desaturated palette like grass_tuft and pebbles (olive about (0.1, 0.13, 0.035) linear). Low triangle count, decor scale."
+  },
+  "licence": "CC0-1.0"
+}
