@@ -2,19 +2,43 @@
   "schema": 1,
   "id": "wall_stone_doorframe",
   "name": "Stone wall with doorway",
-  "description": "A section of village fieldstone wall, 1.5 m long, 0.45 m thick and 2.4 m high, with an empty door opening 1.0 m wide and 2.0 m high in the middle, framed by lighter dressed stone quoins on both jambs and a single heavy stone lintel, under a row of flat capstones. A wooden door (door_wood) is placed into the opening separately. The `_low` variant is a cutaway doorway: two quoined piers as high as the low walls, with no lintel.",
+  "description": "A section of village fieldstone wall, 1.5 m long, 0.45 m thick and 2.4 m high, with an empty door opening 1.0 m wide and 2.0 m high in the middle, framed by lighter dressed stone quoins on both jambs and a single heavy stone lintel, under a row of flat capstones. A wooden door (door_wood) is placed into the opening separately. The `_low` variant is a cutaway doorway: two quoined piers as high as the low walls, with no lintel. The `_rubble` variants (`_rubble`, `_rubble_2`, each also `_low`) are the doorway in rubble: a rounded jamb stone per course cut flat on the opening, one long rough lintel, rounded cap stones; the opening stays 1.0 x 2.0 m. `_moss` adds moss on the caps and at the foot of the piers.",
   "category": "structure",
   "family": "wall",
-  "tags": ["stone", "village", "house", "boundary", "tall", "weathered"],
+  "tags": [
+    "stone",
+    "village",
+    "house",
+    "boundary",
+    "tall",
+    "weathered",
+    "mossy"
+  ],
   "aliases": [
     "doorway",
     "door frame",
     "gateway",
     "entrance",
-    "stone doorframe"
+    "stone doorframe",
+    "rubble wall"
   ],
-  "variants": ["wall_stone_doorframe", "wall_stone_doorframe_low"],
-  "size": { "x": 1.5, "y": 0.5, "z": 2.4 },
+  "variants": [
+    "wall_stone_doorframe",
+    "wall_stone_doorframe_low",
+    "wall_stone_doorframe_rubble",
+    "wall_stone_doorframe_rubble_moss",
+    "wall_stone_doorframe_rubble_2",
+    "wall_stone_doorframe_rubble_2_moss",
+    "wall_stone_doorframe_low_rubble",
+    "wall_stone_doorframe_low_rubble_moss",
+    "wall_stone_doorframe_low_rubble_2",
+    "wall_stone_doorframe_low_rubble_2_moss"
+  ],
+  "size": {
+    "x": 1.5,
+    "y": 0.5,
+    "z": 2.4
+  },
   "anchors": [],
   "closed": true,
   "provenance": {
