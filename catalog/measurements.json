@@ -1409,7 +1409,7 @@
       ]
     },
     "wall_stone_corner": {
-      "inputHash": "65fc0c253264bc82e0d02f8a59b3caf96ed2e99d689a9595745d958a31d84ca3",
+      "inputHash": "22af8bebc076a63a95b467cdd0951b3850c4d93603313a625aa5715814c5eed7",
       "libVersion": 1,
       "blender": "5.2.2 LTS",
       "variants": [
@@ -1444,11 +1444,157 @@
           ],
           "anchors": [],
           "textures": []
+        },
+        {
+          "id": "wall_stone_corner_rubble",
+          "tris": 2184,
+          "bbox": { "min": [-0.2918, -0.2746, 0], "max": [0.75, 0.75, 2.34] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_corner_rubble", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_cap", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_joint", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_old", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_corner_rubble_moss",
+          "tris": 3948,
+          "bbox": { "min": [-0.3647, -0.3722, 0], "max": [0.8, 0.75, 2.373] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_corner_moss_deep", "source": "palette" },
+            { "name": "wall_stone_corner_moss_lit", "source": "palette" },
+            { "name": "wall_stone_corner_moss_olive", "source": "palette" },
+            { "name": "wall_stone_corner_rubble", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_cap", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_joint", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_old", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_corner_rubble_2",
+          "tris": 2424,
+          "bbox": { "min": [-0.2871, -0.2765, 0], "max": [0.75, 0.75, 2.34] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_corner_rubble", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_cap", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_joint", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_old", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_corner_rubble_2_moss",
+          "tris": 4852,
+          "bbox": {
+            "min": [-0.3607, -0.3754, 0],
+            "max": [0.7951, 0.75, 2.3739]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_corner_moss_deep", "source": "palette" },
+            { "name": "wall_stone_corner_moss_lit", "source": "palette" },
+            { "name": "wall_stone_corner_moss_olive", "source": "palette" },
+            { "name": "wall_stone_corner_rubble", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_cap", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_joint", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_old", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_corner_low_rubble",
+          "tris": 1032,
+          "bbox": { "min": [-0.2813, -0.2748, 0], "max": [0.75, 0.75, 1.3187] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_corner_rubble", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_cap", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_joint", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_old", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_corner_low_rubble_moss",
+          "tris": 3100,
+          "bbox": {
+            "min": [-0.3696, -0.3575, 0],
+            "max": [0.774, 0.75, 1.3671]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_corner_moss_deep", "source": "palette" },
+            { "name": "wall_stone_corner_moss_lit", "source": "palette" },
+            { "name": "wall_stone_corner_moss_olive", "source": "palette" },
+            { "name": "wall_stone_corner_rubble", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_cap", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_joint", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_old", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_corner_low_rubble_2",
+          "tris": 1224,
+          "bbox": { "min": [-0.2821, -0.2811, 0], "max": [0.75, 0.75, 1.3199] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_corner_rubble", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_cap", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_joint", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_old", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_corner_low_rubble_2_moss",
+          "tris": 3592,
+          "bbox": { "min": [-0.3569, -0.3792, 0], "max": [0.75, 0.7756, 1.36] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_corner_moss_deep", "source": "palette" },
+            { "name": "wall_stone_corner_moss_lit", "source": "palette" },
+            { "name": "wall_stone_corner_moss_olive", "source": "palette" },
+            { "name": "wall_stone_corner_rubble", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_cap", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_joint", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_old", "source": "palette" },
+            { "name": "wall_stone_corner_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
         }
       ]
     },
     "wall_stone_doorframe": {
-      "inputHash": "ace328990beccc72c0835157528132dc20591aa7c311b587243130e71c65908d",
+      "inputHash": "05e046fd0fcdf3d38d64db017ae862fb2eea42b1a0416c643a0f4e02a96f0833",
       "libVersion": 1,
       "blender": "5.2.2 LTS",
       "variants": [
@@ -1490,11 +1636,171 @@
           ],
           "anchors": [],
           "textures": []
+        },
+        {
+          "id": "wall_stone_doorframe_rubble",
+          "tris": 1104,
+          "bbox": { "min": [-0.75, -0.2774, 0], "max": [0.75, 0.2749, 2.34] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_doorframe_rubble", "source": "palette" },
+            { "name": "wall_stone_doorframe_rubble_cap", "source": "palette" },
+            {
+              "name": "wall_stone_doorframe_rubble_joint",
+              "source": "palette"
+            },
+            { "name": "wall_stone_doorframe_rubble_old", "source": "palette" },
+            { "name": "wall_stone_doorframe_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_doorframe_rubble_moss",
+          "tris": 3336,
+          "bbox": { "min": [-0.75, -0.31, 0], "max": [0.767, 0.2749, 2.3875] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_doorframe_moss_deep", "source": "palette" },
+            { "name": "wall_stone_doorframe_moss_lit", "source": "palette" },
+            { "name": "wall_stone_doorframe_moss_olive", "source": "palette" },
+            { "name": "wall_stone_doorframe_rubble", "source": "palette" },
+            { "name": "wall_stone_doorframe_rubble_cap", "source": "palette" },
+            {
+              "name": "wall_stone_doorframe_rubble_joint",
+              "source": "palette"
+            },
+            { "name": "wall_stone_doorframe_rubble_old", "source": "palette" },
+            { "name": "wall_stone_doorframe_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_doorframe_rubble_2",
+          "tris": 1104,
+          "bbox": { "min": [-0.75, -0.2827, 0], "max": [0.75, 0.2792, 2.34] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_doorframe_rubble", "source": "palette" },
+            { "name": "wall_stone_doorframe_rubble_cap", "source": "palette" },
+            {
+              "name": "wall_stone_doorframe_rubble_joint",
+              "source": "palette"
+            },
+            { "name": "wall_stone_doorframe_rubble_old", "source": "palette" },
+            { "name": "wall_stone_doorframe_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_doorframe_rubble_2_moss",
+          "tris": 3812,
+          "bbox": { "min": [-0.7775, -0.31, 0], "max": [0.7632, 0.31, 2.3862] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_doorframe_moss_deep", "source": "palette" },
+            { "name": "wall_stone_doorframe_moss_lit", "source": "palette" },
+            { "name": "wall_stone_doorframe_moss_olive", "source": "palette" },
+            { "name": "wall_stone_doorframe_rubble", "source": "palette" },
+            { "name": "wall_stone_doorframe_rubble_cap", "source": "palette" },
+            {
+              "name": "wall_stone_doorframe_rubble_joint",
+              "source": "palette"
+            },
+            { "name": "wall_stone_doorframe_rubble_old", "source": "palette" },
+            { "name": "wall_stone_doorframe_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_doorframe_low_rubble",
+          "tris": 456,
+          "bbox": { "min": [-0.75, -0.2625, 0], "max": [0.75, 0.2678, 1.3116] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_doorframe_rubble", "source": "palette" },
+            { "name": "wall_stone_doorframe_rubble_cap", "source": "palette" },
+            {
+              "name": "wall_stone_doorframe_rubble_joint",
+              "source": "palette"
+            },
+            { "name": "wall_stone_doorframe_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_doorframe_low_rubble_moss",
+          "tris": 1792,
+          "bbox": { "min": [-0.8, -0.31, 0], "max": [0.8, 0.3093, 1.3573] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_doorframe_moss_deep", "source": "palette" },
+            { "name": "wall_stone_doorframe_moss_lit", "source": "palette" },
+            { "name": "wall_stone_doorframe_moss_olive", "source": "palette" },
+            { "name": "wall_stone_doorframe_rubble", "source": "palette" },
+            { "name": "wall_stone_doorframe_rubble_cap", "source": "palette" },
+            {
+              "name": "wall_stone_doorframe_rubble_joint",
+              "source": "palette"
+            },
+            { "name": "wall_stone_doorframe_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_doorframe_low_rubble_2",
+          "tris": 504,
+          "bbox": { "min": [-0.75, -0.271, 0], "max": [0.75, 0.2692, 1.3175] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_doorframe_rubble", "source": "palette" },
+            { "name": "wall_stone_doorframe_rubble_cap", "source": "palette" },
+            {
+              "name": "wall_stone_doorframe_rubble_joint",
+              "source": "palette"
+            },
+            { "name": "wall_stone_doorframe_rubble_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_doorframe_low_rubble_2_moss",
+          "tris": 2488,
+          "bbox": { "min": [-0.8, -0.303, 0], "max": [0.7848, 0.31, 1.3568] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_doorframe_moss_deep", "source": "palette" },
+            { "name": "wall_stone_doorframe_moss_lit", "source": "palette" },
+            { "name": "wall_stone_doorframe_moss_olive", "source": "palette" },
+            { "name": "wall_stone_doorframe_rubble", "source": "palette" },
+            { "name": "wall_stone_doorframe_rubble_cap", "source": "palette" },
+            {
+              "name": "wall_stone_doorframe_rubble_joint",
+              "source": "palette"
+            },
+            { "name": "wall_stone_doorframe_rubble_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
         }
       ]
     },
     "wall_stone_straight": {
-      "inputHash": "d5cb5e378364fa42971441dae2088ad834024fc4f07193d12ddc70ce2e552cc0",
+      "inputHash": "c48717991a8ae512ccafde8eb42e5188aab20f9df616d5cb222a1eb42029a2ac",
       "libVersion": 1,
       "blender": "5.2.2 LTS",
       "variants": [
@@ -1563,11 +1869,227 @@
           ],
           "anchors": [],
           "textures": []
+        },
+        {
+          "id": "wall_stone_straight_rubble",
+          "tris": 2844,
+          "bbox": { "min": [-0.75, -0.2835, 0], "max": [0.75, 0.2977, 2.34] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_straight_rubble", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_cap", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_joint", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_old", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_straight_rubble_moss",
+          "tris": 5596,
+          "bbox": { "min": [-0.7593, -0.36, 0], "max": [0.75, 0.36, 2.3783] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_straight_moss_deep", "source": "palette" },
+            { "name": "wall_stone_straight_moss_lit", "source": "palette" },
+            { "name": "wall_stone_straight_moss_olive", "source": "palette" },
+            { "name": "wall_stone_straight_rubble", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_cap", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_joint", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_old", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_straight_rubble_2",
+          "tris": 2028,
+          "bbox": { "min": [-0.75, -0.2824, 0], "max": [0.75, 0.2721, 2.34] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_straight_rubble", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_cap", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_joint", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_old", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_straight_rubble_2_moss",
+          "tris": 5036,
+          "bbox": {
+            "min": [-0.7854, -0.3536, 0],
+            "max": [0.75, 0.3494, 2.3904]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_straight_moss_deep", "source": "palette" },
+            { "name": "wall_stone_straight_moss_lit", "source": "palette" },
+            { "name": "wall_stone_straight_moss_olive", "source": "palette" },
+            { "name": "wall_stone_straight_rubble", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_cap", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_joint", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_old", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_straight_rubble_3",
+          "tris": 2364,
+          "bbox": { "min": [-0.75, -0.2829, 0], "max": [0.75, 0.2743, 2.3381] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_straight_rubble", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_cap", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_joint", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_old", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_straight_rubble_3_moss",
+          "tris": 5872,
+          "bbox": {
+            "min": [-0.7797, -0.36, 0],
+            "max": [0.7518, 0.341, 2.3852]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_straight_moss_deep", "source": "palette" },
+            { "name": "wall_stone_straight_moss_lit", "source": "palette" },
+            { "name": "wall_stone_straight_moss_olive", "source": "palette" },
+            { "name": "wall_stone_straight_rubble", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_cap", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_joint", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_old", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_straight_low_rubble",
+          "tris": 1260,
+          "bbox": { "min": [-0.75, -0.2796, 0], "max": [0.75, 0.2755, 1.32] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_straight_rubble", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_cap", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_joint", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_old", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_straight_low_rubble_moss",
+          "tris": 4408,
+          "bbox": { "min": [-0.7554, -0.36, 0], "max": [0.7571, 0.36, 1.3626] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_straight_moss_deep", "source": "palette" },
+            { "name": "wall_stone_straight_moss_lit", "source": "palette" },
+            { "name": "wall_stone_straight_moss_olive", "source": "palette" },
+            { "name": "wall_stone_straight_rubble", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_cap", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_joint", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_old", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_straight_low_rubble_2",
+          "tris": 924,
+          "bbox": { "min": [-0.75, -0.2667, 0], "max": [0.75, 0.2738, 1.32] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_straight_rubble", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_cap", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_joint", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_old", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_straight_low_rubble_2_moss",
+          "tris": 3188,
+          "bbox": { "min": [-0.7635, -0.36, 0], "max": [0.75, 0.36, 1.3571] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_straight_moss_deep", "source": "palette" },
+            { "name": "wall_stone_straight_moss_lit", "source": "palette" },
+            { "name": "wall_stone_straight_moss_olive", "source": "palette" },
+            { "name": "wall_stone_straight_rubble", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_cap", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_joint", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_old", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_straight_low_rubble_3",
+          "tris": 1260,
+          "bbox": { "min": [-0.75, -0.2803, 0], "max": [0.75, 0.292, 1.3193] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_straight_rubble", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_cap", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_joint", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_old", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_straight_low_rubble_3_moss",
+          "tris": 3212,
+          "bbox": { "min": [-0.75, -0.3425, 0], "max": [0.75, 0.3412, 1.3503] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_straight_moss_deep", "source": "palette" },
+            { "name": "wall_stone_straight_moss_lit", "source": "palette" },
+            { "name": "wall_stone_straight_moss_olive", "source": "palette" },
+            { "name": "wall_stone_straight_rubble", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_cap", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_joint", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_old", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
         }
       ]
     },
     "wall_timber_straight": {
-      "inputHash": "6f3aed83764c6f71f858160d3e8fe224b494393226f48633a423e7ed67b078e1",
+      "inputHash": "500b5c251fb0a0cda5b7a01ea6fb4315b2fc80cf06a19eb2355574a06fb9537f",
       "libVersion": 1,
       "blender": "5.2.2 LTS",
       "variants": [
@@ -1769,6 +2291,88 @@
             { "name": "wall_timber_plaster", "source": "palette" },
             { "name": "wall_timber_stone", "source": "palette" },
             { "name": "wall_timber_stone_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_timber_straight_rubble",
+          "tris": 1380,
+          "bbox": {
+            "min": [-0.7506, -0.2003, 0],
+            "max": [0.7502, 0.1922, 2.395]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_timber_oak", "source": "palette" },
+            { "name": "wall_timber_oak_old", "source": "palette" },
+            { "name": "wall_timber_plaster", "source": "palette" },
+            { "name": "wall_timber_rubble", "source": "palette" },
+            { "name": "wall_timber_rubble_joint", "source": "palette" },
+            { "name": "wall_timber_rubble_old", "source": "palette" },
+            { "name": "wall_timber_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_timber_straight_stone_rubble",
+          "tris": 984,
+          "bbox": {
+            "min": [-0.7505, -0.1938, 0],
+            "max": [0.751, 0.1931, 2.395]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_timber_oak", "source": "palette" },
+            { "name": "wall_timber_oak_old", "source": "palette" },
+            { "name": "wall_timber_plaster", "source": "palette" },
+            { "name": "wall_timber_rubble", "source": "palette" },
+            { "name": "wall_timber_rubble_joint", "source": "palette" },
+            { "name": "wall_timber_rubble_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_timber_straight_low_rubble",
+          "tris": 1380,
+          "bbox": {
+            "min": [-0.7506, -0.2003, 0],
+            "max": [0.7502, 0.1922, 1.38]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_timber_oak", "source": "palette" },
+            { "name": "wall_timber_oak_old", "source": "palette" },
+            { "name": "wall_timber_plaster", "source": "palette" },
+            { "name": "wall_timber_rubble", "source": "palette" },
+            { "name": "wall_timber_rubble_joint", "source": "palette" },
+            { "name": "wall_timber_rubble_old", "source": "palette" },
+            { "name": "wall_timber_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_timber_straight_low_stone_rubble",
+          "tris": 984,
+          "bbox": {
+            "min": [-0.7505, -0.1938, 0],
+            "max": [0.751, 0.1931, 1.38]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_timber_oak", "source": "palette" },
+            { "name": "wall_timber_oak_old", "source": "palette" },
+            { "name": "wall_timber_plaster", "source": "palette" },
+            { "name": "wall_timber_rubble", "source": "palette" },
+            { "name": "wall_timber_rubble_joint", "source": "palette" },
+            { "name": "wall_timber_rubble_old", "source": "palette" }
           ],
           "anchors": [],
           "textures": []

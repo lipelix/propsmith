@@ -919,66 +919,129 @@
     {
       "id": "wall_stone_corner",
       "name": "Fieldstone wall corner",
-      "description": "An L-shaped corner of village fieldstone wall, 0.45 m thick and 2.4 m high: rough grey-brown stone blocks in staggered courses over recessed mortar, tied by alternating quoins at a square corner pier, with flat capstones on top. One arm runs 0.75 m from the corner to +x, the other to +y, where they meet 1.5 m straight wall sections. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so what is inside stays visible.",
+      "description": "An L-shaped corner of village fieldstone wall, 0.45 m thick and 2.4 m high: rough grey-brown stone blocks in staggered courses over recessed mortar, tied by alternating quoins at a square corner pier, with flat capstones on top. One arm runs 0.75 m from the corner to +x, the other to +y, where they meet 1.5 m straight wall sections. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so what is inside stays visible. The `_rubble` variants (`_rubble`, `_rubble_2`, each also `_low`) are the same corner in rubble: rounded stones of mixed sizes, a long corner stone per course tying the arms, dark recessed joints, rounded cap stones; `_moss` adds moss on the caps and at the foot.",
       "category": "structure",
       "family": "wall",
-      "tags": ["boundary", "plain", "stone", "tall", "village", "weathered"],
-      "aliases": ["corner", "drystone wall", "masonry", "wall corner"],
-      "variants": ["wall_stone_corner", "wall_stone_corner_low"],
+      "tags": [
+        "boundary",
+        "mossy",
+        "plain",
+        "stone",
+        "tall",
+        "village",
+        "weathered"
+      ],
+      "aliases": [
+        "corner",
+        "drystone wall",
+        "masonry",
+        "rubble wall",
+        "wall corner"
+      ],
+      "variants": [
+        "wall_stone_corner",
+        "wall_stone_corner_low",
+        "wall_stone_corner_rubble",
+        "wall_stone_corner_rubble_moss",
+        "wall_stone_corner_rubble_2",
+        "wall_stone_corner_rubble_2_moss",
+        "wall_stone_corner_low_rubble",
+        "wall_stone_corner_low_rubble_moss",
+        "wall_stone_corner_low_rubble_2",
+        "wall_stone_corner_low_rubble_2_moss"
+      ],
       "size": { "x": 1.5, "y": 1.5, "z": 2.4 },
       "anchors": [],
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "65fc0c253264bc82e0d02f8a59b3caf96ed2e99d689a9595745d958a31d84ca3"
+      "inputHash": "22af8bebc076a63a95b467cdd0951b3850c4d93603313a625aa5715814c5eed7"
     },
     {
       "id": "wall_stone_doorframe",
       "name": "Stone wall with doorway",
-      "description": "A section of village fieldstone wall, 1.5 m long, 0.45 m thick and 2.4 m high, with an empty door opening 1.0 m wide and 2.0 m high in the middle, framed by lighter dressed stone quoins on both jambs and a single heavy stone lintel, under a row of flat capstones. A wooden door (door_wood) is placed into the opening separately. The `_low` variant is a cutaway doorway: two quoined piers as high as the low walls, with no lintel.",
+      "description": "A section of village fieldstone wall, 1.5 m long, 0.45 m thick and 2.4 m high, with an empty door opening 1.0 m wide and 2.0 m high in the middle, framed by lighter dressed stone quoins on both jambs and a single heavy stone lintel, under a row of flat capstones. A wooden door (door_wood) is placed into the opening separately. The `_low` variant is a cutaway doorway: two quoined piers as high as the low walls, with no lintel. The `_rubble` variants (`_rubble`, `_rubble_2`, each also `_low`) are the doorway in rubble: a rounded jamb stone per course cut flat on the opening, one long rough lintel, rounded cap stones; the opening stays 1.0 x 2.0 m. `_moss` adds moss on the caps and at the foot of the piers.",
       "category": "structure",
       "family": "wall",
-      "tags": ["boundary", "house", "stone", "tall", "village", "weathered"],
+      "tags": [
+        "boundary",
+        "house",
+        "mossy",
+        "stone",
+        "tall",
+        "village",
+        "weathered"
+      ],
       "aliases": [
         "door frame",
         "doorway",
         "entrance",
         "gateway",
+        "rubble wall",
         "stone doorframe"
       ],
-      "variants": ["wall_stone_doorframe", "wall_stone_doorframe_low"],
+      "variants": [
+        "wall_stone_doorframe",
+        "wall_stone_doorframe_low",
+        "wall_stone_doorframe_rubble",
+        "wall_stone_doorframe_rubble_moss",
+        "wall_stone_doorframe_rubble_2",
+        "wall_stone_doorframe_rubble_2_moss",
+        "wall_stone_doorframe_low_rubble",
+        "wall_stone_doorframe_low_rubble_moss",
+        "wall_stone_doorframe_low_rubble_2",
+        "wall_stone_doorframe_low_rubble_2_moss"
+      ],
       "size": { "x": 1.5, "y": 0.5, "z": 2.4 },
       "anchors": [],
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "ace328990beccc72c0835157528132dc20591aa7c311b587243130e71c65908d"
+      "inputHash": "05e046fd0fcdf3d38d64db017ae862fb2eea42b1a0416c643a0f4e02a96f0833"
     },
     {
       "id": "wall_stone_straight",
       "name": "Fieldstone wall section",
-      "description": "A straight 1.5 m section of village fieldstone wall, 0.45 m thick and 2.4 m high: rough grey-brown blocks in staggered courses with recessed mortar, topped by a row of flat capstones. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so what is inside stays visible. The `_end` variants finish a run at a gap with a pier of big dressed quoins at the +x end.",
+      "description": "A straight 1.5 m section of village fieldstone wall, 0.45 m thick and 2.4 m high: rough grey-brown blocks in staggered courses with recessed mortar, topped by a row of flat capstones. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so what is inside stays visible. The `_end` variants finish a run at a gap with a pier of big dressed quoins at the +x end. The `_rubble` variants (`_rubble`, `_rubble_2`, `_rubble_3`: three layouts, each also `_low`) are the painted look's rubble wall: irregular rounded stones of mixed sizes in rough courses, dark recessed joints, rounded cap stones about 6 cm under the plain wall's top; `_moss` adds moss cushions on the caps and at the foot of both faces.",
       "category": "structure",
       "family": "wall",
-      "tags": ["boundary", "stone", "tall", "village", "weathered"],
-      "aliases": ["fieldstone wall", "masonry", "stone wall", "wall segment"],
+      "tags": ["boundary", "mossy", "stone", "tall", "village", "weathered"],
+      "aliases": [
+        "fieldstone wall",
+        "masonry",
+        "rubble wall",
+        "stone wall",
+        "wall segment"
+      ],
       "variants": [
         "wall_stone_straight",
         "wall_stone_straight_low",
         "wall_stone_straight_end",
-        "wall_stone_straight_low_end"
+        "wall_stone_straight_low_end",
+        "wall_stone_straight_rubble",
+        "wall_stone_straight_rubble_moss",
+        "wall_stone_straight_rubble_2",
+        "wall_stone_straight_rubble_2_moss",
+        "wall_stone_straight_rubble_3",
+        "wall_stone_straight_rubble_3_moss",
+        "wall_stone_straight_low_rubble",
+        "wall_stone_straight_low_rubble_moss",
+        "wall_stone_straight_low_rubble_2",
+        "wall_stone_straight_low_rubble_2_moss",
+        "wall_stone_straight_low_rubble_3",
+        "wall_stone_straight_low_rubble_3_moss"
       ],
       "size": { "x": 1.55, "y": 0.6, "z": 2.4 },
       "anchors": [],
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "d5cb5e378364fa42971441dae2088ad834024fc4f07193d12ddc70ce2e552cc0"
+      "inputHash": "c48717991a8ae512ccafde8eb42e5188aab20f9df616d5cb222a1eb42029a2ac"
     },
     {
       "id": "wall_timber_straight",
       "name": "Half-timbered wall",
-      "description": "A straight section of half-timbered village house wall on a low fieldstone plinth: a dark weathered oak sill, corner posts, a top plate and one diagonal brace framing warm off-white lime plaster. Each section is 1.5 m long, so sections join end to end. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so what is inside stays visible. Panel variants so a run of wall is not one repeated panel: `_window` (a small lattice window), `_plain` (plaster only), `_stone` (a high fieldstone base) and `_post` (a heavy corner post, the brace the other way), each also `_low`.",
+      "description": "A straight section of half-timbered village house wall on a low fieldstone plinth: a dark weathered oak sill, corner posts, a top plate and one diagonal brace framing warm off-white lime plaster. Each section is 1.5 m long, so sections join end to end. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so what is inside stays visible. Panel variants so a run of wall is not one repeated panel: `_window` (a small lattice window), `_plain` (plaster only), `_stone` (a high fieldstone base) and `_post` (a heavy corner post, the brace the other way), each also `_low`. `_rubble` (and `_stone_rubble`, each also `_low`) build the plinth in the rubble stone of the stone walls: rounded stones of mixed sizes with dark recessed joints.",
       "category": "structure",
       "family": "wall",
       "tags": [
@@ -994,6 +1057,7 @@
       "aliases": [
         "fachwerk",
         "house wall",
+        "rubble wall",
         "timber frame",
         "timber-framed wall",
         "wattle and daub"
@@ -1008,14 +1072,18 @@
         "wall_timber_straight_stone",
         "wall_timber_straight_low_stone",
         "wall_timber_straight_post",
-        "wall_timber_straight_low_post"
+        "wall_timber_straight_low_post",
+        "wall_timber_straight_rubble",
+        "wall_timber_straight_stone_rubble",
+        "wall_timber_straight_low_rubble",
+        "wall_timber_straight_low_stone_rubble"
       ],
       "size": { "x": 1.55, "y": 0.35, "z": 2.4 },
       "anchors": [],
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "6f3aed83764c6f71f858160d3e8fe224b494393226f48633a423e7ed67b078e1"
+      "inputHash": "500b5c251fb0a0cda5b7a01ea6fb4315b2fc80cf06a19eb2355574a06fb9537f"
     },
     {
       "id": "well_stone",
