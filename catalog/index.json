@@ -132,6 +132,38 @@
       "inputHash": "43c783c804b2431db8d473d93f7b66a0c89da636e66ac2be418d12dad4adfee7"
     },
     {
+      "id": "bush_flowering",
+      "name": "Flowering bush",
+      "description": "A round shrub about 0.8 m across and 0.65 m high: a dense dome of pointed leaf cards round a dark core, deep green inside and underneath, olive at the sides and lit yellow-green on the top and outer rims, dotted with a few dozen small five-petal blossoms on the lit top. Variants have warm cream or soft yellow blossoms.",
+      "category": "vegetation",
+      "family": "bush",
+      "tags": ["forest", "garden", "low", "road", "round", "village"],
+      "aliases": ["blossom bush", "flower bush", "flowering shrub", "shrub"],
+      "variants": ["bush_flowering", "bush_flowering_yellow"],
+      "size": { "x": 0.8, "y": 0.75, "z": 0.7 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "d4dcdb32fa0c977b11f385ef5046723afc03b65cbfd2621c67571190feed4f98"
+    },
+    {
+      "id": "bush_round",
+      "name": "Round bush",
+      "description": "A round leafy shrub, wider than tall: a dense dome of clumped leaf cards on a few short woody stems hidden at the base, deep shadow green inside and underneath, olive in between and lit yellow-green on the top and outer rims. Variants are a medium bush, a small bush and a large, slightly lopsided bush of three merged lobes.",
+      "category": "vegetation",
+      "family": "bush",
+      "tags": ["forest", "garden", "low", "road", "round", "village"],
+      "aliases": ["foliage", "hedge", "scrub", "shrub", "undergrowth"],
+      "variants": ["bush_round", "bush_round_small", "bush_round_large"],
+      "size": { "x": 1, "y": 0.85, "z": 0.8 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "f54fefaaaa1defcc77e135ad5f14a85b7783046eb2d637ab0d1ceeeb6782c14c"
+    },
+    {
       "id": "candle_stand",
       "name": "Wrought-iron candle stand",
       "description": "A tall wrought-iron candle stand on a three-legged splayed foot, with a thin slightly twisted iron stem about 1.4 m high and a round drip pan at the top holding one thick ivory wax candle. Dark iron with worn highlights.",
@@ -374,6 +406,22 @@
       "inputHash": "aa378194da12b10bfd73ba727a78f8c337d6d0ed524df8766891e0ebedb96580"
     },
     {
+      "id": "fern_clump",
+      "name": "Fern clump",
+      "description": "A clump of woodland ferns: long arching fronds rise from one dark crown and bend outwards, each a tapering midrib with alternating leaflets that shrink towards the tip, deep green inside and underneath and yellow-green on the outer, upper fronds. Variants are an upright clump and a lower, flatter, spreading one.",
+      "category": "vegetation",
+      "family": "fern",
+      "tags": ["forest", "garden", "low", "road", "round"],
+      "aliases": ["bracken", "ferns", "frond", "undergrowth"],
+      "variants": ["fern_clump", "fern_clump_low"],
+      "size": { "x": 0.7, "y": 0.75, "z": 0.45 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "3ac90d8514de10b66ba8683518ea33f6395b86c0082ea48fe29bea55c4d22e5b"
+    },
+    {
       "id": "fireplace_stone",
       "name": "Stone fireplace",
       "description": "An inn's open hearth of rough grey-brown fieldstone, about 2.6 m wide, 0.9 m deep and 1.4 m high, built against a wall, with a dark arched fire opening under a heavy timber mantel beam, a low stone hearth slab in front, and burning logs on glowing embers inside under an iron pot hanging from a hook.",
@@ -551,6 +599,36 @@
       "inputHash": "6246b10089158bb38d458215615aec5a4cc189fd5878e0c93a41155aa34a5f97"
     },
     {
+      "id": "ivy_creeper",
+      "name": "Ivy creeper",
+      "description": "A low strip of overlapping pointed ivy leaves on thin woody vines along the foot of a wall: flat and tall at the back where it hugs the wall, with a few runners climbing higher, spilling forward and down to the ground in front, uneven along its length and tapering off at both ends. Dark green inside, olive, and lit yellow-green on the top and rims; variants are a 1.5 m and a 0.8 m strip.",
+      "category": "vegetation",
+      "family": "ivy",
+      "tags": [
+        "garden",
+        "house",
+        "long",
+        "low",
+        "mossy",
+        "village",
+        "weathered"
+      ],
+      "aliases": [
+        "climbing ivy",
+        "creeper",
+        "ground cover",
+        "vine",
+        "wall ivy"
+      ],
+      "variants": ["ivy_creeper", "ivy_creeper_short"],
+      "size": { "x": 1.55, "y": 0.3, "z": 0.35 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "9def8059dce1279a3ff00e87493a9354d4b49c293a79e3af439e0a91881e1a00"
+    },
+    {
       "id": "lamp_post",
       "name": "Street lamp post",
       "description": "A tall dark timber post about 2.6 m high on a small stone foot, with an iron bracket arm at the top from which hangs a small four-sided iron lantern with warm glass panes.",
@@ -637,6 +715,22 @@
       "inputHash": "03fbeea90316653a312f2c0921effe548e94eabb86d0e8314df51379f4b861be"
     },
     {
+      "id": "moss_patch",
+      "name": "Moss patch",
+      "description": "A flat, low lumpy cushion of moss with a soft irregular outline, small rounded bumps and a few tiny tufts, flat underneath so it sits on stones, wall caps and the foot of walls. Mid moss green with deep green hollows and yellow-green lit bumps and rims; variants are a patch and a long thin strip for a wall cap.",
+      "category": "vegetation",
+      "family": "moss",
+      "tags": ["forest", "garden", "low", "road", "small", "village"],
+      "aliases": ["lichen", "moss clump", "moss cushion", "moss strip"],
+      "variants": ["moss_patch", "moss_patch_long"],
+      "size": { "x": 0.75, "y": 0.35, "z": 0.06 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "733af34c73bdb99c98ab16a5a452ef9f262296b7cb5b25dba2733b4ece208ed9"
+    },
+    {
       "id": "pebbles",
       "name": "Pebbles",
       "description": "A few loose grey-brown pebbles and one fist-sized stone lying half sunk in the ground, with a little moss. Variants are a small scatter of six pebbles and a larger cluster around one flat stone.",
@@ -651,6 +745,22 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "fd223b557d43a09f05bbebb0cd9eee513d593d7ac882b28ee057fd66e682ad89"
+    },
+    {
+      "id": "rock_mossy",
+      "name": "Mossy boulder",
+      "description": "A rounded, weathered cool-grey boulder with thick clumped moss cushions in three greens on its upward-facing top and ledges, a little moss creeping down the shoulders and bare stone on the sides and base. Variants are a boulder with a smaller stone leaning against it, a small single stone and a large heap of three stacked, merged boulders.",
+      "category": "decor",
+      "family": "rock",
+      "tags": ["forest", "mossy", "road", "round", "stone", "weathered"],
+      "aliases": ["boulder", "moss rock", "mossy stone", "outcrop"],
+      "variants": ["rock_mossy", "rock_mossy_small", "rock_mossy_large"],
+      "size": { "x": 1.25, "y": 0.9, "z": 0.8 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "c86aa9c93a336ae1b26662b19e6dda6dcda363410e4e5207aa9e8275afd61ffc"
     },
     {
       "id": "sacks_grain",

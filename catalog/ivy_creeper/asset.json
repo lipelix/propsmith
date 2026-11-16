@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "ivy_creeper",
+  "name": "Ivy creeper",
+  "description": "A low strip of overlapping pointed ivy leaves on thin woody vines along the foot of a wall: flat and tall at the back where it hugs the wall, with a few runners climbing higher, spilling forward and down to the ground in front, uneven along its length and tapering off at both ends. Dark green inside, olive, and lit yellow-green on the top and rims; variants are a 1.5 m and a 0.8 m strip.",
+  "category": "vegetation",
+  "family": "ivy",
+  "tags": ["village", "garden", "house", "low", "long", "mossy", "weathered"],
+  "aliases": ["creeper", "climbing ivy", "vine", "wall ivy", "ground cover"],
+  "variants": ["ivy_creeper", "ivy_creeper_short"],
+  "size": { "x": 1.55, "y": 0.3, "z": 0.35 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "Ivy creeping along the foot of a wall: a low strip of overlapping ivy leaves on thin woody vines, about 1.5 m long (local x), about 0.25 m deep (y) and up to about 0.4 m high. A wall would stand behind it on +y, so the back side (+y) is flat and tall where it hugs the wall, with a few vine runners climbing higher on that back plane, and the leaves spill forward and down to the ground on -y. Uneven height along its length, ends tapering off so it blends into the ground. Two variants: ivy_creeper (1.5 m) and ivy_creeper_short (about 0.8 m). Leaves are small pointed leaf cards. Category vegetation. Under 4,000 triangles per variant. Painted look (match a painted isometric forest road): foliage is clumped leaf cards with value variation, never single flat planes and never one smooth blob. Build each clump from many small leaf cards (thin bevel-free boxes about 4 mm thick, or strongly squashed subdiv=1 blobs) tilted at seeded angles around a darker core, in three greens: a deep shadow green inside and underneath, a mid olive green, and a lit yellow-green on the top and outer rims, so it reads dark inside, lit at the rims. Earthy, slightly desaturated palette like grass_tuft and pebbles (olive about (0.1, 0.13, 0.035) linear). Low triangle count, decor scale."
+  },
+  "licence": "CC0-1.0"
+}

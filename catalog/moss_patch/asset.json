@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "moss_patch",
+  "name": "Moss patch",
+  "description": "A flat, low lumpy cushion of moss with a soft irregular outline, small rounded bumps and a few tiny tufts, flat underneath so it sits on stones, wall caps and the foot of walls. Mid moss green with deep green hollows and yellow-green lit bumps and rims; variants are a patch and a long thin strip for a wall cap.",
+  "category": "vegetation",
+  "family": "moss",
+  "tags": ["village", "forest", "garden", "road", "small", "low"],
+  "aliases": ["moss clump", "moss cushion", "lichen", "moss strip"],
+  "variants": ["moss_patch", "moss_patch_long"],
+  "size": { "x": 0.75, "y": 0.35, "z": 0.06 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A flat clump of moss to lay on stones, wall caps and the foot of walls: a low lumpy cushion with a soft irregular outline, small rounded bumps, a few tiny tufts, flat underside at z = 0 so it can sit on any flat top. Mid moss green with darker hollows and lighter yellow-green bumps. Two variants: moss_patch (about 0.4 m by 0.3 m, 0.06 m high) and moss_patch_long (a thin strip for a wall cap, about 0.8 m by 0.2 m, 0.05 m high). Category vegetation. Under 1,500 triangles per variant. Painted look (match a painted isometric forest road): foliage is clumped leaf cards with value variation, never single flat planes and never one smooth blob. Build each clump from many small leaf cards (thin bevel-free boxes about 4 mm thick, or strongly squashed subdiv=1 blobs) tilted at seeded angles around a darker core, in three greens: a deep shadow green inside and underneath, a mid olive green, and a lit yellow-green on the top and outer rims, so it reads dark inside, lit at the rims. Earthy, slightly desaturated palette like grass_tuft and pebbles (olive about (0.1, 0.13, 0.035) linear). Low triangle count, decor scale."
+  },
+  "licence": "CC0-1.0"
+}

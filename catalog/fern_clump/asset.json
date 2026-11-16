@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "fern_clump",
+  "name": "Fern clump",
+  "description": "A clump of woodland ferns: long arching fronds rise from one dark crown and bend outwards, each a tapering midrib with alternating leaflets that shrink towards the tip, deep green inside and underneath and yellow-green on the outer, upper fronds. Variants are an upright clump and a lower, flatter, spreading one.",
+  "category": "vegetation",
+  "family": "fern",
+  "tags": ["forest", "garden", "road", "round", "low"],
+  "aliases": ["ferns", "bracken", "frond", "undergrowth"],
+  "variants": ["fern_clump", "fern_clump_low"],
+  "size": { "x": 0.7, "y": 0.75, "z": 0.45 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A clump of woodland ferns: long arching fronds rising from one crown and bending outwards, each frond a tapering midrib with alternating leaflets that shrink towards the tip. Two variants: fern_clump (about 0.7 m across, 0.45 m high, 9 to 12 fronds) and fern_clump_low (a lower spreading clump about 0.8 m across, 0.3 m high, fronds lying flatter). Value variation: darker fronds inside and underneath, lighter yellow-green on the outer, upper fronds. Category vegetation. Under 3,000 triangles per variant. Painted look (match a painted isometric forest road): foliage is clumped leaf cards with value variation, never single flat planes and never one smooth blob. Build each clump from many small leaf cards (thin bevel-free boxes about 4 mm thick, or strongly squashed subdiv=1 blobs) tilted at seeded angles around a darker core, in three greens: a deep shadow green inside and underneath, a mid olive green, and a lit yellow-green on the top and outer rims, so it reads dark inside, lit at the rims. Earthy, slightly desaturated palette like grass_tuft and pebbles (olive about (0.1, 0.13, 0.035) linear). Low triangle count, decor scale."
+  },
+  "licence": "CC0-1.0"
+}

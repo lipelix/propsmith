@@ -157,6 +157,119 @@
         }
       ]
     },
+    "bush_flowering": {
+      "inputHash": "d4dcdb32fa0c977b11f385ef5046723afc03b65cbfd2621c67571190feed4f98",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "bush_flowering",
+          "tris": 4600,
+          "bbox": {
+            "min": [-0.3843, -0.3568, 0],
+            "max": [0.3888, 0.3577, 0.66]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "bush_flowering_core", "source": "palette" },
+            { "name": "bush_flowering_eye_cream", "source": "palette" },
+            { "name": "bush_flowering_lit", "source": "palette" },
+            { "name": "bush_flowering_olive", "source": "palette" },
+            { "name": "bush_flowering_petal_cream", "source": "palette" },
+            { "name": "bush_flowering_shadow", "source": "palette" },
+            { "name": "bush_flowering_stem", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "bush_flowering_yellow",
+          "tris": 4600,
+          "bbox": {
+            "min": [-0.3843, -0.3568, 0],
+            "max": [0.3888, 0.3577, 0.66]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "bush_flowering_core", "source": "palette" },
+            { "name": "bush_flowering_eye_yellow", "source": "palette" },
+            { "name": "bush_flowering_lit", "source": "palette" },
+            { "name": "bush_flowering_olive", "source": "palette" },
+            { "name": "bush_flowering_petal_yellow", "source": "palette" },
+            { "name": "bush_flowering_shadow", "source": "palette" },
+            { "name": "bush_flowering_stem", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "bush_round": {
+      "inputHash": "f54fefaaaa1defcc77e135ad5f14a85b7783046eb2d637ab0d1ceeeb6782c14c",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "bush_round",
+          "tris": 3568,
+          "bbox": {
+            "min": [-0.3612, -0.3438, 0],
+            "max": [0.4119, 0.3708, 0.6371]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "bush_round_core", "source": "palette" },
+            { "name": "bush_round_lit", "source": "palette" },
+            { "name": "bush_round_olive", "source": "palette" },
+            { "name": "bush_round_shadow", "source": "palette" },
+            { "name": "bush_round_stem", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "bush_round_small",
+          "tris": 2560,
+          "bbox": {
+            "min": [-0.2925, -0.2668, 0],
+            "max": [0.2854, 0.2679, 0.4372]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "bush_round_core", "source": "palette" },
+            { "name": "bush_round_lit", "source": "palette" },
+            { "name": "bush_round_olive", "source": "palette" },
+            { "name": "bush_round_shadow", "source": "palette" },
+            { "name": "bush_round_stem", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "bush_round_large",
+          "tris": 3788,
+          "bbox": {
+            "min": [-0.4795, -0.4115, 0],
+            "max": [0.4673, 0.3786, 0.7596]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "bush_round_core", "source": "palette" },
+            { "name": "bush_round_lit", "source": "palette" },
+            { "name": "bush_round_olive", "source": "palette" },
+            { "name": "bush_round_shadow", "source": "palette" },
+            { "name": "bush_round_stem", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "candle_stand": {
       "inputHash": "069e0f55904739e6cb53ca9ee502f1a7c5d3fb09e3369180b45b9d03c36eac3a",
       "libVersion": 1,
@@ -433,6 +546,51 @@
           "materials": [
             { "name": "fence_wood_old", "source": "palette" },
             { "name": "fence_wood_wood", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "fern_clump": {
+      "inputHash": "3ac90d8514de10b66ba8683518ea33f6395b86c0082ea48fe29bea55c4d22e5b",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "fern_clump",
+          "tris": 3128,
+          "bbox": {
+            "min": [-0.2893, -0.3009, 0.0039],
+            "max": [0.3047, 0.2839, 0.4394]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "fern_crown", "source": "palette" },
+            { "name": "fern_deep", "source": "palette" },
+            { "name": "fern_lit", "source": "palette" },
+            { "name": "fern_olive", "source": "palette" },
+            { "name": "fern_rib", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "fern_clump_low",
+          "tris": 3404,
+          "bbox": {
+            "min": [-0.3326, -0.3628, -0.0037],
+            "max": [0.3388, 0.3449, 0.2825]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "fern_crown", "source": "palette" },
+            { "name": "fern_deep", "source": "palette" },
+            { "name": "fern_lit", "source": "palette" },
+            { "name": "fern_olive", "source": "palette" },
+            { "name": "fern_rib", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
@@ -724,6 +882,51 @@
         }
       ]
     },
+    "ivy_creeper": {
+      "inputHash": "9def8059dce1279a3ff00e87493a9354d4b49c293a79e3af439e0a91881e1a00",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "ivy_creeper",
+          "tris": 3472,
+          "bbox": {
+            "min": [-0.7531, -0.1636, 0.0015],
+            "max": [0.754, 0.1146, 0.345]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "ivy_creeper_core", "source": "palette" },
+            { "name": "ivy_creeper_lit", "source": "palette" },
+            { "name": "ivy_creeper_olive", "source": "palette" },
+            { "name": "ivy_creeper_shadow", "source": "palette" },
+            { "name": "ivy_creeper_vine", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "ivy_creeper_short",
+          "tris": 1908,
+          "bbox": {
+            "min": [-0.4113, -0.1434, 0.0015],
+            "max": [0.4033, 0.1183, 0.3387]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "ivy_creeper_core", "source": "palette" },
+            { "name": "ivy_creeper_lit", "source": "palette" },
+            { "name": "ivy_creeper_olive", "source": "palette" },
+            { "name": "ivy_creeper_shadow", "source": "palette" },
+            { "name": "ivy_creeper_vine", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "lamp_post": {
       "inputHash": "724af666bc17f5306268743e9b517fbaebd3f0561b9fb686983312f4f29a0d66",
       "libVersion": 1,
@@ -833,6 +1036,49 @@
         }
       ]
     },
+    "moss_patch": {
+      "inputHash": "733af34c73bdb99c98ab16a5a452ef9f262296b7cb5b25dba2733b4ece208ed9",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "moss_patch",
+          "tris": 1296,
+          "bbox": {
+            "min": [-0.1876, -0.1378, -0.0003],
+            "max": [0.201, 0.1568, 0.0581]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "moss_deep", "source": "palette" },
+            { "name": "moss_lit", "source": "palette" },
+            { "name": "moss_lit_pale", "source": "palette" },
+            { "name": "moss_olive", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "moss_patch_long",
+          "tris": 1460,
+          "bbox": {
+            "min": [-0.3905, -0.156, -0.0002],
+            "max": [0.309, 0.1632, 0.0485]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "moss_deep", "source": "palette" },
+            { "name": "moss_lit", "source": "palette" },
+            { "name": "moss_lit_pale", "source": "palette" },
+            { "name": "moss_olive", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "pebbles": {
       "inputHash": "fd223b557d43a09f05bbebb0cd9eee513d593d7ac882b28ee057fd66e682ad89",
       "libVersion": 1,
@@ -869,6 +1115,69 @@
             { "name": "pebbles_stone", "source": "palette" },
             { "name": "pebbles_stone_dark", "source": "palette" },
             { "name": "pebbles_stone_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "rock_mossy": {
+      "inputHash": "c86aa9c93a336ae1b26662b19e6dda6dcda363410e4e5207aa9e8275afd61ffc",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "rock_mossy",
+          "tris": 2428,
+          "bbox": {
+            "min": [-0.3913, -0.3112, 0],
+            "max": [0.4006, 0.3074, 0.4895]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "rock_mossy_moss_deep", "source": "palette" },
+            { "name": "rock_mossy_moss_lit", "source": "palette" },
+            { "name": "rock_mossy_moss_olive", "source": "palette" },
+            { "name": "rock_mossy_stone", "source": "palette" },
+            { "name": "rock_mossy_stone_dark", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "rock_mossy_small",
+          "tris": 1624,
+          "bbox": {
+            "min": [-0.1653, -0.1618, 0],
+            "max": [0.1779, 0.1628, 0.2396]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "rock_mossy_moss_deep", "source": "palette" },
+            { "name": "rock_mossy_moss_lit", "source": "palette" },
+            { "name": "rock_mossy_moss_olive", "source": "palette" },
+            { "name": "rock_mossy_stone", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "rock_mossy_large",
+          "tris": 3480,
+          "bbox": {
+            "min": [-0.6475, -0.443, 0],
+            "max": [0.5733, 0.4469, 0.755]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "rock_mossy_moss_deep", "source": "palette" },
+            { "name": "rock_mossy_moss_lit", "source": "palette" },
+            { "name": "rock_mossy_moss_olive", "source": "palette" },
+            { "name": "rock_mossy_stone", "source": "palette" },
+            { "name": "rock_mossy_stone_dark", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
