@@ -2134,7 +2134,7 @@
       ]
     },
     "wall_timber_straight": {
-      "inputHash": "5bba2b3e8e3086d2a6cd8531ff3a49d4ff3cefbc30c11044efde2640f305bed0",
+      "inputHash": "d312dbaf4efe1bc3f8f7fe7f6f83eeec3f88710934e7bc977ec0dbb763916a4e",
       "libVersion": 1,
       "blender": "5.2.2 LTS",
       "variants": [
@@ -2409,6 +2409,70 @@
           "bbox": {
             "min": [-0.7512, -0.2071, 0],
             "max": [0.7509, 0.2027, 1.38]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_timber_oak", "source": "palette" },
+            { "name": "wall_timber_oak_old", "source": "palette" },
+            { "name": "wall_timber_plaster", "source": "palette" },
+            { "name": "wall_timber_rubble", "source": "palette" },
+            { "name": "wall_timber_rubble_joint", "source": "palette" },
+            { "name": "wall_timber_rubble_old", "source": "palette" },
+            { "name": "wall_timber_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_timber_straight_low_window_rubble",
+          "tris": 1920,
+          "bbox": {
+            "min": [-0.7505, -0.1939, 0],
+            "max": [0.7504, 0.207, 1.38]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_timber_glass", "source": "palette" },
+            { "name": "wall_timber_oak", "source": "palette" },
+            { "name": "wall_timber_oak_old", "source": "palette" },
+            { "name": "wall_timber_plaster", "source": "palette" },
+            { "name": "wall_timber_rubble", "source": "palette" },
+            { "name": "wall_timber_rubble_joint", "source": "palette" },
+            { "name": "wall_timber_rubble_old", "source": "palette" },
+            { "name": "wall_timber_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_timber_straight_low_plain_rubble",
+          "tris": 1272,
+          "bbox": {
+            "min": [-0.7505, -0.1939, 0],
+            "max": [0.7504, 0.207, 1.38]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_timber_oak", "source": "palette" },
+            { "name": "wall_timber_oak_old", "source": "palette" },
+            { "name": "wall_timber_plaster", "source": "palette" },
+            { "name": "wall_timber_rubble", "source": "palette" },
+            { "name": "wall_timber_rubble_joint", "source": "palette" },
+            { "name": "wall_timber_rubble_old", "source": "palette" },
+            { "name": "wall_timber_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_timber_straight_low_post_rubble",
+          "tris": 1380,
+          "bbox": {
+            "min": [-0.7506, -0.1939, 0],
+            "max": [0.7504, 0.207, 1.38]
           },
           "origin": [0, 0, 0],
           "nonManifoldEdges": 0,
