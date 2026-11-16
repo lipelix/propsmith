@@ -1810,7 +1810,7 @@
       ]
     },
     "wall_stone_straight": {
-      "inputHash": "daf85cb8b9b417511cf85790ed5e31549f6a8649f700d990205f6e27cb7014d0",
+      "inputHash": "1a02c99c4f17212e9d0bc3f1e4a0a56b8ad5cac8bf0075c4527ab46d905799bd",
       "libVersion": 1,
       "blender": "5.2.2 LTS",
       "variants": [
@@ -2081,6 +2081,41 @@
             "min": [-0.7668, -0.3523, 0],
             "max": [0.7612, 0.3512, 1.3495]
           },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_straight_moss_deep", "source": "palette" },
+            { "name": "wall_stone_straight_moss_lit", "source": "palette" },
+            { "name": "wall_stone_straight_moss_olive", "source": "palette" },
+            { "name": "wall_stone_straight_rubble", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_cap", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_joint", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_old", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_straight_low_rubble_end",
+          "tris": 1872,
+          "bbox": { "min": [-0.75, -0.3642, 0], "max": [0.75, 0.3656, 1.48] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_stone_straight_rubble", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_cap", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_joint", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_old", "source": "palette" },
+            { "name": "wall_stone_straight_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_stone_straight_low_rubble_end_moss",
+          "tris": 4068,
+          "bbox": { "min": [-0.75, -0.3642, 0], "max": [0.75, 0.3656, 1.5209] },
           "origin": [0, 0, 0],
           "nonManifoldEdges": 0,
           "materials": [

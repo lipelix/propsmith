@@ -423,21 +423,64 @@ def _fit(objs, bounds):
 # --- End of the rubble block.
 
 
-def _rubble(top, seed, moss):
-    """A rubble section (`_rubble` variants), caps MOSS_ROOM under `top`; `moss` adds moss on the caps and the foot."""
+def _rubble(top, seed, moss, pier=False):
+    """A rubble section (`_rubble` variants), caps MOSS_ROOM under `top`; `moss` adds moss on the caps and the foot,
+    `pier` finishes it at the +x end with a pier of roughly dressed quoins (`_rubble_end`)."""
     rnd = random.Random(seed)
     mats = _rubble_mats("wall_stone_straight")
     z_top = top - MOSS_ROOM
     body = z_top - RUBBLE_CAP_H + 0.02  # top of the face stones and the core: the caps sit on it
+    # With a pier the caps stop under it; the face stones run on into it, so its short quoins show no core.
+    end = L / 2 - PIER_SHORT if pier else L / 2
     box("rubble_core", (L - 0.012, T - 2 * JOINT_IN, body), (0, 0, body / 2), mats["joint"], bevel=0)
     stones = _lay(rnd, "wall", mats, "x", -L / 2, L / 2, T, _course_heights(rnd, body), (-L / 2, L / 2), body)
-    caps = _caps(rnd, "wall", mats, "x", -L / 2, L / 2, T, body - 0.01, z_top)
+    caps = _caps(rnd, "wall", mats, "x", -L / 2, end, T, body - 0.01, z_top)
+    pier_top = top + PIER_RISE
+    if pier:
+        quoins, pier_cap = _rubble_pier(rnd, mats, pier_top)
+        stones += quoins
+        caps.append(pier_cap)
     if not moss:
         return
-    _cap_moss(rnd, "wall", mats, caps, _moss_points(rnd, [((-L / 2, 0), (L / 2, 0))]), top, REACH)
-    feet = [(rnd.uniform(-L / 2 + 0.05, L / 2 - 0.05), s * (T / 2 + rnd.uniform(0.02, 0.05)))
+    _cap_moss(rnd, "wall", mats, caps, _moss_points(rnd, [((-L / 2, 0), (end, 0))]),
+              pier_top + MOSS_ROOM if pier else top, REACH)
+    foot_end = L / 2 - PIER_LONG if pier else L / 2 - 0.05
+    feet = [(rnd.uniform(-L / 2 + 0.05, foot_end), s * (T / 2 + rnd.uniform(0.02, 0.05)))
             for s in (-1, 1) for _ in range(rnd.choice((3, 4, 5)))]
+    if pier:  # a clump at the foot of the pier on one face or both
+        feet += [(L / 2 - rnd.uniform(0.1, 0.35), s * (RUBBLE_PIER_D / 2 + rnd.uniform(0.02, 0.04)))
+                 for s in (-1, 1) if rnd.random() < 0.7]
     _foot_moss(rnd, "wall", mats, stones, feet, REACH)
+
+
+# The rubble end pier (`_rubble_end`): quoins alternating long and short along x like the dressed pier's, but rounded
+# rubble-palette stones, deeper than the wall so its bulging face stones never show through the pier.
+RUBBLE_PIER_D = T + 0.18
+RUBBLE_PIER_CAP = 0.12
+QUOIN_ROUND = 4.5  # boxier than a rubble stone: roughly dressed
+
+
+def _rubble_pier(rnd, mats, top):
+    """The quoins and the rounded cap stone of a rubble section's end pier, flush with the +x end, `top` metres
+    high; returns (quoins, cap)."""
+    body = top - RUBBLE_PIER_CAP
+    n = max(3, round(body / 0.3))
+    h = body / n
+    box("pier_core", (PIER_LONG - 0.04, RUBBLE_PIER_D - 0.12, body), (L / 2 - PIER_LONG / 2, 0, body / 2),
+        mats["joint"], bevel=0)
+    quoins = []
+    for c in range(n):
+        w = (PIER_LONG if c % 2 == 0 else PIER_SHORT) * rnd.uniform(0.94, 1.04)
+        half = (w / 2 + PAST / 2, RUBBLE_PIER_D / 2 * rnd.uniform(0.97, 1.0), h / 2 * rnd.uniform(0.95, 1.0) + 0.008)
+        at = (L / 2 - w / 2 + PAST / 2, rnd.uniform(-0.008, 0.008), c * h + h / 2)
+        clip = ((-9, L / 2 - rnd.uniform(0, 0.003)), (-9, 9), (0, body + 0.02))
+        quoins.append(_stone(f"pier_{c}", half, at, _pick(rnd, mats), rnd, yaw=rnd.uniform(-1.5, 1.5), clip=clip,
+                             cuts=2, n=QUOIN_ROUND))
+    w = PIER_LONG + 0.04
+    half = (w / 2 + PAST / 2, RUBBLE_PIER_D / 2 + RUBBLE_CAP_OVER, RUBBLE_PIER_CAP / 2 + 0.01)
+    cap = _stone("pier_cap", half, (L / 2 - w / 2 + PAST / 2, 0, body + RUBBLE_PIER_CAP / 2), mats["cap"], rnd,
+                 yaw=rnd.uniform(-2, 2), clip=((-9, L / 2), (-9, 9), (body - 0.03, top)), cuts=2, n=3.0)
+    return quoins, cap
 
 
 @prop
@@ -520,3 +563,13 @@ def wall_stone_straight_low_rubble_3():
 @prop
 def wall_stone_straight_low_rubble_3_moss():
     _rubble(LOW_H, 8, True)
+
+
+@prop
+def wall_stone_straight_low_rubble_end():
+    _rubble(LOW_H, 13, False, pier=True)
+
+
+@prop
+def wall_stone_straight_low_rubble_end_moss():
+    _rubble(LOW_H, 13, True, pier=True)

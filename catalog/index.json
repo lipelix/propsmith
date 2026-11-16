@@ -1002,7 +1002,7 @@
     {
       "id": "wall_stone_straight",
       "name": "Fieldstone wall section",
-      "description": "A straight 1.5 m section of village fieldstone wall, 0.45 m thick and 2.4 m high: rough grey-brown blocks in staggered courses with recessed mortar, topped by a row of flat capstones. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so what is inside stays visible. The `_end` variants finish a run at a gap with a pier of big dressed quoins at the +x end. The `_rubble` variants (`_rubble`, `_rubble_2`, `_rubble_3`: three layouts, each also `_low`) are the painted look's rubble wall: irregular rounded stones of mixed sizes in rough courses, dark recessed joints, rounded cap stones about 6 cm under the plain wall's top; `_moss` adds moss cushions on the caps and at the foot of both faces.",
+      "description": "A straight 1.5 m section of village fieldstone wall, 0.45 m thick and 2.4 m high: rough grey-brown blocks in staggered courses with recessed mortar, topped by a row of flat capstones. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so what is inside stays visible. The `_end` variants finish a run at a gap with a pier of big dressed quoins at the +x end. The `_rubble` variants (`_rubble`, `_rubble_2`, `_rubble_3`: three layouts, each also `_low`) are the painted look's rubble wall: irregular rounded stones of mixed sizes in rough courses, dark recessed joints, rounded cap stones about 6 cm under the plain wall's top; `_moss` adds moss cushions on the caps and at the foot of both faces. `_low_rubble_end` (also `_moss`) finishes a low rubble run at a gap with a pier of roughly dressed rubble quoins at the +x end, deeper than the wall and a little higher than its caps.",
       "category": "structure",
       "family": "wall",
       "tags": ["boundary", "mossy", "stone", "tall", "village", "weathered"],
@@ -1029,14 +1029,16 @@
         "wall_stone_straight_low_rubble_2",
         "wall_stone_straight_low_rubble_2_moss",
         "wall_stone_straight_low_rubble_3",
-        "wall_stone_straight_low_rubble_3_moss"
+        "wall_stone_straight_low_rubble_3_moss",
+        "wall_stone_straight_low_rubble_end",
+        "wall_stone_straight_low_rubble_end_moss"
       ],
       "size": { "x": 1.55, "y": 0.6, "z": 2.4 },
       "anchors": [],
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "daf85cb8b9b417511cf85790ed5e31549f6a8649f700d990205f6e27cb7014d0"
+      "inputHash": "1a02c99c4f17212e9d0bc3f1e4a0a56b8ad5cac8bf0075c4527ab46d905799bd"
     },
     {
       "id": "wall_timber_straight",
