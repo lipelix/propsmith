@@ -1043,7 +1043,7 @@
     {
       "id": "wall_timber_straight",
       "name": "Half-timbered wall",
-      "description": "A straight section of half-timbered village house wall on a low fieldstone plinth: a dark weathered oak sill, corner posts, a top plate and one diagonal brace framing warm off-white lime plaster. Each section is 1.5 m long, so sections join end to end. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so what is inside stays visible. Panel variants so a run of wall is not one repeated panel: `_window` (a small lattice window), `_plain` (plaster only), `_stone` (a high fieldstone base) and `_post` (a heavy corner post, the brace the other way), each also `_low`. `_rubble` (and `_stone_rubble`, each also `_low`) build the plinth in the rubble stone of the stone walls: rounded stones of mixed sizes with dark recessed joints.",
+      "description": "A straight section of half-timbered village house wall on a low fieldstone plinth: a dark weathered oak sill, corner posts, a top plate and one diagonal brace framing warm off-white lime plaster. Each section is 1.5 m long, so sections join end to end. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so what is inside stays visible. Panel variants so a run of wall is not one repeated panel: `_window` (a small lattice window), `_plain` (plaster only), `_stone` (a high fieldstone base) and `_post` (a heavy corner post, the brace the other way), each also `_low`. `_rubble` (and `_stone_rubble`, each also `_low`, plus `_low_window_rubble`, `_low_plain_rubble` and `_low_post_rubble`) build the plinth in the rubble stone of the stone walls: rounded stones of mixed sizes with dark recessed joints.",
       "category": "structure",
       "family": "wall",
       "tags": [
@@ -1078,14 +1078,17 @@
         "wall_timber_straight_rubble",
         "wall_timber_straight_stone_rubble",
         "wall_timber_straight_low_rubble",
-        "wall_timber_straight_low_stone_rubble"
+        "wall_timber_straight_low_stone_rubble",
+        "wall_timber_straight_low_window_rubble",
+        "wall_timber_straight_low_plain_rubble",
+        "wall_timber_straight_low_post_rubble"
       ],
       "size": { "x": 1.55, "y": 0.35, "z": 2.4 },
       "anchors": [],
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "5bba2b3e8e3086d2a6cd8531ff3a49d4ff3cefbc30c11044efde2640f305bed0"
+      "inputHash": "d312dbaf4efe1bc3f8f7fe7f6f83eeec3f88710934e7bc977ec0dbb763916a4e"
     },
     {
       "id": "well_stone",
