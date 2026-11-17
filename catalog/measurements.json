@@ -1409,7 +1409,7 @@
       ]
     },
     "wall_stone_corner": {
-      "inputHash": "c4679885ae97b2790af39dcaaaafe74774e776b6b968d4de730a36b3ef920ef3",
+      "inputHash": "c5c27488dd9acb3baff4f07c4fb5389c6b0e1fc23ca1c4813c1e556a7e9eb0ab",
       "libVersion": 1,
       "blender": "5.2.2 LTS",
       "variants": [
@@ -1448,7 +1448,7 @@
         {
           "id": "wall_stone_corner_rubble",
           "tris": 2424,
-          "bbox": { "min": [-0.2852, -0.2746, 0], "max": [0.75, 0.75, 2.3398] },
+          "bbox": { "min": [-0.2845, -0.2711, 0], "max": [0.75, 0.75, 2.3398] },
           "origin": [0, 0, 0],
           "nonManifoldEdges": 0,
           "materials": [
@@ -1486,7 +1486,7 @@
         {
           "id": "wall_stone_corner_rubble_2",
           "tris": 2376,
-          "bbox": { "min": [-0.2871, -0.2777, 0], "max": [0.75, 0.75, 2.34] },
+          "bbox": { "min": [-0.2726, -0.2777, 0], "max": [0.75, 0.75, 2.34] },
           "origin": [0, 0, 0],
           "nonManifoldEdges": 0,
           "materials": [
@@ -1559,7 +1559,7 @@
         {
           "id": "wall_stone_corner_low_rubble_2",
           "tris": 1128,
-          "bbox": { "min": [-0.2821, -0.2811, 0], "max": [0.75, 0.75, 1.3177] },
+          "bbox": { "min": [-0.2762, -0.2769, 0], "max": [0.75, 0.75, 1.3177] },
           "origin": [0, 0, 0],
           "nonManifoldEdges": 0,
           "materials": [
@@ -1597,7 +1597,7 @@
       ]
     },
     "wall_stone_doorframe": {
-      "inputHash": "7f6b01644c40a3542432c815028f0b372e46d1ae8ecf04e1a59e72210d03a8b8",
+      "inputHash": "d859f97af9119f47aaea30ef42aa8049287bee0548dcf3bfa3b50068fd1ec92c",
       "libVersion": 1,
       "blender": "5.2.2 LTS",
       "variants": [
@@ -1810,7 +1810,7 @@
       ]
     },
     "wall_stone_straight": {
-      "inputHash": "1a02c99c4f17212e9d0bc3f1e4a0a56b8ad5cac8bf0075c4527ab46d905799bd",
+      "inputHash": "7d1aaceecd2fce587fc01f19474963af9d6df87d063d27b2ec48d99301d87c00",
       "libVersion": 1,
       "blender": "5.2.2 LTS",
       "variants": [
@@ -2134,7 +2134,7 @@
       ]
     },
     "wall_timber_straight": {
-      "inputHash": "d312dbaf4efe1bc3f8f7fe7f6f83eeec3f88710934e7bc977ec0dbb763916a4e",
+      "inputHash": "23ff0972751443f800717f62ce22ecb2ddafa35a74410efbae683191f0754c7e",
       "libVersion": 1,
       "blender": "5.2.2 LTS",
       "variants": [
