@@ -955,7 +955,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "c4679885ae97b2790af39dcaaaafe74774e776b6b968d4de730a36b3ef920ef3"
+      "inputHash": "c5c27488dd9acb3baff4f07c4fb5389c6b0e1fc23ca1c4813c1e556a7e9eb0ab"
     },
     {
       "id": "wall_stone_doorframe",
@@ -997,7 +997,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "7f6b01644c40a3542432c815028f0b372e46d1ae8ecf04e1a59e72210d03a8b8"
+      "inputHash": "d859f97af9119f47aaea30ef42aa8049287bee0548dcf3bfa3b50068fd1ec92c"
     },
     {
       "id": "wall_stone_straight",
@@ -1038,7 +1038,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "1a02c99c4f17212e9d0bc3f1e4a0a56b8ad5cac8bf0075c4527ab46d905799bd"
+      "inputHash": "7d1aaceecd2fce587fc01f19474963af9d6df87d063d27b2ec48d99301d87c00"
     },
     {
       "id": "wall_timber_straight",
@@ -1088,7 +1088,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "d312dbaf4efe1bc3f8f7fe7f6f83eeec3f88710934e7bc977ec0dbb763916a4e"
+      "inputHash": "23ff0972751443f800717f62ce22ecb2ddafa35a74410efbae683191f0754c7e"
     },
     {
       "id": "well_stone",

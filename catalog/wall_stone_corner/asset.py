@@ -121,18 +121,18 @@ REACH = ((-0.8, 0.8), (-0.8, 0.8))
 # sizes in rough courses over a dark mortar core set well back, so every joint reads as a dark recess; rounded cap
 # stones; on the `_moss` variants moss cushions on the caps and at the foot of both faces. A rubble wall's caps stop
 # MOSS_ROOM under the plain wall's height, with or without moss, so moss and bare sections join at one height.
-RUBBLE_STONE = (0.33, 0.30, 0.25)  # linear RGB: weathered grey-brown fieldstone, a little cooler than the blocks
-RUBBLE_OLD = (0.25, 0.225, 0.19)
-RUBBLE_PALE = (0.41, 0.38, 0.32)
-RUBBLE_JOINT = (0.045, 0.04, 0.033)  # the mortar core: near black, so joints read as dark recesses
-RUBBLE_CAP = (0.29, 0.28, 0.25)
+RUBBLE_STONE = (0.32, 0.32, 0.285)  # linear RGB: weathered olive-grey fieldstone, greyer than the blocks
+RUBBLE_OLD = (0.23, 0.23, 0.205)
+RUBBLE_PALE = (0.37, 0.365, 0.33)
+RUBBLE_JOINT = (0.03, 0.027, 0.022)  # the mortar core: near black, so joints read as dark recesses
+RUBBLE_CAP = (0.27, 0.27, 0.245)
 MOSS_DEEP = (0.035, 0.055, 0.016)  # moss palette of rock_mossy: shadow green, mid olive, lit yellow-green
 MOSS_OLIVE = (0.1, 0.13, 0.035)
 MOSS_LIT = (0.21, 0.25, 0.07)
 ROUND = 3.0  # superellipsoid exponent of a stone: 2 is an ellipsoid, higher is boxier
 LUMP = 0.07  # per-vertex wobble of a stone's surface
 BULGE = (0.008, 0.035)  # how far a stone's face stands proud of the wall face
-OVER = 0.04  # how far a stone reaches past its cell, so neighbours touch and the corners of the cells stay dark
+OVER = 0.015  # how far a stone reaches past its cell: neighbours just touch, joints read wide and dark
 JOINT_IN = 0.07  # how far the mortar core sits behind the wall faces
 PAST = 0.12  # how far a stone at a section end reaches past the cut, so the cut end shows stone, not the core
 MOSS_ROOM = 0.06  # metres the caps stop under the wall's height: room for the moss on top
