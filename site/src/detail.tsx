@@ -68,6 +68,8 @@ function Switch(props: {
     <label class="switch">
       <input
         type="checkbox"
+        // Native switch where supported (Safari); role keeps it a switch elsewhere.
+        {...({ switch: true } as Record<string, boolean>)}
         role="switch"
         checked={props.checked}
         onChange={(event) => props.onChange(event.currentTarget.checked)}
