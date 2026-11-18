@@ -547,6 +547,7 @@ legend,
 .switch input {
   position: absolute;
   opacity: 0;
+  appearance: none;
   width: 2.4rem;
   height: 1.4rem;
   margin: 0;
