@@ -456,6 +456,32 @@
         }
       ]
     },
+    "coffin_wood": {
+      "inputHash": "c6e88a56957f4b31a2e5d761ce9df295fc0f6ff4186a3efcb526a5a6177344db",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "coffin_wood",
+          "tris": 5680,
+          "bbox": {
+            "min": [-1.0553, -0.3497, 0],
+            "max": [0.988, 0.3482, 0.449]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "coffin_wood_inner", "source": "palette" },
+            { "name": "coffin_wood_iron", "source": "palette" },
+            { "name": "coffin_wood_plank", "source": "palette" },
+            { "name": "coffin_wood_plank_grey", "source": "palette" },
+            { "name": "coffin_wood_plank_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "counter_wood": {
       "inputHash": "92b4523dbdb021902d74c7d3ba646881846cebde7df4c1e83975ffa9f27540e9",
       "libVersion": 1,
