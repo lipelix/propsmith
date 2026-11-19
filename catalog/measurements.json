@@ -635,6 +635,33 @@
         }
       ]
     },
+    "crypt_gate_iron": {
+      "inputHash": "de44372ec3978731ba84875ec3f449ad01c02da1be6217d5335de6253042c820",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "crypt_gate_iron",
+          "tris": 5380,
+          "bbox": {
+            "min": [-0.825, -0.2212, 0],
+            "max": [0.825, 0.2212, 2.3579]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "crypt_gate_iron_iron", "source": "palette" },
+            { "name": "crypt_gate_iron_mortar", "source": "palette" },
+            { "name": "crypt_gate_iron_rust", "source": "palette" },
+            { "name": "crypt_gate_iron_stone", "source": "palette" },
+            { "name": "crypt_gate_iron_stone_old", "source": "palette" },
+            { "name": "crypt_gate_iron_stone_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "door_wood": {
       "inputHash": "dba54c2e899e7e94ce864bf2a709293c2ad6c2fbfbd899849469cbe2bb155591",
       "libVersion": 1,

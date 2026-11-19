@@ -442,6 +442,37 @@
       "inputHash": "a1af54e6d8a26d3da939a5c7aeab12e808d31c59e28ad5cc3c82e76d411cd156"
     },
     {
+      "id": "crypt_gate_iron",
+      "name": "Iron crypt gate",
+      "description": "A crypt gate 1.6 m wide and about 2.4 m high: a round-arched doorway of grey dressed stone with a raised keystone, closed by an iron grille door of vertical bars and two cross bands whose spear-point tips rise under the arch, hung on heavy strap hinges and locked with a large padlock on a hasp.",
+      "category": "door",
+      "family": "gate",
+      "tags": [
+        "boundary",
+        "crypt",
+        "dungeon",
+        "iron",
+        "ornate",
+        "stone",
+        "tall",
+        "weathered"
+      ],
+      "aliases": [
+        "arched gate",
+        "crypt door",
+        "iron grille",
+        "mausoleum gate",
+        "tomb gate"
+      ],
+      "variants": ["crypt_gate_iron"],
+      "size": { "x": 1.65, "y": 0.45, "z": 2.4 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "de44372ec3978731ba84875ec3f449ad01c02da1be6217d5335de6253042c820"
+    },
+    {
       "id": "door_wood",
       "name": "Wooden plank door",
       "description": "A sturdy closed village door, 1.0 m wide, 2.0 m high and 0.08 m thick, of vertical oak planks held by two horizontal ledges and a diagonal brace on the back, with two black iron strap hinges and a ring handle on the front. It fits the opening of wall_stone_doorframe.",
