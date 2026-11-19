@@ -1106,6 +1106,32 @@
         }
       ]
     },
+    "oak_tree": {
+      "inputHash": "6b8acbed3cfb70069171c5fe3d6dcd7bc87e9c8ddedf8737e8fbffe4b84719f4",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "oak_tree",
+          "tris": 2332,
+          "bbox": {
+            "min": [-2.7342, -2.9051, 0],
+            "max": [2.7679, 2.7177, 6.92]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "oak_tree_bark", "source": "palette" },
+            { "name": "oak_tree_bark_dark", "source": "palette" },
+            { "name": "oak_tree_leaves", "source": "palette" },
+            { "name": "oak_tree_leaves_core", "source": "palette" },
+            { "name": "oak_tree_leaves_lit", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "pebbles": {
       "inputHash": "fd223b557d43a09f05bbebb0cd9eee513d593d7ac882b28ee057fd66e682ad89",
       "libVersion": 1,

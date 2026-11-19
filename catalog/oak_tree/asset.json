@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "oak_tree",
+  "name": "Oak tree",
+  "description": "A broad old oak tree about 7 m high and 6 m across: a thick gnarled trunk with deep furrowed bark splitting into a few heavy crooked limbs, under a wide rounded crown of clumped dark-green leaf masses with gaps between them.",
+  "category": "vegetation",
+  "family": "tree",
+  "tags": ["forest", "village", "road", "wood", "large", "round", "weathered"],
+  "aliases": ["oak", "deciduous", "broadleaf", "shade tree"],
+  "variants": ["oak_tree"],
+  "size": { "x": 6.0, "y": 6.0, "z": 7.0 },
+  "anchors": [],
+  "closed": false,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A broad old oak tree about 7 m high and 6 m across: a thick gnarled trunk with deep bark splitting into a few heavy crooked limbs, and a wide rounded crown of clumped dark-green leaf masses with gaps between them."
+  },
+  "licence": "CC0-1.0"
+}
