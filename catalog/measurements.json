@@ -1406,6 +1406,33 @@
         }
       ]
     },
+    "sarcophagus_stone": {
+      "inputHash": "2723e33a7bd6d41156e85da1ecba2f83cc748baf5d06a0ec36bfdad631b4f2e5",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "sarcophagus_stone",
+          "tris": 6784,
+          "bbox": {
+            "min": [-1.1022, -0.4766, 0],
+            "max": [1.1305, 0.4556, 0.9902]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "sarcophagus_crack", "source": "palette" },
+            { "name": "sarcophagus_effigy", "source": "palette" },
+            { "name": "sarcophagus_moss", "source": "palette" },
+            { "name": "sarcophagus_moss_deep", "source": "palette" },
+            { "name": "sarcophagus_stone", "source": "palette" },
+            { "name": "sarcophagus_stone_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "shelf_wood": {
       "inputHash": "49181076e06365a945c0d86219925c94b004ebe8376015d01a51b5f70e03293f",
       "libVersion": 1,

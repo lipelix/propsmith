@@ -917,6 +917,28 @@
       "inputHash": "9196ee4fc062d99492a6592f0e9655a302b069af56f041722ad6ed07236dca46"
     },
     {
+      "id": "sarcophagus_stone",
+      "name": "Stone sarcophagus",
+      "description": "A heavy chest of worn grey stone, about 2.2 m long, 0.9 m wide and 1 m high, on a moulded plinth with a moulded rim and carved panels, its lid carved with the low relief of a lying knight with folded hands on his sword; cracked corners and a little moss in the joints.",
+      "category": "decor",
+      "family": "sarcophagus",
+      "tags": ["crypt", "long", "mossy", "ornate", "stone", "temple", "worn"],
+      "aliases": [
+        "burial chest",
+        "coffin",
+        "effigy tomb",
+        "stone coffin",
+        "tomb"
+      ],
+      "variants": ["sarcophagus_stone"],
+      "size": { "x": 2.25, "y": 0.95, "z": 1 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "2723e33a7bd6d41156e85da1ecba2f83cc748baf5d06a0ec36bfdad631b4f2e5"
+    },
+    {
       "id": "shelf_wood",
       "name": "Merchant's wooden shelf",
       "description": "A merchant's wooden shelf unit, open at the front, standing flush against a wall: about 1.35 m wide, 0.45 m deep and 1.5 m high, with two plank sides, a back of vertical boards and three shelves plus the top holding clay jars, a folded bolt of dull cloth, small wooden boxes and a coil of rope.",

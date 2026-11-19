@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "sarcophagus_stone",
+  "name": "Stone sarcophagus",
+  "description": "A heavy chest of worn grey stone, about 2.2 m long, 0.9 m wide and 1 m high, on a moulded plinth with a moulded rim and carved panels, its lid carved with the low relief of a lying knight with folded hands on his sword; cracked corners and a little moss in the joints.",
+  "category": "decor",
+  "family": "sarcophagus",
+  "tags": ["stone", "crypt", "temple", "ornate", "long", "worn", "mossy"],
+  "aliases": ["tomb", "coffin", "stone coffin", "effigy tomb", "burial chest"],
+  "variants": ["sarcophagus_stone"],
+  "size": { "x": 2.25, "y": 0.95, "z": 1.0 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A carved stone sarcophagus about 2.2 m long, 0.9 m wide and 1 m high: a heavy chest of worn grey stone with a moulded plinth and rim, and a lid carved with the low relief of a lying knight with folded hands; cracked corners and a little moss in the joints."
+  },
+  "licence": "CC0-1.0"
+}
