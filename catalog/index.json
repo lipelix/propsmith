@@ -804,6 +804,31 @@
       "inputHash": "c86aa9c93a336ae1b26662b19e6dda6dcda363410e4e5207aa9e8275afd61ffc"
     },
     {
+      "id": "rowboat_wood",
+      "name": "Wooden rowboat",
+      "description": "A small wooden rowboat about 3.2 m long and 1.2 m wide resting upright on the ground, built of overlapping clinker planks with a pointed bow and a flat transom. Two thwart seats cross it and a pair of oars lies inside.",
+      "category": "decor",
+      "family": "rowboat",
+      "tags": [
+        "iron",
+        "long",
+        "open",
+        "transport",
+        "village",
+        "water",
+        "wood",
+        "worn"
+      ],
+      "aliases": ["boat", "dinghy", "oars", "skiff"],
+      "variants": ["rowboat_wood"],
+      "size": { "x": 3.2, "y": 1.2, "z": 0.8 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "43552aa8390acbe38d23844e3fb76af90a4af10cf6d7a1f47895d19e7d289641"
+    },
+    {
       "id": "sacks_grain",
       "name": "Grain sacks",
       "description": "A heap of three plump burlap grain sacks, two lying side by side and one propped on top, each tied at the neck with twine; the coarse cloth is a warm desaturated tan with a darker patch or two, slightly slumped and lumpy, about 0.7 m high. A variant is a single upright sack about 0.6 m high.",
