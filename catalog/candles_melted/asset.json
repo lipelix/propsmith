@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "candles_melted",
+  "name": "Melted church candles",
+  "description": "A cluster of seven pale wax church candles of different heights, from 0.08 to 0.3 m, standing on the floor in a shared puddle of hardened wax about 0.4 m across. Wax drips run down their sides and small dark wicks sit in their melted tops.",
+  "category": "light",
+  "family": "candles",
+  "tags": ["temple", "crypt", "worship", "lighting", "small", "low", "worn"],
+  "aliases": [
+    "candle cluster",
+    "tallow candles",
+    "votive candles",
+    "wax puddle",
+    "shrine candles"
+  ],
+  "variants": ["candles_melted"],
+  "size": { "x": 0.4, "y": 0.35, "z": 0.3 },
+  "anchors": ["light:candles"],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A cluster of melted church candles on the floor about 0.4 m across: seven pale wax candles of different heights from 0.08 to 0.3 m, with drips and a shared puddle of hardened wax around their feet, small dark wicks on top."
+  },
+  "licence": "CC0-1.0"
+}

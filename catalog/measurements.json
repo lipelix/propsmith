@@ -406,6 +406,33 @@
         }
       ]
     },
+    "candles_melted": {
+      "inputHash": "09dd2d5433c9f2662dbcb741f2d4993ccec795cb6de504d81dfc45ec1a51f29d",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "candles_melted",
+          "tris": 3324,
+          "bbox": {
+            "min": [-0.1805, -0.164, -0.0003],
+            "max": [0.1782, 0.1698, 0.2968]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "candles_melted_pool", "source": "palette" },
+            { "name": "candles_melted_wax", "source": "palette" },
+            { "name": "candles_melted_wax_old", "source": "palette" },
+            { "name": "candles_melted_wick", "source": "palette" }
+          ],
+          "anchors": [
+            { "name": "light:candles", "at": [0.0025, 0.0296, 0.3212] }
+          ],
+          "textures": []
+        }
+      ]
+    },
     "cart_hand": {
       "inputHash": "67af58d600d578242e3faa1df4c5d955152fe3f001f5ad75ecc217c20278cc7b",
       "libVersion": 1,
