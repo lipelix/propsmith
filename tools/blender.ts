@@ -31,8 +31,12 @@ export function requireBlender(): string {
   return blender;
 }
 
-/** Runs a script from `tools/blender/` headless; throws with Blender's output on failure. */
-export function runBlender(script: string, args: string[]): string {
+/** Runs a script from `tools/blender/` (or `dir`) headless; throws with Blender's output on failure. */
+export function runBlender(
+  script: string,
+  args: string[],
+  dir: string = BLENDER_SCRIPTS,
+): string {
   const result = spawnSync(
     requireBlender(),
     [
@@ -41,7 +45,7 @@ export function runBlender(script: string, args: string[]): string {
       "--python-exit-code",
       "1",
       "--python",
-      join(BLENDER_SCRIPTS, script),
+      join(dir, script),
       "--",
       ...args,
     ],
