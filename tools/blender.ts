@@ -1,19 +1,25 @@
 import { spawnSync } from "node:child_process";
 import { existsSync } from "node:fs";
-import { join } from "node:path";
+import { delimiter, join } from "node:path";
 
 /** Blender scripts of the build. */
 export const BLENDER_SCRIPTS = join(import.meta.dirname, "blender");
 
 const MAC_BLENDER = "/Applications/Blender.app/Contents/MacOS/Blender";
 
-/** `$BLENDER`, else the macOS app; undefined when neither exists (CI). */
+/** `$BLENDER`, else the macOS app, else `blender` on `$PATH` (Linux, e.g. ~/.local/bin);
+ * undefined when none exists (CI). */
 export function findBlender(
   env: NodeJS.ProcessEnv = process.env,
   exists: (path: string) => boolean = existsSync,
 ): string | undefined {
   if (env.BLENDER) return env.BLENDER;
-  return exists(MAC_BLENDER) ? MAC_BLENDER : undefined;
+  if (exists(MAC_BLENDER)) return MAC_BLENDER;
+  return (env.PATH ?? "")
+    .split(delimiter)
+    .filter(Boolean)
+    .map((dir) => join(dir, "blender"))
+    .find((path) => exists(path));
 }
 
 export function requireBlender(): string {

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "tower_stone_watch",
+  "name": "Stone watchtower",
+  "description": "A round stone watchtower about 12 m high: three stepped drystone drums with dark string courses, a crenellated parapet, a red conical roof with an iron finial, warm-lit slit windows and a plank door on the ground floor.",
+  "category": "structure",
+  "family": "tower",
+  "tags": [
+    "stone",
+    "wood",
+    "village",
+    "boundary",
+    "tall",
+    "round",
+    "roofed",
+    "weathered"
+  ],
+  "aliases": ["watchtower", "lookout tower", "guard tower"],
+  "variants": ["tower_stone_watch"],
+  "size": { "x": 4.35, "y": 5.1, "z": 11.8 },
+  "anchors": ["light:window"],
+  "closed": false,
+  "provenance": { "source": "handwritten" },
+  "licence": "CC0-1.0"
+}
