@@ -747,6 +747,30 @@
       "inputHash": "733af34c73bdb99c98ab16a5a452ef9f262296b7cb5b25dba2733b4ece208ed9"
     },
     {
+      "id": "oak_tree",
+      "name": "Oak tree",
+      "description": "A broad old oak tree about 7 m high and 6 m across: a thick gnarled trunk with deep furrowed bark splitting into a few heavy crooked limbs, under a wide rounded crown of clumped dark-green leaf masses with gaps between them.",
+      "category": "vegetation",
+      "family": "tree",
+      "tags": [
+        "forest",
+        "large",
+        "road",
+        "round",
+        "village",
+        "weathered",
+        "wood"
+      ],
+      "aliases": ["broadleaf", "deciduous", "oak", "shade tree"],
+      "variants": ["oak_tree"],
+      "size": { "x": 6, "y": 6, "z": 7 },
+      "anchors": [],
+      "closed": false,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "6b8acbed3cfb70069171c5fe3d6dcd7bc87e9c8ddedf8737e8fbffe4b84719f4"
+    },
+    {
       "id": "pebbles",
       "name": "Pebbles",
       "description": "A few loose grey-brown pebbles and one fist-sized stone lying half sunk in the ground, with a little moss. Variants are a small scatter of six pebbles and a larger cluster around one flat stone.",
