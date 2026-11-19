@@ -1,6 +1,6 @@
 # Plan 2: every prop srd-iso-rpg needs
 
-**Status:** planned 2026-11-19; worked by the HQ runner on the Asus laptop (Linux, Blender 5.2.2), one kit per session. Item 1 (crypt wall kit) done 2026-11-20.
+**Status:** planned 2026-11-19; worked by the HQ runner on the Asus laptop (Linux, Blender 5.2.2), one kit per session. Items 1 (crypt wall kit) and 2 (rock mass and niches) done 2026-11-20.
 
 ## Goal
 
