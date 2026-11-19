@@ -1271,6 +1271,22 @@
       "inputHash": "a7841b1add2af09d25b2cf83a698c7be9927e5f28385ec23e70314e9dbb8870b"
     },
     {
+      "id": "torch_wall_sconce",
+      "name": "Wall torch in an iron sconce",
+      "description": "A wrought-iron wall bracket, a riveted plate with two scrolls, holding a pitch torch that leans out from the wall: a wooden haft, a dark pitch-soaked rag head bound with cord, glowing at the top under a short flame.",
+      "category": "light",
+      "family": "torch",
+      "tags": ["crypt", "dungeon", "iron", "lighting", "small", "wood", "worn"],
+      "aliases": ["brand", "flambeau", "sconce", "torch bracket", "wall torch"],
+      "variants": ["torch_wall_sconce"],
+      "size": { "x": 0.25, "y": 0.35, "z": 0.6 },
+      "anchors": ["fire:torch", "light:torch"],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "0894b1fd72b25dcbcd11d1d0e6955c2a131f5793621946016d811a0829963f56"
+    },
+    {
       "id": "tower_stone_watch",
       "name": "Stone watchtower",
       "description": "A round stone watchtower about 12 m high: three stepped drystone drums with dark string courses, a crenellated parapet, a red conical roof with an iron finial, warm-lit slit windows and a plank door on the ground floor.",

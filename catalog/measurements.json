@@ -1816,6 +1816,41 @@
         }
       ]
     },
+    "torch_wall_sconce": {
+      "inputHash": "0894b1fd72b25dcbcd11d1d0e6955c2a131f5793621946016d811a0829963f56",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "torch_wall_sconce",
+          "tris": 3320,
+          "bbox": {
+            "min": [-0.124, -0.1386, 0.0023],
+            "max": [0.124, 0.1943, 0.5927]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "torch_wall_sconce_cord", "source": "palette" },
+            { "name": "torch_wall_sconce_ember", "source": "palette" },
+            { "name": "torch_wall_sconce_flame", "source": "palette" },
+            { "name": "torch_wall_sconce_iron", "source": "palette" },
+            { "name": "torch_wall_sconce_pitch", "source": "palette" },
+            { "name": "torch_wall_sconce_wood", "source": "palette" },
+            { "name": "torch_wall_sconce_worn", "source": "palette" }
+          ],
+          "anchors": [
+            {
+              "name": "fire:torch",
+              "at": [0, -0.099, 0.4778],
+              "size": [0.04, 0.04, 0.3]
+            },
+            { "name": "light:torch", "at": [0, -0.119, 0.5978] }
+          ],
+          "textures": []
+        }
+      ]
+    },
     "tower_stone_watch": {
       "inputHash": "e8be463ff31c6ecc06ed4283804d5acab91dd29fb5ac0cfdb3d7d8744f2b75e9",
       "libVersion": 1,
