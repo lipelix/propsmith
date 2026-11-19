@@ -1798,6 +1798,78 @@
         }
       ]
     },
+    "wall_crypt_corner": {
+      "inputHash": "49295a9584b7e736b0591ffc8e2ea7b197a4308f7715c804b98f974094236604",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "wall_crypt_corner",
+          "tris": 3264,
+          "bbox": { "min": [-0.3254, -0.3261, 0], "max": [0.75, 0.75, 3] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_crypt_corner_coping", "source": "palette" },
+            { "name": "wall_crypt_corner_damp", "source": "palette" },
+            { "name": "wall_crypt_corner_mortar", "source": "palette" },
+            { "name": "wall_crypt_corner_stone", "source": "palette" },
+            { "name": "wall_crypt_corner_stone_old", "source": "palette" },
+            { "name": "wall_crypt_corner_stone_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "wall_crypt_doorway": {
+      "inputHash": "e3891a51da524cdcf6c9caefb4726d48a427d47bedcdabc3e1ed8b695cdb2e3c",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "wall_crypt_doorway",
+          "tris": 4760,
+          "bbox": { "min": [-0.75, -0.3241, 0], "max": [0.75, 0.3246, 2.9999] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_crypt_doorway_coping", "source": "palette" },
+            { "name": "wall_crypt_doorway_damp", "source": "palette" },
+            { "name": "wall_crypt_doorway_mortar", "source": "palette" },
+            { "name": "wall_crypt_doorway_stone", "source": "palette" },
+            { "name": "wall_crypt_doorway_stone_old", "source": "palette" },
+            { "name": "wall_crypt_doorway_stone_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "wall_crypt_straight": {
+      "inputHash": "9d2c2f88700b68104d7bfe7bc1d4de0890c9a6318d44e08187e0818dc1889c4a",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "wall_crypt_straight",
+          "tris": 2712,
+          "bbox": { "min": [-0.75, -0.3228, 0], "max": [0.75, 0.3254, 2.9987] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_crypt_straight_coping", "source": "palette" },
+            { "name": "wall_crypt_straight_damp", "source": "palette" },
+            { "name": "wall_crypt_straight_mortar", "source": "palette" },
+            { "name": "wall_crypt_straight_stone", "source": "palette" },
+            { "name": "wall_crypt_straight_stone_old", "source": "palette" },
+            { "name": "wall_crypt_straight_stone_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "wall_stone_corner": {
       "inputHash": "c5c27488dd9acb3baff4f07c4fb5389c6b0e1fc23ca1c4813c1e556a7e9eb0ab",
       "libVersion": 1,

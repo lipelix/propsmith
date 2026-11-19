@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "wall_crypt_straight",
+  "name": "Crypt wall section",
+  "description": "A straight 1.5 m section of crypt wall, 0.6 m thick and 3 m high: cool, dark blue-grey dressed ashlar in regular staggered courses with worn rounded arrises over dark recessed joints, a slightly proud footing course and a plain coping on top. Damp darkens most of the footing blocks and runs down the faces in a few streaks under the joints.",
+  "category": "structure",
+  "family": "wall",
+  "tags": ["stone", "crypt", "dungeon", "boundary", "tall", "plain", "worn"],
+  "aliases": [
+    "crypt wall",
+    "ashlar wall",
+    "dungeon wall",
+    "masonry",
+    "wall segment",
+    "tomb wall"
+  ],
+  "variants": ["wall_crypt_straight"],
+  "size": { "x": 1.55, "y": 0.65, "z": 3.0 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A straight 1.5 m section of crypt wall: dark dressed ashlar, about 3 m high and 0.6 m thick. Cooler and darker than the village fieldstone, with worn joints and a little damp staining. The wall runs along x through the centre so sections join end to end."
+  },
+  "licence": "CC0-1.0"
+}
