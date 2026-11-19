@@ -171,6 +171,36 @@
       "inputHash": "bf3929860928242b5ba4dd5ea8dc4753e13cf4987f71526d9d1266cb08e9da4c"
     },
     {
+      "id": "brazier_iron",
+      "name": "Iron brazier",
+      "description": "A standing wrought-iron brazier about 1 m high: a wide fire bowl with a rolled rim on three splayed legs tied by a ring brace, heaped with black coals glowing orange at the heart under low flames.",
+      "category": "light",
+      "family": "brazier",
+      "tags": [
+        "crypt",
+        "dungeon",
+        "iron",
+        "lighting",
+        "round",
+        "temple",
+        "worn"
+      ],
+      "aliases": [
+        "coal burner",
+        "fire basket",
+        "fire bowl",
+        "fire pit",
+        "firepan"
+      ],
+      "variants": ["brazier_iron"],
+      "size": { "x": 0.65, "y": 0.7, "z": 1.1 },
+      "anchors": ["fire:bowl", "light:fire"],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "ea5644605e108e4987ffca6d28431d6c338498a71745b88608f701b364734116"
+    },
+    {
       "id": "bucket_wood",
       "name": "Wooden bucket",
       "description": "A small wooden water bucket about 0.35 m high and 0.3 m across, its tapered staves held by two dark iron hoops, with an iron bail handle and dark water inside. The tipped variant lies empty on its side.",
@@ -226,6 +256,37 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "f54fefaaaa1defcc77e135ad5f14a85b7783046eb2d637ab0d1ceeeb6782c14c"
+    },
+    {
+      "id": "campfire_ring",
+      "name": "Camp fire in a stone ring",
+      "description": "A camp fire about 1.2 m across: a ring of rough grey-brown stones, some blackened, round a bed of grey ash and glowing embers, two logs laid in a cross with three sticks leant together over them and low flames at the heart.",
+      "category": "light",
+      "family": "campfire",
+      "tags": [
+        "cooking",
+        "forest",
+        "lighting",
+        "low",
+        "road",
+        "round",
+        "stone",
+        "wood"
+      ],
+      "aliases": [
+        "bonfire",
+        "camp fire",
+        "fire pit",
+        "fire ring",
+        "hearth fire"
+      ],
+      "variants": ["campfire_ring"],
+      "size": { "x": 1.2, "y": 1.15, "z": 0.5 },
+      "anchors": ["fire:camp", "light:fire"],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "8763980b1e36c6ac0ce78872263b835687e8425a44ec2167fdc9db1150a15c2c"
     },
     {
       "id": "candle_stand",
@@ -1208,6 +1269,22 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "a7841b1add2af09d25b2cf83a698c7be9927e5f28385ec23e70314e9dbb8870b"
+    },
+    {
+      "id": "torch_wall_sconce",
+      "name": "Wall torch in an iron sconce",
+      "description": "A wrought-iron wall bracket, a riveted plate with two scrolls, holding a pitch torch that leans out from the wall: a wooden haft, a dark pitch-soaked rag head bound with cord, glowing at the top under a short flame.",
+      "category": "light",
+      "family": "torch",
+      "tags": ["crypt", "dungeon", "iron", "lighting", "small", "wood", "worn"],
+      "aliases": ["brand", "flambeau", "sconce", "torch bracket", "wall torch"],
+      "variants": ["torch_wall_sconce"],
+      "size": { "x": 0.25, "y": 0.35, "z": 0.6 },
+      "anchors": ["fire:torch", "light:torch"],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "0894b1fd72b25dcbcd11d1d0e6955c2a131f5793621946016d811a0829963f56"
     },
     {
       "id": "tower_stone_watch",

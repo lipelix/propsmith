@@ -215,6 +215,40 @@
         }
       ]
     },
+    "brazier_iron": {
+      "inputHash": "ea5644605e108e4987ffca6d28431d6c338498a71745b88608f701b364734116",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "brazier_iron",
+          "tris": 4956,
+          "bbox": {
+            "min": [-0.3209, -0.318, -0.0018],
+            "max": [0.3209, 0.3507, 1.0776]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "brazier_iron_ash", "source": "palette" },
+            { "name": "brazier_iron_coal", "source": "palette" },
+            { "name": "brazier_iron_ember", "source": "palette" },
+            { "name": "brazier_iron_flame", "source": "palette" },
+            { "name": "brazier_iron_iron", "source": "palette" },
+            { "name": "brazier_iron_worn", "source": "palette" }
+          ],
+          "anchors": [
+            {
+              "name": "fire:bowl",
+              "at": [0, 0, 0.94],
+              "size": [0.22, 0.22, 0.45]
+            },
+            { "name": "light:fire", "at": [0, 0, 1.13] }
+          ],
+          "textures": []
+        }
+      ]
+    },
     "bucket_wood": {
       "inputHash": "43c783c804b2431db8d473d93f7b66a0c89da636e66ac2be418d12dad4adfee7",
       "libVersion": 1,
@@ -370,6 +404,43 @@
             { "name": "bush_round_stem", "source": "palette" }
           ],
           "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "campfire_ring": {
+      "inputHash": "8763980b1e36c6ac0ce78872263b835687e8425a44ec2167fdc9db1150a15c2c",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "campfire_ring",
+          "tris": 3764,
+          "bbox": {
+            "min": [-0.5552, -0.5638, -0.004],
+            "max": [0.5974, 0.5812, 0.4651]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "campfire_ring_ash", "source": "palette" },
+            { "name": "campfire_ring_char", "source": "palette" },
+            { "name": "campfire_ring_ember", "source": "palette" },
+            { "name": "campfire_ring_flame", "source": "palette" },
+            { "name": "campfire_ring_log", "source": "palette" },
+            { "name": "campfire_ring_log_cut", "source": "palette" },
+            { "name": "campfire_ring_soot", "source": "palette" },
+            { "name": "campfire_ring_stone", "source": "palette" },
+            { "name": "campfire_ring_stone_dark", "source": "palette" }
+          ],
+          "anchors": [
+            {
+              "name": "fire:camp",
+              "at": [0, 0, 0.08],
+              "size": [0.25, 0.25, 0.6]
+            },
+            { "name": "light:fire", "at": [0, 0, 0.45] }
+          ],
           "textures": []
         }
       ]
@@ -1741,6 +1812,41 @@
             { "name": "table_top_old", "source": "palette" }
           ],
           "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "torch_wall_sconce": {
+      "inputHash": "0894b1fd72b25dcbcd11d1d0e6955c2a131f5793621946016d811a0829963f56",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "torch_wall_sconce",
+          "tris": 3320,
+          "bbox": {
+            "min": [-0.124, -0.1386, 0.0023],
+            "max": [0.124, 0.1943, 0.5927]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "torch_wall_sconce_cord", "source": "palette" },
+            { "name": "torch_wall_sconce_ember", "source": "palette" },
+            { "name": "torch_wall_sconce_flame", "source": "palette" },
+            { "name": "torch_wall_sconce_iron", "source": "palette" },
+            { "name": "torch_wall_sconce_pitch", "source": "palette" },
+            { "name": "torch_wall_sconce_wood", "source": "palette" },
+            { "name": "torch_wall_sconce_worn", "source": "palette" }
+          ],
+          "anchors": [
+            {
+              "name": "fire:torch",
+              "at": [0, -0.099, 0.4778],
+              "size": [0.04, 0.04, 0.3]
+            },
+            { "name": "light:torch", "at": [0, -0.119, 0.5978] }
+          ],
           "textures": []
         }
       ]
