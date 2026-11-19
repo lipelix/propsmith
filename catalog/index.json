@@ -171,6 +171,36 @@
       "inputHash": "bf3929860928242b5ba4dd5ea8dc4753e13cf4987f71526d9d1266cb08e9da4c"
     },
     {
+      "id": "brazier_iron",
+      "name": "Iron brazier",
+      "description": "A standing wrought-iron brazier about 1 m high: a wide fire bowl with a rolled rim on three splayed legs tied by a ring brace, heaped with black coals glowing orange at the heart under low flames.",
+      "category": "light",
+      "family": "brazier",
+      "tags": [
+        "crypt",
+        "dungeon",
+        "iron",
+        "lighting",
+        "round",
+        "temple",
+        "worn"
+      ],
+      "aliases": [
+        "coal burner",
+        "fire basket",
+        "fire bowl",
+        "fire pit",
+        "firepan"
+      ],
+      "variants": ["brazier_iron"],
+      "size": { "x": 0.65, "y": 0.7, "z": 1.1 },
+      "anchors": ["fire:bowl", "light:fire"],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "ea5644605e108e4987ffca6d28431d6c338498a71745b88608f701b364734116"
+    },
+    {
       "id": "bucket_wood",
       "name": "Wooden bucket",
       "description": "A small wooden water bucket about 0.35 m high and 0.3 m across, its tapered staves held by two dark iron hoops, with an iron bail handle and dark water inside. The tipped variant lies empty on its side.",

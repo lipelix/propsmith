@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "brazier_iron",
+  "name": "Iron brazier",
+  "description": "A standing wrought-iron brazier about 1 m high: a wide fire bowl with a rolled rim on three splayed legs tied by a ring brace, heaped with black coals glowing orange at the heart under low flames.",
+  "category": "light",
+  "family": "brazier",
+  "tags": ["iron", "crypt", "dungeon", "temple", "lighting", "round", "worn"],
+  "aliases": ["fire bowl", "fire basket", "fire pit", "coal burner", "firepan"],
+  "variants": ["brazier_iron"],
+  "size": { "x": 0.65, "y": 0.7, "z": 1.1 },
+  "anchors": ["fire:bowl", "light:fire"],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "An iron fire bowl on three legs, about 0.7 x 0.7 x 1.1 m, burning coals; anchors fire:bowl and light:fire."
+  },
+  "licence": "CC0-1.0"
+}

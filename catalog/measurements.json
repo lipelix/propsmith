@@ -215,6 +215,40 @@
         }
       ]
     },
+    "brazier_iron": {
+      "inputHash": "ea5644605e108e4987ffca6d28431d6c338498a71745b88608f701b364734116",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "brazier_iron",
+          "tris": 4956,
+          "bbox": {
+            "min": [-0.3209, -0.318, -0.0018],
+            "max": [0.3209, 0.3507, 1.0776]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "brazier_iron_ash", "source": "palette" },
+            { "name": "brazier_iron_coal", "source": "palette" },
+            { "name": "brazier_iron_ember", "source": "palette" },
+            { "name": "brazier_iron_flame", "source": "palette" },
+            { "name": "brazier_iron_iron", "source": "palette" },
+            { "name": "brazier_iron_worn", "source": "palette" }
+          ],
+          "anchors": [
+            {
+              "name": "fire:bowl",
+              "at": [0, 0, 0.94],
+              "size": [0.22, 0.22, 0.45]
+            },
+            { "name": "light:fire", "at": [0, 0, 1.13] }
+          ],
+          "textures": []
+        }
+      ]
+    },
     "bucket_wood": {
       "inputHash": "43c783c804b2431db8d473d93f7b66a0c89da636e66ac2be418d12dad4adfee7",
       "libVersion": 1,
