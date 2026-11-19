@@ -323,6 +323,31 @@
       "inputHash": "b3e3adf0dd9e14c4a1ce2f65c59ce8c426eae54b8309477eb0f595580285c1a2"
     },
     {
+      "id": "coffin_wood",
+      "name": "Wooden coffin",
+      "description": "A plain six-sided wooden coffin about 2 m long, 0.6 m wide at the shoulders and 0.45 m high, of dark weathered planks with iron nails and two iron handles on each long side, its lid slid a little askew.",
+      "category": "container",
+      "family": "coffin",
+      "tags": [
+        "crypt",
+        "dungeon",
+        "iron",
+        "long",
+        "plain",
+        "temple",
+        "weathered",
+        "wood"
+      ],
+      "aliases": ["burial box", "casket", "pine box"],
+      "variants": ["coffin_wood"],
+      "size": { "x": 2.05, "y": 0.7, "z": 0.45 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "c6e88a56957f4b31a2e5d761ce9df295fc0f6ff4186a3efcb526a5a6177344db"
+    },
+    {
       "id": "counter_wood",
       "name": "Wooden shop counter",
       "description": "A village shop's closed wooden sales counter, about 2.6 m long, 0.7 m deep and nearly 1 m high: vertical front planks over a darker plinth board, a thick overhanging oak top, and a small iron balance scale and a little stack of coins on it.",

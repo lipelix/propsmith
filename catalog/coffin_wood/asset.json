@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "coffin_wood",
+  "name": "Wooden coffin",
+  "description": "A plain six-sided wooden coffin about 2 m long, 0.6 m wide at the shoulders and 0.45 m high, of dark weathered planks with iron nails and two iron handles on each long side, its lid slid a little askew.",
+  "category": "container",
+  "family": "coffin",
+  "tags": [
+    "wood",
+    "iron",
+    "crypt",
+    "temple",
+    "dungeon",
+    "long",
+    "plain",
+    "weathered"
+  ],
+  "aliases": ["casket", "pine box", "burial box"],
+  "variants": ["coffin_wood"],
+  "size": { "x": 2.05, "y": 0.7, "z": 0.45 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A plain wooden coffin about 2 m long, 0.6 m wide at the shoulders and 0.45 m high: six-sided, of dark weathered planks with iron nails and two iron handles on each long side, its lid slid a little askew."
+  },
+  "licence": "CC0-1.0"
+}
