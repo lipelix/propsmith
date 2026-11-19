@@ -1253,6 +1253,92 @@
       "inputHash": "cf17895115e685ac7bbed3e4683ef38f4b25277529eb4b0305db8c30138f4ec1"
     },
     {
+      "id": "wall_crypt_corner",
+      "name": "Crypt wall corner",
+      "description": "An L-shaped corner of crypt wall, 0.6 m thick and 3 m high, in the cool, dark dressed ashlar of the crypt wall section: long quoins alternate between the arms over a square corner pier, worn rounded arrises over dark recessed joints, a slightly proud footing course and a plain coping. One arm runs 0.75 m from the corner to +x, the other to +y, where they meet straight sections. Damp darkens the footing and streaks the outer faces.",
+      "category": "structure",
+      "family": "wall",
+      "tags": [
+        "boundary",
+        "crypt",
+        "dungeon",
+        "plain",
+        "stone",
+        "tall",
+        "worn"
+      ],
+      "aliases": [
+        "ashlar wall",
+        "corner",
+        "crypt wall corner",
+        "dungeon wall",
+        "masonry",
+        "wall corner"
+      ],
+      "variants": ["wall_crypt_corner"],
+      "size": { "x": 1.5, "y": 1.5, "z": 3 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "49295a9584b7e736b0591ffc8e2ea7b197a4308f7715c804b98f974094236604"
+    },
+    {
+      "id": "wall_crypt_doorway",
+      "name": "Crypt wall with arched doorway",
+      "description": "A 1.5 m section of crypt wall, 0.6 m thick and 3 m high, with an empty round-arched doorway about 1.1 m wide and 2.2 m high, in the cool, dark dressed ashlar of the crypt wall section: jamb blocks up to the springing line, a ring of wedge voussoirs with a paler keystone standing a little proud, coursed blocks cut to the arch above it, worn rounded arrises over dark recessed joints and a plain coping. Damp darkens the jamb footings and streaks the faces.",
+      "category": "structure",
+      "family": "wall",
+      "tags": ["boundary", "crypt", "dungeon", "open", "stone", "tall", "worn"],
+      "aliases": [
+        "arched doorway",
+        "archway",
+        "ashlar wall",
+        "crypt arch",
+        "doorway",
+        "dungeon wall",
+        "entrance"
+      ],
+      "variants": ["wall_crypt_doorway"],
+      "size": { "x": 1.55, "y": 0.65, "z": 3 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "e3891a51da524cdcf6c9caefb4726d48a427d47bedcdabc3e1ed8b695cdb2e3c"
+    },
+    {
+      "id": "wall_crypt_straight",
+      "name": "Crypt wall section",
+      "description": "A straight 1.5 m section of crypt wall, 0.6 m thick and 3 m high: cool, dark blue-grey dressed ashlar in regular staggered courses with worn rounded arrises over dark recessed joints, a slightly proud footing course and a plain coping on top. Damp darkens most of the footing blocks and runs down the faces in a few streaks under the joints.",
+      "category": "structure",
+      "family": "wall",
+      "tags": [
+        "boundary",
+        "crypt",
+        "dungeon",
+        "plain",
+        "stone",
+        "tall",
+        "worn"
+      ],
+      "aliases": [
+        "ashlar wall",
+        "crypt wall",
+        "dungeon wall",
+        "masonry",
+        "tomb wall",
+        "wall segment"
+      ],
+      "variants": ["wall_crypt_straight"],
+      "size": { "x": 1.55, "y": 0.65, "z": 3 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "9d2c2f88700b68104d7bfe7bc1d4de0890c9a6318d44e08187e0818dc1889c4a"
+    },
+    {
       "id": "wall_stone_corner",
       "name": "Fieldstone wall corner",
       "description": "An L-shaped corner of village fieldstone wall, 0.45 m thick and 2.4 m high: rough grey-brown stone blocks in staggered courses over recessed mortar, tied by alternating quoins at a square corner pier, with flat capstones on top. One arm runs 0.75 m from the corner to +x, the other to +y, where they meet 1.5 m straight wall sections. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so what is inside stays visible. The `_rubble` variants (`_rubble`, `_rubble_2`, each also `_low`) are the same corner in rubble: rounded stones of mixed sizes, a long corner stone per course tying the arms, dark recessed joints, rounded cap stones; `_moss` adds moss on the caps and at the foot.",

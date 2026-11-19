@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "wall_crypt_doorway",
+  "name": "Crypt wall with arched doorway",
+  "description": "A 1.5 m section of crypt wall, 0.6 m thick and 3 m high, with an empty round-arched doorway about 1.1 m wide and 2.2 m high, in the cool, dark dressed ashlar of the crypt wall section: jamb blocks up to the springing line, a ring of wedge voussoirs with a paler keystone standing a little proud, coursed blocks cut to the arch above it, worn rounded arrises over dark recessed joints and a plain coping. Damp darkens the jamb footings and streaks the faces.",
+  "category": "structure",
+  "family": "wall",
+  "tags": ["stone", "crypt", "dungeon", "boundary", "tall", "open", "worn"],
+  "aliases": [
+    "doorway",
+    "archway",
+    "arched doorway",
+    "crypt arch",
+    "entrance",
+    "ashlar wall",
+    "dungeon wall"
+  ],
+  "variants": ["wall_crypt_doorway"],
+  "size": { "x": 1.55, "y": 0.65, "z": 3.0 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A 1.5 m section of the same crypt wall as wall_crypt_straight (dark dressed ashlar, about 3 m high and 0.6 m thick) with an empty arched opening about 1.1 m wide and 2.2 m high in the middle. Cooler and darker than the village fieldstone, with worn joints and a little damp staining."
+  },
+  "licence": "CC0-1.0"
+}

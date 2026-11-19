@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "wall_crypt_corner",
+  "name": "Crypt wall corner",
+  "description": "An L-shaped corner of crypt wall, 0.6 m thick and 3 m high, in the cool, dark dressed ashlar of the crypt wall section: long quoins alternate between the arms over a square corner pier, worn rounded arrises over dark recessed joints, a slightly proud footing course and a plain coping. One arm runs 0.75 m from the corner to +x, the other to +y, where they meet straight sections. Damp darkens the footing and streaks the outer faces.",
+  "category": "structure",
+  "family": "wall",
+  "tags": ["stone", "crypt", "dungeon", "boundary", "tall", "plain", "worn"],
+  "aliases": [
+    "crypt wall corner",
+    "corner",
+    "wall corner",
+    "ashlar wall",
+    "dungeon wall",
+    "masonry"
+  ],
+  "variants": ["wall_crypt_corner"],
+  "size": { "x": 1.5, "y": 1.5, "z": 3.0 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "An L-shaped corner of the same crypt wall as wall_crypt_straight (dark dressed ashlar, about 3 m high and 0.6 m thick): two half-sections, one arm from the centre to the +x edge, the other from the centre to the +y edge, joined at a square corner pier, so it meets straight 1.5 m sections. Cooler and darker than the village fieldstone, with worn joints and a little damp staining."
+  },
+  "licence": "CC0-1.0"
+}
