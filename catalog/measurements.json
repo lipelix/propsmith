@@ -34,6 +34,33 @@
         }
       ]
     },
+    "anvil_iron": {
+      "inputHash": "0451ea6ca8b2a6f471193fba119132fc10f615cf487731f2c4dd816ef4a9484f",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "anvil_iron",
+          "tris": 3388,
+          "bbox": {
+            "min": [-0.375, -0.2374, 0],
+            "max": [0.375, 0.2374, 0.7586]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "anvil_iron_bark", "source": "palette" },
+            { "name": "anvil_iron_body", "source": "palette" },
+            { "name": "anvil_iron_cut", "source": "palette" },
+            { "name": "anvil_iron_face", "source": "palette" },
+            { "name": "anvil_iron_ring", "source": "palette" },
+            { "name": "anvil_iron_soot", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "barrel_wood": {
       "inputHash": "4fc1ec58097f1d6a2d69ccf2183339742fb9ce9e21a2de01681ce9c727543e13",
       "libVersion": 1,
