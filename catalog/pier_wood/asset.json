@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "pier_wood",
+  "name": "Wooden jetty",
+  "description": "A short wooden jetty section about 4 m long and 1.6 m wide: weathered planks with uneven gaps laid across two stringers on crossbeams, held up by four pairs of round timber posts standing on the ground, with a taller mooring post wrapped in rope at one end.",
+  "category": "structure",
+  "family": "pier",
+  "tags": [
+    "wood",
+    "rope",
+    "village",
+    "water",
+    "long",
+    "low",
+    "open",
+    "weathered"
+  ],
+  "aliases": ["jetty", "dock", "landing stage", "wharf", "boardwalk"],
+  "variants": ["pier_wood"],
+  "size": { "x": 4.05, "y": 1.65, "z": 1.35 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A short wooden jetty section about 4 m long and 1.6 m wide: weathered planks with uneven gaps laid across two stringers, held up by four pairs of round timber posts standing on the ground, with a taller mooring post at one end."
+  },
+  "licence": "CC0-1.0"
+}
