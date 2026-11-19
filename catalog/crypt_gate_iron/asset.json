@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "id": "crypt_gate_iron",
+  "name": "Iron crypt gate",
+  "description": "A crypt gate 1.6 m wide and about 2.4 m high: a round-arched doorway of grey dressed stone with a raised keystone, closed by an iron grille door of vertical bars and two cross bands whose spear-point tips rise under the arch, hung on heavy strap hinges and locked with a large padlock on a hasp.",
+  "category": "door",
+  "family": "gate",
+  "tags": [
+    "iron",
+    "stone",
+    "crypt",
+    "dungeon",
+    "boundary",
+    "tall",
+    "ornate",
+    "weathered"
+  ],
+  "aliases": [
+    "crypt door",
+    "tomb gate",
+    "iron grille",
+    "arched gate",
+    "mausoleum gate"
+  ],
+  "variants": ["crypt_gate_iron"],
+  "size": { "x": 1.65, "y": 0.45, "z": 2.4 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A crypt gate about 2.4 m high and 1.6 m wide: a round-arched stone doorway frame with an iron grille door of vertical bars, two cross bands, spear-point tips under the arch, heavy hinges and a large padlock on a hasp."
+  },
+  "licence": "CC0-1.0"
+}
