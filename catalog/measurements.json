@@ -1121,6 +1121,31 @@
         }
       ]
     },
+    "pier_wood": {
+      "inputHash": "8420d0e9a787a227d46ea12d480abc7e9a84a790602208d3934c53fc6ebd68f0",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "pier_wood",
+          "tris": 5464,
+          "bbox": {
+            "min": [-2.0045, -0.806, -0.0017],
+            "max": [2.0058, 0.8091, 1.33]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "pier_wood_frame", "source": "palette" },
+            { "name": "pier_wood_planks", "source": "palette" },
+            { "name": "pier_wood_planks_old", "source": "palette" },
+            { "name": "pier_wood_rope", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "pine_tree": {
       "inputHash": "7e549e42b36c16aac4e318aee31bbd57c656b430caa37a4b4be09e51f8c22375",
       "libVersion": 1,

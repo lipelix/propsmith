@@ -747,6 +747,31 @@
       "inputHash": "fd223b557d43a09f05bbebb0cd9eee513d593d7ac882b28ee057fd66e682ad89"
     },
     {
+      "id": "pier_wood",
+      "name": "Wooden jetty",
+      "description": "A short wooden jetty section about 4 m long and 1.6 m wide: weathered planks with uneven gaps laid across two stringers on crossbeams, held up by four pairs of round timber posts standing on the ground, with a taller mooring post wrapped in rope at one end.",
+      "category": "structure",
+      "family": "pier",
+      "tags": [
+        "long",
+        "low",
+        "open",
+        "rope",
+        "village",
+        "water",
+        "weathered",
+        "wood"
+      ],
+      "aliases": ["boardwalk", "dock", "jetty", "landing stage", "wharf"],
+      "variants": ["pier_wood"],
+      "size": { "x": 4.05, "y": 1.65, "z": 1.35 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "8420d0e9a787a227d46ea12d480abc7e9a84a790602208d3934c53fc6ebd68f0"
+    },
+    {
       "id": "pine_tree",
       "name": "Pine tree",
       "description": "A tall pine tree about 6 m high: a straight brown trunk with rough bark and a few roots spreading at the foot, under five stacked tiers of drooping dark-green needle boughs that narrow to a pointed top, each tier slightly irregular and turned.",
