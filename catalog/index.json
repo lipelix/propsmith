@@ -32,6 +32,22 @@
       "inputHash": "71a1180cdb3e6a4b5bc37febc33a0226b2ad7199d9b4c1898c643e416b535fce"
     },
     {
+      "id": "anvil_iron",
+      "name": "Iron anvil",
+      "description": "A blacksmith's dark iron anvil about 0.75 m long, with a tapered horn, a flat steel face and a square heel, standing on a sawn wooden log block about 0.5 m high bound with an iron band.",
+      "category": "decor",
+      "family": "anvil",
+      "tags": ["iron", "long", "village", "wood", "work", "worn"],
+      "aliases": ["blacksmith", "forge", "smithy", "stithy"],
+      "variants": ["anvil_iron"],
+      "size": { "x": 0.75, "y": 0.5, "z": 0.8 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "0451ea6ca8b2a6f471193fba119132fc10f615cf487731f2c4dd816ef4a9484f"
+    },
+    {
       "id": "barrel_wood",
       "name": "Wooden barrel",
       "description": "A short wooden barrel about 0.6 m wide and 0.9 m high, its curved staves of slightly varied wood held by three dark iron hoops and closed with a plank lid.",

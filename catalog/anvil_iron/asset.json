@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "anvil_iron",
+  "name": "Iron anvil",
+  "description": "A blacksmith's dark iron anvil about 0.75 m long, with a tapered horn, a flat steel face and a square heel, standing on a sawn wooden log block about 0.5 m high bound with an iron band.",
+  "category": "decor",
+  "family": "anvil",
+  "tags": ["iron", "wood", "village", "work", "long", "worn"],
+  "aliases": ["smithy", "forge", "blacksmith", "stithy"],
+  "variants": ["anvil_iron"],
+  "size": { "x": 0.75, "y": 0.5, "z": 0.8 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A blacksmith's iron anvil about 0.75 m long on a sawn wooden log block: a dark iron body with a tapered horn, a flat face and a square heel, the block about 0.5 m high with an iron band."
+  },
+  "licence": "CC0-1.0"
+}
