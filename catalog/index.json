@@ -258,6 +258,36 @@
       "inputHash": "069e0f55904739e6cb53ca9ee502f1a7c5d3fb09e3369180b45b9d03c36eac3a"
     },
     {
+      "id": "candles_melted",
+      "name": "Melted church candles",
+      "description": "A cluster of seven pale wax church candles of different heights, from 0.08 to 0.3 m, standing on the floor in a shared puddle of hardened wax about 0.4 m across. Wax drips run down their sides and small dark wicks sit in their melted tops.",
+      "category": "light",
+      "family": "candles",
+      "tags": [
+        "crypt",
+        "lighting",
+        "low",
+        "small",
+        "temple",
+        "worn",
+        "worship"
+      ],
+      "aliases": [
+        "candle cluster",
+        "shrine candles",
+        "tallow candles",
+        "votive candles",
+        "wax puddle"
+      ],
+      "variants": ["candles_melted"],
+      "size": { "x": 0.4, "y": 0.35, "z": 0.3 },
+      "anchors": ["light:candles"],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "09dd2d5433c9f2662dbcb741f2d4993ccec795cb6de504d81dfc45ec1a51f29d"
+    },
+    {
       "id": "cart_hand",
       "name": "Handcart",
       "description": "A two-wheeled wooden handcart parked on its stand, loaded with two grain sacks.",
