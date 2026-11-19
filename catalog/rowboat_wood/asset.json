@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "rowboat_wood",
+  "name": "Wooden rowboat",
+  "description": "A small wooden rowboat about 3.2 m long and 1.2 m wide resting upright on the ground, built of overlapping clinker planks with a pointed bow and a flat transom. Two thwart seats cross it and a pair of oars lies inside.",
+  "category": "decor",
+  "family": "rowboat",
+  "tags": [
+    "wood",
+    "iron",
+    "village",
+    "water",
+    "transport",
+    "long",
+    "open",
+    "worn"
+  ],
+  "aliases": ["boat", "dinghy", "skiff", "oars"],
+  "variants": ["rowboat_wood"],
+  "size": { "x": 3.2, "y": 1.2, "z": 0.8 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A small wooden rowboat about 3.2 m long and 1.2 m wide resting upright on the ground: overlapping clinker planks, a pointed bow, a flat transom, two thwart seats and a pair of oars laid inside."
+  },
+  "licence": "CC0-1.0"
+}

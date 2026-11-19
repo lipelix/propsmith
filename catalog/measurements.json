@@ -1232,6 +1232,33 @@
         }
       ]
     },
+    "rowboat_wood": {
+      "inputHash": "43552aa8390acbe38d23844e3fb76af90a4af10cf6d7a1f47895d19e7d289641",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "rowboat_wood",
+          "tris": 7136,
+          "bbox": {
+            "min": [-1.585, -0.6021, 0.0039],
+            "max": [1.5993, 0.6021, 0.793]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "rowboat_iron", "source": "palette" },
+            { "name": "rowboat_oar", "source": "palette" },
+            { "name": "rowboat_planks", "source": "palette" },
+            { "name": "rowboat_planks_old", "source": "palette" },
+            { "name": "rowboat_seat", "source": "palette" },
+            { "name": "rowboat_timber", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "sacks_grain": {
       "inputHash": "9196ee4fc062d99492a6592f0e9655a302b069af56f041722ad6ed07236dca46",
       "libVersion": 1,
