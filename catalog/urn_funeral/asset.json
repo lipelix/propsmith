@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "urn_funeral",
+  "name": "Funeral urn",
+  "description": "A round-bellied clay urn about 0.45 m high with a narrow neck, a fitted knobbed lid, two small loop handles and a band of incised zigzags, chipped at the rim, standing on a square stone block.",
+  "category": "decor",
+  "family": "urn",
+  "tags": [
+    "clay",
+    "stone",
+    "crypt",
+    "temple",
+    "worship",
+    "small",
+    "round",
+    "worn"
+  ],
+  "aliases": ["funerary urn", "cinerary urn", "ash urn", "burial jar"],
+  "variants": ["urn_funeral"],
+  "size": { "x": 0.3, "y": 0.3, "z": 0.45 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A funeral urn about 0.45 m high: a round-bellied clay pot with a narrow neck, a fitted lid with a knob, two small loop handles and a band of incised zigzags, chipped at the rim, standing on a square stone block."
+  },
+  "licence": "CC0-1.0"
+}
