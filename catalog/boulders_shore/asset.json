@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "boulders_shore",
+  "name": "Shore boulders",
+  "description": "A cluster of three large weathered shore boulders, the biggest about 1.2 m high, of rounded grey-brown stone with darker bases, with a few small pebbles scattered around them.",
+  "category": "decor",
+  "family": "boulders",
+  "tags": ["stone", "water", "round", "large", "weathered"],
+  "aliases": ["rocks", "boulder", "shore rocks", "beach stones"],
+  "variants": ["boulders_shore"],
+  "size": { "x": 2.0, "y": 1.6, "z": 1.25 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A cluster of three large weathered shore boulders, the biggest about 1.2 m high, rounded grey-brown stone with darker bases and a few small pebbles around them."
+  },
+  "licence": "CC0-1.0"
+}
