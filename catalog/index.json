@@ -82,6 +82,22 @@
       "inputHash": "6ac9afbee10d0d43d50388ae97a1992b2cc2974e9d6e324fe1b927197dbbcc18"
     },
     {
+      "id": "beehive_skep",
+      "name": "Straw beehive skep",
+      "description": "A traditional beehive skep about 0.5 m wide and 0.55 m high: a dome of coiled golden straw rope with a small dark entrance at the base, sitting on a round wooden board on a short stake stand.",
+      "category": "decor",
+      "family": "beehive",
+      "tags": ["farm", "garden", "round", "small", "straw", "village", "wood"],
+      "aliases": ["apiary", "bee hive", "bee skep", "hive", "skep"],
+      "variants": ["beehive_skep"],
+      "size": { "x": 0.6, "y": 0.6, "z": 0.9 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "13d83bbc7c1f74571a51b1841c40b0c700456ad0676bd3ae05ce356734056253"
+    },
+    {
       "id": "bench_wood",
       "name": "Wooden bench",
       "description": "A simple backless village bench, about 1.4 m long, 0.35 m deep and 0.45 m high: one thick plank seat on two splayed trestle legs joined by a pegged stretcher.",
