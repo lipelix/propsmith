@@ -1121,6 +1121,29 @@
         }
       ]
     },
+    "pine_tree": {
+      "inputHash": "7e549e42b36c16aac4e318aee31bbd57c656b430caa37a4b4be09e51f8c22375",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "pine_tree",
+          "tris": 2220,
+          "bbox": { "min": [-1.3292, -1.3819, 0], "max": [1.3448, 1.2227, 6] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "pine_tree_bark", "source": "palette" },
+            { "name": "pine_tree_core", "source": "palette" },
+            { "name": "pine_tree_needles", "source": "palette" },
+            { "name": "pine_tree_needles_lit", "source": "palette" },
+            { "name": "pine_tree_root", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "rock_mossy": {
       "inputHash": "c86aa9c93a336ae1b26662b19e6dda6dcda363410e4e5207aa9e8275afd61ffc",
       "libVersion": 1,

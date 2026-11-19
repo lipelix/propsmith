@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "pine_tree",
+  "name": "Pine tree",
+  "description": "A tall pine tree about 6 m high: a straight brown trunk with rough bark and a few roots spreading at the foot, under five stacked tiers of drooping dark-green needle boughs that narrow to a pointed top, each tier slightly irregular and turned.",
+  "category": "vegetation",
+  "family": "tree",
+  "tags": ["forest", "village", "road", "wood", "tall", "large"],
+  "aliases": ["pine", "conifer", "evergreen", "fir", "spruce"],
+  "variants": ["pine_tree"],
+  "size": { "x": 2.7, "y": 2.65, "z": 6.0 },
+  "anchors": [],
+  "closed": false,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A tall pine tree about 6 m high for a village edge or forest: a straight brown trunk with rough bark, a few roots spreading at the foot, and five stacked tiers of drooping dark-green needle boughs that narrow to a pointed top, each tier slightly irregular and turned."
+  },
+  "licence": "CC0-1.0"
+}
