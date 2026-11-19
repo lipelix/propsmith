@@ -107,6 +107,22 @@
       "inputHash": "648215e9f84e9342c1c2f0629114dbb165aa0fc2bc9f780c9abc7cf7fd354abd"
     },
     {
+      "id": "boulders_shore",
+      "name": "Shore boulders",
+      "description": "A cluster of three large weathered shore boulders, the biggest about 1.2 m high, of rounded grey-brown stone with darker bases, with a few small pebbles scattered around them.",
+      "category": "decor",
+      "family": "boulders",
+      "tags": ["large", "round", "stone", "water", "weathered"],
+      "aliases": ["beach stones", "boulder", "rocks", "shore rocks"],
+      "variants": ["boulders_shore"],
+      "size": { "x": 2, "y": 1.6, "z": 1.25 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "bf3929860928242b5ba4dd5ea8dc4753e13cf4987f71526d9d1266cb08e9da4c"
+    },
+    {
       "id": "bucket_wood",
       "name": "Wooden bucket",
       "description": "A small wooden water bucket about 0.35 m high and 0.3 m across, its tapered staves held by two dark iron hoops, with an iron bail handle and dark water inside. The tipped variant lies empty on its side.",
