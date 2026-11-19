@@ -1719,6 +1719,31 @@
         }
       ]
     },
+    "urn_funeral": {
+      "inputHash": "cf17895115e685ac7bbed3e4683ef38f4b25277529eb4b0305db8c30138f4ec1",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "urn_funeral",
+          "tris": 5072,
+          "bbox": {
+            "min": [-0.1432, -0.1405, 0],
+            "max": [0.1432, 0.1405, 0.4381]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "urn_funeral_chip", "source": "palette" },
+            { "name": "urn_funeral_clay", "source": "palette" },
+            { "name": "urn_funeral_incised", "source": "palette" },
+            { "name": "urn_funeral_stone", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "wall_stone_corner": {
       "inputHash": "c5c27488dd9acb3baff4f07c4fb5389c6b0e1fc23ca1c4813c1e556a7e9eb0ab",
       "libVersion": 1,
