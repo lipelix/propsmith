@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "beehive_skep",
+  "name": "Straw beehive skep",
+  "description": "A traditional beehive skep about 0.5 m wide and 0.55 m high: a dome of coiled golden straw rope with a small dark entrance at the base, sitting on a round wooden board on a short stake stand.",
+  "category": "decor",
+  "family": "beehive",
+  "tags": ["straw", "wood", "farm", "garden", "village", "round", "small"],
+  "aliases": ["skep", "bee skep", "hive", "bee hive", "apiary"],
+  "variants": ["beehive_skep"],
+  "size": { "x": 0.6, "y": 0.6, "z": 0.9 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A traditional straw beehive skep about 0.5 m wide and 0.55 m high: a dome of coiled straw rope with a small dark entrance at the base, sitting on a round wooden board on a short stake stand."
+  },
+  "licence": "CC0-1.0"
+}

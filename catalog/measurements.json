@@ -86,6 +86,31 @@
         }
       ]
     },
+    "beehive_skep": {
+      "inputHash": "13d83bbc7c1f74571a51b1841c40b0c700456ad0676bd3ae05ce356734056253",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "beehive_skep",
+          "tris": 6368,
+          "bbox": { "min": [-0.29, -0.29, 0], "max": [0.29, 0.29, 0.8931] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "beehive_skep_board", "source": "palette" },
+            { "name": "beehive_skep_core", "source": "palette" },
+            { "name": "beehive_skep_entrance", "source": "palette" },
+            { "name": "beehive_skep_stake", "source": "palette" },
+            { "name": "beehive_skep_straw", "source": "palette" },
+            { "name": "beehive_skep_straw_light", "source": "palette" },
+            { "name": "beehive_skep_straw_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "bench_wood": {
       "inputHash": "648215e9f84e9342c1c2f0629114dbb165aa0fc2bc9f780c9abc7cf7fd354abd",
       "libVersion": 1,
