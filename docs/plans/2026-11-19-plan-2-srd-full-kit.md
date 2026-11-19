@@ -1,6 +1,6 @@
 # Plan 2: every prop srd-iso-rpg needs
 
-**Status:** planned 2026-11-19; worked by the HQ runner on the Asus laptop (Linux, Blender 5.2.2), one kit per session.
+**Status:** planned 2026-11-19; worked by the HQ runner on the Asus laptop (Linux, Blender 5.2.2), one kit per session. Item 1 (crypt wall kit) done 2026-11-20.
 
 ## Goal
 
@@ -33,6 +33,9 @@ expects of props), `tools/locations/blender/lib/locations/terrain.py`. What it f
   (nouveau) can run out of GPU memory on a large asset (`oak_tree` hung in the review render). If a build of a
   correct model hangs there twice, keep the prop in the PR, say so in it and in the handoff, and label the item `review`
   so it is rebuilt on a Mac; never make a model worse to fit the GPU.
+  `npm run shots` at its default 1024 px crashes nouveau there (SIGSEGV, then later Blender runs hang until the stale
+  `blender` processes are killed): use `--size 512` on the Asus and say so in the PR. Run `npm run check` with Blender
+  off `PATH` (as in CI): its Blender tests hang on that GPU.
 - **PR pictures:** `npm run shots -- <ids…> --push <branch-slug>` and paste the printed table into the PR body
   (`AGENTS.md`). `npm run check` must pass.
 - **One branch and PR per item**, `Closes #<item>`. When CI is green, squash-merge, close the item with a handoff
