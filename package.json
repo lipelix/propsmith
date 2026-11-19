@@ -21,6 +21,7 @@
     "new": "tsx tools/new.ts",
     "bake": "tsx tools/bake.ts",
     "bake:look": "tsx tools/look.ts",
+    "shots": "tsx tools/shots.ts",
     "site:data": "tsx tools/site-data.ts",
     "site:dev": "vite --config site/vite.config.ts",
     "site:build": "tsc --noEmit -p site && vite build --config site/vite.config.ts",

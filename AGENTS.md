@@ -16,10 +16,9 @@ props are published in an open catalogue.
 - A check result is `OK`, `FAILED` or `NOT CHECKED`. `NOT CHECKED` is a failure.
 - No secrets in the repo. A missing environment variable is an error, never a default.
 - Conventional Commits, in English.
-- A PR that adds or changes an asset shows it: crop its review renders (`<variant>_iso.png`, `<variant>_front.png`
-  from `.cache/assets/<id>/review/`) to what is drawn, push them to the `pr-assets` branch under `<branch-slug>/` and
-  embed them from `https://raw.githubusercontent.com/lipelix/propsmith/pr-assets/<branch-slug>/` in a "What it looks
-  like" table in the PR body.
+- A PR that adds or changes an asset shows it: `npm run shots -- <id>… --push <branch-slug>` renders every variant
+  large (the review rig, framed to fill 1024 px), pushes the pictures to the `pr-assets` branch under `<branch-slug>/`
+  and prints the "What it looks like" table to paste into the PR body.
 
 ## Site
 
