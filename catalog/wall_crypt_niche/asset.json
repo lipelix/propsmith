@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "wall_crypt_niche",
+  "name": "Crypt wall with burial niches",
+  "description": "A 1.5 m section of the dark blue-grey ashlar crypt wall, 0.6 m thick and 3 m high, with two burial niches stacked in its front face under long lintel stones. The lower niche holds a body wrapped in a pale, stained linen shroud tied with cords; the upper one holds only a skull, two bones and grave dust.",
+  "category": "structure",
+  "family": "wall",
+  "tags": ["stone", "crypt", "dungeon", "boundary", "tall", "worn"],
+  "aliases": [
+    "loculus",
+    "burial niche",
+    "catacomb wall",
+    "tomb niche",
+    "ossuary wall",
+    "shrouded body",
+    "corpse"
+  ],
+  "variants": ["wall_crypt_niche"],
+  "size": { "x": 1.55, "y": 0.65, "z": 3.0 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A 1.5 m crypt wall section with two stacked burial niches, one holding a shrouded body: the same dark dressed ashlar as wall_crypt_straight, about 3 m high and 0.6 m thick, the niches in the front (-y) face."
+  },
+  "licence": "CC0-1.0"
+}

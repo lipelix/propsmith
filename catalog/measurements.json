@@ -1379,6 +1379,31 @@
         }
       ]
     },
+    "rock_mass_block": {
+      "inputHash": "f24967cb0fb2d780ec2e750eaf74792401612f36a48bdfbfc22941c52f77946a",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "rock_mass_block",
+          "tris": 4500,
+          "bbox": {
+            "min": [-0.7797, -0.8077, 0],
+            "max": [0.7979, 0.7866, 2.9333]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "rock_mass_block_damp", "source": "palette" },
+            { "name": "rock_mass_block_dark", "source": "palette" },
+            { "name": "rock_mass_block_pale", "source": "palette" },
+            { "name": "rock_mass_block_rock", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "rock_mossy": {
       "inputHash": "c86aa9c93a336ae1b26662b19e6dda6dcda363410e4e5207aa9e8275afd61ffc",
       "libVersion": 1,
@@ -1840,6 +1865,36 @@
             { "name": "wall_crypt_doorway_stone", "source": "palette" },
             { "name": "wall_crypt_doorway_stone_old", "source": "palette" },
             { "name": "wall_crypt_doorway_stone_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "wall_crypt_niche": {
+      "inputHash": "cac2d8be02cb1ae89d29a0c44aa22dda976a07b8439359c03e6c7b57f34b2e0c",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "wall_crypt_niche",
+          "tris": 5284,
+          "bbox": { "min": [-0.75, -0.3253, 0], "max": [0.75, 0.3253, 2.999] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_crypt_niche_bone", "source": "palette" },
+            { "name": "wall_crypt_niche_coping", "source": "palette" },
+            { "name": "wall_crypt_niche_cord", "source": "palette" },
+            { "name": "wall_crypt_niche_damp", "source": "palette" },
+            { "name": "wall_crypt_niche_dust", "source": "palette" },
+            { "name": "wall_crypt_niche_hollow", "source": "palette" },
+            { "name": "wall_crypt_niche_mortar", "source": "palette" },
+            { "name": "wall_crypt_niche_shroud", "source": "palette" },
+            { "name": "wall_crypt_niche_shroud_stain", "source": "palette" },
+            { "name": "wall_crypt_niche_stone", "source": "palette" },
+            { "name": "wall_crypt_niche_stone_old", "source": "palette" },
+            { "name": "wall_crypt_niche_stone_pale", "source": "palette" }
           ],
           "anchors": [],
           "textures": []

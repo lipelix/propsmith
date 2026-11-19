@@ -962,6 +962,37 @@
       "inputHash": "7e549e42b36c16aac4e318aee31bbd57c656b430caa37a4b4be09e51f8c22375"
     },
     {
+      "id": "rock_mass_block",
+      "name": "Rock mass block",
+      "description": "A block of solid, rough cool-grey bedrock filling a 1.5 × 1.5 m footprint about 3 m high: split, faceted faces with ledges of tilted strata, dark and pale patches, damp staining at the foot and a broken, uneven top. It repeats seamlessly side by side on a 1.5 m grid to fill the solid rock between crypt corridors.",
+      "category": "structure",
+      "family": "rock",
+      "tags": [
+        "boundary",
+        "boxy",
+        "crypt",
+        "dungeon",
+        "stone",
+        "tall",
+        "weathered"
+      ],
+      "aliases": [
+        "bedrock",
+        "cave wall",
+        "rock fill",
+        "rock mass",
+        "rock wall",
+        "solid rock"
+      ],
+      "variants": ["rock_mass_block"],
+      "size": { "x": 1.6, "y": 1.6, "z": 3 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "f24967cb0fb2d780ec2e750eaf74792401612f36a48bdfbfc22941c52f77946a"
+    },
+    {
       "id": "rock_mossy",
       "name": "Mossy boulder",
       "description": "A rounded, weathered cool-grey boulder with thick clumped moss cushions in three greens on its upward-facing top and ledges, a little moss creeping down the shoulders and bare stone on the sides and base. Variants are a boulder with a smaller stone leaning against it, a small single stone and a large heap of three stacked, merged boulders.",
@@ -1306,6 +1337,30 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "e3891a51da524cdcf6c9caefb4726d48a427d47bedcdabc3e1ed8b695cdb2e3c"
+    },
+    {
+      "id": "wall_crypt_niche",
+      "name": "Crypt wall with burial niches",
+      "description": "A 1.5 m section of the dark blue-grey ashlar crypt wall, 0.6 m thick and 3 m high, with two burial niches stacked in its front face under long lintel stones. The lower niche holds a body wrapped in a pale, stained linen shroud tied with cords; the upper one holds only a skull, two bones and grave dust.",
+      "category": "structure",
+      "family": "wall",
+      "tags": ["boundary", "crypt", "dungeon", "stone", "tall", "worn"],
+      "aliases": [
+        "burial niche",
+        "catacomb wall",
+        "corpse",
+        "loculus",
+        "ossuary wall",
+        "shrouded body",
+        "tomb niche"
+      ],
+      "variants": ["wall_crypt_niche"],
+      "size": { "x": 1.55, "y": 0.65, "z": 3 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "cac2d8be02cb1ae89d29a0c44aa22dda976a07b8439359c03e6c7b57f34b2e0c"
     },
     {
       "id": "wall_crypt_straight",
