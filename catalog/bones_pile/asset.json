@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "bones_pile",
+  "name": "Pile of bones",
+  "description": "A loose heap of old yellowed human bones about 0.9 m across and 0.4 m high: several skulls, long bones, ribs and a jaw piled on the floor, with a few bones scattered around it.",
+  "category": "decor",
+  "family": "bones",
+  "tags": ["dungeon", "crypt", "low", "round", "weathered", "worn"],
+  "aliases": ["bone pile", "skulls", "skeleton", "remains", "ossuary heap"],
+  "variants": ["bones_pile"],
+  "size": { "x": 0.95, "y": 0.85, "z": 0.4 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A heap of old human bones about 0.9 m across and 0.4 m high on the floor: several yellowed skulls, long bones, ribs and a jaw piled loosely, a few bones scattered around it."
+  },
+  "licence": "CC0-1.0"
+}

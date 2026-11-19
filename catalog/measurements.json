@@ -163,6 +163,31 @@
         }
       ]
     },
+    "bones_pile": {
+      "inputHash": "599d0993bdee28c9711f6e9943fd33f3fda7fcf537f487bb653417a7a8cc7925",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "bones_pile",
+          "tris": 6256,
+          "bbox": {
+            "min": [-0.5007, -0.4744, -0.0039],
+            "max": [0.4409, 0.3499, 0.3651]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "bones_pile_bone", "source": "palette" },
+            { "name": "bones_pile_bone_old", "source": "palette" },
+            { "name": "bones_pile_dust", "source": "palette" },
+            { "name": "bones_pile_hollow", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "boulders_shore": {
       "inputHash": "bf3929860928242b5ba4dd5ea8dc4753e13cf4987f71526d9d1266cb08e9da4c",
       "libVersion": 1,
