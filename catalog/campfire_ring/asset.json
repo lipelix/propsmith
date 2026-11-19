@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "campfire_ring",
+  "name": "Camp fire in a stone ring",
+  "description": "A camp fire about 1.2 m across: a ring of rough grey-brown stones, some blackened, round a bed of grey ash and glowing embers, two logs laid in a cross with three sticks leant together over them and low flames at the heart.",
+  "category": "light",
+  "family": "campfire",
+  "tags": [
+    "stone",
+    "wood",
+    "forest",
+    "road",
+    "cooking",
+    "lighting",
+    "round",
+    "low"
+  ],
+  "aliases": ["camp fire", "fire pit", "bonfire", "fire ring", "hearth fire"],
+  "variants": ["campfire_ring"],
+  "size": { "x": 1.2, "y": 1.15, "z": 0.5 },
+  "anchors": ["fire:camp", "light:fire"],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A ring of stones with crossed logs and embers, about 1.2 m across; anchors fire:camp and light:fire."
+  },
+  "licence": "CC0-1.0"
+}

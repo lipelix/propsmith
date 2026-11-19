@@ -258,6 +258,37 @@
       "inputHash": "f54fefaaaa1defcc77e135ad5f14a85b7783046eb2d637ab0d1ceeeb6782c14c"
     },
     {
+      "id": "campfire_ring",
+      "name": "Camp fire in a stone ring",
+      "description": "A camp fire about 1.2 m across: a ring of rough grey-brown stones, some blackened, round a bed of grey ash and glowing embers, two logs laid in a cross with three sticks leant together over them and low flames at the heart.",
+      "category": "light",
+      "family": "campfire",
+      "tags": [
+        "cooking",
+        "forest",
+        "lighting",
+        "low",
+        "road",
+        "round",
+        "stone",
+        "wood"
+      ],
+      "aliases": [
+        "bonfire",
+        "camp fire",
+        "fire pit",
+        "fire ring",
+        "hearth fire"
+      ],
+      "variants": ["campfire_ring"],
+      "size": { "x": 1.2, "y": 1.15, "z": 0.5 },
+      "anchors": ["fire:camp", "light:fire"],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "8763980b1e36c6ac0ce78872263b835687e8425a44ec2167fdc9db1150a15c2c"
+    },
+    {
       "id": "candle_stand",
       "name": "Wrought-iron candle stand",
       "description": "A tall wrought-iron candle stand on a three-legged splayed foot, with a thin slightly twisted iron stem about 1.4 m high and a round drip pan at the top holding one thick ivory wax candle. Dark iron with worn highlights.",

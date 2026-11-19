@@ -408,6 +408,43 @@
         }
       ]
     },
+    "campfire_ring": {
+      "inputHash": "8763980b1e36c6ac0ce78872263b835687e8425a44ec2167fdc9db1150a15c2c",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "campfire_ring",
+          "tris": 3764,
+          "bbox": {
+            "min": [-0.5552, -0.5638, -0.004],
+            "max": [0.5974, 0.5812, 0.4651]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "campfire_ring_ash", "source": "palette" },
+            { "name": "campfire_ring_char", "source": "palette" },
+            { "name": "campfire_ring_ember", "source": "palette" },
+            { "name": "campfire_ring_flame", "source": "palette" },
+            { "name": "campfire_ring_log", "source": "palette" },
+            { "name": "campfire_ring_log_cut", "source": "palette" },
+            { "name": "campfire_ring_soot", "source": "palette" },
+            { "name": "campfire_ring_stone", "source": "palette" },
+            { "name": "campfire_ring_stone_dark", "source": "palette" }
+          ],
+          "anchors": [
+            {
+              "name": "fire:camp",
+              "at": [0, 0, 0.08],
+              "size": [0.25, 0.25, 0.6]
+            },
+            { "name": "light:fire", "at": [0, 0, 0.45] }
+          ],
+          "textures": []
+        }
+      ]
+    },
     "candle_stand": {
       "inputHash": "069e0f55904739e6cb53ca9ee502f1a7c5d3fb09e3369180b45b9d03c36eac3a",
       "libVersion": 1,
