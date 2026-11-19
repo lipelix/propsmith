@@ -1561,6 +1561,34 @@
         }
       ]
     },
+    "tree_stump": {
+      "inputHash": "c93d7e54ee537b191a9a1bacae2837939268230989df6d7a0e90d8105c06e2b0",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "tree_stump",
+          "tris": 4400,
+          "bbox": {
+            "min": [-0.6773, -0.6319, 0],
+            "max": [0.6229, 0.614, 0.5025]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "tree_stump_bark", "source": "palette" },
+            { "name": "tree_stump_bark_dark", "source": "palette" },
+            { "name": "tree_stump_chopped", "source": "palette" },
+            { "name": "tree_stump_crack", "source": "palette" },
+            { "name": "tree_stump_cut", "source": "palette" },
+            { "name": "tree_stump_heart", "source": "palette" },
+            { "name": "tree_stump_ring", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "wall_stone_corner": {
       "inputHash": "c5c27488dd9acb3baff4f07c4fb5389c6b0e1fc23ca1c4813c1e556a7e9eb0ab",
       "libVersion": 1,

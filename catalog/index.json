@@ -1048,6 +1048,30 @@
       "inputHash": "e8be463ff31c6ecc06ed4283804d5acab91dd29fb5ac0cfdb3d7d8744f2b75e9"
     },
     {
+      "id": "tree_stump",
+      "name": "Tree stump",
+      "description": "An old cut tree stump about 0.7 m across and 0.5 m high, with a flat weathered cut face showing growth rings, an axe notch chopped into its side, rough ridged bark, and thick roots spreading into the ground.",
+      "category": "vegetation",
+      "family": "stump",
+      "tags": [
+        "forest",
+        "low",
+        "round",
+        "village",
+        "weathered",
+        "wood",
+        "worn"
+      ],
+      "aliases": ["felled tree", "log", "roots", "tree stump"],
+      "variants": ["tree_stump"],
+      "size": { "x": 1.3, "y": 1.25, "z": 0.55 },
+      "anchors": [],
+      "closed": false,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "c93d7e54ee537b191a9a1bacae2837939268230989df6d7a0e90d8105c06e2b0"
+    },
+    {
       "id": "wall_stone_corner",
       "name": "Fieldstone wall corner",
       "description": "An L-shaped corner of village fieldstone wall, 0.45 m thick and 2.4 m high: rough grey-brown stone blocks in staggered courses over recessed mortar, tied by alternating quoins at a square corner pier, with flat capstones on top. One arm runs 0.75 m from the corner to +x, the other to +y, where they meet 1.5 m straight wall sections. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so what is inside stays visible. The `_rubble` variants (`_rubble`, `_rubble_2`, each also `_low`) are the same corner in rubble: rounded stones of mixed sizes, a long corner stone per course tying the arms, dark recessed joints, rounded cap stones; `_moss` adds moss on the caps and at the foot.",
