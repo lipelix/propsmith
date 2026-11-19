@@ -1408,6 +1408,31 @@
         }
       ]
     },
+    "tower_stone_watch": {
+      "inputHash": "e8be463ff31c6ecc06ed4283804d5acab91dd29fb5ac0cfdb3d7d8744f2b75e9",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "tower_stone_watch",
+          "tris": 6856,
+          "bbox": { "min": [-2.163, -2.525, 0], "max": [2.163, 2.163, 11.755] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "tower_course", "source": "palette" },
+            { "name": "tower_door", "source": "palette" },
+            { "name": "tower_iron", "source": "palette" },
+            { "name": "tower_roof", "source": "palette" },
+            { "name": "tower_stone", "source": "palette" },
+            { "name": "tower_stone_old", "source": "palette" },
+            { "name": "tower_window", "source": "palette" }
+          ],
+          "anchors": [{ "name": "light:window", "at": [0, 0, 7.23] }],
+          "textures": []
+        }
+      ]
+    },
     "wall_stone_corner": {
       "inputHash": "c5c27488dd9acb3baff4f07c4fb5389c6b0e1fc23ca1c4813c1e556a7e9eb0ab",
       "libVersion": 1,
