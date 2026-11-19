@@ -747,6 +747,22 @@
       "inputHash": "fd223b557d43a09f05bbebb0cd9eee513d593d7ac882b28ee057fd66e682ad89"
     },
     {
+      "id": "pine_tree",
+      "name": "Pine tree",
+      "description": "A tall pine tree about 6 m high: a straight brown trunk with rough bark and a few roots spreading at the foot, under five stacked tiers of drooping dark-green needle boughs that narrow to a pointed top, each tier slightly irregular and turned.",
+      "category": "vegetation",
+      "family": "tree",
+      "tags": ["forest", "large", "road", "tall", "village", "wood"],
+      "aliases": ["conifer", "evergreen", "fir", "pine", "spruce"],
+      "variants": ["pine_tree"],
+      "size": { "x": 2.7, "y": 2.65, "z": 6 },
+      "anchors": [],
+      "closed": false,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "7e549e42b36c16aac4e318aee31bbd57c656b430caa37a4b4be09e51f8c22375"
+    },
+    {
       "id": "rock_mossy",
       "name": "Mossy boulder",
       "description": "A rounded, weathered cool-grey boulder with thick clumped moss cushions in three greens on its upward-facing top and ledges, a little moss creeping down the shoulders and bare stone on the sides and base. Variants are a boulder with a smaller stone leaning against it, a small single stone and a large heap of three stacked, merged boulders.",
