@@ -8,7 +8,7 @@
   "tags": ["wood", "inn", "house", "seating", "round", "small", "low", "worn"],
   "aliases": ["three-legged stool", "milking stool", "tavern stool", "seat"],
   "variants": ["stool_wood"],
-  "size": { "x": 0.45, "y": 0.45, "z": 0.45 },
+  "size": { "x": 0.4, "y": 0.4, "z": 0.45 },
   "anchors": [],
   "closed": true,
   "provenance": {

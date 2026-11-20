@@ -670,7 +670,7 @@
       ]
     },
     "chair_wood": {
-      "inputHash": "2fa0f539d6f49536859c25dea14f7cf791c895c50e004fa84f3587a7e113dc84",
+      "inputHash": "761f1e571ba5e901467bd10892f817ef128af25b54980c2e6480e0aafb6e0e78",
       "libVersion": 1,
       "blender": "5.2.2 LTS",
       "variants": [
@@ -2511,13 +2511,13 @@
       ]
     },
     "stool_wood": {
-      "inputHash": "3f93190623a5d5669b94884855b58ae18defb2f51aa3f5f93bf519a013a503cb",
+      "inputHash": "0ea88329af3d7c40fbb40294e5043d85be711457016d023142f2a2678abf084b",
       "libVersion": 1,
       "blender": "5.2.2 LTS",
       "variants": [
         {
           "id": "stool_wood",
-          "tris": 2176,
+          "tris": 1892,
           "bbox": {
             "min": [-0.1885, -0.18, 0.0012],
             "max": [0.1931, 0.2175, 0.4465]
@@ -2599,6 +2599,33 @@
             { "name": "table_pewter", "source": "palette" },
             { "name": "table_top", "source": "palette" },
             { "name": "table_top_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "tankards_pewter": {
+      "inputHash": "1add065819fd0fa5044129a9aab7e359af99c64932c830ec3e11edf29e89c4c1",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "tankards_pewter",
+          "tris": 5380,
+          "bbox": {
+            "min": [-0.24, -0.1605, 0],
+            "max": [0.254, 0.1611, 0.2803]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "tankards_ale", "source": "palette" },
+            { "name": "tankards_foam", "source": "palette" },
+            { "name": "tankards_pewter", "source": "palette" },
+            { "name": "tankards_pewter_dull", "source": "palette" },
+            { "name": "tankards_tray", "source": "palette" },
+            { "name": "tankards_tray_old", "source": "palette" }
           ],
           "anchors": [],
           "textures": []

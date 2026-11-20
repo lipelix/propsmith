@@ -8,7 +8,7 @@
   "tags": ["wood", "inn", "house", "seating", "tall", "plain", "worn"],
   "aliases": ["ladder-back chair", "tavern chair", "kitchen chair", "seat"],
   "variants": ["chair_wood"],
-  "size": { "x": 0.5, "y": 0.5, "z": 0.95 },
+  "size": { "x": 0.5, "y": 0.45, "z": 0.95 },
   "anchors": [],
   "closed": true,
   "provenance": {

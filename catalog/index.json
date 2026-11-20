@@ -488,12 +488,12 @@
       "tags": ["house", "inn", "plain", "seating", "tall", "wood", "worn"],
       "aliases": ["kitchen chair", "ladder-back chair", "seat", "tavern chair"],
       "variants": ["chair_wood"],
-      "size": { "x": 0.5, "y": 0.5, "z": 0.95 },
+      "size": { "x": 0.5, "y": 0.45, "z": 0.95 },
       "anchors": [],
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "2fa0f539d6f49536859c25dea14f7cf791c895c50e004fa84f3587a7e113dc84"
+      "inputHash": "761f1e571ba5e901467bd10892f817ef128af25b54980c2e6480e0aafb6e0e78"
     },
     {
       "id": "chest_iron_bound",
@@ -1811,12 +1811,12 @@
         "three-legged stool"
       ],
       "variants": ["stool_wood"],
-      "size": { "x": 0.45, "y": 0.45, "z": 0.45 },
+      "size": { "x": 0.4, "y": 0.4, "z": 0.45 },
       "anchors": [],
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "3f93190623a5d5669b94884855b58ae18defb2f51aa3f5f93bf519a013a503cb"
+      "inputHash": "0ea88329af3d7c40fbb40294e5043d85be711457016d023142f2a2678abf084b"
     },
     {
       "id": "straw_scatter",
@@ -1855,6 +1855,30 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "a7841b1add2af09d25b2cf83a698c7be9927e5f28385ec23e70314e9dbb8870b"
+    },
+    {
+      "id": "tankards_pewter",
+      "name": "Pewter tankards on a tray",
+      "description": "A small rimmed wooden tray, about 0.48 × 0.32 m, holding three pewter tankards (one with a hinged lid, two full of foaming ale) and a bellied pewter jug with a spout and a loop handle.",
+      "category": "decor",
+      "family": "tableware",
+      "tags": ["house", "inn", "round", "small", "wood", "worn"],
+      "aliases": [
+        "ale tray",
+        "beer mugs",
+        "drinks tray",
+        "jug",
+        "mugs",
+        "pitcher",
+        "tankards"
+      ],
+      "variants": ["tankards_pewter"],
+      "size": { "x": 0.5, "y": 0.35, "z": 0.3 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "1add065819fd0fa5044129a9aab7e359af99c64932c830ec3e11edf29e89c4c1"
     },
     {
       "id": "thicket_bramble",

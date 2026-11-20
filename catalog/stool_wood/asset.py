@@ -40,9 +40,8 @@ def stool_wood():
     peg = material("stool_pegs", PEG, vary=0.2, scale=10)
 
     seat_z = H - SEAT_T
-    # The seat: two half-boards with a fine glue line, a touch out of level.
-    for i, s in enumerate((-1, 1)):
-        cylinder(f"seat_{i}", SEAT_R, SEAT_T, (0, 0, seat_z), seat if i == 0 else old, segments=24, bevel=0.012)
+    # The seat: one thick disc of two joined boards, the glue line showing on top.
+    cylinder("seat", SEAT_R, SEAT_T, (0, 0, seat_z), seat, segments=24, bevel=0.012)
     box("seat_join", (2 * SEAT_R * 0.97, 0.004, 0.002), (0, 0.01, H + 0.0005), peg, rot=(0, 0, 8), bevel=0)
 
     dr = LEG_FOOT_R - LEG_TOP_R
