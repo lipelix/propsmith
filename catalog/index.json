@@ -2142,6 +2142,30 @@
       "inputHash": "e8be463ff31c6ecc06ed4283804d5acab91dd29fb5ac0cfdb3d7d8744f2b75e9"
     },
     {
+      "id": "treasure_pile",
+      "name": "Treasure pile",
+      "description": "A heap of gold coins about 1.2 m across and 0.5 m high, strewn with loose coins, with a jewelled goblet half buried near the top, a crown tipped on its side on the front slope, a few cut rubies, sapphires and emeralds, and coins spilt round its foot.",
+      "category": "decor",
+      "family": "treasure",
+      "tags": ["castle", "cave", "dungeon", "gold", "low", "ornate", "round"],
+      "aliases": [
+        "coin heap",
+        "dragon hoard",
+        "gold coins",
+        "gold pile",
+        "hoard",
+        "loot",
+        "riches"
+      ],
+      "variants": ["treasure_pile"],
+      "size": { "x": 1.1, "y": 1.1, "z": 0.5 },
+      "anchors": [],
+      "closed": true,
+      "source": "handwritten",
+      "licence": "CC0-1.0",
+      "inputHash": "90de38a719fcebc45062db3cf54044ad272a0d1e6fbd876b1659196a2f5b53f2"
+    },
+    {
       "id": "tree_dead",
       "name": "Dead tree",
       "description": "A bare dead snag about 5 m high: a leaning grey trunk stripped of most of its bark, with flared roots and the last dark bark at its foot, long cracks in the silvered wood, a jagged splintered top, two crooked bare limbs with forked twigs, snapped limb stubs, woodpecker holes and a few shelf fungi.",

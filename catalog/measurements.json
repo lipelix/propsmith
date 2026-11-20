@@ -2948,6 +2948,33 @@
         }
       ]
     },
+    "treasure_pile": {
+      "inputHash": "90de38a719fcebc45062db3cf54044ad272a0d1e6fbd876b1659196a2f5b53f2",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "treasure_pile",
+          "tris": 7872,
+          "bbox": {
+            "min": [-0.5654, -0.5429, 0],
+            "max": [0.5297, 0.5416, 0.4992]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "treasure_pile_emerald", "source": "palette" },
+            { "name": "treasure_pile_gold", "source": "palette" },
+            { "name": "treasure_pile_heap", "source": "palette" },
+            { "name": "treasure_pile_ruby", "source": "palette" },
+            { "name": "treasure_pile_sapphire", "source": "palette" },
+            { "name": "treasure_pile_velvet", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "tree_dead": {
       "inputHash": "2d7c5023b64a02d0222b8002e4cc2bfe6aab900df75a86a703cf4c4ca29a87e2",
       "libVersion": 1,

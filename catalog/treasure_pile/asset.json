@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "id": "treasure_pile",
+  "name": "Treasure pile",
+  "description": "A heap of gold coins about 1.2 m across and 0.5 m high, strewn with loose coins, with a jewelled goblet half buried near the top, a crown tipped on its side on the front slope, a few cut rubies, sapphires and emeralds, and coins spilt round its foot.",
+  "category": "decor",
+  "family": "treasure",
+  "tags": ["gold", "dungeon", "castle", "cave", "low", "round", "ornate"],
+  "aliases": [
+    "hoard",
+    "gold pile",
+    "coin heap",
+    "dragon hoard",
+    "loot",
+    "riches",
+    "gold coins"
+  ],
+  "variants": ["treasure_pile"],
+  "size": {
+    "x": 1.1,
+    "y": 1.1,
+    "z": 0.5
+  },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "handwritten"
+  },
+  "licence": "CC0-1.0"
+}
