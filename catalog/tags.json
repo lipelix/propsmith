@@ -11,7 +11,12 @@
       "cloth",
       "rope",
       "thatch",
-      "plaster"
+      "plaster",
+      "glass",
+      "gold",
+      "bone",
+      "crystal",
+      "paper"
     ],
     "setting": [
       "village",
@@ -25,7 +30,13 @@
       "garden",
       "dungeon",
       "crypt",
-      "forest"
+      "forest",
+      "castle",
+      "graveyard",
+      "mine",
+      "cave",
+      "camp",
+      "harbour"
     ],
     "use": [
       "storage",
@@ -38,7 +49,12 @@
       "trade",
       "worship",
       "cooking",
-      "boundary"
+      "boundary",
+      "treasure",
+      "magic",
+      "study",
+      "punishment",
+      "training"
     ],
     "look": [
       "round",

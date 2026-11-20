@@ -4,7 +4,7 @@ Text to game props. A coding agent writes a Blender `bpy` model, the tools build
 props are published in an open catalogue.
 
 - Design: `docs/plans/2026-11-14-propsmith-design.md`
-- Current plan: `docs/plans/2026-11-14-plan-1-generator-catalogue-pilot.md` (GitHub plan issue with sub-issues)
+- Current plan: `docs/plans/2026-11-20-plan-3-popular-props.md` (GitHub plan issue with sub-issues)
 
 ## Rules
 
