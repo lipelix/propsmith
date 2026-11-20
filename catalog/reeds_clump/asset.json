@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "reeds_clump",
+  "name": "Reed clump",
+  "description": "A clump of reeds and rushes for the rim of a pool, about 0.6 m across and 1.2 m high: long flat olive blades bending outwards from a dark wet mud base, some with dry tan tips, thin round rushes between them and a few brown bulrush heads on tall stalks.",
+  "category": "vegetation",
+  "family": "reed",
+  "tags": ["forest", "road", "water", "tall", "round"],
+  "aliases": ["reeds", "rushes", "bulrush", "cattail", "sedge", "marsh grass"],
+  "variants": ["reeds_clump"],
+  "size": { "x": 0.55, "y": 0.55, "z": 1.2 },
+  "anchors": [],
+  "closed": false,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A clump of reeds and rushes for a pool rim, about 0.6 × 0.6 × 1.2 m."
+  },
+  "licence": "CC0-1.0"
+}
