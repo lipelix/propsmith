@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "bramble_low",
+  "name": "Low bramble patch",
+  "description": "A low patch of brambles about 1 × 1 m and 0.6 m high: a mound of dark bramble leaves over a dark tangle, purple-red thorny canes arching out over the rim and rooting their tips in the ground, a dead grey cane or two, ripe and unripe blackberries and a few pale blossoms.",
+  "category": "vegetation",
+  "family": "bramble",
+  "tags": ["forest", "road", "low", "round", "small", "weathered"],
+  "aliases": [
+    "briar",
+    "brambles",
+    "blackberry",
+    "undergrowth",
+    "thorns",
+    "brush",
+    "scrub"
+  ],
+  "variants": ["bramble_low"],
+  "size": { "x": 0.95, "y": 0.9, "z": 0.6 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A low bramble patch, about 1 × 1 × 0.6 m."
+  },
+  "licence": "CC0-1.0"
+}
