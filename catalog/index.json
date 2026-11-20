@@ -1259,6 +1259,28 @@
       "inputHash": "b425c89ee9d8e2d9bede741f54ffffe83883234e4af6c2b493427ad860f25558"
     },
     {
+      "id": "lectern_wood",
+      "name": "Wooden lectern",
+      "description": "A carved dark oak lectern about 1.25 m high: a cross-shaped scrolled foot, a fluted square post with carved collars and a sloping desk with rosette side panels and a ledge, holding a heavy open book with a red ribbon.",
+      "category": "furniture",
+      "family": "lectern",
+      "tags": ["house", "ornate", "tall", "temple", "wood", "worn", "worship"],
+      "aliases": [
+        "bible stand",
+        "book stand",
+        "pulpit",
+        "reading stand",
+        "scripture stand"
+      ],
+      "variants": ["lectern_wood"],
+      "size": { "x": 0.6, "y": 0.55, "z": 1.25 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "be6ad7b3539088e8d3cc8d969735a9d2ed49aea9b1d04b6d3e5ee09a45e7f57c"
+    },
+    {
       "id": "log_fallen",
       "name": "Fallen log",
       "description": "A fallen tree trunk about 3 m long lying on the forest floor, with ridged dark bark, broken branch stubs, moss cushions along its top, a weathered cut end showing growth rings and a splintered break at the thin end.",
@@ -1687,6 +1709,22 @@
       "inputHash": "cb862c2214be8023323fa24a172ed8b7950e0d120578a9e67f0af7d9897536c2"
     },
     {
+      "id": "rug_woven",
+      "name": "Woven rug",
+      "description": "A flat woven rug about 2 × 1.5 m in faded madder red, indigo and ochre wool: a striped border round a field of small diamonds with a large stepped medallion at its centre, and knotted fringe on both short ends.",
+      "category": "decor",
+      "family": "rug",
+      "tags": ["cloth", "house", "inn", "low", "ornate", "temple", "worn"],
+      "aliases": ["carpet", "floor rug", "kilim", "mat"],
+      "variants": ["rug_woven"],
+      "size": { "x": 2, "y": 1.5, "z": 0.02 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "80a84d9851a48a0051992f38dbf63c27b2bbfeb869baa757f59c4625cf6ca016"
+    },
+    {
       "id": "sacks_grain",
       "name": "Grain sacks",
       "description": "A heap of three plump burlap grain sacks, two lying side by side and one propped on top, each tied at the neck with twine; the coarse cloth is a warm desaturated tan with a darker patch or two, slightly slumped and lumpy, about 0.7 m high. A variant is a single upright sack about 0.6 m high.",
@@ -1960,6 +1998,22 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "1add065819fd0fa5044129a9aab7e359af99c64932c830ec3e11edf29e89c4c1"
+    },
+    {
+      "id": "tapestry_hanging",
+      "name": "Tapestry on a stand",
+      "description": "A woven wall hanging about 1.05 × 0.3 × 2 m: a faded wool tapestry with a patterned border, a stylised tree and two birds, hanging by loops from a wooden rod with turned finials on a two-post stand with fringe along its foot.",
+      "category": "decor",
+      "family": "tapestry",
+      "tags": ["cloth", "house", "ornate", "tall", "temple", "wood", "worn"],
+      "aliases": ["arras", "drape", "hanging", "wall hanging", "weaving"],
+      "variants": ["tapestry_hanging"],
+      "size": { "x": 1.05, "y": 0.3, "z": 2 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "92b6ba3695af320c9910a88c806a2b206b241ab626bba692e7afa837f5c6f5f3"
     },
     {
       "id": "thicket_bramble",
@@ -2381,6 +2435,22 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "23ff0972751443f800717f62ce22ecb2ddafa35a74410efbae683191f0754c7e"
+    },
+    {
+      "id": "wardrobe_wood",
+      "name": "Wooden wardrobe",
+      "description": "A tall plank wardrobe about 1.2 × 0.6 × 2 m: a framed carcass on a plinth with a moulded cornice, two doors of vertical boards on its front with iron strap hinges, ring pulls and a hasp.",
+      "category": "furniture",
+      "family": "wardrobe",
+      "tags": ["boxy", "house", "iron", "storage", "tall", "wood", "worn"],
+      "aliases": ["armoire", "closet", "clothes press", "cupboard", "press"],
+      "variants": ["wardrobe_wood"],
+      "size": { "x": 1.2, "y": 0.6, "z": 2 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "8ed467330a2626a5b1ffec5d569192351aacd8aefc6ef030dc22cfa4cdf6e5e4"
     },
     {
       "id": "waterfall_rock",

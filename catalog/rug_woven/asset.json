@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "rug_woven",
+  "name": "Woven rug",
+  "description": "A flat woven rug about 2 × 1.5 m in faded madder red, indigo and ochre wool: a striped border round a field of small diamonds with a large stepped medallion at its centre, and knotted fringe on both short ends.",
+  "category": "decor",
+  "family": "rug",
+  "tags": ["cloth", "house", "temple", "inn", "low", "ornate", "worn"],
+  "aliases": ["carpet", "mat", "floor rug", "kilim"],
+  "variants": ["rug_woven"],
+  "size": {
+    "x": 2.0,
+    "y": 1.5,
+    "z": 0.02
+  },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A patterned rug, about 2 × 1.5 m."
+  },
+  "licence": "CC0-1.0"
+}

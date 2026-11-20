@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "tapestry_hanging",
+  "name": "Tapestry on a stand",
+  "description": "A woven wall hanging about 1.05 × 0.3 × 2 m: a faded wool tapestry with a patterned border, a stylised tree and two birds, hanging by loops from a wooden rod with turned finials on a two-post stand with fringe along its foot.",
+  "category": "decor",
+  "family": "tapestry",
+  "tags": ["cloth", "wood", "temple", "house", "tall", "ornate", "worn"],
+  "aliases": ["wall hanging", "arras", "hanging", "weaving", "drape"],
+  "variants": ["tapestry_hanging"],
+  "size": {
+    "x": 1.05,
+    "y": 0.3,
+    "z": 2.0
+  },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A woven hanging on a rod and stand, about 1 × 0.3 × 2 m."
+  },
+  "licence": "CC0-1.0"
+}
