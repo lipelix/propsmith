@@ -1551,6 +1551,37 @@
         }
       ]
     },
+    "log_fallen": {
+      "inputHash": "a20892c9b32d29b73511a198895582f6a18608bc57e3ca927d55b60d07f64339",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "log_fallen",
+          "tris": 5860,
+          "bbox": {
+            "min": [-1.5525, -0.4449, 0.0001],
+            "max": [1.3917, 0.4072, 0.6923]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "log_fallen_bark", "source": "palette" },
+            { "name": "log_fallen_bark_dark", "source": "palette" },
+            { "name": "log_fallen_bark_grey", "source": "palette" },
+            { "name": "log_fallen_cut", "source": "palette" },
+            { "name": "log_fallen_moss_deep", "source": "palette" },
+            { "name": "log_fallen_moss_lit", "source": "palette" },
+            { "name": "log_fallen_moss_olive", "source": "palette" },
+            { "name": "log_fallen_ring", "source": "palette" },
+            { "name": "log_fallen_rot", "source": "palette" },
+            { "name": "log_fallen_wood", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "market_stall": {
       "inputHash": "03fbeea90316653a312f2c0921effe548e94eabb86d0e8314df51379f4b861be",
       "libVersion": 1,
@@ -1620,6 +1651,38 @@
             { "name": "moss_lit", "source": "palette" },
             { "name": "moss_lit_pale", "source": "palette" },
             { "name": "moss_olive", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "mushrooms_cluster": {
+      "inputHash": "4619f69c08718498b87f31bdbc1be4bc2fc681bc002f12590d29eac831f98443",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "mushrooms_cluster",
+          "tris": 2128,
+          "bbox": {
+            "min": [-0.1577, -0.1497, -0.0066],
+            "max": [0.1395, 0.1458, 0.2294]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "mushrooms_cap_brown", "source": "palette" },
+            { "name": "mushrooms_cap_brown_dark", "source": "palette" },
+            { "name": "mushrooms_cap_pale", "source": "palette" },
+            { "name": "mushrooms_cap_tan", "source": "palette" },
+            { "name": "mushrooms_gill", "source": "palette" },
+            { "name": "mushrooms_litter", "source": "palette" },
+            { "name": "mushrooms_litter_dark", "source": "palette" },
+            { "name": "mushrooms_moss", "source": "palette" },
+            { "name": "mushrooms_soil", "source": "palette" },
+            { "name": "mushrooms_stem", "source": "palette" },
+            { "name": "mushrooms_stem_dark", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
@@ -1892,6 +1955,35 @@
             { "name": "puddle_water_stone", "source": "palette" },
             { "name": "puddle_water_stone_old", "source": "palette" },
             { "name": "puddle_water_water", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "reeds_clump": {
+      "inputHash": "633ec0b3dca579ac5a32cf324c9b0bd72378f9426d776996951b009aee95012c",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "reeds_clump",
+          "tris": 3896,
+          "bbox": {
+            "min": [-0.2526, -0.2616, 0],
+            "max": [0.2667, 0.2508, 1.195]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "reeds_blade", "source": "palette" },
+            { "name": "reeds_blade_dark", "source": "palette" },
+            { "name": "reeds_blade_lit", "source": "palette" },
+            { "name": "reeds_dry", "source": "palette" },
+            { "name": "reeds_head", "source": "palette" },
+            { "name": "reeds_mud", "source": "palette" },
+            { "name": "reeds_mud_wet", "source": "palette" },
+            { "name": "reeds_rush", "source": "palette" }
           ],
           "anchors": [],
           "textures": []

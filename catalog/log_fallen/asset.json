@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "log_fallen",
+  "name": "Fallen log",
+  "description": "A fallen tree trunk about 3 m long lying on the forest floor, with ridged dark bark, broken branch stubs, moss cushions along its top, a weathered cut end showing growth rings and a splintered break at the thin end.",
+  "category": "vegetation",
+  "family": "log",
+  "tags": ["wood", "forest", "road", "long", "low", "mossy", "weathered"],
+  "aliases": ["fallen tree", "fallen log", "trunk", "deadwood", "tree trunk"],
+  "variants": ["log_fallen"],
+  "size": { "x": 3.0, "y": 0.9, "z": 0.7 },
+  "anchors": [],
+  "closed": false,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A fallen mossy trunk with broken branch stubs, about 3 × 0.6 × 0.6 m."
+  },
+  "licence": "CC0-1.0"
+}

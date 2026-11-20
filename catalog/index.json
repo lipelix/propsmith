@@ -1150,6 +1150,28 @@
       "inputHash": "b425c89ee9d8e2d9bede741f54ffffe83883234e4af6c2b493427ad860f25558"
     },
     {
+      "id": "log_fallen",
+      "name": "Fallen log",
+      "description": "A fallen tree trunk about 3 m long lying on the forest floor, with ridged dark bark, broken branch stubs, moss cushions along its top, a weathered cut end showing growth rings and a splintered break at the thin end.",
+      "category": "vegetation",
+      "family": "log",
+      "tags": ["forest", "long", "low", "mossy", "road", "weathered", "wood"],
+      "aliases": [
+        "deadwood",
+        "fallen log",
+        "fallen tree",
+        "tree trunk",
+        "trunk"
+      ],
+      "variants": ["log_fallen"],
+      "size": { "x": 3, "y": 0.9, "z": 0.7 },
+      "anchors": [],
+      "closed": false,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "a20892c9b32d29b73511a198895582f6a18608bc57e3ca927d55b60d07f64339"
+    },
+    {
       "id": "market_stall",
       "name": "Market stall",
       "description": "A village market stall about 2.8 m long and 1.3 m deep: a wooden plank counter 0.9 m high on the front, four corner posts and a striped muted red and cream cloth awning sloping down toward the front, top at about 2.3 m. Small crates, baskets and round produce sit on the counter.",
@@ -1189,6 +1211,22 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "733af34c73bdb99c98ab16a5a452ef9f262296b7cb5b25dba2733b4ece208ed9"
+    },
+    {
+      "id": "mushrooms_cluster",
+      "name": "Mushroom cluster",
+      "description": "A cluster of woodland toadstools about 0.3 m across growing from a low mound of dark soil and leaf litter: a few taller ones with domed brown caps and smaller pale ones with flatter caps, their stems leaning slightly apart.",
+      "category": "vegetation",
+      "family": "mushroom",
+      "tags": ["forest", "low", "road", "round", "small"],
+      "aliases": ["fungi", "fungus", "mushrooms", "toadstools"],
+      "variants": ["mushrooms_cluster"],
+      "size": { "x": 0.3, "y": 0.3, "z": 0.25 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "4619f69c08718498b87f31bdbc1be4bc2fc681bc002f12590d29eac831f98443"
     },
     {
       "id": "net_trap_fallen",
@@ -1372,6 +1410,29 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "7137583bc758e927496c0d32bb937a1f3a985d69afe30170667b9ddf619aa37d"
+    },
+    {
+      "id": "reeds_clump",
+      "name": "Reed clump",
+      "description": "A clump of reeds and rushes for the rim of a pool, about 0.6 m across and 1.2 m high: long flat olive blades bending outwards from a dark wet mud base, some with dry tan tips, thin round rushes between them and a few brown bulrush heads on tall stalks.",
+      "category": "vegetation",
+      "family": "reed",
+      "tags": ["forest", "road", "round", "tall", "water"],
+      "aliases": [
+        "bulrush",
+        "cattail",
+        "marsh grass",
+        "reeds",
+        "rushes",
+        "sedge"
+      ],
+      "variants": ["reeds_clump"],
+      "size": { "x": 0.55, "y": 0.55, "z": 1.2 },
+      "anchors": [],
+      "closed": false,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "633ec0b3dca579ac5a32cf324c9b0bd72378f9426d776996951b009aee95012c"
     },
     {
       "id": "ritual_circle_floor",

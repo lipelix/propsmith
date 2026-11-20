@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "mushrooms_cluster",
+  "name": "Mushroom cluster",
+  "description": "A cluster of woodland toadstools about 0.3 m across growing from a low mound of dark soil and leaf litter: a few taller ones with domed brown caps and smaller pale ones with flatter caps, their stems leaning slightly apart.",
+  "category": "vegetation",
+  "family": "mushroom",
+  "tags": ["forest", "road", "small", "low", "round"],
+  "aliases": ["mushrooms", "toadstools", "fungi", "fungus"],
+  "variants": ["mushrooms_cluster"],
+  "size": { "x": 0.3, "y": 0.3, "z": 0.25 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A cluster of brown and pale toadstools, about 0.3 m."
+  },
+  "licence": "CC0-1.0"
+}
