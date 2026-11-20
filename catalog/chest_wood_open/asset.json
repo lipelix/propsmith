@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "id": "chest_wood_open",
+  "name": "Open treasure chest",
+  "description": "The catalogue's oak chest with dark iron corner bands, straps and ring handles, its domed lid thrown back on the hinges and the box filled over the rim with gold coins and a few gems, a few coins spilt on the floor in front; about 0.95 m wide, 0.9 m deep with the lid back and 0.95 m high.",
+  "category": "container",
+  "family": "chest",
+  "tags": [
+    "wood",
+    "iron",
+    "gold",
+    "dungeon",
+    "castle",
+    "treasure",
+    "open",
+    "worn"
+  ],
+  "aliases": [
+    "treasure chest",
+    "open chest",
+    "chest of gold",
+    "coffer",
+    "loot chest",
+    "strongbox"
+  ],
+  "variants": ["chest_wood_open"],
+  "size": {
+    "x": 0.95,
+    "y": 0.9,
+    "z": 0.95
+  },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "handwritten"
+  },
+  "licence": "CC0-1.0"
+}

@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "id": "coin_sacks",
+  "name": "Coin sacks",
+  "description": "Three small tied cloth money sacks about 0.65 m across and 0.35 m high: two standing plump and tied at the neck with twine, the third tipped on its side in front with its neck open and gold coins spilling out across the floor.",
+  "category": "container",
+  "family": "sack",
+  "tags": [
+    "cloth",
+    "gold",
+    "dungeon",
+    "castle",
+    "treasure",
+    "storage",
+    "small",
+    "low"
+  ],
+  "aliases": [
+    "money bags",
+    "money sacks",
+    "coin purse",
+    "bags of gold",
+    "gold sacks",
+    "loot"
+  ],
+  "variants": ["coin_sacks"],
+  "size": {
+    "x": 0.65,
+    "y": 0.6,
+    "z": 0.35
+  },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "handwritten"
+  },
+  "licence": "CC0-1.0"
+}

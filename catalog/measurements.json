@@ -775,6 +775,35 @@
         }
       ]
     },
+    "chest_wood_open": {
+      "inputHash": "d3dcb554c84ee5598b2d78efcbc04309cad86f19599b2053f7e94ec24cb253ca",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "chest_wood_open",
+          "tris": 7968,
+          "bbox": {
+            "min": [-0.4609, -0.4431, 0],
+            "max": [0.4609, 0.4427, 0.945]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "chest_wood_open_emerald", "source": "palette" },
+            { "name": "chest_wood_open_gold", "source": "palette" },
+            { "name": "chest_wood_open_heap", "source": "palette" },
+            { "name": "chest_wood_open_iron", "source": "palette" },
+            { "name": "chest_wood_open_lid", "source": "palette" },
+            { "name": "chest_wood_open_plank", "source": "palette" },
+            { "name": "chest_wood_open_plank_old", "source": "palette" },
+            { "name": "chest_wood_open_ruby", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "chopping_block": {
       "inputHash": "b3e3adf0dd9e14c4a1ce2f65c59ce8c426eae54b8309477eb0f595580285c1a2",
       "libVersion": 1,
@@ -911,6 +940,33 @@
             { "name": "coffin_wood_plank", "source": "palette" },
             { "name": "coffin_wood_plank_grey", "source": "palette" },
             { "name": "coffin_wood_plank_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "coin_sacks": {
+      "inputHash": "1eb256ff9744e91e5f0f330aeadf9569ee06f19325b4c339b51b373317ed095a",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "coin_sacks",
+          "tris": 3864,
+          "bbox": {
+            "min": [-0.3254, -0.29, 0],
+            "max": [0.3236, 0.2841, 0.3334]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "coin_sacks_cloth", "source": "palette" },
+            { "name": "coin_sacks_cloth_dark", "source": "palette" },
+            { "name": "coin_sacks_cloth_pale", "source": "palette" },
+            { "name": "coin_sacks_gold", "source": "palette" },
+            { "name": "coin_sacks_heap", "source": "palette" },
+            { "name": "coin_sacks_twine", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
@@ -2944,6 +3000,33 @@
             { "name": "tower_window", "source": "palette" }
           ],
           "anchors": [{ "name": "light:window", "at": [0, 0, 7.23] }],
+          "textures": []
+        }
+      ]
+    },
+    "treasure_pile": {
+      "inputHash": "90de38a719fcebc45062db3cf54044ad272a0d1e6fbd876b1659196a2f5b53f2",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "treasure_pile",
+          "tris": 7872,
+          "bbox": {
+            "min": [-0.5654, -0.5429, 0],
+            "max": [0.5297, 0.5416, 0.4992]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "treasure_pile_emerald", "source": "palette" },
+            { "name": "treasure_pile_gold", "source": "palette" },
+            { "name": "treasure_pile_heap", "source": "palette" },
+            { "name": "treasure_pile_ruby", "source": "palette" },
+            { "name": "treasure_pile_sapphire", "source": "palette" },
+            { "name": "treasure_pile_velvet", "source": "palette" }
+          ],
+          "anchors": [],
           "textures": []
         }
       ]

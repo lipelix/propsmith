@@ -582,6 +582,38 @@
       "inputHash": "3831e2dd75928f9a8efcd549e7e19794a1bd8e7e145c32acf9a43e05c585f713"
     },
     {
+      "id": "chest_wood_open",
+      "name": "Open treasure chest",
+      "description": "The catalogue's oak chest with dark iron corner bands, straps and ring handles, its domed lid thrown back on the hinges and the box filled over the rim with gold coins and a few gems, a few coins spilt on the floor in front; about 0.95 m wide, 0.9 m deep with the lid back and 0.95 m high.",
+      "category": "container",
+      "family": "chest",
+      "tags": [
+        "castle",
+        "dungeon",
+        "gold",
+        "iron",
+        "open",
+        "treasure",
+        "wood",
+        "worn"
+      ],
+      "aliases": [
+        "chest of gold",
+        "coffer",
+        "loot chest",
+        "open chest",
+        "strongbox",
+        "treasure chest"
+      ],
+      "variants": ["chest_wood_open"],
+      "size": { "x": 0.95, "y": 0.9, "z": 0.95 },
+      "anchors": [],
+      "closed": true,
+      "source": "handwritten",
+      "licence": "CC0-1.0",
+      "inputHash": "d3dcb554c84ee5598b2d78efcbc04309cad86f19599b2053f7e94ec24cb253ca"
+    },
+    {
       "id": "chopping_block",
       "name": "Chopping block",
       "description": "A thick round chopping block cut from a tree trunk, about 0.5 m across and 0.45 m high, with a pale ringed top and dark bark. A wood axe with a dark iron head and an ash haft is stuck into its top at an angle, and a few split logs and chips lie around it.",
@@ -710,6 +742,38 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "c6e88a56957f4b31a2e5d761ce9df295fc0f6ff4186a3efcb526a5a6177344db"
+    },
+    {
+      "id": "coin_sacks",
+      "name": "Coin sacks",
+      "description": "Three small tied cloth money sacks about 0.65 m across and 0.35 m high: two standing plump and tied at the neck with twine, the third tipped on its side in front with its neck open and gold coins spilling out across the floor.",
+      "category": "container",
+      "family": "sack",
+      "tags": [
+        "castle",
+        "cloth",
+        "dungeon",
+        "gold",
+        "low",
+        "small",
+        "storage",
+        "treasure"
+      ],
+      "aliases": [
+        "bags of gold",
+        "coin purse",
+        "gold sacks",
+        "loot",
+        "money bags",
+        "money sacks"
+      ],
+      "variants": ["coin_sacks"],
+      "size": { "x": 0.65, "y": 0.6, "z": 0.35 },
+      "anchors": [],
+      "closed": true,
+      "source": "handwritten",
+      "licence": "CC0-1.0",
+      "inputHash": "1eb256ff9744e91e5f0f330aeadf9569ee06f19325b4c339b51b373317ed095a"
     },
     {
       "id": "counter_wood",
@@ -2140,6 +2204,30 @@
       "source": "handwritten",
       "licence": "CC0-1.0",
       "inputHash": "e8be463ff31c6ecc06ed4283804d5acab91dd29fb5ac0cfdb3d7d8744f2b75e9"
+    },
+    {
+      "id": "treasure_pile",
+      "name": "Treasure pile",
+      "description": "A heap of gold coins about 1.2 m across and 0.5 m high, strewn with loose coins, with a jewelled goblet half buried near the top, a crown tipped on its side on the front slope, a few cut rubies, sapphires and emeralds, and coins spilt round its foot.",
+      "category": "decor",
+      "family": "treasure",
+      "tags": ["castle", "cave", "dungeon", "gold", "low", "ornate", "round"],
+      "aliases": [
+        "coin heap",
+        "dragon hoard",
+        "gold coins",
+        "gold pile",
+        "hoard",
+        "loot",
+        "riches"
+      ],
+      "variants": ["treasure_pile"],
+      "size": { "x": 1.1, "y": 1.1, "z": 0.5 },
+      "anchors": [],
+      "closed": true,
+      "source": "handwritten",
+      "licence": "CC0-1.0",
+      "inputHash": "90de38a719fcebc45062db3cf54044ad272a0d1e6fbd876b1659196a2f5b53f2"
     },
     {
       "id": "tree_dead",
