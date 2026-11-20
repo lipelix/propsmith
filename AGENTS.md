@@ -19,6 +19,9 @@ props are published in an open catalogue.
 - A PR that adds or changes an asset shows it: `npm run shots -- <id>… --push <branch-slug>` renders every variant
   large (the review rig, framed to fill 1024 px), pushes the pictures to the `pr-assets` branch under `<branch-slug>/`
   and prints the "What it looks like" table to paste into the PR body.
+- When that PR closes a plan item (a sub-issue of a `plan` issue), append the same table to the item's body too,
+  after a `<!-- hq:renders -->` marker, with the heading `## What it looks like (from #<PR>)`, so the plan shows
+  every prop it produced. Leave the item's own text above it unchanged.
 
 ## Site
 
