@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "puddle_water",
+  "name": "Water puddle",
+  "description": "A shallow puddle of dark, faintly green standing water about 1 m across and a few centimetres high: an irregular glossy pool of merged lobes inside a rim of wet darkened silt, with a few stones and grit at its margin.",
+  "category": "decor",
+  "family": "puddle",
+  "tags": ["water", "crypt", "dungeon", "low", "small", "round"],
+  "aliases": ["pool", "standing water", "wet patch", "water pool"],
+  "variants": ["puddle_water"],
+  "size": { "x": 0.9, "y": 0.8, "z": 0.05 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A shallow dark puddle with a wet rim, about 1 m across, a few centimetres high."
+  },
+  "licence": "CC0-1.0"
+}
