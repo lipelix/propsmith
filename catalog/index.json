@@ -1773,6 +1773,36 @@
       "inputHash": "d898d7365ab5ffb8ddd5fb2ee24e991ad095168cd47cf486a7356202886a0e0e"
     },
     {
+      "id": "stool_wood",
+      "name": "Wooden stool",
+      "description": "A three-legged inn stool with its seat top at 0.45 m: a thick round seat about 0.36 m across on three splayed, tapered legs braced by a ring of round stretchers.",
+      "category": "furniture",
+      "family": "stool",
+      "tags": [
+        "house",
+        "inn",
+        "low",
+        "round",
+        "seating",
+        "small",
+        "wood",
+        "worn"
+      ],
+      "aliases": [
+        "milking stool",
+        "seat",
+        "tavern stool",
+        "three-legged stool"
+      ],
+      "variants": ["stool_wood"],
+      "size": { "x": 0.45, "y": 0.45, "z": 0.45 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "3f93190623a5d5669b94884855b58ae18defb2f51aa3f5f93bf519a013a503cb"
+    },
+    {
       "id": "straw_scatter",
       "name": "Straw scatter",
       "description": "Loose straw strewn on the ground: a thin flat drift of pale golden stalks crossing each other, at most a few centimetres high. Variants are a thin drift and a small trampled heap.",
