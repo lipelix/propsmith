@@ -946,6 +946,33 @@
         }
       ]
     },
+    "coin_sacks": {
+      "inputHash": "1eb256ff9744e91e5f0f330aeadf9569ee06f19325b4c339b51b373317ed095a",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "coin_sacks",
+          "tris": 3864,
+          "bbox": {
+            "min": [-0.3254, -0.29, 0],
+            "max": [0.3236, 0.2841, 0.3334]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "coin_sacks_cloth", "source": "palette" },
+            { "name": "coin_sacks_cloth_dark", "source": "palette" },
+            { "name": "coin_sacks_cloth_pale", "source": "palette" },
+            { "name": "coin_sacks_gold", "source": "palette" },
+            { "name": "coin_sacks_heap", "source": "palette" },
+            { "name": "coin_sacks_twine", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "counter_wood": {
       "inputHash": "92b4523dbdb021902d74c7d3ba646881846cebde7df4c1e83975ffa9f27540e9",
       "libVersion": 1,

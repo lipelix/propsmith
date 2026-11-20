@@ -744,6 +744,38 @@
       "inputHash": "c6e88a56957f4b31a2e5d761ce9df295fc0f6ff4186a3efcb526a5a6177344db"
     },
     {
+      "id": "coin_sacks",
+      "name": "Coin sacks",
+      "description": "Three small tied cloth money sacks about 0.65 m across and 0.35 m high: two standing plump and tied at the neck with twine, the third tipped on its side in front with its neck open and gold coins spilling out across the floor.",
+      "category": "container",
+      "family": "sack",
+      "tags": [
+        "castle",
+        "cloth",
+        "dungeon",
+        "gold",
+        "low",
+        "small",
+        "storage",
+        "treasure"
+      ],
+      "aliases": [
+        "bags of gold",
+        "coin purse",
+        "gold sacks",
+        "loot",
+        "money bags",
+        "money sacks"
+      ],
+      "variants": ["coin_sacks"],
+      "size": { "x": 0.65, "y": 0.6, "z": 0.35 },
+      "anchors": [],
+      "closed": true,
+      "source": "handwritten",
+      "licence": "CC0-1.0",
+      "inputHash": "1eb256ff9744e91e5f0f330aeadf9569ee06f19325b4c339b51b373317ed095a"
+    },
+    {
       "id": "counter_wood",
       "name": "Wooden shop counter",
       "description": "A village shop's closed wooden sales counter, about 2.6 m long, 0.7 m deep and nearly 1 m high: vertical front planks over a darker plinth board, a thick overhanging oak top, and a small iron balance scale and a little stack of coins on it.",
