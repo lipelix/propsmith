@@ -1000,6 +1000,29 @@
       "inputHash": "a7fecf74619c8b09ccf64610972c5966521bcd0d679e0bd38042159bfbc8a6b8"
     },
     {
+      "id": "goblin_camp_lean_to",
+      "name": "Goblin camp lean-to",
+      "description": "A crude lean-to about 2 × 2 m and 1.5 m high, open at the front: crooked branch rafters lean from a ridge pole on two forked posts to the ground, covered with ragged overlapping hides, more spread on the ground behind under stones,, over a bed of trodden straw with a matted fur, gnawed bones, a horned skull on a stick and a flint-tipped spear.",
+      "category": "structure",
+      "family": "shelter",
+      "tags": ["forest", "open", "road", "roofed", "straw", "wood", "worn"],
+      "aliases": [
+        "camp shelter",
+        "goblin camp",
+        "goblin den",
+        "hide shelter",
+        "hut",
+        "lean-to"
+      ],
+      "variants": ["goblin_camp_lean_to"],
+      "size": { "x": 2, "y": 2, "z": 1.5 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "e2244467a549547cb30b1b32d68787339dd2e875464a46a9f9f3b0c8dc4b48e6"
+    },
+    {
       "id": "grass_tuft",
       "name": "Grass tuft",
       "description": "A small clump of wild grass: thin tapering blades fanning out from one root, olive green with dry yellow tips. Variants are a short tuft, a taller tuft with seed-head stalks, and a dry straw-coloured half-dead tuft.",
@@ -2225,12 +2248,12 @@
       ],
       "aliases": ["cascade", "falls", "rock pool", "spring", "waterfall pool"],
       "variants": ["waterfall_rock"],
-      "size": { "x": 1.5, "y": 1.2, "z": 3 },
+      "size": { "x": 1.5, "y": 1.1, "z": 2.95 },
       "anchors": ["water:basin", "water:spout"],
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "0d4e4f4a295ab85bb4c57a679d3f2fa275771bd76fe10307fb297a2c61d2d680"
+      "inputHash": "76394adfa2db1cdcf4ac067f30e1b292e2575ad8e6b660984555b6e2d53ce808"
     },
     {
       "id": "well_stone",

@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "goblin_camp_lean_to",
+  "name": "Goblin camp lean-to",
+  "description": "A crude lean-to about 2 × 2 m and 1.5 m high, open at the front: crooked branch rafters lean from a ridge pole on two forked posts to the ground, covered with ragged overlapping hides, more spread on the ground behind under stones,, over a bed of trodden straw with a matted fur, gnawed bones, a horned skull on a stick and a flint-tipped spear.",
+  "category": "structure",
+  "family": "shelter",
+  "tags": ["wood", "straw", "forest", "road", "roofed", "open", "worn"],
+  "aliases": [
+    "lean-to",
+    "goblin camp",
+    "hide shelter",
+    "camp shelter",
+    "goblin den",
+    "hut"
+  ],
+  "variants": ["goblin_camp_lean_to"],
+  "size": { "x": 2.0, "y": 2.0, "z": 1.5 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A crude lean-to of branches and hides over a bed of straw, about 2 × 2 × 1.5 m."
+  },
+  "licence": "CC0-1.0"
+}

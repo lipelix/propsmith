@@ -8,7 +8,7 @@
   "tags": ["stone", "forest", "road", "water", "tall", "mossy", "weathered"],
   "aliases": ["cascade", "falls", "waterfall pool", "spring", "rock pool"],
   "variants": ["waterfall_rock"],
-  "size": { "x": 1.5, "y": 1.2, "z": 3.0 },
+  "size": { "x": 1.5, "y": 1.1, "z": 2.95 },
   "anchors": ["water:spout", "water:basin"],
   "closed": true,
   "provenance": {
