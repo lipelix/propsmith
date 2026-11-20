@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "id": "weapon_rack",
+  "name": "Weapon rack",
+  "description": "A merchant's timber weapon rack, about 1.2 × 0.4 × 1.5 m: two footed, braced uprights joined by a bottom board and two pairs of slotted rails, holding three iron-headed spears, a sword hung by its crossguard and a bearded axe.",
+  "category": "furniture",
+  "family": "weapon_rack",
+  "tags": [
+    "wood",
+    "iron",
+    "market",
+    "village",
+    "storage",
+    "trade",
+    "tall",
+    "worn"
+  ],
+  "aliases": [
+    "arms rack",
+    "spear rack",
+    "armoury rack",
+    "weapons",
+    "spears",
+    "sword",
+    "axe"
+  ],
+  "variants": ["weapon_rack"],
+  "size": { "x": 1.2, "y": 0.4, "z": 1.5 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A timber weapon rack with spears, a sword and an axe, about 1.2 × 0.4 × 1.5 m."
+  },
+  "licence": "CC0-1.0"
+}
