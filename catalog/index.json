@@ -1071,6 +1071,22 @@
       "inputHash": "733af34c73bdb99c98ab16a5a452ef9f262296b7cb5b25dba2733b4ece208ed9"
     },
     {
+      "id": "net_trap_fallen",
+      "name": "Fallen net trap",
+      "description": "A heavy square hemp net about 2 × 2 m with a thicker border rope, lying where it fell in a heap: its middle bunched up over folded net with the coiled drop line on top, its edges sagging out flat to a rope-lashed stone weight at each corner.",
+      "category": "decor",
+      "family": "net",
+      "tags": ["dungeon", "forest", "large", "low", "rope", "worn"],
+      "aliases": ["cargo net", "net trap", "rope net", "snare", "trap"],
+      "variants": ["net_trap_fallen"],
+      "size": { "x": 2.05, "y": 2.05, "z": 0.45 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "15e797bdda2ec17d4b86a5b3485f4f3ee21c470ca842150ee2f4d8dbff93d411"
+    },
+    {
       "id": "oak_tree",
       "name": "Oak tree",
       "description": "A broad old oak tree about 7 m high and 6 m across: a thick gnarled trunk with deep furrowed bark splitting into a few heavy crooked limbs, under a wide rounded crown of clumped dark-green leaf masses with gaps between them.",

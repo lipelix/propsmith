@@ -1499,6 +1499,32 @@
         }
       ]
     },
+    "net_trap_fallen": {
+      "inputHash": "15e797bdda2ec17d4b86a5b3485f4f3ee21c470ca842150ee2f4d8dbff93d411",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "net_trap_fallen",
+          "tris": 7240,
+          "bbox": {
+            "min": [-1.0005, -0.9984, 0.001],
+            "max": [1.0005, 0.9984, 0.4174]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "net_trap_fallen_rope", "source": "palette" },
+            { "name": "net_trap_fallen_rope_dark", "source": "palette" },
+            { "name": "net_trap_fallen_rope_old", "source": "palette" },
+            { "name": "net_trap_fallen_stone", "source": "palette" },
+            { "name": "net_trap_fallen_stone_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "oak_tree": {
       "inputHash": "6b8acbed3cfb70069171c5fe3d6dcd7bc87e9c8ddedf8737e8fbffe4b84719f4",
       "libVersion": 1,
@@ -1697,7 +1723,7 @@
       ]
     },
     "pressure_plate_stone": {
-      "inputHash": "1dc26040f43d90bdf8b3c4c94dc9abe9e2224e958c4ff684c5ab1576b44570ab",
+      "inputHash": "f4cbebc8933145b98914a867e1e423c5f47eae3f15b79366614f41d8554cb1fa",
       "libVersion": 1,
       "blender": "5.2.2 LTS",
       "variants": [
