@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "cliff_rock_straight",
+  "name": "Rock cliff section",
+  "description": "A straight 1.5 m section of mossy grey cliff about 3.5 m high and 1.5 m deep: a rock face on -y that leans back as it rises, broken into ledges and small overhangs by layered strata and split by dark vertical cracks, with moss on the ledges, damp at the foot, a grassy top and ivy hanging over the edge. Sections set side by side join into one continuous cliff.",
+  "category": "structure",
+  "family": "cliff",
+  "tags": [
+    "stone",
+    "forest",
+    "road",
+    "boundary",
+    "tall",
+    "large",
+    "mossy",
+    "weathered"
+  ],
+  "aliases": ["cliff", "rock face", "crag", "bluff", "escarpment", "rock wall"],
+  "variants": ["cliff_rock_straight"],
+  "size": { "x": 1.6, "y": 1.5, "z": 3.5 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A mossy grey rock face 1.5 m long, about 3.5 m high and 1.5 m deep, ledges and cracks, ivy at the top: a straight cliff section on the 1.5 m grid, its face on -y, that joins seamlessly with the next section and with cliff_rock_corner."
+  },
+  "licence": "CC0-1.0"
+}
