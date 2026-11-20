@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "id": "tankards_pewter",
+  "name": "Pewter tankards on a tray",
+  "description": "A small rimmed wooden tray, about 0.48 × 0.32 m, holding three pewter tankards (one with a hinged lid, two full of foaming ale) and a bellied pewter jug with a spout and a loop handle.",
+  "category": "decor",
+  "family": "tableware",
+  "tags": ["wood", "inn", "house", "small", "round", "worn"],
+  "aliases": [
+    "tankards",
+    "mugs",
+    "beer mugs",
+    "jug",
+    "pitcher",
+    "ale tray",
+    "drinks tray"
+  ],
+  "variants": ["tankards_pewter"],
+  "size": {
+    "x": 0.5,
+    "y": 0.35,
+    "z": 0.3
+  },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "Three pewter tankards and a jug on a small tray."
+  },
+  "licence": "CC0-1.0"
+}

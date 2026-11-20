@@ -669,6 +669,31 @@
         }
       ]
     },
+    "chair_wood": {
+      "inputHash": "761f1e571ba5e901467bd10892f817ef128af25b54980c2e6480e0aafb6e0e78",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "chair_wood",
+          "tris": 2720,
+          "bbox": {
+            "min": [-0.2325, -0.2207, 0],
+            "max": [0.2325, 0.2207, 0.948]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "chair_frame", "source": "palette" },
+            { "name": "chair_pegs", "source": "palette" },
+            { "name": "chair_seat", "source": "palette" },
+            { "name": "chair_seat_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "chest_iron_bound": {
       "inputHash": "2eec05333844b85702118bcd9dea68f861c095b51792adb581a77736e4d1e999",
       "libVersion": 1,
@@ -1532,6 +1557,37 @@
             { "name": "ivy_creeper_olive", "source": "palette" },
             { "name": "ivy_creeper_shadow", "source": "palette" },
             { "name": "ivy_creeper_vine", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "keg_rack": {
+      "inputHash": "c994635152c6f248c53e13db6d45efb8c8093061a9d9554bb37dc68c0863e0b3",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "keg_rack",
+          "tris": 7544,
+          "bbox": {
+            "min": [-0.7102, -0.3046, 0],
+            "max": [0.7102, 0.2928, 0.9965]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "keg_rack_head", "source": "palette" },
+            { "name": "keg_rack_head_light", "source": "palette" },
+            { "name": "keg_rack_hoops", "source": "palette" },
+            { "name": "keg_rack_inner", "source": "palette" },
+            { "name": "keg_rack_staves", "source": "palette" },
+            { "name": "keg_rack_staves_light", "source": "palette" },
+            { "name": "keg_rack_staves_old", "source": "palette" },
+            { "name": "keg_rack_tap", "source": "palette" },
+            { "name": "keg_rack_timber", "source": "palette" },
+            { "name": "keg_rack_timber_old", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
@@ -2485,6 +2541,31 @@
         }
       ]
     },
+    "stool_wood": {
+      "inputHash": "0ea88329af3d7c40fbb40294e5043d85be711457016d023142f2a2678abf084b",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "stool_wood",
+          "tris": 1892,
+          "bbox": {
+            "min": [-0.1885, -0.18, 0.0012],
+            "max": [0.1931, 0.2175, 0.4465]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "stool_legs", "source": "palette" },
+            { "name": "stool_legs_old", "source": "palette" },
+            { "name": "stool_pegs", "source": "palette" },
+            { "name": "stool_seat", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "straw_scatter": {
       "inputHash": "89baa7b1742971c0be8a88f1b997547f8b2ca702573392bd25c28c8b04840a31",
       "libVersion": 1,
@@ -2549,6 +2630,33 @@
             { "name": "table_pewter", "source": "palette" },
             { "name": "table_top", "source": "palette" },
             { "name": "table_top_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "tankards_pewter": {
+      "inputHash": "1add065819fd0fa5044129a9aab7e359af99c64932c830ec3e11edf29e89c4c1",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "tankards_pewter",
+          "tris": 5380,
+          "bbox": {
+            "min": [-0.24, -0.1605, 0],
+            "max": [0.254, 0.1611, 0.2803]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "tankards_ale", "source": "palette" },
+            { "name": "tankards_foam", "source": "palette" },
+            { "name": "tankards_pewter", "source": "palette" },
+            { "name": "tankards_pewter_dull", "source": "palette" },
+            { "name": "tankards_tray", "source": "palette" },
+            { "name": "tankards_tray_old", "source": "palette" }
           ],
           "anchors": [],
           "textures": []

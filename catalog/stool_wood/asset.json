@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "stool_wood",
+  "name": "Wooden stool",
+  "description": "A three-legged inn stool with its seat top at 0.45 m: a thick round seat about 0.36 m across on three splayed, tapered legs braced by a ring of round stretchers.",
+  "category": "furniture",
+  "family": "stool",
+  "tags": ["wood", "inn", "house", "seating", "round", "small", "low", "worn"],
+  "aliases": ["three-legged stool", "milking stool", "tavern stool", "seat"],
+  "variants": ["stool_wood"],
+  "size": { "x": 0.4, "y": 0.4, "z": 0.45 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A three-legged wooden inn stool, seat 0.45 m high."
+  },
+  "licence": "CC0-1.0"
+}

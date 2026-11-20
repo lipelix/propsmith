@@ -480,6 +480,22 @@
       "inputHash": "67af58d600d578242e3faa1df4c5d955152fe3f001f5ad75ecc217c20278cc7b"
     },
     {
+      "id": "chair_wood",
+      "name": "Wooden chair",
+      "description": "A rustic inn chair with its seat at 0.45 m and back at 0.95 m: a three-board plank seat on four square legs with stretchers, the back legs rising into a ladder back of two slats under a heavy top rail.",
+      "category": "furniture",
+      "family": "chair",
+      "tags": ["house", "inn", "plain", "seating", "tall", "wood", "worn"],
+      "aliases": ["kitchen chair", "ladder-back chair", "seat", "tavern chair"],
+      "variants": ["chair_wood"],
+      "size": { "x": 0.5, "y": 0.45, "z": 0.95 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "761f1e571ba5e901467bd10892f817ef128af25b54980c2e6480e0aafb6e0e78"
+    },
+    {
       "id": "chest_iron_bound",
       "name": "Iron-bound chest",
       "description": "A heavy closed chest of dark stained planks, about 1 m wide, 0.7 m deep and 0.7 m high, with a low domed lid, wrapped in iron: an iron-shod plinth, hoops round the body, corner plates, studded straps over the lid, side ring handles and a round rusty lock plate on the front bearing a raised sigil, a ring round a five-pointed star, under a hasp.",
@@ -1134,6 +1150,30 @@
       "inputHash": "9def8059dce1279a3ff00e87493a9354d4b49c293a79e3af439e0a91881e1a00"
     },
     {
+      "id": "keg_rack",
+      "name": "Keg rack",
+      "description": "Two oak kegs lying side by side on a heavy timber cradle, about 1.45 × 0.6 × 1 m: each keg of curved staves held by four iron hoops, a wooden spigot in its front head; the cradle of sills, posts and top rails with angled chocks under the kegs.",
+      "category": "container",
+      "family": "keg",
+      "tags": ["inn", "iron", "long", "round", "storage", "wood", "worn"],
+      "aliases": [
+        "barrel cradle",
+        "barrel rack",
+        "beer barrels",
+        "cask stand",
+        "casks",
+        "kegs",
+        "stillage"
+      ],
+      "variants": ["keg_rack"],
+      "size": { "x": 1.45, "y": 0.6, "z": 1 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "c994635152c6f248c53e13db6d45efb8c8093061a9d9554bb37dc68c0863e0b3"
+    },
+    {
       "id": "lamp_post",
       "name": "Street lamp post",
       "description": "A tall dark timber post about 2.6 m high on a small stone foot, with an iron bracket arm at the top from which hangs a small four-sided iron lantern with warm glass panes.",
@@ -1773,6 +1813,36 @@
       "inputHash": "d898d7365ab5ffb8ddd5fb2ee24e991ad095168cd47cf486a7356202886a0e0e"
     },
     {
+      "id": "stool_wood",
+      "name": "Wooden stool",
+      "description": "A three-legged inn stool with its seat top at 0.45 m: a thick round seat about 0.36 m across on three splayed, tapered legs braced by a ring of round stretchers.",
+      "category": "furniture",
+      "family": "stool",
+      "tags": [
+        "house",
+        "inn",
+        "low",
+        "round",
+        "seating",
+        "small",
+        "wood",
+        "worn"
+      ],
+      "aliases": [
+        "milking stool",
+        "seat",
+        "tavern stool",
+        "three-legged stool"
+      ],
+      "variants": ["stool_wood"],
+      "size": { "x": 0.4, "y": 0.4, "z": 0.45 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "0ea88329af3d7c40fbb40294e5043d85be711457016d023142f2a2678abf084b"
+    },
+    {
       "id": "straw_scatter",
       "name": "Straw scatter",
       "description": "Loose straw strewn on the ground: a thin flat drift of pale golden stalks crossing each other, at most a few centimetres high. Variants are a thin drift and a small trampled heap.",
@@ -1809,6 +1879,30 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "a7841b1add2af09d25b2cf83a698c7be9927e5f28385ec23e70314e9dbb8870b"
+    },
+    {
+      "id": "tankards_pewter",
+      "name": "Pewter tankards on a tray",
+      "description": "A small rimmed wooden tray, about 0.48 × 0.32 m, holding three pewter tankards (one with a hinged lid, two full of foaming ale) and a bellied pewter jug with a spout and a loop handle.",
+      "category": "decor",
+      "family": "tableware",
+      "tags": ["house", "inn", "round", "small", "wood", "worn"],
+      "aliases": [
+        "ale tray",
+        "beer mugs",
+        "drinks tray",
+        "jug",
+        "mugs",
+        "pitcher",
+        "tankards"
+      ],
+      "variants": ["tankards_pewter"],
+      "size": { "x": 0.5, "y": 0.35, "z": 0.3 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "1add065819fd0fa5044129a9aab7e359af99c64932c830ec3e11edf29e89c4c1"
     },
     {
       "id": "thicket_bramble",

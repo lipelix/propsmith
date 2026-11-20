@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "chair_wood",
+  "name": "Wooden chair",
+  "description": "A rustic inn chair with its seat at 0.45 m and back at 0.95 m: a three-board plank seat on four square legs with stretchers, the back legs rising into a ladder back of two slats under a heavy top rail.",
+  "category": "furniture",
+  "family": "chair",
+  "tags": ["wood", "inn", "house", "seating", "tall", "plain", "worn"],
+  "aliases": ["ladder-back chair", "tavern chair", "kitchen chair", "seat"],
+  "variants": ["chair_wood"],
+  "size": { "x": 0.5, "y": 0.45, "z": 0.95 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A rustic wooden inn chair with a ladder back, seat 0.45 m high."
+  },
+  "licence": "CC0-1.0"
+}
