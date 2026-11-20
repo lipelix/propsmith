@@ -719,6 +719,67 @@
         }
       ]
     },
+    "cliff_rock_corner": {
+      "inputHash": "29011b14d759d965ceeb1ccfd2fa17350c1acf253058d900b73dd83373e8da24",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "cliff_rock_corner",
+          "tris": 7880,
+          "bbox": {
+            "min": [-0.7878, -0.7118, 0],
+            "max": [0.7144, 0.7911, 3.5]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "cliff_rock_damp", "source": "palette" },
+            { "name": "cliff_rock_dark", "source": "palette" },
+            { "name": "cliff_rock_grass", "source": "palette" },
+            { "name": "cliff_rock_ivy_core", "source": "palette" },
+            { "name": "cliff_rock_ivy_lit", "source": "palette" },
+            { "name": "cliff_rock_ivy_olive", "source": "palette" },
+            { "name": "cliff_rock_ivy_shadow", "source": "palette" },
+            { "name": "cliff_rock_ivy_vine", "source": "palette" },
+            { "name": "cliff_rock_moss", "source": "palette" },
+            { "name": "cliff_rock_pale", "source": "palette" },
+            { "name": "cliff_rock_rock", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "cliff_rock_straight": {
+      "inputHash": "b02564db770319776776612cfc2e41adc4657d227d6d029edcc8b57c8f6691e2",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "cliff_rock_straight",
+          "tris": 5352,
+          "bbox": { "min": [-0.7864, -0.7256, 0], "max": [0.7898, 0.75, 3.5] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "cliff_rock_damp", "source": "palette" },
+            { "name": "cliff_rock_dark", "source": "palette" },
+            { "name": "cliff_rock_grass", "source": "palette" },
+            { "name": "cliff_rock_ivy_core", "source": "palette" },
+            { "name": "cliff_rock_ivy_lit", "source": "palette" },
+            { "name": "cliff_rock_ivy_olive", "source": "palette" },
+            { "name": "cliff_rock_ivy_shadow", "source": "palette" },
+            { "name": "cliff_rock_ivy_vine", "source": "palette" },
+            { "name": "cliff_rock_moss", "source": "palette" },
+            { "name": "cliff_rock_pale", "source": "palette" },
+            { "name": "cliff_rock_rock", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "cobweb_corner": {
       "inputHash": "3e522d4395e5b9c8a5cd4d389bebbf6b5da1ffcd5af2d7a43a2faa7113908865",
       "libVersion": 1,

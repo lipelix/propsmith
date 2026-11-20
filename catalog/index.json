@@ -545,6 +545,70 @@
       "inputHash": "b3e3adf0dd9e14c4a1ce2f65c59ce8c426eae54b8309477eb0f595580285c1a2"
     },
     {
+      "id": "cliff_rock_corner",
+      "name": "Rock cliff outside corner",
+      "description": "The outside corner of the mossy grey cliff, a 1.5 × 1.5 m block about 3.5 m high: the rock face runs along -y, turns round a broken, rounded corner and runs on along +x, leaning back as it rises, with ledges, small overhangs and dark cracks, moss on the ledges, damp at the foot, a grassy top and ivy hanging over the edge. It joins a straight cliff section on -x and a straight section turned to face +x on +y.",
+      "category": "structure",
+      "family": "cliff",
+      "tags": [
+        "boundary",
+        "forest",
+        "large",
+        "mossy",
+        "road",
+        "stone",
+        "tall",
+        "weathered"
+      ],
+      "aliases": [
+        "bluff",
+        "cliff corner",
+        "crag",
+        "escarpment",
+        "rock face",
+        "rock wall"
+      ],
+      "variants": ["cliff_rock_corner"],
+      "size": { "x": 1.55, "y": 1.55, "z": 3.5 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "29011b14d759d965ceeb1ccfd2fa17350c1acf253058d900b73dd83373e8da24"
+    },
+    {
+      "id": "cliff_rock_straight",
+      "name": "Rock cliff section",
+      "description": "A straight 1.5 m section of mossy grey cliff about 3.5 m high and 1.5 m deep: a rock face on -y that leans back as it rises, broken into ledges and small overhangs by layered strata and split by dark vertical cracks, with moss on the ledges, damp at the foot, a grassy top and ivy hanging over the edge. Sections set side by side join into one continuous cliff.",
+      "category": "structure",
+      "family": "cliff",
+      "tags": [
+        "boundary",
+        "forest",
+        "large",
+        "mossy",
+        "road",
+        "stone",
+        "tall",
+        "weathered"
+      ],
+      "aliases": [
+        "bluff",
+        "cliff",
+        "crag",
+        "escarpment",
+        "rock face",
+        "rock wall"
+      ],
+      "variants": ["cliff_rock_straight"],
+      "size": { "x": 1.6, "y": 1.5, "z": 3.5 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "b02564db770319776776612cfc2e41adc4657d227d6d029edcc8b57c8f6691e2"
+    },
+    {
       "id": "cobweb_corner",
       "name": "Corner cobweb",
       "description": "A dusty grey orb web about 1 m across strung on a diagonal across a corner between two short stubs of dark crypt ashlar, about 1 m high, that meet in an L at the back: radial threads to the stubs and the floor, a loose spiral, a sagging top thread, a few broken drooping strands and clots of dust.",

@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "id": "cliff_rock_corner",
+  "name": "Rock cliff outside corner",
+  "description": "The outside corner of the mossy grey cliff, a 1.5 × 1.5 m block about 3.5 m high: the rock face runs along -y, turns round a broken, rounded corner and runs on along +x, leaning back as it rises, with ledges, small overhangs and dark cracks, moss on the ledges, damp at the foot, a grassy top and ivy hanging over the edge. It joins a straight cliff section on -x and a straight section turned to face +x on +y.",
+  "category": "structure",
+  "family": "cliff",
+  "tags": [
+    "stone",
+    "forest",
+    "road",
+    "boundary",
+    "tall",
+    "large",
+    "mossy",
+    "weathered"
+  ],
+  "aliases": [
+    "cliff corner",
+    "rock face",
+    "crag",
+    "bluff",
+    "escarpment",
+    "rock wall"
+  ],
+  "variants": ["cliff_rock_corner"],
+  "size": { "x": 1.55, "y": 1.55, "z": 3.5 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "The outside corner of cliff_rock_straight (a mossy grey rock face 1.5 m long, about 3.5 m high and 1.5 m deep, ledges and cracks, ivy at the top): a 1.5 × 1.5 m block whose face runs along -y and turns round the corner to +x, joining a straight section on -x and a straight section turned 90 degrees on +y."
+  },
+  "licence": "CC0-1.0"
+}
