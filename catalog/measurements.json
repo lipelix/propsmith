@@ -578,6 +578,33 @@
         }
       ]
     },
+    "chest_iron_bound": {
+      "inputHash": "2eec05333844b85702118bcd9dea68f861c095b51792adb581a77736e4d1e999",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "chest_iron_bound",
+          "tris": 6244,
+          "bbox": {
+            "min": [-0.5138, -0.378, 0],
+            "max": [0.5138, 0.338, 0.6939]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "chest_iron_bound_hole", "source": "palette" },
+            { "name": "chest_iron_bound_iron", "source": "palette" },
+            { "name": "chest_iron_bound_iron_worn", "source": "palette" },
+            { "name": "chest_iron_bound_plank", "source": "palette" },
+            { "name": "chest_iron_bound_plank_old", "source": "palette" },
+            { "name": "chest_iron_bound_rust", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "chest_wood": {
       "inputHash": "3831e2dd75928f9a8efcd549e7e19794a1bd8e7e145c32acf9a43e05c585f713",
       "libVersion": 1,
@@ -778,6 +805,35 @@
             { "name": "crypt_gate_iron_stone", "source": "palette" },
             { "name": "crypt_gate_iron_stone_old", "source": "palette" },
             { "name": "crypt_gate_iron_stone_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "door_iron_bound": {
+      "inputHash": "bd6fdad6888c276ad65d3764d436def9e1b3b4111419b4d249af9f77ec202169",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "door_iron_bound",
+          "tris": 4736,
+          "bbox": {
+            "min": [-0.7501, -0.1518, 0],
+            "max": [0.7511, 0.1533, 2.3939]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "door_iron_bound_iron", "source": "palette" },
+            { "name": "door_iron_bound_iron_worn", "source": "palette" },
+            { "name": "door_iron_bound_mortar", "source": "palette" },
+            { "name": "door_iron_bound_plank", "source": "palette" },
+            { "name": "door_iron_bound_plank_old", "source": "palette" },
+            { "name": "door_iron_bound_rust", "source": "palette" },
+            { "name": "door_iron_bound_stone", "source": "palette" },
+            { "name": "door_iron_bound_stone_old", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
