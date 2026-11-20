@@ -1719,6 +1719,59 @@
         }
       ]
     },
+    "stairs_stone": {
+      "inputHash": "d30f55690b921ccedeb337c35906e895fff5d57525eda8ea01d0564f70073073",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "stairs_stone_down",
+          "tris": 6168,
+          "bbox": { "min": [-0.7517, -1.5, 0], "max": [0.7518, 1.5, 3] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "stairs_stone_coping", "source": "palette" },
+            { "name": "stairs_stone_damp", "source": "palette" },
+            { "name": "stairs_stone_mortar", "source": "palette" },
+            { "name": "stairs_stone_step_0", "source": "palette" },
+            { "name": "stairs_stone_step_1", "source": "palette" },
+            { "name": "stairs_stone_step_2", "source": "palette" },
+            { "name": "stairs_stone_step_3", "source": "palette" },
+            { "name": "stairs_stone_step_4", "source": "palette" },
+            { "name": "stairs_stone_stone", "source": "palette" },
+            { "name": "stairs_stone_stone_old", "source": "palette" },
+            { "name": "stairs_stone_stone_pale", "source": "palette" },
+            { "name": "stairs_stone_void", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "stairs_stone_up",
+          "tris": 4692,
+          "bbox": { "min": [-0.7528, -1.5, 0], "max": [0.7519, 1.5, 3] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "stairs_stone_coping", "source": "palette" },
+            { "name": "stairs_stone_damp", "source": "palette" },
+            { "name": "stairs_stone_mortar", "source": "palette" },
+            { "name": "stairs_stone_step_0", "source": "palette" },
+            { "name": "stairs_stone_step_1", "source": "palette" },
+            { "name": "stairs_stone_step_2", "source": "palette" },
+            { "name": "stairs_stone_step_3", "source": "palette" },
+            { "name": "stairs_stone_step_4", "source": "palette" },
+            { "name": "stairs_stone_stone", "source": "palette" },
+            { "name": "stairs_stone_stone_old", "source": "palette" },
+            { "name": "stairs_stone_stone_pale", "source": "palette" },
+            { "name": "stairs_stone_void", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "statue_stone": {
       "inputHash": "d898d7365ab5ffb8ddd5fb2ee24e991ad095168cd47cf486a7356202886a0e0e",
       "libVersion": 1,

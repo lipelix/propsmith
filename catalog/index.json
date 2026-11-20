@@ -1209,6 +1209,29 @@
       "inputHash": "ae41f237d05f225d28704075b7e572c2fde3ffd5705cec8484cfe31d7b698bb0"
     },
     {
+      "id": "stairs_stone",
+      "name": "Stone stairs",
+      "description": "A flight of worn stone steps, 1.5 m wide and 3 m long, between two dark blue-grey ashlar crypt walls 3 m high, with a raking string course along both walls and heavy lintels roofing the far end. Going down, the treads sink step by step under an ever lower ceiling into darkness; going up, the steps rise under a lintel to a dark opening.",
+      "category": "structure",
+      "family": "stairs",
+      "tags": ["crypt", "dungeon", "long", "stone", "tall", "worn"],
+      "aliases": [
+        "descent",
+        "flight of steps",
+        "staircase",
+        "stairway",
+        "stairwell",
+        "steps"
+      ],
+      "variants": ["stairs_stone_down", "stairs_stone_up"],
+      "size": { "x": 1.55, "y": 3.05, "z": 3 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "d30f55690b921ccedeb337c35906e895fff5d57525eda8ea01d0564f70073073"
+    },
+    {
       "id": "statue_stone",
       "name": "Stone statue",
       "description": "A weathered stone statue of a robed, hooded figure about 1.9 m tall, hands folded on the pommel of a point-down sword, on a square dressed-stone plinth 0.9 m wide and 0.5 m high with a moulded top edge. Worn grey-brown stone, simple robe folds, no face detail, a little moss at the plinth base.",
