@@ -1040,6 +1040,36 @@
       "inputHash": "a7fecf74619c8b09ccf64610972c5966521bcd0d679e0bd38042159bfbc8a6b8"
     },
     {
+      "id": "gate_wood",
+      "name": "Wooden field gate",
+      "description": "A 1.5 m plank field gate in weathered grey-brown wood: four rails, two stiles and a diagonal brace, hung on iron strap hinges between two round posts and closed with an iron latch, matching the rail fence.",
+      "category": "fence",
+      "family": "gate",
+      "tags": [
+        "boundary",
+        "farm",
+        "iron",
+        "plain",
+        "village",
+        "weathered",
+        "wood"
+      ],
+      "aliases": [
+        "farm gate",
+        "fence gate",
+        "field gate",
+        "five bar gate",
+        "paddock gate"
+      ],
+      "variants": ["gate_wood"],
+      "size": { "x": 1.5, "y": 0.2, "z": 1.3 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "37925b2e667719afb0283f6d332b82f152d9a748fdf7e6134c9d47b28a11e53f"
+    },
+    {
       "id": "goblin_camp_lean_to",
       "name": "Goblin camp lean-to",
       "description": "A crude lean-to about 2 × 2 m and 1.5 m high, open at the front: crooked branch rafters lean from a ridge pole on two forked posts to the ground, covered with ragged overlapping hides, more spread on the ground behind under stones,, over a bed of trodden straw with a matted fur, gnawed bones, a horned skull on a stick and a flint-tipped spear.",
@@ -1374,6 +1404,36 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "15e797bdda2ec17d4b86a5b3485f4f3ee21c470ca842150ee2f4d8dbff93d411"
+    },
+    {
+      "id": "notice_board",
+      "name": "Village notice board",
+      "description": "A plank board framed between two square timber posts under a small pitched shingle roof, about 2.2 m high, with parchment notices and a faded red bill pinned to its front.",
+      "category": "decor",
+      "family": "notice_board",
+      "tags": [
+        "road",
+        "roofed",
+        "square",
+        "tall",
+        "village",
+        "weathered",
+        "wood"
+      ],
+      "aliases": [
+        "announcements",
+        "bulletin board",
+        "job board",
+        "notice",
+        "quest board"
+      ],
+      "variants": ["notice_board"],
+      "size": { "x": 1.5, "y": 0.45, "z": 2.2 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "8f8bd11d393be6ef9b61a1f67cccf04023ac6a878ba392b24894836e9558948b"
     },
     {
       "id": "oak_tree",
@@ -2451,6 +2511,22 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "8ed467330a2626a5b1ffec5d569192351aacd8aefc6ef030dc22cfa4cdf6e5e4"
+    },
+    {
+      "id": "washing_line",
+      "name": "Washing line",
+      "description": "A sagging rope strung about 1.8 m up between two leaning round posts with short cross arms, with laundry pegged along it: a linen sheet, a faded blue shirt, brown hose, an apron and a red rag.",
+      "category": "decor",
+      "family": "washing_line",
+      "tags": ["cloth", "garden", "house", "long", "rope", "village", "wood"],
+      "aliases": ["clothesline", "drying line", "laundry", "washing"],
+      "variants": ["washing_line"],
+      "size": { "x": 3.05, "y": 0.3, "z": 1.95 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "c6060653866dc3568b121ba2fb8bc77dfe5b5295768ecf5abf1f6479473c1559"
     },
     {
       "id": "waterfall_rock",

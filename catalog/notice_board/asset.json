@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "notice_board",
+  "name": "Village notice board",
+  "description": "A plank board framed between two square timber posts under a small pitched shingle roof, about 2.2 m high, with parchment notices and a faded red bill pinned to its front.",
+  "category": "decor",
+  "family": "notice_board",
+  "tags": ["wood", "village", "square", "road", "roofed", "tall", "weathered"],
+  "aliases": [
+    "bulletin board",
+    "notice",
+    "quest board",
+    "job board",
+    "announcements"
+  ],
+  "variants": ["notice_board"],
+  "size": { "x": 1.5, "y": 0.45, "z": 2.2 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "notice_board: a roofed timber board with pinned notices, about 1.5 × 0.4 × 2.2 m."
+  },
+  "licence": "CC0-1.0"
+}
