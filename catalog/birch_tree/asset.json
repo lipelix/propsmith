@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "birch_tree",
+  "name": "Birch tree",
+  "description": "A slender white birch about 6 m high: a thin, gently curving chalk-white trunk with black horizontal bark marks and a dark fissured foot, thin ascending branches arching out at the tips, and a narrow airy crown of small yellow-green leaf clumps, some hanging from the branch tips.",
+  "category": "vegetation",
+  "family": "tree",
+  "tags": ["forest", "road", "village", "wood", "tall"],
+  "aliases": ["birch", "silver birch", "white birch", "deciduous", "broadleaf"],
+  "variants": ["birch_tree"],
+  "size": { "x": 1.8, "y": 1.9, "z": 6.0 },
+  "anchors": [],
+  "closed": false,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A slender white birch, about 2 × 2 × 6 m."
+  },
+  "licence": "CC0-1.0"
+}

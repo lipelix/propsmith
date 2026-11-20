@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "sapling_young",
+  "name": "Young sapling",
+  "description": "A young broadleaf sapling about 2 m high: a thin, slightly crooked grey-brown stem with a small root flare, a few slender branches rising from it, and a loose open crown of fresh green pointed leaves in small clusters.",
+  "category": "vegetation",
+  "family": "tree",
+  "tags": ["forest", "road", "village", "garden", "wood", "small", "new"],
+  "aliases": ["sapling", "young tree", "seedling", "broadleaf", "deciduous"],
+  "variants": ["sapling_young"],
+  "size": { "x": 0.95, "y": 0.85, "z": 1.95 },
+  "anchors": [],
+  "closed": false,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A young broadleaf sapling, about 1 × 1 × 2 m."
+  },
+  "licence": "CC0-1.0"
+}
