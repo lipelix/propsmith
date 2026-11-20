@@ -1451,6 +1451,33 @@
         }
       ]
     },
+    "pillar_stone_broken": {
+      "inputHash": "6cb942fcebc5032a5d8337343c7c9c50bab1cfae277c3d29f40c2063ed757da8",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "pillar_stone_broken",
+          "tris": 2092,
+          "bbox": {
+            "min": [-0.5578, -0.5589, -0.0026],
+            "max": [0.9212, 0.4931, 1.5397]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "pillar_stone_broken_break", "source": "palette" },
+            { "name": "pillar_stone_broken_damp", "source": "palette" },
+            { "name": "pillar_stone_broken_mortar", "source": "palette" },
+            { "name": "pillar_stone_broken_stone", "source": "palette" },
+            { "name": "pillar_stone_broken_stone_old", "source": "palette" },
+            { "name": "pillar_stone_broken_stone_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "pine_tree": {
       "inputHash": "7e549e42b36c16aac4e318aee31bbd57c656b430caa37a4b4be09e51f8c22375",
       "libVersion": 1,

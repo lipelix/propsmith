@@ -1023,6 +1023,22 @@
       "inputHash": "ace45b8ac282f822ba600b42fed356ac35cd434a51821fd618be81c2b6a6ee6d"
     },
     {
+      "id": "pillar_stone_broken",
+      "name": "Broken stone pillar",
+      "description": "The snapped stump of a square crypt pillar in dark blue-grey dressed stone: its stepped base and two drums, broken off in a ragged pale break about 1.4 m up, with the fallen drum lying on its side beside it and chips and grit around. The stump stands on the origin, where the whole pillar would.",
+      "category": "structure",
+      "family": "pillar",
+      "tags": ["broken", "crypt", "dungeon", "stone", "temple", "worn"],
+      "aliases": ["broken column", "column stump", "fallen pillar", "ruin"],
+      "variants": ["pillar_stone_broken"],
+      "size": { "x": 1.85, "y": 1.1, "z": 1.55 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "6cb942fcebc5032a5d8337343c7c9c50bab1cfae277c3d29f40c2063ed757da8"
+    },
+    {
       "id": "pine_tree",
       "name": "Pine tree",
       "description": "A tall pine tree about 6 m high: a straight brown trunk with rough bark and a few roots spreading at the foot, under five stacked tiers of drooping dark-green needle boughs that narrow to a pointed top, each tier slightly irregular and turned.",
