@@ -1007,6 +1007,38 @@
       "inputHash": "8420d0e9a787a227d46ea12d480abc7e9a84a790602208d3934c53fc6ebd68f0"
     },
     {
+      "id": "pillar_stone",
+      "name": "Stone pillar",
+      "description": "A square crypt pillar of dark blue-grey dressed stone, 0.7 m square and 3 m high: a stepped moulded base, a shaft of five stacked drums with worn dark joints, and a chamfered capital under a broad square abacus, damp-stained at the foot.",
+      "category": "structure",
+      "family": "pillar",
+      "tags": ["crypt", "dungeon", "stone", "tall", "temple", "worn"],
+      "aliases": ["column", "pier", "post", "support"],
+      "variants": ["pillar_stone"],
+      "size": { "x": 0.75, "y": 0.75, "z": 3 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "ace45b8ac282f822ba600b42fed356ac35cd434a51821fd618be81c2b6a6ee6d"
+    },
+    {
+      "id": "pillar_stone_broken",
+      "name": "Broken stone pillar",
+      "description": "The snapped stump of a square crypt pillar in dark blue-grey dressed stone: its stepped base and two drums, broken off in a ragged pale break about 1.4 m up, with the fallen drum lying on its side beside it and chips and grit around. The stump stands on the origin, where the whole pillar would.",
+      "category": "structure",
+      "family": "pillar",
+      "tags": ["broken", "crypt", "dungeon", "stone", "temple", "worn"],
+      "aliases": ["broken column", "column stump", "fallen pillar", "ruin"],
+      "variants": ["pillar_stone_broken"],
+      "size": { "x": 1.85, "y": 1.1, "z": 1.55 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "6cb942fcebc5032a5d8337343c7c9c50bab1cfae277c3d29f40c2063ed757da8"
+    },
+    {
       "id": "pine_tree",
       "name": "Pine tree",
       "description": "A tall pine tree about 6 m high: a straight brown trunk with rough bark and a few roots spreading at the foot, under five stacked tiers of drooping dark-green needle boughs that narrow to a pointed top, each tier slightly irregular and turned.",
@@ -1093,6 +1125,22 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "43552aa8390acbe38d23844e3fb76af90a4af10cf6d7a1f47895d19e7d289641"
+    },
+    {
+      "id": "rubble_stone",
+      "name": "Stone rubble",
+      "description": "A heap of fallen dressed masonry about 1.2 m across and 0.6 m high: dark blue-grey ashlar blocks and a coping slab tumbled and stacked on a low mound of grit, some broken with paler fresh faces, with chips and grit spilled round the foot.",
+      "category": "decor",
+      "family": "rubble",
+      "tags": ["broken", "crypt", "dungeon", "low", "stone", "worn"],
+      "aliases": ["collapse", "debris", "fallen masonry", "rocks", "ruins"],
+      "variants": ["rubble_stone"],
+      "size": { "x": 1.2, "y": 1.2, "z": 0.6 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "cb862c2214be8023323fa24a172ed8b7950e0d120578a9e67f0af7d9897536c2"
     },
     {
       "id": "sacks_grain",

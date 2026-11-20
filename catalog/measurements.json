@@ -1427,6 +1427,57 @@
         }
       ]
     },
+    "pillar_stone": {
+      "inputHash": "ace45b8ac282f822ba600b42fed356ac35cd434a51821fd618be81c2b6a6ee6d",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "pillar_stone",
+          "tris": 1200,
+          "bbox": { "min": [-0.3533, -0.3533, 0], "max": [0.3533, 0.3533, 3] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "pillar_stone_cap", "source": "palette" },
+            { "name": "pillar_stone_damp", "source": "palette" },
+            { "name": "pillar_stone_mortar", "source": "palette" },
+            { "name": "pillar_stone_stone", "source": "palette" },
+            { "name": "pillar_stone_stone_old", "source": "palette" },
+            { "name": "pillar_stone_stone_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "pillar_stone_broken": {
+      "inputHash": "6cb942fcebc5032a5d8337343c7c9c50bab1cfae277c3d29f40c2063ed757da8",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "pillar_stone_broken",
+          "tris": 2092,
+          "bbox": {
+            "min": [-0.5578, -0.5589, -0.0026],
+            "max": [0.9212, 0.4931, 1.5397]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "pillar_stone_broken_break", "source": "palette" },
+            { "name": "pillar_stone_broken_damp", "source": "palette" },
+            { "name": "pillar_stone_broken_mortar", "source": "palette" },
+            { "name": "pillar_stone_broken_stone", "source": "palette" },
+            { "name": "pillar_stone_broken_stone_old", "source": "palette" },
+            { "name": "pillar_stone_broken_stone_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "pine_tree": {
       "inputHash": "7e549e42b36c16aac4e318aee31bbd57c656b430caa37a4b4be09e51f8c22375",
       "libVersion": 1,
@@ -1559,6 +1610,34 @@
             { "name": "rowboat_planks_old", "source": "palette" },
             { "name": "rowboat_seat", "source": "palette" },
             { "name": "rowboat_timber", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "rubble_stone": {
+      "inputHash": "cb862c2214be8023323fa24a172ed8b7950e0d120578a9e67f0af7d9897536c2",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "rubble_stone",
+          "tris": 1808,
+          "bbox": {
+            "min": [-0.5787, -0.5791, 0],
+            "max": [0.5703, 0.5424, 0.5965]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "rubble_stone_break", "source": "palette" },
+            { "name": "rubble_stone_coping", "source": "palette" },
+            { "name": "rubble_stone_damp", "source": "palette" },
+            { "name": "rubble_stone_grit", "source": "palette" },
+            { "name": "rubble_stone_stone", "source": "palette" },
+            { "name": "rubble_stone_stone_old", "source": "palette" },
+            { "name": "rubble_stone_stone_pale", "source": "palette" }
           ],
           "anchors": [],
           "textures": []

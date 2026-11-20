@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "rubble_stone",
+  "name": "Stone rubble",
+  "description": "A heap of fallen dressed masonry about 1.2 m across and 0.6 m high: dark blue-grey ashlar blocks and a coping slab tumbled and stacked on a low mound of grit, some broken with paler fresh faces, with chips and grit spilled round the foot.",
+  "category": "decor",
+  "family": "rubble",
+  "tags": ["stone", "crypt", "dungeon", "low", "broken", "worn"],
+  "aliases": ["debris", "fallen masonry", "rocks", "collapse", "ruins"],
+  "variants": ["rubble_stone"],
+  "size": { "x": 1.2, "y": 1.2, "z": 0.6 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "rubble_stone: fallen dressed masonry and grit, about 1.2 × 1.2 × 0.6 m. Crypt wall kit palette."
+  },
+  "licence": "CC0-1.0"
+}

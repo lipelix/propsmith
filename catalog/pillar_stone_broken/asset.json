@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "pillar_stone_broken",
+  "name": "Broken stone pillar",
+  "description": "The snapped stump of a square crypt pillar in dark blue-grey dressed stone: its stepped base and two drums, broken off in a ragged pale break about 1.4 m up, with the fallen drum lying on its side beside it and chips and grit around. The stump stands on the origin, where the whole pillar would.",
+  "category": "structure",
+  "family": "pillar",
+  "tags": ["stone", "crypt", "dungeon", "temple", "broken", "worn"],
+  "aliases": ["broken column", "column stump", "fallen pillar", "ruin"],
+  "variants": ["pillar_stone_broken"],
+  "size": { "x": 1.85, "y": 1.1, "z": 1.55 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "pillar_stone_broken: the snapped stump of pillar_stone (a square crypt pillar with base and capital, about 0.7 × 0.7 × 3 m) with the fallen drum beside it. Crypt wall kit palette."
+  },
+  "licence": "CC0-1.0"
+}
