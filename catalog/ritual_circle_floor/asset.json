@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "ritual_circle_floor",
+  "name": "Ritual circle",
+  "description": "A round patch of dark crypt flagstones about 3.5 m across and a few centimetres high, ringed by curved kerb stones, with a dark red-brown sigil painted over it: two concentric rings with rune marks between them, a five-pointed star with a small ring at each point, and a dark disc at the centre.",
+  "category": "decor",
+  "family": "ritual_circle",
+  "tags": ["stone", "crypt", "dungeon", "worship", "round", "low", "worn"],
+  "aliases": [
+    "summoning circle",
+    "sigil",
+    "pentagram",
+    "magic circle",
+    "floor seal"
+  ],
+  "variants": ["ritual_circle_floor"],
+  "size": { "x": 3.5, "y": 3.5, "z": 0.05 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "ritual_circle_floor: a carved and dark-painted sigil circle set flush in flagstones, about 3.5 m across and a few centimetres high. Crypt wall kit palette."
+  },
+  "licence": "CC0-1.0"
+}
