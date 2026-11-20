@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "stairs_stone",
+  "name": "Stone stairs",
+  "description": "A flight of worn stone steps, 1.5 m wide and 3 m long, between two dark blue-grey ashlar crypt walls 3 m high, with a raking string course along both walls and heavy lintels roofing the far end. Going down, the treads sink step by step under an ever lower ceiling into darkness; going up, the steps rise under a lintel to a dark opening.",
+  "category": "structure",
+  "family": "stairs",
+  "tags": ["stone", "crypt", "dungeon", "tall", "long", "worn"],
+  "aliases": [
+    "staircase",
+    "steps",
+    "stairway",
+    "flight of steps",
+    "stairwell",
+    "descent"
+  ],
+  "variants": ["stairs_stone_down", "stairs_stone_up"],
+  "size": { "x": 1.55, "y": 3.05, "z": 3.0 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "stairs_stone_down: worn stone steps going down into darkness between two side walls, about 1.5 × 3 m, the deep end dark. stairs_stone_up: the same flight seen from below, rising to a dark opening. Crypt wall kit palette; the flight runs along y, the way on at -y."
+  },
+  "licence": "CC0-1.0"
+}
