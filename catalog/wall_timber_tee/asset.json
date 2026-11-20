@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "wall_timber_tee",
   "name": "Half-timbered wall T junction",
-  "description": "A T junction of half-timbered village house wall on a low fieldstone plinth, matching wall_timber_straight: a square dark oak post over the junction and arms running 0.75 m to +x, -x and +y, each a stone plinth, an oak sill, warm off-white lime plaster and the top plate, so straight sections join at the tile edge. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings. `_rubble` (each also `_low`) builds the plinth in the rubble stone of the stone walls: rounded stones of mixed sizes with dark recessed joints.",
+  "description": "A T junction of half-timbered village house wall on a low fieldstone plinth, matching wall_timber_straight: a square dark oak post over the junction and arms running 0.75 m to +x, -x and +y, each a stone plinth, an oak sill, warm off-white lime plaster and the top plate, so straight sections join at the tile edge. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings. `_rubble` and `_rubble_2` (two layouts, each also `_low`) build the plinth in the rubble stone of the stone walls: rounded stones of mixed sizes with dark recessed joints.",
   "category": "structure",
   "family": "wall",
   "tags": [
@@ -20,7 +20,9 @@
     "wall_timber_tee",
     "wall_timber_tee_low",
     "wall_timber_tee_rubble",
-    "wall_timber_tee_low_rubble"
+    "wall_timber_tee_low_rubble",
+    "wall_timber_tee_rubble_2",
+    "wall_timber_tee_low_rubble_2"
   ],
   "size": {
     "x": 1.5,

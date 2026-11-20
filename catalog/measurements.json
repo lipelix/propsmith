@@ -4222,7 +4222,7 @@
       ]
     },
     "wall_timber_corner": {
-      "inputHash": "971b1277c3b21a2cfd2978c8a6bd9c92e02c50743ea7342e88b2d37f23e631f5",
+      "inputHash": "a37a43c8d3648413ddb24f84539bafc3a123cf8a9153cd709ac74630fe60f6d0",
       "libVersion": 1,
       "blender": "5.2.2 LTS",
       "variants": [
@@ -4295,11 +4295,47 @@
           ],
           "anchors": [],
           "textures": []
+        },
+        {
+          "id": "wall_timber_corner_rubble_2",
+          "tris": 1644,
+          "bbox": { "min": [-0.1979, -0.215, 0], "max": [0.75, 0.75, 2.395] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_timber_corner_oak", "source": "palette" },
+            { "name": "wall_timber_corner_oak_old", "source": "palette" },
+            { "name": "wall_timber_corner_plaster", "source": "palette" },
+            { "name": "wall_timber_corner_rubble", "source": "palette" },
+            { "name": "wall_timber_corner_rubble_joint", "source": "palette" },
+            { "name": "wall_timber_corner_rubble_old", "source": "palette" },
+            { "name": "wall_timber_corner_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_timber_corner_low_rubble_2",
+          "tris": 1644,
+          "bbox": { "min": [-0.1979, -0.215, 0], "max": [0.75, 0.75, 1.38] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_timber_corner_oak", "source": "palette" },
+            { "name": "wall_timber_corner_oak_old", "source": "palette" },
+            { "name": "wall_timber_corner_plaster", "source": "palette" },
+            { "name": "wall_timber_corner_rubble", "source": "palette" },
+            { "name": "wall_timber_corner_rubble_joint", "source": "palette" },
+            { "name": "wall_timber_corner_rubble_old", "source": "palette" },
+            { "name": "wall_timber_corner_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
         }
       ]
     },
     "wall_timber_cross": {
-      "inputHash": "270fe64724ea630f679d00283400a35ffabf97e5c5c6f0056dc8c7affaa735b3",
+      "inputHash": "febd0848bbf924f5071bdafc1c34548de77315af9e4ba7daa13453d5ccfbf863",
       "libVersion": 1,
       "blender": "5.2.2 LTS",
       "variants": [
@@ -4358,6 +4394,42 @@
         {
           "id": "wall_timber_cross_low_rubble",
           "tris": 3564,
+          "bbox": { "min": [-0.75, -0.75, 0], "max": [0.75, 0.75, 1.38] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_timber_cross_oak", "source": "palette" },
+            { "name": "wall_timber_cross_oak_old", "source": "palette" },
+            { "name": "wall_timber_cross_plaster", "source": "palette" },
+            { "name": "wall_timber_cross_rubble", "source": "palette" },
+            { "name": "wall_timber_cross_rubble_joint", "source": "palette" },
+            { "name": "wall_timber_cross_rubble_old", "source": "palette" },
+            { "name": "wall_timber_cross_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_timber_cross_rubble_2",
+          "tris": 3228,
+          "bbox": { "min": [-0.75, -0.75, 0], "max": [0.75, 0.75, 2.395] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_timber_cross_oak", "source": "palette" },
+            { "name": "wall_timber_cross_oak_old", "source": "palette" },
+            { "name": "wall_timber_cross_plaster", "source": "palette" },
+            { "name": "wall_timber_cross_rubble", "source": "palette" },
+            { "name": "wall_timber_cross_rubble_joint", "source": "palette" },
+            { "name": "wall_timber_cross_rubble_old", "source": "palette" },
+            { "name": "wall_timber_cross_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_timber_cross_low_rubble_2",
+          "tris": 3228,
           "bbox": { "min": [-0.75, -0.75, 0], "max": [0.75, 0.75, 1.38] },
           "origin": [0, 0, 0],
           "nonManifoldEdges": 0,
@@ -4733,7 +4805,7 @@
       ]
     },
     "wall_timber_tee": {
-      "inputHash": "8e0ca6d3a604de9d3223acd7663a73588a38cfad77fcb782978011e4ef8454d1",
+      "inputHash": "da4e85c7010ee678539d5cbbf5bf6fb176c4e0e20b8d7921d38569bd141cd4e7",
       "libVersion": 1,
       "blender": "5.2.2 LTS",
       "variants": [
@@ -4793,6 +4865,42 @@
           "id": "wall_timber_tee_low_rubble",
           "tris": 2748,
           "bbox": { "min": [-0.75, -0.1976, 0], "max": [0.75, 0.75, 1.38] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_timber_tee_oak", "source": "palette" },
+            { "name": "wall_timber_tee_oak_old", "source": "palette" },
+            { "name": "wall_timber_tee_plaster", "source": "palette" },
+            { "name": "wall_timber_tee_rubble", "source": "palette" },
+            { "name": "wall_timber_tee_rubble_joint", "source": "palette" },
+            { "name": "wall_timber_tee_rubble_old", "source": "palette" },
+            { "name": "wall_timber_tee_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_timber_tee_rubble_2",
+          "tris": 2460,
+          "bbox": { "min": [-0.75, -0.215, 0], "max": [0.75, 0.75, 2.395] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wall_timber_tee_oak", "source": "palette" },
+            { "name": "wall_timber_tee_oak_old", "source": "palette" },
+            { "name": "wall_timber_tee_plaster", "source": "palette" },
+            { "name": "wall_timber_tee_rubble", "source": "palette" },
+            { "name": "wall_timber_tee_rubble_joint", "source": "palette" },
+            { "name": "wall_timber_tee_rubble_old", "source": "palette" },
+            { "name": "wall_timber_tee_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        },
+        {
+          "id": "wall_timber_tee_low_rubble_2",
+          "tris": 2460,
+          "bbox": { "min": [-0.75, -0.215, 0], "max": [0.75, 0.75, 1.38] },
           "origin": [0, 0, 0],
           "nonManifoldEdges": 0,
           "materials": [

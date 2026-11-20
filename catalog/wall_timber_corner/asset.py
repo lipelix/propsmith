@@ -58,10 +58,10 @@ def _turn(objs, deg):
     return objs
 
 
-def _junction(top, rubble=False):
+def _junction(top, rubble=False, seed=17):
     """The corner with the top of its plate at `top` metres. `rubble`: the plinth in the rubble stone of the stone
-    walls."""
-    rnd = random.Random(17)
+    walls; `seed` lays the stones another way."""
+    rnd = random.Random(seed)
     stone = material("wall_timber_corner_stone", STONE, vary=0.28, scale=9)
     stone_old = material("wall_timber_corner_stone_old", STONE_OLD, vary=0.3, scale=9)
     mortar = material("wall_timber_corner_mortar", MORTAR, vary=0.15, scale=12)
@@ -420,3 +420,13 @@ def wall_timber_corner_rubble():
 @prop
 def wall_timber_corner_low_rubble():
     _junction(LOW_H, rubble=True)
+
+
+@prop
+def wall_timber_corner_rubble_2():
+    _junction(H, rubble=True, seed=29)
+
+
+@prop
+def wall_timber_corner_low_rubble_2():
+    _junction(LOW_H, rubble=True, seed=29)

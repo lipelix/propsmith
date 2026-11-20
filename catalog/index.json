@@ -2532,7 +2532,7 @@
     {
       "id": "wall_timber_corner",
       "name": "Half-timbered wall corner",
-      "description": "An L-shaped corner of half-timbered village house wall on a low fieldstone plinth, matching wall_timber_straight: a square dark oak post over the junction and arms running 0.75 m to +x and +y, each a stone plinth, an oak sill, warm off-white lime plaster and the top plate, so straight sections join at the tile edge. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings. `_rubble` (each also `_low`) builds the plinth in the rubble stone of the stone walls: rounded stones of mixed sizes with dark recessed joints.",
+      "description": "An L-shaped corner of half-timbered village house wall on a low fieldstone plinth, matching wall_timber_straight: a square dark oak post over the junction and arms running 0.75 m to +x and +y, each a stone plinth, an oak sill, warm off-white lime plaster and the top plate, so straight sections join at the tile edge. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings. `_rubble` and `_rubble_2` (two layouts, each also `_low`) build the plinth in the rubble stone of the stone walls: rounded stones of mixed sizes with dark recessed joints.",
       "category": "structure",
       "family": "wall",
       "tags": [
@@ -2550,19 +2550,21 @@
         "wall_timber_corner",
         "wall_timber_corner_low",
         "wall_timber_corner_rubble",
-        "wall_timber_corner_low_rubble"
+        "wall_timber_corner_low_rubble",
+        "wall_timber_corner_rubble_2",
+        "wall_timber_corner_low_rubble_2"
       ],
       "size": { "x": 1.5, "y": 1.5, "z": 2.4 },
       "anchors": [],
       "closed": true,
       "source": "handwritten",
       "licence": "CC0-1.0",
-      "inputHash": "971b1277c3b21a2cfd2978c8a6bd9c92e02c50743ea7342e88b2d37f23e631f5"
+      "inputHash": "a37a43c8d3648413ddb24f84539bafc3a123cf8a9153cd709ac74630fe60f6d0"
     },
     {
       "id": "wall_timber_cross",
       "name": "Half-timbered wall crossing",
-      "description": "A crossing of half-timbered village house wall on a low fieldstone plinth, matching wall_timber_straight: a square dark oak post over the junction and arms running 0.75 m to +x, -x, +y and -y, each a stone plinth, an oak sill, warm off-white lime plaster and the top plate, so straight sections join at the tile edge. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings. `_rubble` (each also `_low`) builds the plinth in the rubble stone of the stone walls: rounded stones of mixed sizes with dark recessed joints.",
+      "description": "A crossing of half-timbered village house wall on a low fieldstone plinth, matching wall_timber_straight: a square dark oak post over the junction and arms running 0.75 m to +x, -x, +y and -y, each a stone plinth, an oak sill, warm off-white lime plaster and the top plate, so straight sections join at the tile edge. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings. `_rubble` and `_rubble_2` (two layouts, each also `_low`) build the plinth in the rubble stone of the stone walls: rounded stones of mixed sizes with dark recessed joints.",
       "category": "structure",
       "family": "wall",
       "tags": [
@@ -2580,14 +2582,16 @@
         "wall_timber_cross",
         "wall_timber_cross_low",
         "wall_timber_cross_rubble",
-        "wall_timber_cross_low_rubble"
+        "wall_timber_cross_low_rubble",
+        "wall_timber_cross_rubble_2",
+        "wall_timber_cross_low_rubble_2"
       ],
       "size": { "x": 1.5, "y": 1.5, "z": 2.4 },
       "anchors": [],
       "closed": true,
       "source": "handwritten",
       "licence": "CC0-1.0",
-      "inputHash": "270fe64724ea630f679d00283400a35ffabf97e5c5c6f0056dc8c7affaa735b3"
+      "inputHash": "febd0848bbf924f5071bdafc1c34548de77315af9e4ba7daa13453d5ccfbf863"
     },
     {
       "id": "wall_timber_straight",
@@ -2642,7 +2646,7 @@
     {
       "id": "wall_timber_tee",
       "name": "Half-timbered wall T junction",
-      "description": "A T junction of half-timbered village house wall on a low fieldstone plinth, matching wall_timber_straight: a square dark oak post over the junction and arms running 0.75 m to +x, -x and +y, each a stone plinth, an oak sill, warm off-white lime plaster and the top plate, so straight sections join at the tile edge. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings. `_rubble` (each also `_low`) builds the plinth in the rubble stone of the stone walls: rounded stones of mixed sizes with dark recessed joints.",
+      "description": "A T junction of half-timbered village house wall on a low fieldstone plinth, matching wall_timber_straight: a square dark oak post over the junction and arms running 0.75 m to +x, -x and +y, each a stone plinth, an oak sill, warm off-white lime plaster and the top plate, so straight sections join at the tile edge. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings. `_rubble` and `_rubble_2` (two layouts, each also `_low`) build the plinth in the rubble stone of the stone walls: rounded stones of mixed sizes with dark recessed joints.",
       "category": "structure",
       "family": "wall",
       "tags": [
@@ -2660,14 +2664,16 @@
         "wall_timber_tee",
         "wall_timber_tee_low",
         "wall_timber_tee_rubble",
-        "wall_timber_tee_low_rubble"
+        "wall_timber_tee_low_rubble",
+        "wall_timber_tee_rubble_2",
+        "wall_timber_tee_low_rubble_2"
       ],
       "size": { "x": 1.5, "y": 1.5, "z": 2.4 },
       "anchors": [],
       "closed": true,
       "source": "handwritten",
       "licence": "CC0-1.0",
-      "inputHash": "8e0ca6d3a604de9d3223acd7663a73588a38cfad77fcb782978011e4ef8454d1"
+      "inputHash": "da4e85c7010ee678539d5cbbf5bf6fb176c4e0e20b8d7921d38569bd141cd4e7"
     },
     {
       "id": "wardrobe_wood",
