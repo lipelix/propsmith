@@ -935,6 +935,40 @@
         }
       ]
     },
+    "crypt_entrance_stone": {
+      "inputHash": "fa77b04f5f73537ac62f8d06dfc88f94ab6a0e074952b97b0723c2a12e308382",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "crypt_entrance_stone",
+          "tris": 7560,
+          "bbox": { "min": [-1.5, -1.5, 0], "max": [1.5, 1.5, 2.4186] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "crypt_entrance_drystone", "source": "palette" },
+            { "name": "crypt_entrance_earth", "source": "palette" },
+            { "name": "crypt_entrance_grass", "source": "palette" },
+            { "name": "crypt_entrance_grass_lit", "source": "palette" },
+            { "name": "crypt_entrance_lichen", "source": "palette" },
+            { "name": "crypt_entrance_moss", "source": "palette" },
+            { "name": "crypt_entrance_step_0", "source": "palette" },
+            { "name": "crypt_entrance_step_1", "source": "palette" },
+            { "name": "crypt_entrance_step_2", "source": "palette" },
+            { "name": "crypt_entrance_step_3", "source": "palette" },
+            { "name": "crypt_entrance_step_4", "source": "palette" },
+            { "name": "crypt_entrance_stone", "source": "palette" },
+            { "name": "crypt_entrance_stone_old", "source": "palette" },
+            { "name": "crypt_entrance_stone_pale", "source": "palette" },
+            { "name": "crypt_entrance_turf", "source": "palette" },
+            { "name": "crypt_entrance_void", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "crypt_gate_iron": {
       "inputHash": "de44372ec3978731ba84875ec3f449ad01c02da1be6217d5335de6253042c820",
       "libVersion": 1,

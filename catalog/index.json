@@ -698,6 +698,38 @@
       "inputHash": "a1af54e6d8a26d3da939a5c7aeab12e808d31c59e28ad5cc3c82e76d411cd156"
     },
     {
+      "id": "crypt_entrance_stone",
+      "name": "Barrow crypt entrance",
+      "description": "A grassy hillside barrow mouth about 3 × 3 m and 2.5 m high: a turf mound with a passage cut into its front, lined with dry-stone walls, framed by two weathered standing stones under a heavy lintel, with worn stone steps that thin and darken as they go down into the black mouth. Two more old standing stones lean at the foot of the mound.",
+      "category": "structure",
+      "family": "barrow",
+      "tags": [
+        "crypt",
+        "dungeon",
+        "forest",
+        "large",
+        "mossy",
+        "stone",
+        "weathered"
+      ],
+      "aliases": [
+        "burial mound",
+        "cairn",
+        "crypt entrance",
+        "dungeon entrance",
+        "grave mound",
+        "tomb entrance",
+        "tumulus"
+      ],
+      "variants": ["crypt_entrance_stone"],
+      "size": { "x": 3, "y": 3, "z": 2.45 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "fa77b04f5f73537ac62f8d06dfc88f94ab6a0e074952b97b0723c2a12e308382"
+    },
+    {
       "id": "crypt_gate_iron",
       "name": "Iron crypt gate",
       "description": "A crypt gate 1.6 m wide and about 2.4 m high: a round-arched doorway of grey dressed stone with a raised keystone, closed by an iron grille door of vertical bars and two cross bands whose spear-point tips rise under the arch, hung on heavy strap hinges and locked with a large padlock on a hasp.",
