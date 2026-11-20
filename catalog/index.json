@@ -480,6 +480,22 @@
       "inputHash": "67af58d600d578242e3faa1df4c5d955152fe3f001f5ad75ecc217c20278cc7b"
     },
     {
+      "id": "chair_wood",
+      "name": "Wooden chair",
+      "description": "A rustic inn chair with its seat at 0.45 m and back at 0.95 m: a three-board plank seat on four square legs with stretchers, the back legs rising into a ladder back of two slats under a heavy top rail.",
+      "category": "furniture",
+      "family": "chair",
+      "tags": ["house", "inn", "plain", "seating", "tall", "wood", "worn"],
+      "aliases": ["kitchen chair", "ladder-back chair", "seat", "tavern chair"],
+      "variants": ["chair_wood"],
+      "size": { "x": 0.5, "y": 0.5, "z": 0.95 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "2fa0f539d6f49536859c25dea14f7cf791c895c50e004fa84f3587a7e113dc84"
+    },
+    {
       "id": "chest_iron_bound",
       "name": "Iron-bound chest",
       "description": "A heavy closed chest of dark stained planks, about 1 m wide, 0.7 m deep and 0.7 m high, with a low domed lid, wrapped in iron: an iron-shod plinth, hoops round the body, corner plates, studded straps over the lid, side ring handles and a round rusty lock plate on the front bearing a raised sigil, a ring round a five-pointed star, under a hasp.",

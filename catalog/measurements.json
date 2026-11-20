@@ -669,6 +669,31 @@
         }
       ]
     },
+    "chair_wood": {
+      "inputHash": "2fa0f539d6f49536859c25dea14f7cf791c895c50e004fa84f3587a7e113dc84",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "chair_wood",
+          "tris": 2720,
+          "bbox": {
+            "min": [-0.2325, -0.2207, 0],
+            "max": [0.2325, 0.2207, 0.948]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "chair_frame", "source": "palette" },
+            { "name": "chair_pegs", "source": "palette" },
+            { "name": "chair_seat", "source": "palette" },
+            { "name": "chair_seat_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "chest_iron_bound": {
       "inputHash": "2eec05333844b85702118bcd9dea68f861c095b51792adb581a77736e4d1e999",
       "libVersion": 1,
