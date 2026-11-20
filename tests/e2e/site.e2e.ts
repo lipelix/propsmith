@@ -1,13 +1,18 @@
 import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
 import { expect, type Page, test } from "@playwright/test";
+import type { Asset } from "../../site/src/data.ts";
+import { EMPTY, filter } from "../../site/src/search.ts";
 
 /** The published catalogue, to count what the filters should leave. */
 const ASSETS = (
   JSON.parse(readFileSync("catalog/index.json", "utf8")) as {
-    assets: { id: string; category: string; tags: string[] }[];
+    assets: Asset[];
   }
 ).assets;
+/** How many assets a search finds, by the site's own rule, so a new asset with a matching alias does not break the test. */
+const found = (text: string) => filter(ASSETS, { ...EMPTY, text }).length;
+const caskCount = found("cask");
 const ironCount = ASSETS.filter((a) => a.tags.includes("iron")).length;
 const ironLightCount = ASSETS.filter(
   (a) => a.tags.includes("iron") && a.category === "light",
@@ -37,10 +42,10 @@ test("the catalogue searches, filters and opens an asset", async ({ page }) => {
   await expect(tiles).toHaveCount(ASSETS.length);
 
   await page.getByRole("searchbox").fill("cask");
-  await expect(tiles).toHaveCount(1);
-  await expect(tiles.first()).toContainText("Wooden barrel");
+  await expect(tiles).toHaveCount(caskCount);
+  await expect(tiles.filter({ hasText: "Wooden barrel" })).toHaveCount(1);
   await expect(page.getByRole("heading", { level: 1 })).toHaveText(
-    `1 prop of ${ASSETS.length}`,
+    `${caskCount} ${caskCount === 1 ? "prop" : "props"} of ${ASSETS.length}`,
   );
 
   await page.getByRole("searchbox").fill("dragon");
@@ -54,6 +59,7 @@ test("the catalogue searches, filters and opens an asset", async ({ page }) => {
   await expect(tiles).toHaveCount(ironLightCount);
   await page.getByRole("searchbox").fill("lantern");
   await expect(tiles).toHaveCount(1);
+  await expect(tiles.first()).toContainText("Street lamp post");
   await tiles.first().click();
 
   await expect(page).toHaveURL(/#\/asset\/lamp_post$/);
