@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "id": "potion_shelf",
+  "name": "Potion shelf",
+  "description": "An apothecary's narrow wooden wall shelf about 1.05 × 0.35 × 1.5 m, open at the front: four lipped shelves crowded with stoppered glass bottles and flasks in dull greens, ambers and reds, cloth-covered clay jars and small lidded pots.",
+  "category": "furniture",
+  "family": "shelf",
+  "tags": [
+    "wood",
+    "clay",
+    "market",
+    "house",
+    "storage",
+    "trade",
+    "tall",
+    "worn"
+  ],
+  "aliases": [
+    "potions",
+    "apothecary shelf",
+    "bottles",
+    "flasks",
+    "alchemist shelf",
+    "herbalist shelf",
+    "phials"
+  ],
+  "variants": ["potion_shelf"],
+  "size": { "x": 1.05, "y": 0.35, "z": 1.5 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A narrow shelf of stoppered bottles and jars, about 1 × 0.3 × 1.5 m."
+  },
+  "licence": "CC0-1.0"
+}

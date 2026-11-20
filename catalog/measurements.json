@@ -89,6 +89,35 @@
         }
       ]
     },
+    "armour_stand": {
+      "inputHash": "7a40450fc4eaf6c4d34977e2ac286ab6ae91b3d38cd6ea6c8bb7ad572f63421b",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "armour_stand",
+          "tris": 3312,
+          "bbox": {
+            "min": [-0.3185, -0.236, 0],
+            "max": [0.3185, 0.236, 1.774]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "armour_stand_brass", "source": "palette" },
+            { "name": "armour_stand_helm", "source": "palette" },
+            { "name": "armour_stand_iron", "source": "palette" },
+            { "name": "armour_stand_leather", "source": "palette" },
+            { "name": "armour_stand_mail", "source": "palette" },
+            { "name": "armour_stand_mail_dark", "source": "palette" },
+            { "name": "armour_stand_wood", "source": "palette" },
+            { "name": "armour_stand_wood_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "banner_cult": {
       "inputHash": "df81f2747a6ad8581a71d67d071bf43659bf9fa0dd7e9faef2ffe28377657f41",
       "libVersion": 1,
@@ -2026,6 +2055,39 @@
             { "name": "pit_open_spiked_stone", "source": "palette" },
             { "name": "pit_open_spiked_stone_old", "source": "palette" },
             { "name": "pit_open_spiked_void", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "potion_shelf": {
+      "inputHash": "7bbdad9b2409af1f29c1c7e25a48d0f79c80d007d58e0304222e8485b79b4604",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "potion_shelf",
+          "tris": 6748,
+          "bbox": {
+            "min": [-0.515, -0.15, -0.0003],
+            "max": [0.515, 0.17, 1.5]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "potion_shelf_clay", "source": "palette" },
+            { "name": "potion_shelf_clay_pale", "source": "palette" },
+            { "name": "potion_shelf_cloth", "source": "palette" },
+            { "name": "potion_shelf_cork", "source": "palette" },
+            { "name": "potion_shelf_glass_0", "source": "palette" },
+            { "name": "potion_shelf_glass_1", "source": "palette" },
+            { "name": "potion_shelf_glass_2", "source": "palette" },
+            { "name": "potion_shelf_glass_3", "source": "palette" },
+            { "name": "potion_shelf_glass_4", "source": "palette" },
+            { "name": "potion_shelf_wax", "source": "palette" },
+            { "name": "potion_shelf_wood", "source": "palette" },
+            { "name": "potion_shelf_wood_old", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
@@ -4058,6 +4120,34 @@
               "size": [0.13, 0.13, 0.13]
             }
           ],
+          "textures": []
+        }
+      ]
+    },
+    "weapon_rack": {
+      "inputHash": "6b74a1066ec723ad4beb55824ec66c245113ee380214533ecd955aa1f54fe88d",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "weapon_rack",
+          "tris": 6836,
+          "bbox": {
+            "min": [-0.5975, -0.1954, 0],
+            "max": [0.5975, 0.1954, 1.46]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "weapon_rack_brass", "source": "palette" },
+            { "name": "weapon_rack_iron", "source": "palette" },
+            { "name": "weapon_rack_leather", "source": "palette" },
+            { "name": "weapon_rack_shaft", "source": "palette" },
+            { "name": "weapon_rack_steel", "source": "palette" },
+            { "name": "weapon_rack_timber", "source": "palette" },
+            { "name": "weapon_rack_timber_old", "source": "palette" }
+          ],
+          "anchors": [],
           "textures": []
         }
       ]

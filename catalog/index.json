@@ -69,6 +69,30 @@
       "inputHash": "0451ea6ca8b2a6f471193fba119132fc10f615cf487731f2c4dd816ef4a9484f"
     },
     {
+      "id": "armour_stand",
+      "name": "Armour stand",
+      "description": "A wooden armour stand about 0.65 × 0.5 × 1.8 m: a cross-footed base and a post with a shoulder yoke carrying a knee-length mail shirt with short sleeves and a belted waist, a round iron helm with a nasal on top.",
+      "category": "furniture",
+      "family": "armour_stand",
+      "tags": ["iron", "market", "tall", "trade", "village", "wood", "worn"],
+      "aliases": [
+        "armor stand",
+        "armour",
+        "chainmail",
+        "hauberk",
+        "helmet",
+        "mail shirt",
+        "mannequin"
+      ],
+      "variants": ["armour_stand"],
+      "size": { "x": 0.65, "y": 0.5, "z": 1.8 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "7a40450fc4eaf6c4d34977e2ac286ab6ae91b3d38cd6ea6c8bb7ad572f63421b"
+    },
+    {
       "id": "banner_cult",
       "name": "Cult banner",
       "description": "A tattered dark wine-red cloth banner on a tall iron pole, about 1 m wide and 2.5 m high: it hangs from an iron crossbar under a spiked finial, its lower edge torn into ragged tails, a pale sigil of a ring round a five-pointed star painted on its front, and the pole stands in a heavy cross-shaped iron foot.",
@@ -1459,6 +1483,39 @@
       "inputHash": "c3b50467f44b599355d6944bf871c8afebc47f507aaab63ddc16234a15a121f1"
     },
     {
+      "id": "potion_shelf",
+      "name": "Potion shelf",
+      "description": "An apothecary's narrow wooden wall shelf about 1.05 × 0.35 × 1.5 m, open at the front: four lipped shelves crowded with stoppered glass bottles and flasks in dull greens, ambers and reds, cloth-covered clay jars and small lidded pots.",
+      "category": "furniture",
+      "family": "shelf",
+      "tags": [
+        "clay",
+        "house",
+        "market",
+        "storage",
+        "tall",
+        "trade",
+        "wood",
+        "worn"
+      ],
+      "aliases": [
+        "alchemist shelf",
+        "apothecary shelf",
+        "bottles",
+        "flasks",
+        "herbalist shelf",
+        "phials",
+        "potions"
+      ],
+      "variants": ["potion_shelf"],
+      "size": { "x": 1.05, "y": 0.35, "z": 1.5 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "7bbdad9b2409af1f29c1c7e25a48d0f79c80d007d58e0304222e8485b79b4604"
+    },
+    {
       "id": "pressure_plate_stone",
       "name": "Stone pressure plate",
       "description": "A 1.5 m square of dark crypt floor flags a few centimetres high whose middle is one big worn flagstone standing slightly proud of the rest, with a dark open gap all round it and grit lodged in the gap.",
@@ -2348,6 +2405,39 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "76394adfa2db1cdcf4ac067f30e1b292e2575ad8e6b660984555b6e2d53ce808"
+    },
+    {
+      "id": "weapon_rack",
+      "name": "Weapon rack",
+      "description": "A merchant's timber weapon rack, about 1.2 × 0.4 × 1.5 m: two footed, braced uprights joined by a bottom board and two pairs of slotted rails, holding three iron-headed spears, a sword hung by its crossguard and a bearded axe.",
+      "category": "furniture",
+      "family": "weapon_rack",
+      "tags": [
+        "iron",
+        "market",
+        "storage",
+        "tall",
+        "trade",
+        "village",
+        "wood",
+        "worn"
+      ],
+      "aliases": [
+        "armoury rack",
+        "arms rack",
+        "axe",
+        "spear rack",
+        "spears",
+        "sword",
+        "weapons"
+      ],
+      "variants": ["weapon_rack"],
+      "size": { "x": 1.2, "y": 0.4, "z": 1.5 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "6b74a1066ec723ad4beb55824ec66c245113ee380214533ecd955aa1f54fe88d"
     },
     {
       "id": "well_stone",

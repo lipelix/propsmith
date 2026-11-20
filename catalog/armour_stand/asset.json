@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "armour_stand",
+  "name": "Armour stand",
+  "description": "A wooden armour stand about 0.65 × 0.5 × 1.8 m: a cross-footed base and a post with a shoulder yoke carrying a knee-length mail shirt with short sleeves and a belted waist, a round iron helm with a nasal on top.",
+  "category": "furniture",
+  "family": "armour_stand",
+  "tags": ["wood", "iron", "market", "village", "trade", "tall", "worn"],
+  "aliases": [
+    "armor stand",
+    "mannequin",
+    "chainmail",
+    "mail shirt",
+    "hauberk",
+    "helmet",
+    "armour"
+  ],
+  "variants": ["armour_stand"],
+  "size": { "x": 0.65, "y": 0.5, "z": 1.8 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A wooden armour stand with a mail shirt and helm, about 0.6 × 0.6 × 1.8 m."
+  },
+  "licence": "CC0-1.0"
+}
