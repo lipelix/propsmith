@@ -261,6 +261,60 @@
       "inputHash": "599d0993bdee28c9711f6e9943fd33f3fda7fcf537f487bb653417a7a8cc7925"
     },
     {
+      "id": "books_stack",
+      "name": "Stack of books",
+      "description": "A leaning pile of seven worn leather books about 0.45 × 0.35 × 0.4 m, each a little shifted and turned so the stack slants, with pale page edges, raised spine bands and brass corners on the big ones, and a heavy book lying open on top with written pages and a red ribbon.",
+      "category": "decor",
+      "family": "books",
+      "tags": ["castle", "house", "paper", "small", "study", "worn"],
+      "aliases": [
+        "book pile",
+        "grimoire",
+        "open book",
+        "pile of books",
+        "spellbook",
+        "tomes"
+      ],
+      "variants": ["books_stack"],
+      "size": { "x": 0.45, "y": 0.35, "z": 0.4 },
+      "anchors": [],
+      "closed": true,
+      "source": "handwritten",
+      "licence": "CC0-1.0",
+      "inputHash": "a9508ad40e7fb518509afdb83e33c813f81b73d6e8a885c04322854373c36c5c"
+    },
+    {
+      "id": "bookshelf_wood",
+      "name": "Wooden bookcase",
+      "description": "A tall dark plank bookcase for a wall, about 1.2 × 0.4 × 2 m, open at the front: two thick sides, a back of vertical boards, a moulded top and four shelves packed with uneven rows of worn leather books in oxblood, green, indigo and tan, some leaning, some lying in stacks, and a pile of rolled scrolls.",
+      "category": "furniture",
+      "family": "bookcase",
+      "tags": [
+        "castle",
+        "house",
+        "paper",
+        "storage",
+        "study",
+        "tall",
+        "wood",
+        "worn"
+      ],
+      "aliases": [
+        "book shelf",
+        "books",
+        "bookshelf",
+        "library shelf",
+        "shelves of books"
+      ],
+      "variants": ["bookshelf_wood"],
+      "size": { "x": 1.25, "y": 0.4, "z": 2 },
+      "anchors": [],
+      "closed": true,
+      "source": "handwritten",
+      "licence": "CC0-1.0",
+      "inputHash": "bf0173b4ca13db5fe8300c8a7b29498062d7312ebefee26acc49b5e7e137ea93"
+    },
+    {
       "id": "boulders_shore",
       "name": "Shore boulders",
       "description": "A cluster of three large weathered shore boulders, the biggest about 1.2 m high, of rounded grey-brown stone with darker bases, with a few small pebbles scattered around them.",

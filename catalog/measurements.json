@@ -327,6 +327,67 @@
         }
       ]
     },
+    "books_stack": {
+      "inputHash": "a9508ad40e7fb518509afdb83e33c813f81b73d6e8a885c04322854373c36c5c",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "books_stack",
+          "tris": 5028,
+          "bbox": {
+            "min": [-0.2199, -0.1857, -0.001],
+            "max": [0.2049, 0.1557, 0.3889]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "books_stack_brass", "source": "palette" },
+            { "name": "books_stack_cover_0", "source": "palette" },
+            { "name": "books_stack_cover_1", "source": "palette" },
+            { "name": "books_stack_cover_3", "source": "palette" },
+            { "name": "books_stack_cover_5", "source": "palette" },
+            { "name": "books_stack_ink", "source": "palette" },
+            { "name": "books_stack_page", "source": "palette" },
+            { "name": "books_stack_page_old", "source": "palette" },
+            { "name": "books_stack_ribbon", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "bookshelf_wood": {
+      "inputHash": "bf0173b4ca13db5fe8300c8a7b29498062d7312ebefee26acc49b5e7e137ea93",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "bookshelf_wood",
+          "tris": 7656,
+          "bbox": { "min": [-0.62, -0.21, 0], "max": [0.62, 0.19, 2] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "bookshelf_wood_cord", "source": "palette" },
+            { "name": "bookshelf_wood_cover_0", "source": "palette" },
+            { "name": "bookshelf_wood_cover_1", "source": "palette" },
+            { "name": "bookshelf_wood_cover_2", "source": "palette" },
+            { "name": "bookshelf_wood_cover_3", "source": "palette" },
+            { "name": "bookshelf_wood_cover_4", "source": "palette" },
+            { "name": "bookshelf_wood_cover_5", "source": "palette" },
+            { "name": "bookshelf_wood_cover_6", "source": "palette" },
+            { "name": "bookshelf_wood_gilt", "source": "palette" },
+            { "name": "bookshelf_wood_parchment", "source": "palette" },
+            { "name": "bookshelf_wood_top", "source": "palette" },
+            { "name": "bookshelf_wood_wood", "source": "palette" },
+            { "name": "bookshelf_wood_wood_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "boulders_shore": {
       "inputHash": "bf3929860928242b5ba4dd5ea8dc4753e13cf4987f71526d9d1266cb08e9da4c",
       "libVersion": 1,
