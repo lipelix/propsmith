@@ -775,6 +775,35 @@
         }
       ]
     },
+    "chest_wood_open": {
+      "inputHash": "d3dcb554c84ee5598b2d78efcbc04309cad86f19599b2053f7e94ec24cb253ca",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "chest_wood_open",
+          "tris": 7968,
+          "bbox": {
+            "min": [-0.4609, -0.4431, 0],
+            "max": [0.4609, 0.4427, 0.945]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "chest_wood_open_emerald", "source": "palette" },
+            { "name": "chest_wood_open_gold", "source": "palette" },
+            { "name": "chest_wood_open_heap", "source": "palette" },
+            { "name": "chest_wood_open_iron", "source": "palette" },
+            { "name": "chest_wood_open_lid", "source": "palette" },
+            { "name": "chest_wood_open_plank", "source": "palette" },
+            { "name": "chest_wood_open_plank_old", "source": "palette" },
+            { "name": "chest_wood_open_ruby", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "chopping_block": {
       "inputHash": "b3e3adf0dd9e14c4a1ce2f65c59ce8c426eae54b8309477eb0f595580285c1a2",
       "libVersion": 1,

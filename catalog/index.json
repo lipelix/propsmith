@@ -582,6 +582,38 @@
       "inputHash": "3831e2dd75928f9a8efcd549e7e19794a1bd8e7e145c32acf9a43e05c585f713"
     },
     {
+      "id": "chest_wood_open",
+      "name": "Open treasure chest",
+      "description": "The catalogue's oak chest with dark iron corner bands, straps and ring handles, its domed lid thrown back on the hinges and the box filled over the rim with gold coins and a few gems, a few coins spilt on the floor in front; about 0.95 m wide, 0.9 m deep with the lid back and 0.95 m high.",
+      "category": "container",
+      "family": "chest",
+      "tags": [
+        "castle",
+        "dungeon",
+        "gold",
+        "iron",
+        "open",
+        "treasure",
+        "wood",
+        "worn"
+      ],
+      "aliases": [
+        "chest of gold",
+        "coffer",
+        "loot chest",
+        "open chest",
+        "strongbox",
+        "treasure chest"
+      ],
+      "variants": ["chest_wood_open"],
+      "size": { "x": 0.95, "y": 0.9, "z": 0.95 },
+      "anchors": [],
+      "closed": true,
+      "source": "handwritten",
+      "licence": "CC0-1.0",
+      "inputHash": "d3dcb554c84ee5598b2d78efcbc04309cad86f19599b2053f7e94ec24cb253ca"
+    },
+    {
       "id": "chopping_block",
       "name": "Chopping block",
       "description": "A thick round chopping block cut from a tree trunk, about 0.5 m across and 0.45 m high, with a pale ringed top and dark bark. A wood axe with a dark iron head and an ash haft is stuck into its top at an angle, and a few split logs and chips lie around it.",
