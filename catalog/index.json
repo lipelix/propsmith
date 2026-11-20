@@ -1127,6 +1127,22 @@
       "inputHash": "43552aa8390acbe38d23844e3fb76af90a4af10cf6d7a1f47895d19e7d289641"
     },
     {
+      "id": "rubble_stone",
+      "name": "Stone rubble",
+      "description": "A heap of fallen dressed masonry about 1.2 m across and 0.6 m high: dark blue-grey ashlar blocks and a coping slab tumbled and stacked on a low mound of grit, some broken with paler fresh faces, with chips and grit spilled round the foot.",
+      "category": "decor",
+      "family": "rubble",
+      "tags": ["broken", "crypt", "dungeon", "low", "stone", "worn"],
+      "aliases": ["collapse", "debris", "fallen masonry", "rocks", "ruins"],
+      "variants": ["rubble_stone"],
+      "size": { "x": 1.2, "y": 1.2, "z": 0.6 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "cb862c2214be8023323fa24a172ed8b7950e0d120578a9e67f0af7d9897536c2"
+    },
+    {
       "id": "sacks_grain",
       "name": "Grain sacks",
       "description": "A heap of three plump burlap grain sacks, two lying side by side and one propped on top, each tied at the neck with twine; the coarse cloth is a warm desaturated tan with a darker patch or two, slightly slumped and lumpy, about 0.7 m high. A variant is a single upright sack about 0.6 m high.",

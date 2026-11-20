@@ -1616,6 +1616,34 @@
         }
       ]
     },
+    "rubble_stone": {
+      "inputHash": "cb862c2214be8023323fa24a172ed8b7950e0d120578a9e67f0af7d9897536c2",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "rubble_stone",
+          "tris": 1808,
+          "bbox": {
+            "min": [-0.5787, -0.5791, 0],
+            "max": [0.5703, 0.5424, 0.5965]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "rubble_stone_break", "source": "palette" },
+            { "name": "rubble_stone_coping", "source": "palette" },
+            { "name": "rubble_stone_damp", "source": "palette" },
+            { "name": "rubble_stone_grit", "source": "palette" },
+            { "name": "rubble_stone_stone", "source": "palette" },
+            { "name": "rubble_stone_stone_old", "source": "palette" },
+            { "name": "rubble_stone_stone_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "sacks_grain": {
       "inputHash": "9196ee4fc062d99492a6592f0e9655a302b069af56f041722ad6ed07236dca46",
       "libVersion": 1,
