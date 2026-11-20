@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "keg_rack",
+  "name": "Keg rack",
+  "description": "Two oak kegs lying side by side on a heavy timber cradle, about 1.45 × 0.6 × 1 m: each keg of curved staves held by four iron hoops, a wooden spigot in its front head; the cradle of sills, posts and top rails with angled chocks under the kegs.",
+  "category": "container",
+  "family": "keg",
+  "tags": ["wood", "iron", "inn", "storage", "long", "round", "worn"],
+  "aliases": [
+    "kegs",
+    "casks",
+    "barrel rack",
+    "cask stand",
+    "barrel cradle",
+    "beer barrels",
+    "stillage"
+  ],
+  "variants": ["keg_rack"],
+  "size": { "x": 1.45, "y": 0.6, "z": 1.0 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "Two kegs on a timber cradle, about 1.5 × 0.6 × 1 m."
+  },
+  "licence": "CC0-1.0"
+}

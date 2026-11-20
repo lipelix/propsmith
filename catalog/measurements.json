@@ -1563,6 +1563,37 @@
         }
       ]
     },
+    "keg_rack": {
+      "inputHash": "c994635152c6f248c53e13db6d45efb8c8093061a9d9554bb37dc68c0863e0b3",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "keg_rack",
+          "tris": 7544,
+          "bbox": {
+            "min": [-0.7102, -0.3046, 0],
+            "max": [0.7102, 0.2928, 0.9965]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "keg_rack_head", "source": "palette" },
+            { "name": "keg_rack_head_light", "source": "palette" },
+            { "name": "keg_rack_hoops", "source": "palette" },
+            { "name": "keg_rack_inner", "source": "palette" },
+            { "name": "keg_rack_staves", "source": "palette" },
+            { "name": "keg_rack_staves_light", "source": "palette" },
+            { "name": "keg_rack_staves_old", "source": "palette" },
+            { "name": "keg_rack_tap", "source": "palette" },
+            { "name": "keg_rack_timber", "source": "palette" },
+            { "name": "keg_rack_timber_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "lamp_post": {
       "inputHash": "724af666bc17f5306268743e9b517fbaebd3f0561b9fb686983312f4f29a0d66",
       "libVersion": 1,

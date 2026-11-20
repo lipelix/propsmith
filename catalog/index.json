@@ -1150,6 +1150,30 @@
       "inputHash": "9def8059dce1279a3ff00e87493a9354d4b49c293a79e3af439e0a91881e1a00"
     },
     {
+      "id": "keg_rack",
+      "name": "Keg rack",
+      "description": "Two oak kegs lying side by side on a heavy timber cradle, about 1.45 × 0.6 × 1 m: each keg of curved staves held by four iron hoops, a wooden spigot in its front head; the cradle of sills, posts and top rails with angled chocks under the kegs.",
+      "category": "container",
+      "family": "keg",
+      "tags": ["inn", "iron", "long", "round", "storage", "wood", "worn"],
+      "aliases": [
+        "barrel cradle",
+        "barrel rack",
+        "beer barrels",
+        "cask stand",
+        "casks",
+        "kegs",
+        "stillage"
+      ],
+      "variants": ["keg_rack"],
+      "size": { "x": 1.45, "y": 0.6, "z": 1 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "c994635152c6f248c53e13db6d45efb8c8093061a9d9554bb37dc68c0863e0b3"
+    },
+    {
       "id": "lamp_post",
       "name": "Street lamp post",
       "description": "A tall dark timber post about 2.6 m high on a small stone foot, with an iron bracket arm at the top from which hangs a small four-sided iron lantern with warm glass panes.",
