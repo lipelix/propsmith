@@ -2364,6 +2364,48 @@
       "inputHash": "c5c27488dd9acb3baff4f07c4fb5389c6b0e1fc23ca1c4813c1e556a7e9eb0ab"
     },
     {
+      "id": "wall_stone_cross",
+      "name": "Fieldstone wall crossing",
+      "description": "A crossing of village fieldstone wall, 0.45 m thick and 2.4 m high: rough grey-brown stone blocks in staggered courses over recessed mortar, tied by a through stone over the central pier that alternates between the axes, with flat capstones on top. Arms run 0.75 m from the pier to +x, -x, +y and -y, where they meet 1.5 m straight wall sections. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so what is inside stays visible. The `_rubble` variants (`_rubble`, `_rubble_2`, each also `_low`) are the same crossing in rubble: rounded stones of mixed sizes, a long through stone per course tying the arms, dark recessed joints, rounded cap stones; `_moss` adds moss on the caps and at the foot.",
+      "category": "structure",
+      "family": "wall",
+      "tags": [
+        "boundary",
+        "mossy",
+        "plain",
+        "stone",
+        "tall",
+        "village",
+        "weathered"
+      ],
+      "aliases": [
+        "cross",
+        "crossing",
+        "drystone wall",
+        "rubble wall",
+        "wall junction",
+        "x junction"
+      ],
+      "variants": [
+        "wall_stone_cross",
+        "wall_stone_cross_low",
+        "wall_stone_cross_rubble",
+        "wall_stone_cross_rubble_moss",
+        "wall_stone_cross_rubble_2",
+        "wall_stone_cross_rubble_2_moss",
+        "wall_stone_cross_low_rubble",
+        "wall_stone_cross_low_rubble_moss",
+        "wall_stone_cross_low_rubble_2",
+        "wall_stone_cross_low_rubble_2_moss"
+      ],
+      "size": { "x": 1.5, "y": 1.5, "z": 2.4 },
+      "anchors": [],
+      "closed": true,
+      "source": "handwritten",
+      "licence": "CC0-1.0",
+      "inputHash": "cb7fcd403e25798c0136750055d9fed8690aecf75e3851500fbcb5e91f1cd03e"
+    },
+    {
       "id": "wall_stone_doorframe",
       "name": "Stone wall with doorway",
       "description": "A section of village fieldstone wall, 1.5 m long, 0.45 m thick and 2.4 m high, with an empty door opening 1.0 m wide and 2.0 m high in the middle, framed by lighter dressed stone quoins on both jambs and a single heavy stone lintel, under a row of flat capstones. A wooden door (door_wood) is placed into the opening separately. The `_low` variant is a cutaway doorway: two quoined piers as high as the low walls, with no lintel. The `_rubble` variants (`_rubble`, `_rubble_2`, each also `_low`) are the doorway in rubble: a rounded jamb stone per course cut flat on the opening, one long rough lintel, rounded cap stones; the opening stays 1.0 x 2.0 m. `_moss` adds moss on the caps and at the foot of the piers.",
@@ -2445,6 +2487,47 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "7d1aaceecd2fce587fc01f19474963af9d6df87d063d27b2ec48d99301d87c00"
+    },
+    {
+      "id": "wall_stone_tee",
+      "name": "Fieldstone wall T junction",
+      "description": "A T junction of village fieldstone wall, 0.45 m thick and 2.4 m high: rough grey-brown stone blocks in staggered courses over recessed mortar, tied by a through stone over the central pier that alternates between the axes, with flat capstones on top. Arms run 0.75 m from the pier to +x, -x and +y, where they meet 1.5 m straight wall sections. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so what is inside stays visible. The `_rubble` variants (`_rubble`, `_rubble_2`, each also `_low`) are the same junction in rubble: rounded stones of mixed sizes, a long through stone per course tying the arms, dark recessed joints, rounded cap stones; `_moss` adds moss on the caps and at the foot.",
+      "category": "structure",
+      "family": "wall",
+      "tags": [
+        "boundary",
+        "mossy",
+        "plain",
+        "stone",
+        "tall",
+        "village",
+        "weathered"
+      ],
+      "aliases": [
+        "drystone wall",
+        "rubble wall",
+        "t junction",
+        "tee",
+        "wall junction"
+      ],
+      "variants": [
+        "wall_stone_tee",
+        "wall_stone_tee_low",
+        "wall_stone_tee_rubble",
+        "wall_stone_tee_rubble_moss",
+        "wall_stone_tee_rubble_2",
+        "wall_stone_tee_rubble_2_moss",
+        "wall_stone_tee_low_rubble",
+        "wall_stone_tee_low_rubble_moss",
+        "wall_stone_tee_low_rubble_2",
+        "wall_stone_tee_low_rubble_2_moss"
+      ],
+      "size": { "x": 1.5, "y": 1.5, "z": 2.4 },
+      "anchors": [],
+      "closed": true,
+      "source": "handwritten",
+      "licence": "CC0-1.0",
+      "inputHash": "e5d4c477bdd3c36c7eb931120f2abdf60617ea53988d7361639175c25ba997ae"
     },
     {
       "id": "wall_timber_straight",

@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "wall_stone_tee",
+  "name": "Fieldstone wall T junction",
+  "description": "A T junction of village fieldstone wall, 0.45 m thick and 2.4 m high: rough grey-brown stone blocks in staggered courses over recessed mortar, tied by a through stone over the central pier that alternates between the axes, with flat capstones on top. Arms run 0.75 m from the pier to +x, -x and +y, where they meet 1.5 m straight wall sections. The `_low` variant is a cutaway wall (about 1.4 m) for roofless village buildings, so what is inside stays visible. The `_rubble` variants (`_rubble`, `_rubble_2`, each also `_low`) are the same junction in rubble: rounded stones of mixed sizes, a long through stone per course tying the arms, dark recessed joints, rounded cap stones; `_moss` adds moss on the caps and at the foot.",
+  "category": "structure",
+  "family": "wall",
+  "tags": [
+    "stone",
+    "village",
+    "boundary",
+    "tall",
+    "weathered",
+    "plain",
+    "mossy"
+  ],
+  "aliases": [
+    "t junction",
+    "tee",
+    "wall junction",
+    "drystone wall",
+    "rubble wall"
+  ],
+  "variants": [
+    "wall_stone_tee",
+    "wall_stone_tee_low",
+    "wall_stone_tee_rubble",
+    "wall_stone_tee_rubble_moss",
+    "wall_stone_tee_rubble_2",
+    "wall_stone_tee_rubble_2_moss",
+    "wall_stone_tee_low_rubble",
+    "wall_stone_tee_low_rubble_moss",
+    "wall_stone_tee_low_rubble_2",
+    "wall_stone_tee_low_rubble_2_moss"
+  ],
+  "size": {
+    "x": 1.5,
+    "y": 1.5,
+    "z": 2.4
+  },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "handwritten"
+  },
+  "licence": "CC0-1.0"
+}
