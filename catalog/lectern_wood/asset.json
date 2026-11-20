@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "lectern_wood",
+  "name": "Wooden lectern",
+  "description": "A carved dark oak lectern about 1.25 m high: a cross-shaped scrolled foot, a fluted square post with carved collars and a sloping desk with rosette side panels and a ledge, holding a heavy open book with a red ribbon.",
+  "category": "furniture",
+  "family": "lectern",
+  "tags": ["wood", "temple", "house", "worship", "tall", "ornate", "worn"],
+  "aliases": [
+    "reading stand",
+    "book stand",
+    "pulpit",
+    "bible stand",
+    "scripture stand"
+  ],
+  "variants": ["lectern_wood"],
+  "size": {
+    "x": 0.6,
+    "y": 0.55,
+    "z": 1.25
+  },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A carved lectern with an open book."
+  },
+  "licence": "CC0-1.0"
+}

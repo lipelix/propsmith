@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "wardrobe_wood",
+  "name": "Wooden wardrobe",
+  "description": "A tall plank wardrobe about 1.2 × 0.6 × 2 m: a framed carcass on a plinth with a moulded cornice, two doors of vertical boards on its front with iron strap hinges, ring pulls and a hasp.",
+  "category": "furniture",
+  "family": "wardrobe",
+  "tags": ["wood", "iron", "house", "storage", "tall", "boxy", "worn"],
+  "aliases": ["armoire", "cupboard", "closet", "clothes press", "press"],
+  "variants": ["wardrobe_wood"],
+  "size": {
+    "x": 1.2,
+    "y": 0.6,
+    "z": 2.0
+  },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A tall plank wardrobe, about 1.2 × 0.6 × 2 m."
+  },
+  "licence": "CC0-1.0"
+}

@@ -1700,6 +1700,32 @@
         }
       ]
     },
+    "lectern_wood": {
+      "inputHash": "be6ad7b3539088e8d3cc8d969735a9d2ed49aea9b1d04b6d3e5ee09a45e7f57c",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "lectern_wood",
+          "tris": 6844,
+          "bbox": { "min": [-0.2957, -0.27, 0], "max": [0.2959, 0.27, 1.2404] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "lectern_wood_brass", "source": "palette" },
+            { "name": "lectern_wood_carve", "source": "palette" },
+            { "name": "lectern_wood_ink", "source": "palette" },
+            { "name": "lectern_wood_leather", "source": "palette" },
+            { "name": "lectern_wood_page", "source": "palette" },
+            { "name": "lectern_wood_ribbon", "source": "palette" },
+            { "name": "lectern_wood_wood", "source": "palette" },
+            { "name": "lectern_wood_wood_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "log_fallen": {
       "inputHash": "a20892c9b32d29b73511a198895582f6a18608bc57e3ca927d55b60d07f64339",
       "libVersion": 1,
@@ -2343,6 +2369,30 @@
         }
       ]
     },
+    "rug_woven": {
+      "inputHash": "80a84d9851a48a0051992f38dbf63c27b2bbfeb869baa757f59c4625cf6ca016",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "rug_woven",
+          "tris": 7236,
+          "bbox": { "min": [-0.9862, -0.73, 0], "max": [0.9848, 0.73, 0.0159] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "rug_woven_cream", "source": "palette" },
+            { "name": "rug_woven_fringe", "source": "palette" },
+            { "name": "rug_woven_indigo", "source": "palette" },
+            { "name": "rug_woven_ochre", "source": "palette" },
+            { "name": "rug_woven_red", "source": "palette" },
+            { "name": "rug_woven_red_dark", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "sacks_grain": {
       "inputHash": "9196ee4fc062d99492a6592f0e9655a302b069af56f041722ad6ed07236dca46",
       "libVersion": 1,
@@ -2719,6 +2769,35 @@
             { "name": "tankards_pewter_dull", "source": "palette" },
             { "name": "tankards_tray", "source": "palette" },
             { "name": "tankards_tray_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "tapestry_hanging": {
+      "inputHash": "92b6ba3695af320c9910a88c806a2b206b241ab626bba692e7afa837f5c6f5f3",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "tapestry_hanging",
+          "tris": 6408,
+          "bbox": {
+            "min": [-0.5237, -0.1545, 0],
+            "max": [0.5216, 0.1545, 1.94]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "tapestry_hanging_border", "source": "palette" },
+            { "name": "tapestry_hanging_brown", "source": "palette" },
+            { "name": "tapestry_hanging_cream", "source": "palette" },
+            { "name": "tapestry_hanging_field", "source": "palette" },
+            { "name": "tapestry_hanging_green", "source": "palette" },
+            { "name": "tapestry_hanging_ochre", "source": "palette" },
+            { "name": "tapestry_hanging_wood", "source": "palette" },
+            { "name": "tapestry_hanging_wood_old", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
@@ -4077,6 +4156,28 @@
             { "name": "wall_timber_rubble_joint", "source": "palette" },
             { "name": "wall_timber_rubble_old", "source": "palette" },
             { "name": "wall_timber_rubble_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "wardrobe_wood": {
+      "inputHash": "8ed467330a2626a5b1ffec5d569192351aacd8aefc6ef030dc22cfa4cdf6e5e4",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "wardrobe_wood",
+          "tris": 7384,
+          "bbox": { "min": [-0.6, -0.299, 0], "max": [0.6, 0.3, 2] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wardrobe_wood_iron", "source": "palette" },
+            { "name": "wardrobe_wood_wood", "source": "palette" },
+            { "name": "wardrobe_wood_wood_dark", "source": "palette" },
+            { "name": "wardrobe_wood_wood_old", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
