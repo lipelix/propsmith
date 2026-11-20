@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "banner_cult",
+  "name": "Cult banner",
+  "description": "A tattered dark wine-red cloth banner on a tall iron pole, about 1 m wide and 2.5 m high: it hangs from an iron crossbar under a spiked finial, its lower edge torn into ragged tails, a pale sigil of a ring round a five-pointed star painted on its front, and the pole stands in a heavy cross-shaped iron foot.",
+  "category": "decor",
+  "family": "banner",
+  "tags": ["cloth", "iron", "crypt", "dungeon", "worship", "tall", "worn"],
+  "aliases": ["standard", "flag", "pennant", "cult standard", "ensign"],
+  "variants": ["banner_cult"],
+  "size": { "x": 1.0, "y": 0.45, "z": 2.5 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "banner_cult: a tattered dark cloth banner with a sigil on an iron pole and foot, about 1 × 0.4 × 2.5 m."
+  },
+  "licence": "CC0-1.0"
+}

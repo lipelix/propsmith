@@ -32,6 +32,27 @@
       "inputHash": "71a1180cdb3e6a4b5bc37febc33a0226b2ad7199d9b4c1898c643e416b535fce"
     },
     {
+      "id": "altar_stone_crude",
+      "name": "Crude stone altar",
+      "description": "A crude altar of rough unhewn dark stone, about 1.5 m long, 0.9 m deep and 1 m high: two rough uprights packed with smaller stones under a thick lumpy capstone, its top and front streaked with old dark stains that ran down the faces and dried in a pool at its foot.",
+      "category": "decor",
+      "family": "altar",
+      "tags": ["boxy", "crypt", "dungeon", "stone", "weathered", "worship"],
+      "aliases": [
+        "blood altar",
+        "dolmen",
+        "offering stone",
+        "sacrificial altar"
+      ],
+      "variants": ["altar_stone_crude"],
+      "size": { "x": 1.45, "y": 0.95, "z": 1 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "a6484047e3e8a37487c05f32218d4ecc184a9a3dc43d8875c001d12e1b540238"
+    },
+    {
       "id": "anvil_iron",
       "name": "Iron anvil",
       "description": "A blacksmith's dark iron anvil about 0.75 m long, with a tapered horn, a flat steel face and a square heel, standing on a sawn wooden log block about 0.5 m high bound with an iron band.",
@@ -46,6 +67,22 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "0451ea6ca8b2a6f471193fba119132fc10f615cf487731f2c4dd816ef4a9484f"
+    },
+    {
+      "id": "banner_cult",
+      "name": "Cult banner",
+      "description": "A tattered dark wine-red cloth banner on a tall iron pole, about 1 m wide and 2.5 m high: it hangs from an iron crossbar under a spiked finial, its lower edge torn into ragged tails, a pale sigil of a ring round a five-pointed star painted on its front, and the pole stands in a heavy cross-shaped iron foot.",
+      "category": "decor",
+      "family": "banner",
+      "tags": ["cloth", "crypt", "dungeon", "iron", "tall", "worn", "worship"],
+      "aliases": ["cult standard", "ensign", "flag", "pennant", "standard"],
+      "variants": ["banner_cult"],
+      "size": { "x": 1, "y": 0.45, "z": 2.5 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "df81f2747a6ad8581a71d67d071bf43659bf9fa0dd7e9faef2ffe28377657f41"
     },
     {
       "id": "barrel_wood",
@@ -1053,6 +1090,28 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "7e549e42b36c16aac4e318aee31bbd57c656b430caa37a4b4be09e51f8c22375"
+    },
+    {
+      "id": "ritual_circle_floor",
+      "name": "Ritual circle",
+      "description": "A round patch of dark crypt flagstones about 3.5 m across and a few centimetres high, ringed by curved kerb stones, with a dark red-brown sigil painted over it: two concentric rings with rune marks between them, a five-pointed star with a small ring at each point, and a dark disc at the centre.",
+      "category": "decor",
+      "family": "ritual_circle",
+      "tags": ["crypt", "dungeon", "low", "round", "stone", "worn", "worship"],
+      "aliases": [
+        "floor seal",
+        "magic circle",
+        "pentagram",
+        "sigil",
+        "summoning circle"
+      ],
+      "variants": ["ritual_circle_floor"],
+      "size": { "x": 3.5, "y": 3.5, "z": 0.05 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "d741b9575e1a43966babac6d1eb659fddae8e8901bbaff9f7b7333030810b5ac"
     },
     {
       "id": "rock_mass_block",

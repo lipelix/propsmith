@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "altar_stone_crude",
+  "name": "Crude stone altar",
+  "description": "A crude altar of rough unhewn dark stone, about 1.5 m long, 0.9 m deep and 1 m high: two rough uprights packed with smaller stones under a thick lumpy capstone, its top and front streaked with old dark stains that ran down the faces and dried in a pool at its foot.",
+  "category": "decor",
+  "family": "altar",
+  "tags": ["stone", "crypt", "dungeon", "worship", "boxy", "weathered"],
+  "aliases": ["sacrificial altar", "dolmen", "blood altar", "offering stone"],
+  "variants": ["altar_stone_crude"],
+  "size": { "x": 1.45, "y": 0.95, "z": 1.0 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "altar_stone_crude: a rough unhewn altar block with old dark stains, about 1.5 × 0.9 × 1 m. Crypt wall kit palette."
+  },
+  "licence": "CC0-1.0"
+}

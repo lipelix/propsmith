@@ -34,6 +34,34 @@
         }
       ]
     },
+    "altar_stone_crude": {
+      "inputHash": "a6484047e3e8a37487c05f32218d4ecc184a9a3dc43d8875c001d12e1b540238",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "altar_stone_crude",
+          "tris": 2564,
+          "bbox": {
+            "min": [-0.7163, -0.504, -0.0074],
+            "max": [0.7193, 0.4356, 0.9927]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "altar_stone_crude_damp", "source": "palette" },
+            { "name": "altar_stone_crude_grit", "source": "palette" },
+            { "name": "altar_stone_crude_stain", "source": "palette" },
+            { "name": "altar_stone_crude_stain_run", "source": "palette" },
+            { "name": "altar_stone_crude_stone", "source": "palette" },
+            { "name": "altar_stone_crude_stone_old", "source": "palette" },
+            { "name": "altar_stone_crude_stone_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "anvil_iron": {
       "inputHash": "0451ea6ca8b2a6f471193fba119132fc10f615cf487731f2c4dd816ef4a9484f",
       "libVersion": 1,
@@ -55,6 +83,29 @@
             { "name": "anvil_iron_face", "source": "palette" },
             { "name": "anvil_iron_ring", "source": "palette" },
             { "name": "anvil_iron_soot", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "banner_cult": {
+      "inputHash": "df81f2747a6ad8581a71d67d071bf43659bf9fa0dd7e9faef2ffe28377657f41",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "banner_cult",
+          "tris": 4564,
+          "bbox": { "min": [-0.4953, -0.2139, 0], "max": [0.495, 0.2139, 2.5] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "banner_cult_cloth", "source": "palette" },
+            { "name": "banner_cult_cloth_old", "source": "palette" },
+            { "name": "banner_cult_iron", "source": "palette" },
+            { "name": "banner_cult_iron_worn", "source": "palette" },
+            { "name": "banner_cult_paint", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
@@ -1495,6 +1546,34 @@
             { "name": "pine_tree_needles", "source": "palette" },
             { "name": "pine_tree_needles_lit", "source": "palette" },
             { "name": "pine_tree_root", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "ritual_circle_floor": {
+      "inputHash": "d741b9575e1a43966babac6d1eb659fddae8e8901bbaff9f7b7333030810b5ac",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "ritual_circle_floor",
+          "tris": 7840,
+          "bbox": {
+            "min": [-1.7527, -1.7527, 0],
+            "max": [1.7527, 1.7527, 0.049]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "ritual_circle_floor_damp", "source": "palette" },
+            { "name": "ritual_circle_floor_kerb", "source": "palette" },
+            { "name": "ritual_circle_floor_mortar", "source": "palette" },
+            { "name": "ritual_circle_floor_paint", "source": "palette" },
+            { "name": "ritual_circle_floor_stone", "source": "palette" },
+            { "name": "ritual_circle_floor_stone_old", "source": "palette" },
+            { "name": "ritual_circle_floor_stone_pale", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
