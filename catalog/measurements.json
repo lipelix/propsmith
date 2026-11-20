@@ -1666,6 +1666,59 @@
         }
       ]
     },
+    "pit_open_spiked": {
+      "inputHash": "c3b50467f44b599355d6944bf871c8afebc47f507aaab63ddc16234a15a121f1",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "pit_open_spiked",
+          "tris": 5224,
+          "bbox": {
+            "min": [-0.745, -0.745, -0.0032],
+            "max": [0.745, 0.745, 0.0817]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "pit_open_spiked_damp", "source": "palette" },
+            { "name": "pit_open_spiked_iron", "source": "palette" },
+            { "name": "pit_open_spiked_iron_worn", "source": "palette" },
+            { "name": "pit_open_spiked_rust", "source": "palette" },
+            { "name": "pit_open_spiked_shade_1", "source": "palette" },
+            { "name": "pit_open_spiked_shade_2", "source": "palette" },
+            { "name": "pit_open_spiked_stone", "source": "palette" },
+            { "name": "pit_open_spiked_stone_old", "source": "palette" },
+            { "name": "pit_open_spiked_void", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "pressure_plate_stone": {
+      "inputHash": "1dc26040f43d90bdf8b3c4c94dc9abe9e2224e958c4ff684c5ab1576b44570ab",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "pressure_plate_stone",
+          "tris": 1588,
+          "bbox": { "min": [-0.745, -0.745, 0], "max": [0.745, 0.745, 0.0738] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "pressure_plate_stone_damp", "source": "palette" },
+            { "name": "pressure_plate_stone_plate", "source": "palette" },
+            { "name": "pressure_plate_stone_stone", "source": "palette" },
+            { "name": "pressure_plate_stone_stone_old", "source": "palette" },
+            { "name": "pressure_plate_stone_void", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "puddle_water": {
       "inputHash": "7137583bc758e927496c0d32bb937a1f3a985d69afe30170667b9ddf619aa37d",
       "libVersion": 1,

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "pressure_plate_stone",
+  "name": "Stone pressure plate",
+  "description": "A 1.5 m square of dark crypt floor flags a few centimetres high whose middle is one big worn flagstone standing slightly proud of the rest, with a dark open gap all round it and grit lodged in the gap.",
+  "category": "decor",
+  "family": "pressure_plate",
+  "tags": ["stone", "crypt", "dungeon", "low", "boxy", "worn"],
+  "aliases": [
+    "trap",
+    "trigger plate",
+    "floor trap",
+    "trap plate",
+    "trigger stone"
+  ],
+  "variants": ["pressure_plate_stone"],
+  "size": { "x": 1.5, "y": 1.5, "z": 0.075 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "pressure_plate_stone: a slightly raised square flagstone with a dark gap around it, 1.5 m. Crypt wall kit palette."
+  },
+  "licence": "CC0-1.0"
+}

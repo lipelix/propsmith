@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "pit_open_spiked",
+  "name": "Open spiked pit",
+  "description": "A 1.5 m square of dark crypt floor flags, its rim at floor level, round a square pit about 1 m across whose edges are broken away into jagged chunks; stepped dark ledges lead the eye down to a near-black floor bristling with rows of rusty iron spikes and a little fallen rubble.",
+  "category": "decor",
+  "family": "pit_trap",
+  "tags": ["stone", "iron", "crypt", "dungeon", "low", "open", "broken"],
+  "aliases": ["trap", "spike pit", "pitfall", "spiked pit", "pit"],
+  "variants": ["pit_open_spiked"],
+  "size": { "x": 1.5, "y": 1.5, "z": 0.09 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "pit_open_spiked: a square pit with broken floor edges and iron spikes inside, 1.5 m, its rim at ground level. Crypt wall kit palette."
+  },
+  "licence": "CC0-1.0"
+}

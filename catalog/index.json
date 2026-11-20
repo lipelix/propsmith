@@ -1184,6 +1184,44 @@
       "inputHash": "7e549e42b36c16aac4e318aee31bbd57c656b430caa37a4b4be09e51f8c22375"
     },
     {
+      "id": "pit_open_spiked",
+      "name": "Open spiked pit",
+      "description": "A 1.5 m square of dark crypt floor flags, its rim at floor level, round a square pit about 1 m across whose edges are broken away into jagged chunks; stepped dark ledges lead the eye down to a near-black floor bristling with rows of rusty iron spikes and a little fallen rubble.",
+      "category": "decor",
+      "family": "pit_trap",
+      "tags": ["broken", "crypt", "dungeon", "iron", "low", "open", "stone"],
+      "aliases": ["pit", "pitfall", "spike pit", "spiked pit", "trap"],
+      "variants": ["pit_open_spiked"],
+      "size": { "x": 1.5, "y": 1.5, "z": 0.09 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "c3b50467f44b599355d6944bf871c8afebc47f507aaab63ddc16234a15a121f1"
+    },
+    {
+      "id": "pressure_plate_stone",
+      "name": "Stone pressure plate",
+      "description": "A 1.5 m square of dark crypt floor flags a few centimetres high whose middle is one big worn flagstone standing slightly proud of the rest, with a dark open gap all round it and grit lodged in the gap.",
+      "category": "decor",
+      "family": "pressure_plate",
+      "tags": ["boxy", "crypt", "dungeon", "low", "stone", "worn"],
+      "aliases": [
+        "floor trap",
+        "trap",
+        "trap plate",
+        "trigger plate",
+        "trigger stone"
+      ],
+      "variants": ["pressure_plate_stone"],
+      "size": { "x": 1.5, "y": 1.5, "z": 0.075 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "f4cbebc8933145b98914a867e1e423c5f47eae3f15b79366614f41d8554cb1fa"
+    },
+    {
       "id": "puddle_water",
       "name": "Water puddle",
       "description": "A shallow puddle of dark, faintly green standing water about 1 m across and a few centimetres high: an irregular glossy pool of merged lobes inside a rim of wet darkened silt, with a few stones and grit at its margin.",
