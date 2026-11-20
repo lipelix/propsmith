@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "thicket_bramble",
+  "name": "Bramble thicket",
+  "description": "A dense, impassable mass of brambles and undergrowth about 1.5 × 1.5 m and 1.6 m high: dark bramble leaves over a near-black tangle, purple-red thorny canes arching out and drooping back, a few dead grey canes, clusters of ripe and unripe blackberries and a scatter of pale blossoms. Its ends match and its lumps repeat every 1.5 m, so thickets set side by side along x read as one continuous hedge.",
+  "category": "vegetation",
+  "family": "bramble",
+  "tags": ["forest", "road", "boundary", "large", "tall", "weathered"],
+  "aliases": [
+    "thicket",
+    "briar",
+    "brambles",
+    "blackberry",
+    "hedge",
+    "undergrowth",
+    "thorns",
+    "brush"
+  ],
+  "variants": ["thicket_bramble"],
+  "size": { "x": 1.6, "y": 1.55, "z": 1.6 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A dense, impassable mass of brambles, briars and undergrowth about 1.5 × 1.5 m and 1.6 m high that reads as one continuous hedge when repeated."
+  },
+  "licence": "CC0-1.0"
+}

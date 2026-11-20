@@ -296,6 +296,38 @@
         }
       ]
     },
+    "bramble_low": {
+      "inputHash": "6dff8f3b86a25727771cf6569b6ca7b6ef0cf3755c4b2ec6f0e162ea47d865a9",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "bramble_low",
+          "tris": 5464,
+          "bbox": {
+            "min": [-0.449, -0.4446, 0],
+            "max": [0.4702, 0.438, 0.5657]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "bramble_low_bronze", "source": "palette" },
+            { "name": "bramble_low_cane", "source": "palette" },
+            { "name": "bramble_low_core", "source": "palette" },
+            { "name": "bramble_low_dead", "source": "palette" },
+            { "name": "bramble_low_lit", "source": "palette" },
+            { "name": "bramble_low_olive", "source": "palette" },
+            { "name": "bramble_low_petal", "source": "palette" },
+            { "name": "bramble_low_ripe", "source": "palette" },
+            { "name": "bramble_low_shadow", "source": "palette" },
+            { "name": "bramble_low_thorn", "source": "palette" },
+            { "name": "bramble_low_unripe", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "brazier_iron": {
       "inputHash": "ea5644605e108e4987ffca6d28431d6c338498a71745b88608f701b364734116",
       "libVersion": 1,
@@ -2240,6 +2272,38 @@
             { "name": "table_pewter", "source": "palette" },
             { "name": "table_top", "source": "palette" },
             { "name": "table_top_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "thicket_bramble": {
+      "inputHash": "135d0e037515ca53ca478d79dede50fdddf6aa3844ebf702f4926c495406173a",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "thicket_bramble",
+          "tris": 7496,
+          "bbox": {
+            "min": [-0.7757, -0.7588, 0],
+            "max": [0.7828, 0.759, 1.5959]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "thicket_bramble_bronze", "source": "palette" },
+            { "name": "thicket_bramble_cane", "source": "palette" },
+            { "name": "thicket_bramble_core", "source": "palette" },
+            { "name": "thicket_bramble_dead", "source": "palette" },
+            { "name": "thicket_bramble_lit", "source": "palette" },
+            { "name": "thicket_bramble_olive", "source": "palette" },
+            { "name": "thicket_bramble_petal", "source": "palette" },
+            { "name": "thicket_bramble_ripe", "source": "palette" },
+            { "name": "thicket_bramble_shadow", "source": "palette" },
+            { "name": "thicket_bramble_thorn", "source": "palette" },
+            { "name": "thicket_bramble_unripe", "source": "palette" }
           ],
           "anchors": [],
           "textures": []

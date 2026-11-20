@@ -231,6 +231,30 @@
       "inputHash": "bf3929860928242b5ba4dd5ea8dc4753e13cf4987f71526d9d1266cb08e9da4c"
     },
     {
+      "id": "bramble_low",
+      "name": "Low bramble patch",
+      "description": "A low patch of brambles about 1 × 1 m and 0.6 m high: a mound of dark bramble leaves over a dark tangle, purple-red thorny canes arching out over the rim and rooting their tips in the ground, a dead grey cane or two, ripe and unripe blackberries and a few pale blossoms.",
+      "category": "vegetation",
+      "family": "bramble",
+      "tags": ["forest", "low", "road", "round", "small", "weathered"],
+      "aliases": [
+        "blackberry",
+        "brambles",
+        "briar",
+        "brush",
+        "scrub",
+        "thorns",
+        "undergrowth"
+      ],
+      "variants": ["bramble_low"],
+      "size": { "x": 0.95, "y": 0.9, "z": 0.6 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "6dff8f3b86a25727771cf6569b6ca7b6ef0cf3755c4b2ec6f0e162ea47d865a9"
+    },
+    {
       "id": "brazier_iron",
       "name": "Iron brazier",
       "description": "A standing wrought-iron brazier about 1 m high: a wide fire bowl with a rolled rim on three splayed legs tied by a ring brace, heaped with black coals glowing orange at the heart under low flames.",
@@ -1561,6 +1585,31 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "a7841b1add2af09d25b2cf83a698c7be9927e5f28385ec23e70314e9dbb8870b"
+    },
+    {
+      "id": "thicket_bramble",
+      "name": "Bramble thicket",
+      "description": "A dense, impassable mass of brambles and undergrowth about 1.5 × 1.5 m and 1.6 m high: dark bramble leaves over a near-black tangle, purple-red thorny canes arching out and drooping back, a few dead grey canes, clusters of ripe and unripe blackberries and a scatter of pale blossoms. Its ends match and its lumps repeat every 1.5 m, so thickets set side by side along x read as one continuous hedge.",
+      "category": "vegetation",
+      "family": "bramble",
+      "tags": ["boundary", "forest", "large", "road", "tall", "weathered"],
+      "aliases": [
+        "blackberry",
+        "brambles",
+        "briar",
+        "brush",
+        "hedge",
+        "thicket",
+        "thorns",
+        "undergrowth"
+      ],
+      "variants": ["thicket_bramble"],
+      "size": { "x": 1.6, "y": 1.55, "z": 1.6 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "135d0e037515ca53ca478d79dede50fdddf6aa3844ebf702f4926c495406173a"
     },
     {
       "id": "torch_wall_sconce",
