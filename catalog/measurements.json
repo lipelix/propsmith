@@ -1298,6 +1298,41 @@
         }
       ]
     },
+    "goblin_camp_lean_to": {
+      "inputHash": "e2244467a549547cb30b1b32d68787339dd2e875464a46a9f9f3b0c8dc4b48e6",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "goblin_camp_lean_to",
+          "tris": 3880,
+          "bbox": {
+            "min": [-0.9727, -1.0677, -0.0048],
+            "max": [1.0127, 0.8608, 1.4784]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "goblin_camp_lean_to_bark", "source": "palette" },
+            { "name": "goblin_camp_lean_to_bark_dark", "source": "palette" },
+            { "name": "goblin_camp_lean_to_bone", "source": "palette" },
+            { "name": "goblin_camp_lean_to_flint", "source": "palette" },
+            { "name": "goblin_camp_lean_to_fur", "source": "palette" },
+            { "name": "goblin_camp_lean_to_hide", "source": "palette" },
+            { "name": "goblin_camp_lean_to_hide_dark", "source": "palette" },
+            { "name": "goblin_camp_lean_to_hide_grey", "source": "palette" },
+            { "name": "goblin_camp_lean_to_rope", "source": "palette" },
+            { "name": "goblin_camp_lean_to_stone", "source": "palette" },
+            { "name": "goblin_camp_lean_to_straw", "source": "palette" },
+            { "name": "goblin_camp_lean_to_straw_damp", "source": "palette" },
+            { "name": "goblin_camp_lean_to_straw_old", "source": "palette" },
+            { "name": "goblin_camp_lean_to_wood_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "grass_tuft": {
       "inputHash": "2c0de7e2eae6860fcffe2278a56b80f91150856c8e5b7a9717c932ae326470e9",
       "libVersion": 1,
@@ -3874,6 +3909,47 @@
             { "name": "wall_timber_rubble_pale", "source": "palette" }
           ],
           "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "waterfall_rock": {
+      "inputHash": "76394adfa2db1cdcf4ac067f30e1b292e2575ad8e6b660984555b6e2d53ce808",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "waterfall_rock",
+          "tris": 6028,
+          "bbox": {
+            "min": [-0.7772, -0.5825, 0],
+            "max": [0.7369, 0.4903, 2.9249]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "waterfall_rock_fall", "source": "palette" },
+            { "name": "waterfall_rock_foam", "source": "palette" },
+            { "name": "waterfall_rock_moss_deep", "source": "palette" },
+            { "name": "waterfall_rock_moss_lit", "source": "palette" },
+            { "name": "waterfall_rock_moss_olive", "source": "palette" },
+            { "name": "waterfall_rock_rock", "source": "palette" },
+            { "name": "waterfall_rock_rock_dark", "source": "palette" },
+            { "name": "waterfall_rock_rock_wet", "source": "palette" },
+            { "name": "waterfall_rock_water", "source": "palette" }
+          ],
+          "anchors": [
+            {
+              "name": "water:basin",
+              "at": [0, -0.28, 0.12],
+              "size": [0.5, 0.2, 0.2]
+            },
+            {
+              "name": "water:spout",
+              "at": [0, -0.14, 2.54],
+              "size": [0.13, 0.13, 0.13]
+            }
+          ],
           "textures": []
         }
       ]
