@@ -13,6 +13,8 @@ const ASSETS = (
 /** How many assets a search finds, by the site's own rule, so a new asset with a matching alias does not break the test. */
 const found = (text: string) => filter(ASSETS, { ...EMPTY, text }).length;
 const caskCount = found("cask");
+/** A search no prop answers: an alias like "dragon hoard" made a real word match one. */
+const NOTHING = "zzxq";
 const ironCount = ASSETS.filter((a) => a.tags.includes("iron")).length;
 const ironLightCount = ASSETS.filter(
   (a) => a.tags.includes("iron") && a.category === "light",
@@ -48,7 +50,8 @@ test("the catalogue searches, filters and opens an asset", async ({ page }) => {
     `${caskCount} ${caskCount === 1 ? "prop" : "props"} of ${ASSETS.length}`,
   );
 
-  await page.getByRole("searchbox").fill("dragon");
+  expect(found(NOTHING)).toBe(0);
+  await page.getByRole("searchbox").fill(NOTHING);
   await expect(page.locator(".empty")).toContainText("Nothing matches");
   await page.getByRole("button", { name: "Clear filters" }).click();
   await expect(tiles).toHaveCount(ASSETS.length);
