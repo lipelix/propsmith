@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "washing_line",
+  "name": "Washing line",
+  "description": "A sagging rope strung about 1.8 m up between two leaning round posts with short cross arms, with laundry pegged along it: a linen sheet, a faded blue shirt, brown hose, an apron and a red rag.",
+  "category": "decor",
+  "family": "washing_line",
+  "tags": ["wood", "rope", "cloth", "village", "house", "garden", "long"],
+  "aliases": ["clothesline", "laundry", "drying line", "washing"],
+  "variants": ["washing_line"],
+  "size": {
+    "x": 3.05,
+    "y": 0.3,
+    "z": 1.95
+  },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "washing_line: a rope between two posts with hanging cloths, about 3 × 0.3 × 2 m."
+  },
+  "licence": "CC0-1.0"
+}

@@ -1352,6 +1352,30 @@
         }
       ]
     },
+    "gate_wood": {
+      "inputHash": "37925b2e667719afb0283f6d332b82f152d9a748fdf7e6134c9d47b28a11e53f",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "gate_wood",
+          "tris": 2408,
+          "bbox": {
+            "min": [-0.7339, -0.123, -0.0011],
+            "max": [0.7409, 0.0815, 1.2508]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "gate_wood_iron", "source": "palette" },
+            { "name": "gate_wood_old", "source": "palette" },
+            { "name": "gate_wood_wood", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "goblin_camp_lean_to": {
       "inputHash": "e2244467a549547cb30b1b32d68787339dd2e875464a46a9f9f3b0c8dc4b48e6",
       "libVersion": 1,
@@ -1884,6 +1908,34 @@
             { "name": "net_trap_fallen_rope_old", "source": "palette" },
             { "name": "net_trap_fallen_stone", "source": "palette" },
             { "name": "net_trap_fallen_stone_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "notice_board": {
+      "inputHash": "8f8bd11d393be6ef9b61a1f67cccf04023ac6a878ba392b24894836e9558948b",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "notice_board",
+          "tris": 5400,
+          "bbox": { "min": [-0.75, -0.2043, 0], "max": [0.75, 0.2043, 2.195] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "notice_board_board", "source": "palette" },
+            { "name": "notice_board_ink", "source": "palette" },
+            { "name": "notice_board_iron", "source": "palette" },
+            { "name": "notice_board_paper", "source": "palette" },
+            { "name": "notice_board_paper_old", "source": "palette" },
+            { "name": "notice_board_paper_red", "source": "palette" },
+            { "name": "notice_board_shingle", "source": "palette" },
+            { "name": "notice_board_stone", "source": "palette" },
+            { "name": "notice_board_wood", "source": "palette" },
+            { "name": "notice_board_wood_old", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
@@ -4178,6 +4230,37 @@
             { "name": "wardrobe_wood_wood", "source": "palette" },
             { "name": "wardrobe_wood_wood_dark", "source": "palette" },
             { "name": "wardrobe_wood_wood_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "washing_line": {
+      "inputHash": "c6060653866dc3568b121ba2fb8bc77dfe5b5295768ecf5abf1f6479473c1559",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "washing_line",
+          "tris": 3996,
+          "bbox": {
+            "min": [-1.4845, -0.1407, -0.001],
+            "max": [1.5361, 0.1407, 1.9003]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "washing_line_apron", "source": "palette" },
+            { "name": "washing_line_hose", "source": "palette" },
+            { "name": "washing_line_peg", "source": "palette" },
+            { "name": "washing_line_rag", "source": "palette" },
+            { "name": "washing_line_rope", "source": "palette" },
+            { "name": "washing_line_sheet", "source": "palette" },
+            { "name": "washing_line_shirt", "source": "palette" },
+            { "name": "washing_line_stone", "source": "palette" },
+            { "name": "washing_line_wood", "source": "palette" },
+            { "name": "washing_line_wood_old", "source": "palette" }
           ],
           "anchors": [],
           "textures": []

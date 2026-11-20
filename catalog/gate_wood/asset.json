@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "gate_wood",
+  "name": "Wooden field gate",
+  "description": "A 1.5 m plank field gate in weathered grey-brown wood: four rails, two stiles and a diagonal brace, hung on iron strap hinges between two round posts and closed with an iron latch, matching the rail fence.",
+  "category": "fence",
+  "family": "gate",
+  "tags": ["wood", "iron", "village", "farm", "boundary", "plain", "weathered"],
+  "aliases": [
+    "field gate",
+    "farm gate",
+    "five bar gate",
+    "fence gate",
+    "paddock gate"
+  ],
+  "variants": ["gate_wood"],
+  "size": { "x": 1.5, "y": 0.2, "z": 1.3 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "gate_wood: a plank field gate on posts that matches fence_wood, 1.5 m wide."
+  },
+  "licence": "CC0-1.0"
+}
