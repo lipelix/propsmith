@@ -2209,6 +2209,30 @@
       "inputHash": "23ff0972751443f800717f62ce22ecb2ddafa35a74410efbae683191f0754c7e"
     },
     {
+      "id": "waterfall_rock",
+      "name": "Rock waterfall",
+      "description": "A small waterfall about 3 m high: a stream runs between stacked grey rocks, spills over a jutting mossy lip stone and falls as a pale sheet with foam streaks into a dark pool ringed by rim stones, moss on every ledge.",
+      "category": "decor",
+      "family": "waterfall",
+      "tags": [
+        "forest",
+        "mossy",
+        "road",
+        "stone",
+        "tall",
+        "water",
+        "weathered"
+      ],
+      "aliases": ["cascade", "falls", "rock pool", "spring", "waterfall pool"],
+      "variants": ["waterfall_rock"],
+      "size": { "x": 1.5, "y": 1.2, "z": 3 },
+      "anchors": ["water:basin", "water:spout"],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "0d4e4f4a295ab85bb4c57a679d3f2fa275771bd76fe10307fb297a2c61d2d680"
+    },
+    {
       "id": "well_stone",
       "name": "Stone well",
       "description": "A round drystone well with a plank roof on two posts, a winch with a crank and a bucket on a rope.",

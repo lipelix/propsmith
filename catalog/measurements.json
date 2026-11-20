@@ -3878,6 +3878,47 @@
         }
       ]
     },
+    "waterfall_rock": {
+      "inputHash": "0d4e4f4a295ab85bb4c57a679d3f2fa275771bd76fe10307fb297a2c61d2d680",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "waterfall_rock",
+          "tris": 6028,
+          "bbox": {
+            "min": [-0.7772, -0.5825, 0],
+            "max": [0.7369, 0.4903, 2.9249]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "waterfall_rock_fall", "source": "palette" },
+            { "name": "waterfall_rock_foam", "source": "palette" },
+            { "name": "waterfall_rock_moss_deep", "source": "palette" },
+            { "name": "waterfall_rock_moss_lit", "source": "palette" },
+            { "name": "waterfall_rock_moss_olive", "source": "palette" },
+            { "name": "waterfall_rock_rock", "source": "palette" },
+            { "name": "waterfall_rock_rock_dark", "source": "palette" },
+            { "name": "waterfall_rock_rock_wet", "source": "palette" },
+            { "name": "waterfall_rock_water", "source": "palette" }
+          ],
+          "anchors": [
+            {
+              "name": "water:basin",
+              "at": [0, -0.28, 0.12],
+              "size": [0.5, 0.2, 0.2]
+            },
+            {
+              "name": "water:spout",
+              "at": [0, -0.14, 2.54],
+              "size": [0.13, 0.13, 0.13]
+            }
+          ],
+          "textures": []
+        }
+      ]
+    },
     "well_stone": {
       "inputHash": "f7a886b9c227d8a329141a39f5e897d84e7f5c47da1bf95294bcddb56f0bff60",
       "libVersion": 1,
