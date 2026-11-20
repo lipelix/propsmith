@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "pillar_stone",
+  "name": "Stone pillar",
+  "description": "A square crypt pillar of dark blue-grey dressed stone, 0.7 m square and 3 m high: a stepped moulded base, a shaft of five stacked drums with worn dark joints, and a chamfered capital under a broad square abacus, damp-stained at the foot.",
+  "category": "structure",
+  "family": "pillar",
+  "tags": ["stone", "crypt", "dungeon", "temple", "tall", "worn"],
+  "aliases": ["column", "pier", "support", "post"],
+  "variants": ["pillar_stone"],
+  "size": { "x": 0.75, "y": 0.75, "z": 3.0 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "pillar_stone: a square crypt pillar with base and capital, about 0.7 × 0.7 × 3 m. Crypt wall kit palette."
+  },
+  "licence": "CC0-1.0"
+}

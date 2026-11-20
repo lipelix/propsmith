@@ -1007,6 +1007,22 @@
       "inputHash": "8420d0e9a787a227d46ea12d480abc7e9a84a790602208d3934c53fc6ebd68f0"
     },
     {
+      "id": "pillar_stone",
+      "name": "Stone pillar",
+      "description": "A square crypt pillar of dark blue-grey dressed stone, 0.7 m square and 3 m high: a stepped moulded base, a shaft of five stacked drums with worn dark joints, and a chamfered capital under a broad square abacus, damp-stained at the foot.",
+      "category": "structure",
+      "family": "pillar",
+      "tags": ["crypt", "dungeon", "stone", "tall", "temple", "worn"],
+      "aliases": ["column", "pier", "post", "support"],
+      "variants": ["pillar_stone"],
+      "size": { "x": 0.75, "y": 0.75, "z": 3 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "ace45b8ac282f822ba600b42fed356ac35cd434a51821fd618be81c2b6a6ee6d"
+    },
+    {
       "id": "pine_tree",
       "name": "Pine tree",
       "description": "A tall pine tree about 6 m high: a straight brown trunk with rough bark and a few roots spreading at the foot, under five stacked tiers of drooping dark-green needle boughs that narrow to a pointed top, each tier slightly irregular and turned.",

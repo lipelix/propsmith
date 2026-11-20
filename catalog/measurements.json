@@ -1427,6 +1427,30 @@
         }
       ]
     },
+    "pillar_stone": {
+      "inputHash": "ace45b8ac282f822ba600b42fed356ac35cd434a51821fd618be81c2b6a6ee6d",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "pillar_stone",
+          "tris": 1200,
+          "bbox": { "min": [-0.3533, -0.3533, 0], "max": [0.3533, 0.3533, 3] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "pillar_stone_cap", "source": "palette" },
+            { "name": "pillar_stone_damp", "source": "palette" },
+            { "name": "pillar_stone_mortar", "source": "palette" },
+            { "name": "pillar_stone_stone", "source": "palette" },
+            { "name": "pillar_stone_stone_old", "source": "palette" },
+            { "name": "pillar_stone_stone_pale", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "pine_tree": {
       "inputHash": "7e549e42b36c16aac4e318aee31bbd57c656b430caa37a4b4be09e51f8c22375",
       "libVersion": 1,
