@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "tree_dead",
+  "name": "Dead tree",
+  "description": "A bare dead snag about 5 m high: a leaning grey trunk stripped of most of its bark, with flared roots and the last dark bark at its foot, long cracks in the silvered wood, a jagged splintered top, two crooked bare limbs with forked twigs, snapped limb stubs, woodpecker holes and a few shelf fungi.",
+  "category": "vegetation",
+  "family": "tree",
+  "tags": ["forest", "road", "wood", "tall", "broken", "weathered"],
+  "aliases": ["dead tree", "snag", "bare tree", "deadwood", "withered tree"],
+  "variants": ["tree_dead"],
+  "size": { "x": 1.9, "y": 1.55, "z": 5.0 },
+  "anchors": [],
+  "closed": false,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A bare dead snag with broken limbs, about 2 × 2 × 5 m."
+  },
+  "licence": "CC0-1.0"
+}

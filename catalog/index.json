@@ -199,6 +199,28 @@
       "inputHash": "648215e9f84e9342c1c2f0629114dbb165aa0fc2bc9f780c9abc7cf7fd354abd"
     },
     {
+      "id": "birch_tree",
+      "name": "Birch tree",
+      "description": "A slender white birch about 6 m high: a thin, gently curving chalk-white trunk with black horizontal bark marks and a dark fissured foot, thin ascending branches arching out at the tips, and a narrow airy crown of small yellow-green leaf clumps, some hanging from the branch tips.",
+      "category": "vegetation",
+      "family": "tree",
+      "tags": ["forest", "road", "tall", "village", "wood"],
+      "aliases": [
+        "birch",
+        "broadleaf",
+        "deciduous",
+        "silver birch",
+        "white birch"
+      ],
+      "variants": ["birch_tree"],
+      "size": { "x": 1.8, "y": 1.9, "z": 6 },
+      "anchors": [],
+      "closed": false,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "6d9354bc18fe533054e57891e37d94105b4e3cc469433b52f74e97f52d5ef9b1"
+    },
+    {
       "id": "bones_pile",
       "name": "Pile of bones",
       "description": "A loose heap of old yellowed human bones about 0.9 m across and 0.4 m high: several skulls, long bones, ribs and a jaw piled on the floor, with a few bones scattered around it.",
@@ -1561,6 +1583,28 @@
       "inputHash": "9196ee4fc062d99492a6592f0e9655a302b069af56f041722ad6ed07236dca46"
     },
     {
+      "id": "sapling_young",
+      "name": "Young sapling",
+      "description": "A young broadleaf sapling about 2 m high: a thin, slightly crooked grey-brown stem with a small root flare, a few slender branches rising from it, and a loose open crown of fresh green pointed leaves in small clusters.",
+      "category": "vegetation",
+      "family": "tree",
+      "tags": ["forest", "garden", "new", "road", "small", "village", "wood"],
+      "aliases": [
+        "broadleaf",
+        "deciduous",
+        "sapling",
+        "seedling",
+        "young tree"
+      ],
+      "variants": ["sapling_young"],
+      "size": { "x": 0.95, "y": 0.85, "z": 1.95 },
+      "anchors": [],
+      "closed": false,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "bdc941aeaa2be1ba04d20cf66a6e6ad70523697f4a561b1a059a30b8bbab78b8"
+    },
+    {
       "id": "sarcophagus_stone",
       "name": "Stone sarcophagus",
       "description": "A heavy chest of worn grey stone, about 2.2 m long, 0.9 m wide and 1 m high, on a moulded plinth with a moulded rim and carved panels, its lid carved with the low relief of a lying knight with folded hands on his sword; cracked corners and a little moss in the joints.",
@@ -1808,6 +1852,28 @@
       "source": "handwritten",
       "licence": "CC0-1.0",
       "inputHash": "e8be463ff31c6ecc06ed4283804d5acab91dd29fb5ac0cfdb3d7d8744f2b75e9"
+    },
+    {
+      "id": "tree_dead",
+      "name": "Dead tree",
+      "description": "A bare dead snag about 5 m high: a leaning grey trunk stripped of most of its bark, with flared roots and the last dark bark at its foot, long cracks in the silvered wood, a jagged splintered top, two crooked bare limbs with forked twigs, snapped limb stubs, woodpecker holes and a few shelf fungi.",
+      "category": "vegetation",
+      "family": "tree",
+      "tags": ["broken", "forest", "road", "tall", "weathered", "wood"],
+      "aliases": [
+        "bare tree",
+        "dead tree",
+        "deadwood",
+        "snag",
+        "withered tree"
+      ],
+      "variants": ["tree_dead"],
+      "size": { "x": 1.9, "y": 1.55, "z": 5 },
+      "anchors": [],
+      "closed": false,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "2d7c5023b64a02d0222b8002e4cc2bfe6aab900df75a86a703cf4c4ca29a87e2"
     },
     {
       "id": "tree_stump",

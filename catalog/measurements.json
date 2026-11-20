@@ -244,6 +244,35 @@
         }
       ]
     },
+    "birch_tree": {
+      "inputHash": "6d9354bc18fe533054e57891e37d94105b4e3cc469433b52f74e97f52d5ef9b1",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "birch_tree",
+          "tris": 6208,
+          "bbox": {
+            "min": [-0.9555, -0.9409, -0.0044],
+            "max": [0.8249, 0.9277, 5.937]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "birch_tree_bark", "source": "palette" },
+            { "name": "birch_tree_bark_shade", "source": "palette" },
+            { "name": "birch_tree_foot", "source": "palette" },
+            { "name": "birch_tree_leaves", "source": "palette" },
+            { "name": "birch_tree_leaves_core", "source": "palette" },
+            { "name": "birch_tree_leaves_lit", "source": "palette" },
+            { "name": "birch_tree_marks", "source": "palette" },
+            { "name": "birch_tree_twigs", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "bones_pile": {
       "inputHash": "599d0993bdee28c9711f6e9943fd33f3fda7fcf537f487bb653417a7a8cc7925",
       "libVersion": 1,
@@ -2203,6 +2232,32 @@
         }
       ]
     },
+    "sapling_young": {
+      "inputHash": "bdc941aeaa2be1ba04d20cf66a6e6ad70523697f4a561b1a059a30b8bbab78b8",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "sapling_young",
+          "tris": 4712,
+          "bbox": {
+            "min": [-0.4342, -0.441, -0.0012],
+            "max": [0.4729, 0.3732, 1.9399]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "sapling_young_bark", "source": "palette" },
+            { "name": "sapling_young_leaves", "source": "palette" },
+            { "name": "sapling_young_leaves_core", "source": "palette" },
+            { "name": "sapling_young_leaves_lit", "source": "palette" },
+            { "name": "sapling_young_twigs", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "sarcophagus_stone": {
       "inputHash": "2723e33a7bd6d41156e85da1ecba2f83cc748baf5d06a0ec36bfdad631b4f2e5",
       "libVersion": 1,
@@ -2553,6 +2608,35 @@
             { "name": "tower_window", "source": "palette" }
           ],
           "anchors": [{ "name": "light:window", "at": [0, 0, 7.23] }],
+          "textures": []
+        }
+      ]
+    },
+    "tree_dead": {
+      "inputHash": "2d7c5023b64a02d0222b8002e4cc2bfe6aab900df75a86a703cf4c4ca29a87e2",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "tree_dead",
+          "tris": 2892,
+          "bbox": {
+            "min": [-0.9598, -0.6877, 0],
+            "max": [0.9351, 0.8143, 4.9902]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "tree_dead_bark", "source": "palette" },
+            { "name": "tree_dead_break", "source": "palette" },
+            { "name": "tree_dead_crack", "source": "palette" },
+            { "name": "tree_dead_fungus", "source": "palette" },
+            { "name": "tree_dead_fungus_rim", "source": "palette" },
+            { "name": "tree_dead_rot", "source": "palette" },
+            { "name": "tree_dead_wood", "source": "palette" },
+            { "name": "tree_dead_wood_dark", "source": "palette" }
+          ],
+          "anchors": [],
           "textures": []
         }
       ]
