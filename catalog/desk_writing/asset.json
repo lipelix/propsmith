@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "desk_writing",
+  "name": "Writing desk",
+  "description": "A scholar's oak writing desk about 1.2 × 0.6 m with its top at 0.76 m: plank top, four legs with a stretcher frame, a shallow drawer with an iron ring pull and a low rail along the back. On it lie sheets of written parchment, a half unrolled scroll, a closed book, a dark glass inkwell with a quill leaning in it and a tallow candle in an iron dish.",
+  "category": "furniture",
+  "family": "desk",
+  "tags": ["wood", "paper", "castle", "house", "study", "work", "worn"],
+  "aliases": [
+    "writing table",
+    "scribe's desk",
+    "study desk",
+    "secretary",
+    "bureau",
+    "scriptorium desk"
+  ],
+  "variants": ["desk_writing"],
+  "size": { "x": 1.2, "y": 0.6, "z": 0.95 },
+  "anchors": ["light:candle", "fire:candle"],
+  "closed": true,
+  "provenance": {
+    "source": "handwritten"
+  },
+  "licence": "CC0-1.0"
+}

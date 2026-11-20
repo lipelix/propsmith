@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "books_stack",
+  "name": "Stack of books",
+  "description": "A leaning pile of seven worn leather books about 0.45 × 0.35 × 0.4 m, each a little shifted and turned so the stack slants, with pale page edges, raised spine bands and brass corners on the big ones, and a heavy book lying open on top with written pages and a red ribbon.",
+  "category": "decor",
+  "family": "books",
+  "tags": ["paper", "castle", "house", "study", "small", "worn"],
+  "aliases": [
+    "pile of books",
+    "book pile",
+    "tomes",
+    "open book",
+    "spellbook",
+    "grimoire"
+  ],
+  "variants": ["books_stack"],
+  "size": { "x": 0.45, "y": 0.35, "z": 0.4 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "handwritten"
+  },
+  "licence": "CC0-1.0"
+}

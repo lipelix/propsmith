@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "id": "bookshelf_wood",
+  "name": "Wooden bookcase",
+  "description": "A tall dark plank bookcase for a wall, about 1.2 × 0.4 × 2 m, open at the front: two thick sides, a back of vertical boards, a moulded top and four shelves packed with uneven rows of worn leather books in oxblood, green, indigo and tan, some leaning, some lying in stacks, and a pile of rolled scrolls.",
+  "category": "furniture",
+  "family": "bookcase",
+  "tags": [
+    "wood",
+    "paper",
+    "castle",
+    "house",
+    "study",
+    "storage",
+    "tall",
+    "worn"
+  ],
+  "aliases": [
+    "bookshelf",
+    "book shelf",
+    "library shelf",
+    "shelves of books",
+    "books"
+  ],
+  "variants": ["bookshelf_wood"],
+  "size": { "x": 1.25, "y": 0.4, "z": 2.0 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "handwritten"
+  },
+  "licence": "CC0-1.0"
+}

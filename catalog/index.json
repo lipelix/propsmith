@@ -261,6 +261,60 @@
       "inputHash": "599d0993bdee28c9711f6e9943fd33f3fda7fcf537f487bb653417a7a8cc7925"
     },
     {
+      "id": "books_stack",
+      "name": "Stack of books",
+      "description": "A leaning pile of seven worn leather books about 0.45 × 0.35 × 0.4 m, each a little shifted and turned so the stack slants, with pale page edges, raised spine bands and brass corners on the big ones, and a heavy book lying open on top with written pages and a red ribbon.",
+      "category": "decor",
+      "family": "books",
+      "tags": ["castle", "house", "paper", "small", "study", "worn"],
+      "aliases": [
+        "book pile",
+        "grimoire",
+        "open book",
+        "pile of books",
+        "spellbook",
+        "tomes"
+      ],
+      "variants": ["books_stack"],
+      "size": { "x": 0.45, "y": 0.35, "z": 0.4 },
+      "anchors": [],
+      "closed": true,
+      "source": "handwritten",
+      "licence": "CC0-1.0",
+      "inputHash": "a9508ad40e7fb518509afdb83e33c813f81b73d6e8a885c04322854373c36c5c"
+    },
+    {
+      "id": "bookshelf_wood",
+      "name": "Wooden bookcase",
+      "description": "A tall dark plank bookcase for a wall, about 1.2 × 0.4 × 2 m, open at the front: two thick sides, a back of vertical boards, a moulded top and four shelves packed with uneven rows of worn leather books in oxblood, green, indigo and tan, some leaning, some lying in stacks, and a pile of rolled scrolls.",
+      "category": "furniture",
+      "family": "bookcase",
+      "tags": [
+        "castle",
+        "house",
+        "paper",
+        "storage",
+        "study",
+        "tall",
+        "wood",
+        "worn"
+      ],
+      "aliases": [
+        "book shelf",
+        "books",
+        "bookshelf",
+        "library shelf",
+        "shelves of books"
+      ],
+      "variants": ["bookshelf_wood"],
+      "size": { "x": 1.25, "y": 0.4, "z": 2 },
+      "anchors": [],
+      "closed": true,
+      "source": "handwritten",
+      "licence": "CC0-1.0",
+      "inputHash": "bf0173b4ca13db5fe8300c8a7b29498062d7312ebefee26acc49b5e7e137ea93"
+    },
+    {
       "id": "boulders_shore",
       "name": "Shore boulders",
       "description": "A cluster of three large weathered shore boulders, the biggest about 1.2 m high, of rounded grey-brown stone with darker bases, with a few small pebbles scattered around them.",
@@ -885,6 +939,29 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "de44372ec3978731ba84875ec3f449ad01c02da1be6217d5335de6253042c820"
+    },
+    {
+      "id": "desk_writing",
+      "name": "Writing desk",
+      "description": "A scholar's oak writing desk about 1.2 × 0.6 m with its top at 0.76 m: plank top, four legs with a stretcher frame, a shallow drawer with an iron ring pull and a low rail along the back. On it lie sheets of written parchment, a half unrolled scroll, a closed book, a dark glass inkwell with a quill leaning in it and a tallow candle in an iron dish.",
+      "category": "furniture",
+      "family": "desk",
+      "tags": ["castle", "house", "paper", "study", "wood", "work", "worn"],
+      "aliases": [
+        "bureau",
+        "scribe's desk",
+        "scriptorium desk",
+        "secretary",
+        "study desk",
+        "writing table"
+      ],
+      "variants": ["desk_writing"],
+      "size": { "x": 1.2, "y": 0.6, "z": 0.95 },
+      "anchors": ["fire:candle", "light:candle"],
+      "closed": true,
+      "source": "handwritten",
+      "licence": "CC0-1.0",
+      "inputHash": "8fd65a76b289397e8a9e24ce76dce0a31236192555bfc6228c3ae3cdea8563bd"
     },
     {
       "id": "door_iron_bound",
@@ -1907,6 +1984,38 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "2723e33a7bd6d41156e85da1ecba2f83cc748baf5d06a0ec36bfdad631b4f2e5"
+    },
+    {
+      "id": "scroll_rack",
+      "name": "Scroll rack",
+      "description": "A scribe's wooden pigeonhole rack for a wall, about 0.9 × 0.3 × 1.2 m: a plank case on a low plinth divided into five by five square cells, most holding rolled parchment scrolls with their ends to the front, some tied with cords or sealed, a few cells empty and one holding a leather scroll case.",
+      "category": "furniture",
+      "family": "rack",
+      "tags": [
+        "castle",
+        "paper",
+        "storage",
+        "study",
+        "tall",
+        "temple",
+        "wood",
+        "worn"
+      ],
+      "aliases": [
+        "archive",
+        "pigeonhole rack",
+        "pigeonholes",
+        "scriptorium shelf",
+        "scroll case",
+        "scroll shelf"
+      ],
+      "variants": ["scroll_rack"],
+      "size": { "x": 0.95, "y": 0.35, "z": 1.2 },
+      "anchors": [],
+      "closed": true,
+      "source": "handwritten",
+      "licence": "CC0-1.0",
+      "inputHash": "42f0bfe28dd40ed6c434ee52c9f2e68f86d252ae8210d615fc2dd05d21f0b062"
     },
     {
       "id": "shelf_wood",
