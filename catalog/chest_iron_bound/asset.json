@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "id": "chest_iron_bound",
+  "name": "Iron-bound chest",
+  "description": "A heavy closed chest of dark stained planks, about 1 m wide, 0.7 m deep and 0.7 m high, with a low domed lid, wrapped in iron: an iron-shod plinth, hoops round the body, corner plates, studded straps over the lid, side ring handles and a round rusty lock plate on the front bearing a raised sigil, a ring round a five-pointed star, under a hasp.",
+  "category": "container",
+  "family": "chest",
+  "tags": [
+    "wood",
+    "iron",
+    "crypt",
+    "dungeon",
+    "storage",
+    "boxy",
+    "ornate",
+    "worn"
+  ],
+  "aliases": [
+    "treasure chest",
+    "strongbox",
+    "coffer",
+    "locked chest",
+    "cult chest"
+  ],
+  "variants": ["chest_iron_bound"],
+  "size": { "x": 1.05, "y": 0.75, "z": 0.7 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A heavy dark chest wrapped in iron with a sigil lock plate, about 1 x 0.7 x 0.7 m, closed, front on -y."
+  },
+  "licence": "CC0-1.0"
+}

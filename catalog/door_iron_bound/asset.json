@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "door_iron_bound",
+  "name": "Iron-bound door",
+  "description": "A heavy closed door of dark oak planks, 1.0 m wide and 2.0 m high, crossed by three studded iron bands that end in strap hinges on the left, with a ring pull and a rusty lock plate on the front, set in a frame of cool dark dressed stone with a deep lintel and a worn threshold, 1.5 m wide, 0.3 m deep and 2.4 m high.",
+  "category": "door",
+  "family": "door",
+  "tags": ["wood", "iron", "stone", "crypt", "dungeon", "tall", "worn"],
+  "aliases": [
+    "iron door",
+    "crypt door",
+    "dungeon door",
+    "studded door",
+    "strong door"
+  ],
+  "variants": ["door_iron_bound"],
+  "size": { "x": 1.5, "y": 0.3, "z": 2.4 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A heavy plank door strapped with iron bands and studs in a stone frame, within about 1.5 x 0.3 x 2.4 m on the ground, closed, front on -y, in the crypt wall kit's dark stone."
+  },
+  "licence": "CC0-1.0"
+}

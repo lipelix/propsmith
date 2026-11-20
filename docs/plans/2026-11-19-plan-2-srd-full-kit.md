@@ -1,6 +1,6 @@
 # Plan 2: every prop srd-iso-rpg needs
 
-**Status:** planned 2026-11-19; worked by the HQ runner on the Asus laptop (Linux, Blender 5.2.2), one kit per session. Items 1 (crypt wall kit), 2 (rock mass and niches), 3 (fire and light), 4 (stairs), 5 (rubble and pillars) and 6 (ritual hall) done 2026-11-20.
+**Status:** planned 2026-11-19; worked by the HQ runner on the Asus laptop (Linux, Blender 5.2.2), one kit per session. Items 1 (crypt wall kit), 2 (rock mass and niches), 3 (fire and light), 4 (stairs), 5 (rubble and pillars), 6 (ritual hall) and 7 (iron door and chest) done 2026-11-20.
 
 ## Goal
 
