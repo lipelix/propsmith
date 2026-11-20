@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "id": "crypt_entrance_stone",
+  "name": "Barrow crypt entrance",
+  "description": "A grassy hillside barrow mouth about 3 × 3 m and 2.5 m high: a turf mound with a passage cut into its front, lined with dry-stone walls, framed by two weathered standing stones under a heavy lintel, with worn stone steps that thin and darken as they go down into the black mouth. Two more old standing stones lean at the foot of the mound.",
+  "category": "structure",
+  "family": "barrow",
+  "tags": [
+    "stone",
+    "crypt",
+    "dungeon",
+    "forest",
+    "large",
+    "mossy",
+    "weathered"
+  ],
+  "aliases": [
+    "crypt entrance",
+    "tomb entrance",
+    "burial mound",
+    "tumulus",
+    "dungeon entrance",
+    "cairn",
+    "grave mound"
+  ],
+  "variants": ["crypt_entrance_stone"],
+  "size": { "x": 3.0, "y": 3.0, "z": 2.45 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A grassy hillside barrow mouth framed by old standing stones and a lintel, worn stone steps going down into it, about 3 × 3 × 2.5 m, front on -y."
+  },
+  "licence": "CC0-1.0"
+}
