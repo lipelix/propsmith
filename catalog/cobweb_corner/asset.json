@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "cobweb_corner",
+  "name": "Corner cobweb",
+  "description": "A dusty grey orb web about 1 m across strung on a diagonal across a corner between two short stubs of dark crypt ashlar, about 1 m high, that meet in an L at the back: radial threads to the stubs and the floor, a loose spiral, a sagging top thread, a few broken drooping strands and clots of dust.",
+  "category": "decor",
+  "family": "cobweb",
+  "tags": ["crypt", "dungeon", "stone", "small", "weathered", "worn"],
+  "aliases": ["spider web", "web", "cobwebs", "spiderweb"],
+  "variants": ["cobweb_corner"],
+  "size": { "x": 1.0, "y": 1.0, "z": 1.0 },
+  "anchors": [],
+  "closed": false,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A dusty web strung across a corner between two short stone stubs, about 1 x 1 x 1 m."
+  },
+  "licence": "CC0-1.0"
+}

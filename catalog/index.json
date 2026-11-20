@@ -135,6 +135,29 @@
       "inputHash": "6ac9afbee10d0d43d50388ae97a1992b2cc2974e9d6e324fe1b927197dbbcc18"
     },
     {
+      "id": "bedroll_cloth",
+      "name": "Bedroll with pack",
+      "description": "A worn bedroll laid out on the floor, about 2 m long and 0.8 m wide: a padded canvas mat with a patch, a rolled grey-green cloak tied as a pillow at the head, a rumpled dull red striped wool blanket thrown over the rest with its top folded back, and a leather pack with a buckled flap and a bundle on top standing beside the head.",
+      "category": "furniture",
+      "family": "bedroll",
+      "tags": ["cloth", "dungeon", "long", "low", "worn"],
+      "aliases": [
+        "backpack",
+        "bed roll",
+        "blanket",
+        "camp bed",
+        "pallet",
+        "sleeping mat"
+      ],
+      "variants": ["bedroll_cloth"],
+      "size": { "x": 2, "y": 0.8, "z": 0.5 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "c9ce82480f15299f5f4837fca460b41f73bc29c76e622129f82d692376d9cc1a"
+    },
+    {
       "id": "beehive_skep",
       "name": "Straw beehive skep",
       "description": "A traditional beehive skep about 0.5 m wide and 0.55 m high: a dome of coiled golden straw rope with a small dark entrance at the base, sitting on a round wooden board on a short stake stand.",
@@ -496,6 +519,22 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "b3e3adf0dd9e14c4a1ce2f65c59ce8c426eae54b8309477eb0f595580285c1a2"
+    },
+    {
+      "id": "cobweb_corner",
+      "name": "Corner cobweb",
+      "description": "A dusty grey orb web about 1 m across strung on a diagonal across a corner between two short stubs of dark crypt ashlar, about 1 m high, that meet in an L at the back: radial threads to the stubs and the floor, a loose spiral, a sagging top thread, a few broken drooping strands and clots of dust.",
+      "category": "decor",
+      "family": "cobweb",
+      "tags": ["crypt", "dungeon", "small", "stone", "weathered", "worn"],
+      "aliases": ["cobwebs", "spider web", "spiderweb", "web"],
+      "variants": ["cobweb_corner"],
+      "size": { "x": 1, "y": 1, "z": 1 },
+      "anchors": [],
+      "closed": false,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "3e522d4395e5b9c8a5cd4d389bebbf6b5da1ffcd5af2d7a43a2faa7113908865"
     },
     {
       "id": "coffin_wood",
@@ -1143,6 +1182,22 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "7e549e42b36c16aac4e318aee31bbd57c656b430caa37a4b4be09e51f8c22375"
+    },
+    {
+      "id": "puddle_water",
+      "name": "Water puddle",
+      "description": "A shallow puddle of dark, faintly green standing water about 1 m across and a few centimetres high: an irregular glossy pool of merged lobes inside a rim of wet darkened silt, with a few stones and grit at its margin.",
+      "category": "decor",
+      "family": "puddle",
+      "tags": ["crypt", "dungeon", "low", "round", "small", "water"],
+      "aliases": ["pool", "standing water", "water pool", "wet patch"],
+      "variants": ["puddle_water"],
+      "size": { "x": 0.9, "y": 0.8, "z": 0.05 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "7137583bc758e927496c0d32bb937a1f3a985d69afe30170667b9ddf619aa37d"
     },
     {
       "id": "ritual_circle_floor",

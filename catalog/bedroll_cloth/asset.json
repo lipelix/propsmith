@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "bedroll_cloth",
+  "name": "Bedroll with pack",
+  "description": "A worn bedroll laid out on the floor, about 2 m long and 0.8 m wide: a padded canvas mat with a patch, a rolled grey-green cloak tied as a pillow at the head, a rumpled dull red striped wool blanket thrown over the rest with its top folded back, and a leather pack with a buckled flap and a bundle on top standing beside the head.",
+  "category": "furniture",
+  "family": "bedroll",
+  "tags": ["cloth", "dungeon", "low", "long", "worn"],
+  "aliases": [
+    "bed roll",
+    "sleeping mat",
+    "camp bed",
+    "pallet",
+    "backpack",
+    "blanket"
+  ],
+  "variants": ["bedroll_cloth"],
+  "size": { "x": 2.0, "y": 0.8, "z": 0.5 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A rolled-out worn bedroll with a pack and a blanket, about 2 x 0.8 m."
+  },
+  "licence": "CC0-1.0"
+}

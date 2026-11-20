@@ -164,6 +164,36 @@
         }
       ]
     },
+    "bedroll_cloth": {
+      "inputHash": "c9ce82480f15299f5f4837fca460b41f73bc29c76e622129f82d692376d9cc1a",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "bedroll_cloth",
+          "tris": 4456,
+          "bbox": {
+            "min": [-1.0033, -0.3839, 0],
+            "max": [1.0031, 0.3829, 0.4985]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "bedroll_cloth_canvas", "source": "palette" },
+            { "name": "bedroll_cloth_canvas_old", "source": "palette" },
+            { "name": "bedroll_cloth_cloak", "source": "palette" },
+            { "name": "bedroll_cloth_cord", "source": "palette" },
+            { "name": "bedroll_cloth_iron", "source": "palette" },
+            { "name": "bedroll_cloth_leather", "source": "palette" },
+            { "name": "bedroll_cloth_strap", "source": "palette" },
+            { "name": "bedroll_cloth_wool", "source": "palette" },
+            { "name": "bedroll_cloth_wool_dark", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "beehive_skep": {
       "inputHash": "13d83bbc7c1f74571a51b1841c40b0c700456ad0676bd3ae05ce356734056253",
       "libVersion": 1,
@@ -651,6 +681,34 @@
             { "name": "chopping_block_iron", "source": "palette" },
             { "name": "chopping_block_ring", "source": "palette" },
             { "name": "chopping_block_split", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "cobweb_corner": {
+      "inputHash": "3e522d4395e5b9c8a5cd4d389bebbf6b5da1ffcd5af2d7a43a2faa7113908865",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "cobweb_corner",
+          "tris": 7132,
+          "bbox": {
+            "min": [-0.5028, -0.4749, -0.003],
+            "max": [0.4749, 0.5024, 0.994]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "cobweb_corner_damp", "source": "palette" },
+            { "name": "cobweb_corner_dust", "source": "palette" },
+            { "name": "cobweb_corner_mortar", "source": "palette" },
+            { "name": "cobweb_corner_silk", "source": "palette" },
+            { "name": "cobweb_corner_stone", "source": "palette" },
+            { "name": "cobweb_corner_stone_old", "source": "palette" },
+            { "name": "cobweb_corner_stone_pale", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
@@ -1602,6 +1660,32 @@
             { "name": "pine_tree_needles", "source": "palette" },
             { "name": "pine_tree_needles_lit", "source": "palette" },
             { "name": "pine_tree_root", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "puddle_water": {
+      "inputHash": "7137583bc758e927496c0d32bb937a1f3a985d69afe30170667b9ddf619aa37d",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "puddle_water",
+          "tris": 3160,
+          "bbox": {
+            "min": [-0.4269, -0.4224, -0.0051],
+            "max": [0.4503, 0.3712, 0.0439]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "puddle_water_silt", "source": "palette" },
+            { "name": "puddle_water_silt_dry", "source": "palette" },
+            { "name": "puddle_water_stone", "source": "palette" },
+            { "name": "puddle_water_stone_old", "source": "palette" },
+            { "name": "puddle_water_water", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
