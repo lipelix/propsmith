@@ -40,5 +40,4 @@ push to `main` (a PR that touches the pipeline runs it without the upload). The 
 
 ## Plan sessions
 
-One session takes one plan item on its own branch and PR. When CI is green, squash-merge, close the item with a handoff
-comment, and label the next item `ready`. Items marked "stop and show" wait for the owner.
+Squash-merge plan PRs. Items marked "stop and show" wait for the owner.
