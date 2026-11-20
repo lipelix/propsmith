@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "id": "scroll_rack",
+  "name": "Scroll rack",
+  "description": "A scribe's wooden pigeonhole rack for a wall, about 0.9 × 0.3 × 1.2 m: a plank case on a low plinth divided into five by five square cells, most holding rolled parchment scrolls with their ends to the front, some tied with cords or sealed, a few cells empty and one holding a leather scroll case.",
+  "category": "furniture",
+  "family": "rack",
+  "tags": [
+    "wood",
+    "paper",
+    "castle",
+    "temple",
+    "study",
+    "storage",
+    "tall",
+    "worn"
+  ],
+  "aliases": [
+    "pigeonhole rack",
+    "pigeonholes",
+    "scroll shelf",
+    "scroll case",
+    "archive",
+    "scriptorium shelf"
+  ],
+  "variants": ["scroll_rack"],
+  "size": { "x": 0.95, "y": 0.35, "z": 1.2 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "handwritten"
+  },
+  "licence": "CC0-1.0"
+}

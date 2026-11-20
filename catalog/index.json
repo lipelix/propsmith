@@ -941,6 +941,29 @@
       "inputHash": "de44372ec3978731ba84875ec3f449ad01c02da1be6217d5335de6253042c820"
     },
     {
+      "id": "desk_writing",
+      "name": "Writing desk",
+      "description": "A scholar's oak writing desk about 1.2 × 0.6 m with its top at 0.76 m: plank top, four legs with a stretcher frame, a shallow drawer with an iron ring pull and a low rail along the back. On it lie sheets of written parchment, a half unrolled scroll, a closed book, a dark glass inkwell with a quill leaning in it and a tallow candle in an iron dish.",
+      "category": "furniture",
+      "family": "desk",
+      "tags": ["castle", "house", "paper", "study", "wood", "work", "worn"],
+      "aliases": [
+        "bureau",
+        "scribe's desk",
+        "scriptorium desk",
+        "secretary",
+        "study desk",
+        "writing table"
+      ],
+      "variants": ["desk_writing"],
+      "size": { "x": 1.2, "y": 0.6, "z": 0.95 },
+      "anchors": ["fire:candle", "light:candle"],
+      "closed": true,
+      "source": "handwritten",
+      "licence": "CC0-1.0",
+      "inputHash": "8fd65a76b289397e8a9e24ce76dce0a31236192555bfc6228c3ae3cdea8563bd"
+    },
+    {
       "id": "door_iron_bound",
       "name": "Iron-bound door",
       "description": "A heavy closed door of dark oak planks, 1.0 m wide and 2.0 m high, crossed by three studded iron bands that end in strap hinges on the left, with a ring pull and a rusty lock plate on the front, set in a frame of cool dark dressed stone with a deep lintel and a worn threshold, 1.5 m wide, 0.3 m deep and 2.4 m high.",
@@ -1961,6 +1984,38 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "2723e33a7bd6d41156e85da1ecba2f83cc748baf5d06a0ec36bfdad631b4f2e5"
+    },
+    {
+      "id": "scroll_rack",
+      "name": "Scroll rack",
+      "description": "A scribe's wooden pigeonhole rack for a wall, about 0.9 × 0.3 × 1.2 m: a plank case on a low plinth divided into five by five square cells, most holding rolled parchment scrolls with their ends to the front, some tied with cords or sealed, a few cells empty and one holding a leather scroll case.",
+      "category": "furniture",
+      "family": "rack",
+      "tags": [
+        "castle",
+        "paper",
+        "storage",
+        "study",
+        "tall",
+        "temple",
+        "wood",
+        "worn"
+      ],
+      "aliases": [
+        "archive",
+        "pigeonhole rack",
+        "pigeonholes",
+        "scriptorium shelf",
+        "scroll case",
+        "scroll shelf"
+      ],
+      "variants": ["scroll_rack"],
+      "size": { "x": 0.95, "y": 0.35, "z": 1.2 },
+      "anchors": [],
+      "closed": true,
+      "source": "handwritten",
+      "licence": "CC0-1.0",
+      "inputHash": "42f0bfe28dd40ed6c434ee52c9f2e68f86d252ae8210d615fc2dd05d21f0b062"
     },
     {
       "id": "shelf_wood",
