@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "id": "gravestone_cross",
+  "name": "Stone grave cross",
+  "description": "A grey limestone Latin cross with flared ends and a ring round the crossing, set in a socket block on two dressed steps, settled a little out of true; a worn inscription panel on the socket and moss on the arms and the steps.",
+  "category": "decor",
+  "family": "gravestone",
+  "tags": [
+    "stone",
+    "graveyard",
+    "worship",
+    "tall",
+    "ornate",
+    "weathered",
+    "mossy"
+  ],
+  "aliases": [
+    "grave cross",
+    "stone cross",
+    "celtic cross",
+    "headstone",
+    "tombstone",
+    "cross monument"
+  ],
+  "variants": ["gravestone_cross"],
+  "size": { "x": 0.7, "y": 0.4, "z": 1.4 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "gravestone_cross: a stone cross on a stepped base, about 0.7 × 0.4 × 1.4 m (plan 3, item 7)."
+  },
+  "licence": "CC0-1.0"
+}
