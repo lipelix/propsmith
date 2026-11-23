@@ -1398,6 +1398,32 @@
         }
       ]
     },
+    "crystal_cluster": {
+      "inputHash": "c56219cb234a461cfb07ed6c3d864c5d0b6bea26d02b18979661bf7ba6388c35",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "crystal_cluster",
+          "tris": 4416,
+          "bbox": {
+            "min": [-0.5033, -0.5046, 0],
+            "max": [0.5687, 0.4289, 1.3836]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "crystal_cluster_blue", "source": "palette" },
+            { "name": "crystal_cluster_pale", "source": "palette" },
+            { "name": "crystal_cluster_rock", "source": "palette" },
+            { "name": "crystal_cluster_rock_dark", "source": "palette" },
+            { "name": "crystal_cluster_violet", "source": "palette" }
+          ],
+          "anchors": [{ "name": "light:crystal", "at": [0, 0, 0.75] }],
+          "textures": []
+        }
+      ]
+    },
     "desk_writing": {
       "inputHash": "8fd65a76b289397e8a9e24ce76dce0a31236192555bfc6228c3ae3cdea8563bd",
       "libVersion": 1,
@@ -2424,6 +2450,33 @@
         }
       ]
     },
+    "mushroom_giant": {
+      "inputHash": "bff714e90a6ebfb220402e9ec4616e5e27088f04067baf4e13a26d59a7f967cd",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "mushroom_giant",
+          "tris": 2592,
+          "bbox": {
+            "min": [-0.7692, -0.6998, 0],
+            "max": [0.7323, 0.7734, 2.13]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "mushroom_giant_cap", "source": "palette" },
+            { "name": "mushroom_giant_gills", "source": "palette" },
+            { "name": "mushroom_giant_soil", "source": "palette" },
+            { "name": "mushroom_giant_spot", "source": "palette" },
+            { "name": "mushroom_giant_stem", "source": "palette" },
+            { "name": "mushroom_giant_stem_dark", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "mushrooms_cluster": {
       "inputHash": "4619f69c08718498b87f31bdbc1be4bc2fc681bc002f12590d29eac831f98443",
       "libVersion": 1,
@@ -3372,6 +3425,38 @@
         }
       ]
     },
+    "skeleton_remains": {
+      "inputHash": "e8a556d161c79e2067226efd8af4de45d1a44ec2dbea6f0f72e0baf304fd7d1b",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "skeleton_remains",
+          "tris": 5132,
+          "bbox": {
+            "min": [-0.6296, -0.4454, 0],
+            "max": [0.6334, 0.4334, 0.6262]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "skeleton_remains_bone", "source": "palette" },
+            { "name": "skeleton_remains_bone_old", "source": "palette" },
+            { "name": "skeleton_remains_cloth", "source": "palette" },
+            { "name": "skeleton_remains_grip", "source": "palette" },
+            { "name": "skeleton_remains_hollow", "source": "palette" },
+            { "name": "skeleton_remains_leather", "source": "palette" },
+            { "name": "skeleton_remains_leather_dark", "source": "palette" },
+            { "name": "skeleton_remains_rock", "source": "palette" },
+            { "name": "skeleton_remains_rock_dark", "source": "palette" },
+            { "name": "skeleton_remains_rust", "source": "palette" },
+            { "name": "skeleton_remains_steel", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "stairs_stone": {
       "inputHash": "d30f55690b921ccedeb337c35906e895fff5d57525eda8ea01d0564f70073073",
       "libVersion": 1,
@@ -3419,6 +3504,31 @@
             { "name": "stairs_stone_stone_old", "source": "palette" },
             { "name": "stairs_stone_stone_pale", "source": "palette" },
             { "name": "stairs_stone_void", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "stalagmites": {
+      "inputHash": "24ec06be629675d18993b74609e738086fe5f355462af73794f3e8e3a6fb4aac",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "stalagmites",
+          "tris": 3356,
+          "bbox": {
+            "min": [-0.4935, -0.5399, 0],
+            "max": [0.5465, 0.5766, 1.5949]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "stalagmites_flowstone", "source": "palette" },
+            { "name": "stalagmites_limestone", "source": "palette" },
+            { "name": "stalagmites_limestone_wet", "source": "palette" },
+            { "name": "stalagmites_puddle", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
