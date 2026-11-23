@@ -327,6 +327,67 @@
         }
       ]
     },
+    "books_stack": {
+      "inputHash": "a9508ad40e7fb518509afdb83e33c813f81b73d6e8a885c04322854373c36c5c",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "books_stack",
+          "tris": 5028,
+          "bbox": {
+            "min": [-0.2199, -0.1857, -0.001],
+            "max": [0.2049, 0.1557, 0.3889]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "books_stack_brass", "source": "palette" },
+            { "name": "books_stack_cover_0", "source": "palette" },
+            { "name": "books_stack_cover_1", "source": "palette" },
+            { "name": "books_stack_cover_3", "source": "palette" },
+            { "name": "books_stack_cover_5", "source": "palette" },
+            { "name": "books_stack_ink", "source": "palette" },
+            { "name": "books_stack_page", "source": "palette" },
+            { "name": "books_stack_page_old", "source": "palette" },
+            { "name": "books_stack_ribbon", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "bookshelf_wood": {
+      "inputHash": "bf0173b4ca13db5fe8300c8a7b29498062d7312ebefee26acc49b5e7e137ea93",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "bookshelf_wood",
+          "tris": 7656,
+          "bbox": { "min": [-0.62, -0.21, 0], "max": [0.62, 0.19, 2] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "bookshelf_wood_cord", "source": "palette" },
+            { "name": "bookshelf_wood_cover_0", "source": "palette" },
+            { "name": "bookshelf_wood_cover_1", "source": "palette" },
+            { "name": "bookshelf_wood_cover_2", "source": "palette" },
+            { "name": "bookshelf_wood_cover_3", "source": "palette" },
+            { "name": "bookshelf_wood_cover_4", "source": "palette" },
+            { "name": "bookshelf_wood_cover_5", "source": "palette" },
+            { "name": "bookshelf_wood_cover_6", "source": "palette" },
+            { "name": "bookshelf_wood_gilt", "source": "palette" },
+            { "name": "bookshelf_wood_parchment", "source": "palette" },
+            { "name": "bookshelf_wood_top", "source": "palette" },
+            { "name": "bookshelf_wood_wood", "source": "palette" },
+            { "name": "bookshelf_wood_wood_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "boulders_shore": {
       "inputHash": "bf3929860928242b5ba4dd5ea8dc4753e13cf4987f71526d9d1266cb08e9da4c",
       "libVersion": 1,
@@ -1131,6 +1192,46 @@
             { "name": "crypt_gate_iron_stone_pale", "source": "palette" }
           ],
           "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "desk_writing": {
+      "inputHash": "8fd65a76b289397e8a9e24ce76dce0a31236192555bfc6228c3ae3cdea8563bd",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "desk_writing",
+          "tris": 4672,
+          "bbox": {
+            "min": [-0.6015, -0.2988, 0],
+            "max": [0.6006, 0.2995, 0.9439]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "desk_writing_feather", "source": "palette" },
+            { "name": "desk_writing_glass", "source": "palette" },
+            { "name": "desk_writing_ink", "source": "palette" },
+            { "name": "desk_writing_iron", "source": "palette" },
+            { "name": "desk_writing_leather", "source": "palette" },
+            { "name": "desk_writing_oak", "source": "palette" },
+            { "name": "desk_writing_oak_old", "source": "palette" },
+            { "name": "desk_writing_parchment", "source": "palette" },
+            { "name": "desk_writing_parchment_old", "source": "palette" },
+            { "name": "desk_writing_top", "source": "palette" },
+            { "name": "desk_writing_wax", "source": "palette" },
+            { "name": "desk_writing_wick", "source": "palette" }
+          ],
+          "anchors": [
+            {
+              "name": "fire:candle",
+              "at": [-0.44, 0.17, 0.89],
+              "size": [0.01, 0.01, 0.04]
+            },
+            { "name": "light:candle", "at": [-0.44, 0.17, 0.907] }
+          ],
           "textures": []
         }
       ]
@@ -2590,6 +2691,34 @@
             { "name": "sarcophagus_moss_deep", "source": "palette" },
             { "name": "sarcophagus_stone", "source": "palette" },
             { "name": "sarcophagus_stone_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "scroll_rack": {
+      "inputHash": "42f0bfe28dd40ed6c434ee52c9f2e68f86d252ae8210d615fc2dd05d21f0b062",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "scroll_rack",
+          "tris": 6916,
+          "bbox": { "min": [-0.465, -0.169, 0], "max": [0.465, 0.15, 1.2] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "scroll_rack_cord", "source": "palette" },
+            { "name": "scroll_rack_cord_green", "source": "palette" },
+            { "name": "scroll_rack_inside", "source": "palette" },
+            { "name": "scroll_rack_leather", "source": "palette" },
+            { "name": "scroll_rack_parchment_0", "source": "palette" },
+            { "name": "scroll_rack_parchment_1", "source": "palette" },
+            { "name": "scroll_rack_parchment_2", "source": "palette" },
+            { "name": "scroll_rack_seal", "source": "palette" },
+            { "name": "scroll_rack_wood", "source": "palette" },
+            { "name": "scroll_rack_wood_old", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
