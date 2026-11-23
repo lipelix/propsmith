@@ -1,6 +1,6 @@
 # Plan 3: the props people reach for most
 
-**Status:** planned 2026-11-20; worked by the HQ runner on the Linux laptop (Blender 5.2.2), one kit per session. Done: item 1 (treasure, #120), item 2 (library, #122).
+**Status:** planned 2026-11-20; worked by the HQ runner on the Linux laptop (Blender 5.2.2), one kit per session. Done: item 1 (treasure, #120), item 2 (library, #122), item 3 (alchemy).
 
 ## Goal
 
