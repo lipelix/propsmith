@@ -585,6 +585,28 @@
       "inputHash": "09dd2d5433c9f2662dbcb741f2d4993ccec795cb6de504d81dfc45ec1a51f29d"
     },
     {
+      "id": "carpet_runner",
+      "name": "Red carpet runner",
+      "description": "A long deep red wool runner about 1.2 × 4 m lying flat on the floor: a woven border of a gold band between dark indigo lines with a chain of small lozenges along it, a sparse lattice of dark diamonds in the field, a gold lozenge near either end and a short knotted fringe on both short ends.",
+      "category": "decor",
+      "family": "rug",
+      "tags": ["castle", "cloth", "long", "low", "ornate", "temple"],
+      "aliases": [
+        "aisle carpet",
+        "carpet",
+        "hall runner",
+        "red carpet",
+        "runner rug"
+      ],
+      "variants": ["carpet_runner"],
+      "size": { "x": 1.2, "y": 4, "z": 0.02 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "0ab2a1e4c67bb290aba36d937497f8970fc1ee6157aee9a24213d0fc2230dcc1"
+    },
+    {
       "id": "cart_hand",
       "name": "Handcart",
       "description": "A two-wheeled wooden handcart parked on its stand, loaded with two grain sacks.",

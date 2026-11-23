@@ -798,6 +798,29 @@
         }
       ]
     },
+    "carpet_runner": {
+      "inputHash": "0ab2a1e4c67bb290aba36d937497f8970fc1ee6157aee9a24213d0fc2230dcc1",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "carpet_runner",
+          "tris": 7404,
+          "bbox": { "min": [-0.6, -1.996, 0], "max": [0.6, 1.9961, 0.015] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "carpet_runner_fringe", "source": "palette" },
+            { "name": "carpet_runner_gold", "source": "palette" },
+            { "name": "carpet_runner_indigo", "source": "palette" },
+            { "name": "carpet_runner_red", "source": "palette" },
+            { "name": "carpet_runner_red_dark", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "cart_hand": {
       "inputHash": "67af58d600d578242e3faa1df4c5d955152fe3f001f5ad75ecc217c20278cc7b",
       "libVersion": 1,
