@@ -1766,6 +1766,47 @@
         }
       ]
     },
+    "forge_stone": {
+      "inputHash": "547448dae02adb2b887fb5bf0132e16c5e486da9a22bb427e62562688187ae33",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "forge_stone",
+          "tris": 7632,
+          "bbox": {
+            "min": [-0.915, -0.6461, -0.0015],
+            "max": [0.9057, 0.565, 2.2]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "forge_stone_board", "source": "palette" },
+            { "name": "forge_stone_coal", "source": "palette" },
+            { "name": "forge_stone_ember", "source": "palette" },
+            { "name": "forge_stone_flame", "source": "palette" },
+            { "name": "forge_stone_iron", "source": "palette" },
+            { "name": "forge_stone_leather", "source": "palette" },
+            { "name": "forge_stone_plaster", "source": "palette" },
+            { "name": "forge_stone_rust", "source": "palette" },
+            { "name": "forge_stone_soot", "source": "palette" },
+            { "name": "forge_stone_stone", "source": "palette" },
+            { "name": "forge_stone_stone_dark", "source": "palette" },
+            { "name": "forge_stone_wood", "source": "palette" },
+            { "name": "forge_stone_wood_old", "source": "palette" }
+          ],
+          "anchors": [
+            {
+              "name": "fire:hearth",
+              "at": [-0.29, -0.06, 0.76],
+              "size": [0.27, 0.24, 0.5]
+            },
+            { "name": "light:fire", "at": [-0.29, -0.06, 0.97] }
+          ],
+          "textures": []
+        }
+      ]
+    },
     "fountain_stone": {
       "inputHash": "a7fecf74619c8b09ccf64610972c5966521bcd0d679e0bd38042159bfbc8a6b8",
       "libVersion": 1,
@@ -2047,6 +2088,36 @@
             { "name": "gravestone_round_moss", "source": "palette" },
             { "name": "gravestone_round_sod", "source": "palette" },
             { "name": "gravestone_round_stone", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "grindstone_wheel": {
+      "inputHash": "8044765e304813d6df928a7ead96516d5dada6efbb010749f7a929b4fdf3387e",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "grindstone_wheel",
+          "tris": 4368,
+          "bbox": {
+            "min": [-0.4801, -0.33, 0.0011],
+            "max": [0.4801, 0.2497, 0.932]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "grindstone_wheel_grip", "source": "palette" },
+            { "name": "grindstone_wheel_iron", "source": "palette" },
+            { "name": "grindstone_wheel_rust", "source": "palette" },
+            { "name": "grindstone_wheel_stone", "source": "palette" },
+            { "name": "grindstone_wheel_stone_worn", "source": "palette" },
+            { "name": "grindstone_wheel_water", "source": "palette" },
+            { "name": "grindstone_wheel_wood", "source": "palette" },
+            { "name": "grindstone_wheel_wood_old", "source": "palette" },
+            { "name": "grindstone_wheel_wood_wet", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
@@ -2382,6 +2453,33 @@
             { "name": "log_fallen_ring", "source": "palette" },
             { "name": "log_fallen_rot", "source": "palette" },
             { "name": "log_fallen_wood", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "loom_wood": {
+      "inputHash": "4919a6461d93564b7b3d751df51b4535bcfaf32c174c5db2eb8e3b02e663e921",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "loom_wood",
+          "tris": 5188,
+          "bbox": { "min": [-0.7, -0.29, 0], "max": [0.7, 0.29, 1.78] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "loom_wood_clay", "source": "palette" },
+            { "name": "loom_wood_clay_dark", "source": "palette" },
+            { "name": "loom_wood_cloth", "source": "palette" },
+            { "name": "loom_wood_cloth_blue", "source": "palette" },
+            { "name": "loom_wood_cloth_red", "source": "palette" },
+            { "name": "loom_wood_polished", "source": "palette" },
+            { "name": "loom_wood_warp", "source": "palette" },
+            { "name": "loom_wood_wood", "source": "palette" },
+            { "name": "loom_wood_wood_old", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
@@ -3520,6 +3618,35 @@
             { "name": "skeleton_remains_rock_dark", "source": "palette" },
             { "name": "skeleton_remains_rust", "source": "palette" },
             { "name": "skeleton_remains_steel", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "spinning_wheel": {
+      "inputHash": "6c119fc306d42c00f4ecad8f9beb2a8dcf4391b7d98df6a2a4f8f1a8fb020dcc",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "spinning_wheel",
+          "tris": 5264,
+          "bbox": {
+            "min": [-0.4877, -0.2174, 0.0014],
+            "max": [0.4864, 0.2174, 1.092]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "spinning_wheel_band", "source": "palette" },
+            { "name": "spinning_wheel_bench", "source": "palette" },
+            { "name": "spinning_wheel_iron", "source": "palette" },
+            { "name": "spinning_wheel_ribbon", "source": "palette" },
+            { "name": "spinning_wheel_wood", "source": "palette" },
+            { "name": "spinning_wheel_wood_dark", "source": "palette" },
+            { "name": "spinning_wheel_wool", "source": "palette" },
+            { "name": "spinning_wheel_yarn", "source": "palette" }
           ],
           "anchors": [],
           "textures": []

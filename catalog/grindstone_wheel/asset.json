@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "grindstone_wheel",
+  "name": "Grindstone wheel",
+  "description": "A thick sandstone wheel about 0.65 m across on an iron axle, turning in a timber frame of two rails on four splayed legs, with an iron crank and a wooden grip at the front and the bottom of the wheel dipping into a plank trough of water.",
+  "category": "decor",
+  "family": "grindstone",
+  "tags": ["stone", "wood", "iron", "village", "work", "round", "worn"],
+  "aliases": [
+    "sharpening wheel",
+    "whetstone wheel",
+    "grinding wheel",
+    "knife grinder"
+  ],
+  "variants": ["grindstone_wheel"],
+  "size": { "x": 1.0, "y": 0.6, "z": 0.95 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A sandstone wheel in a timber frame with a crank and a water trough, about 1 × 0.5 × 1 m."
+  },
+  "licence": "CC0-1.0"
+}

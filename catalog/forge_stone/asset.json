@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "forge_stone",
+  "name": "Blacksmith's stone forge",
+  "description": "A waist-high hearth of coursed fieldstone with a bed of glowing coals in a blackened rim, a tapering plastered hood on a timber lintel rising into a short stone chimney about 2.2 m high, and a pair of leather bellows on a timber stand at its side blowing through an iron pipe into the fire; tongs hang from the lintel and a poker lies in the coals.",
+  "category": "furniture",
+  "family": "forge",
+  "tags": ["stone", "wood", "iron", "village", "work", "large", "worn"],
+  "aliases": ["smithy", "blacksmith", "smithy hearth", "bellows", "smelter"],
+  "variants": ["forge_stone"],
+  "size": { "x": 1.85, "y": 1.25, "z": 2.25 },
+  "anchors": ["fire:hearth", "light:fire"],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A blacksmith's stone forge with a hood, glowing coals and a bellows at the side, about 1.8 × 1.2 × 2.2 m; anchors fire:hearth and light:fire."
+  },
+  "licence": "CC0-1.0"
+}

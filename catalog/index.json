@@ -1420,6 +1420,28 @@
       "inputHash": "8ae3d8665dced07873aa2f87da540a4378c0e1820bc11ab02a76d5a9d96140a5"
     },
     {
+      "id": "forge_stone",
+      "name": "Blacksmith's stone forge",
+      "description": "A waist-high hearth of coursed fieldstone with a bed of glowing coals in a blackened rim, a tapering plastered hood on a timber lintel rising into a short stone chimney about 2.2 m high, and a pair of leather bellows on a timber stand at its side blowing through an iron pipe into the fire; tongs hang from the lintel and a poker lies in the coals.",
+      "category": "furniture",
+      "family": "forge",
+      "tags": ["iron", "large", "stone", "village", "wood", "work", "worn"],
+      "aliases": [
+        "bellows",
+        "blacksmith",
+        "smelter",
+        "smithy",
+        "smithy hearth"
+      ],
+      "variants": ["forge_stone"],
+      "size": { "x": 1.85, "y": 1.25, "z": 2.25 },
+      "anchors": ["fire:hearth", "light:fire"],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "547448dae02adb2b887fb5bf0132e16c5e486da9a22bb427e62562688187ae33"
+    },
+    {
       "id": "fountain_stone",
       "name": "Stone fountain",
       "description": "An octagonal dressed-stone basin about 2.6 m across with a 0.6 m rim around still water, and a central stone pillar carrying a smaller upper bowl at about 1.6 m. Weathered grey-brown stone with a little moss at the base.",
@@ -1650,6 +1672,27 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "6c46a14491dae364e4049cec6e344a378bb6aff19bedbb896a4cbebdc7266152"
+    },
+    {
+      "id": "grindstone_wheel",
+      "name": "Grindstone wheel",
+      "description": "A thick sandstone wheel about 0.65 m across on an iron axle, turning in a timber frame of two rails on four splayed legs, with an iron crank and a wooden grip at the front and the bottom of the wheel dipping into a plank trough of water.",
+      "category": "decor",
+      "family": "grindstone",
+      "tags": ["iron", "round", "stone", "village", "wood", "work", "worn"],
+      "aliases": [
+        "grinding wheel",
+        "knife grinder",
+        "sharpening wheel",
+        "whetstone wheel"
+      ],
+      "variants": ["grindstone_wheel"],
+      "size": { "x": 1, "y": 0.6, "z": 0.95 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "8044765e304813d6df928a7ead96516d5dada6efbb010749f7a929b4fdf3387e"
     },
     {
       "id": "hay_bale",
@@ -1890,6 +1933,36 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "a20892c9b32d29b73511a198895582f6a18608bc57e3ca927d55b60d07f64339"
+    },
+    {
+      "id": "loom_wood",
+      "name": "Upright weaving loom",
+      "description": "A warp-weighted loom about 1.8 m high: two timber uprights on braced foot beams carrying a cloth beam with a half-woven, blue- and red-banded woollen cloth hanging from it, and below it the warp threads in two layers, the back one over a shed rod, each bundle tied to a hanging clay weight.",
+      "category": "furniture",
+      "family": "loom",
+      "tags": [
+        "clay",
+        "cloth",
+        "house",
+        "tall",
+        "village",
+        "wood",
+        "work",
+        "worn"
+      ],
+      "aliases": [
+        "warp-weighted loom",
+        "weaver's loom",
+        "weaving frame",
+        "weaving loom"
+      ],
+      "variants": ["loom_wood"],
+      "size": { "x": 1.4, "y": 0.6, "z": 1.8 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "4919a6461d93564b7b3d751df51b4535bcfaf32c174c5db2eb8e3b02e663e921"
     },
     {
       "id": "market_stall",
@@ -2752,6 +2825,22 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "e8a556d161c79e2067226efd8af4de45d1a44ec2dbea6f0f72e0baf304fd7d1b"
+    },
+    {
+      "id": "spinning_wheel",
+      "name": "Spinning wheel",
+      "description": "A Saxony spinning wheel about 1.1 m high: a plank bench at stool height on three splayed legs, a spoked wheel between two turned uprights driven by a treadle and footman rod, a drive band to the flyer and a bobbin of yarn between two maidens, and a distaff dressed with a cone of raw wool tied with a red ribbon.",
+      "category": "furniture",
+      "family": "spinning_wheel",
+      "tags": ["cloth", "house", "round", "village", "wood", "work", "worn"],
+      "aliases": ["distaff", "flax wheel", "saxony wheel", "wool wheel"],
+      "variants": ["spinning_wheel"],
+      "size": { "x": 1, "y": 0.45, "z": 1.1 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "6c119fc306d42c00f4ecad8f9beb2a8dcf4391b7d98df6a2a4f8f1a8fb020dcc"
     },
     {
       "id": "stairs_stone",
