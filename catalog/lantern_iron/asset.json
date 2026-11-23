@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "lantern_iron",
+  "name": "Iron hand lantern",
+  "description": "A black iron hand lantern standing on the ground, about 0.2 m wide and 0.4 m high: warm translucent horn panes between four corner posts, a candle stub inside, a pyramid hood with a vent cap and a carrying ring on top.",
+  "category": "light",
+  "family": "lantern",
+  "tags": ["iron", "camp", "road", "lighting", "small", "worn"],
+  "aliases": ["hand lantern", "horn lantern", "candle lantern", "lamp"],
+  "variants": ["lantern_iron"],
+  "size": { "x": 0.2, "y": 0.2, "z": 0.4 },
+  "anchors": ["light:lantern"],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A hand lantern of iron and horn panes standing on the ground, about 0.2 × 0.2 × 0.4 m; anchor light:lantern."
+  },
+  "licence": "CC0-1.0"
+}

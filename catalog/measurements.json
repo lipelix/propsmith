@@ -1212,6 +1212,48 @@
         }
       ]
     },
+    "cooking_spit": {
+      "inputHash": "249fb54304a53971bec163564b0b33dcb5e1cdcba897677712b72726d0cd9b24",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "cooking_spit",
+          "tris": 6312,
+          "bbox": {
+            "min": [-0.56, -0.2619, -0.004],
+            "max": [0.59, 0.2437, 0.9645]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "cooking_spit_ash", "source": "palette" },
+            { "name": "cooking_spit_char", "source": "palette" },
+            { "name": "cooking_spit_ember", "source": "palette" },
+            { "name": "cooking_spit_flame", "source": "palette" },
+            { "name": "cooking_spit_iron", "source": "palette" },
+            { "name": "cooking_spit_log", "source": "palette" },
+            { "name": "cooking_spit_roast", "source": "palette" },
+            { "name": "cooking_spit_rust", "source": "palette" },
+            { "name": "cooking_spit_soot", "source": "palette" },
+            { "name": "cooking_spit_stew", "source": "palette" },
+            { "name": "cooking_spit_stone", "source": "palette" },
+            { "name": "cooking_spit_twine", "source": "palette" },
+            { "name": "cooking_spit_wood", "source": "palette" },
+            { "name": "cooking_spit_wood_cut", "source": "palette" }
+          ],
+          "anchors": [
+            {
+              "name": "fire:camp",
+              "at": [0, 0, 0.05],
+              "size": [0.15, 0.15, 0.28]
+            },
+            { "name": "light:fire", "at": [0, 0, 0.18] }
+          ],
+          "textures": []
+        }
+      ]
+    },
     "counter_wood": {
       "inputHash": "92b4523dbdb021902d74c7d3ba646881846cebde7df4c1e83975ffa9f27540e9",
       "libVersion": 1,
@@ -2213,6 +2255,33 @@
             },
             { "name": "light:lantern", "at": [0.5, 0, 1.976] }
           ],
+          "textures": []
+        }
+      ]
+    },
+    "lantern_iron": {
+      "inputHash": "af19a0fbaacb928e1fc41ae2f3791ad83cb961be2355da658e8deaa33d2243f8",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "lantern_iron",
+          "tris": 3864,
+          "bbox": {
+            "min": [-0.0811, -0.084, 0],
+            "max": [0.0811, 0.0811, 0.397]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "lantern_iron_flame", "source": "palette" },
+            { "name": "lantern_iron_horn", "source": "palette" },
+            { "name": "lantern_iron_horn_dark", "source": "palette" },
+            { "name": "lantern_iron_iron", "source": "palette" },
+            { "name": "lantern_iron_rust", "source": "palette" },
+            { "name": "lantern_iron_wax", "source": "palette" }
+          ],
+          "anchors": [{ "name": "light:lantern", "at": [0, 0, 0.139] }],
           "textures": []
         }
       ]

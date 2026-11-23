@@ -988,6 +988,28 @@
       "inputHash": "1eb256ff9744e91e5f0f330aeadf9569ee06f19325b4c339b51b373317ed095a"
     },
     {
+      "id": "cooking_spit",
+      "name": "Camp cooking spit",
+      "description": "Two forked wooden stakes about 1 m high holding an iron spit with a crank and a trussed roasting bird, a sooty iron pot of stew hanging from its middle over a small fire of sticks and embers in a ring of blackened stones.",
+      "category": "light",
+      "family": "spit",
+      "tags": ["camp", "cooking", "forest", "iron", "stone", "wood", "worn"],
+      "aliases": [
+        "camp spit",
+        "cooking fire",
+        "hanging pot",
+        "roasting spit",
+        "spit roast"
+      ],
+      "variants": ["cooking_spit"],
+      "size": { "x": 1.15, "y": 0.55, "z": 1 },
+      "anchors": ["fire:camp", "light:fire"],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "249fb54304a53971bec163564b0b33dcb5e1cdcba897677712b72726d0cd9b24"
+    },
+    {
       "id": "counter_wood",
       "name": "Wooden shop counter",
       "description": "A village shop's closed wooden sales counter, about 2.6 m long, 0.7 m deep and nearly 1 m high: vertical front planks over a darker plinth board, a thick overhanging oak top, and a small iron balance scale and a little stack of coins on it.",
@@ -1778,6 +1800,22 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "724af666bc17f5306268743e9b517fbaebd3f0561b9fb686983312f4f29a0d66"
+    },
+    {
+      "id": "lantern_iron",
+      "name": "Iron hand lantern",
+      "description": "A black iron hand lantern standing on the ground, about 0.2 m wide and 0.4 m high: warm translucent horn panes between four corner posts, a candle stub inside, a pyramid hood with a vent cap and a carrying ring on top.",
+      "category": "light",
+      "family": "lantern",
+      "tags": ["camp", "iron", "lighting", "road", "small", "worn"],
+      "aliases": ["candle lantern", "hand lantern", "horn lantern", "lamp"],
+      "variants": ["lantern_iron"],
+      "size": { "x": 0.2, "y": 0.2, "z": 0.4 },
+      "anchors": ["light:lantern"],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "af19a0fbaacb928e1fc41ae2f3791ad83cb961be2355da658e8deaa33d2243f8"
     },
     {
       "id": "leaves_fallen",
