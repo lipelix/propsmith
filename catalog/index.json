@@ -2947,6 +2947,30 @@
       "inputHash": "92b6ba3695af320c9910a88c806a2b206b241ab626bba692e7afa837f5c6f5f3"
     },
     {
+      "id": "tent_canvas",
+      "name": "Patched canvas ridge tent",
+      "description": "A ridge tent of weathered, patched canvas about 2.5 m long and 1.7 m high on a ridge pole and two uprights, pegged down at the hems; at the front one door flap hangs shut and the other is rolled back and tied open, showing a bedroll with a blanket inside.",
+      "category": "structure",
+      "family": "tent",
+      "tags": [
+        "camp",
+        "cloth",
+        "forest",
+        "roofed",
+        "rope",
+        "weathered",
+        "wood"
+      ],
+      "aliases": ["bivouac", "camp tent", "pup tent", "ridge tent", "shelter"],
+      "variants": ["tent_canvas"],
+      "size": { "x": 2.5, "y": 2, "z": 1.7 },
+      "anchors": [],
+      "closed": false,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "b730f3a94faaee8255a26e404261c69807b4a0b4236235a7ed5cb2846091c714"
+    },
+    {
       "id": "thicket_bramble",
       "name": "Bramble thicket",
       "description": "A dense, impassable mass of brambles and undergrowth about 1.5 × 1.5 m and 1.6 m high: dark bramble leaves over a near-black tangle, purple-red thorny canes arching out and drooping back, a few dead grey canes, clusters of ripe and unripe blackberries and a scatter of pale blossoms. Its ends match and its lumps repeat every 1.5 m, so thickets set side by side along x read as one continuous hedge.",
