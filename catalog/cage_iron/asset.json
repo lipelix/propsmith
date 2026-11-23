@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "cage_iron",
+  "name": "Iron cage",
+  "description": "A riveted iron cage a person could crouch in, 1.1 m square and 1.45 m high to its roof: flat iron bands round four corner posts, round bars on every side, a barred roof with a hanging ring, a floor of iron slats on short feet and a barred front door standing ajar on strap hinges, an open padlock hanging from its staple.",
+  "category": "container",
+  "family": "cage",
+  "tags": ["iron", "dungeon", "castle", "punishment", "boxy", "weathered"],
+  "aliases": [
+    "prison cage",
+    "prisoner cage",
+    "iron cell",
+    "animal cage",
+    "crow cage"
+  ],
+  "variants": ["cage_iron"],
+  "size": { "x": 1.15, "y": 1.35, "z": 1.6 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A riveted iron cage a person could crouch in, door ajar, about 1.2 × 1.2 × 1.6 m."
+  },
+  "licence": "CC0-1.0"
+}

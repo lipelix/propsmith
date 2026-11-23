@@ -676,6 +676,27 @@
         }
       ]
     },
+    "cage_iron": {
+      "inputHash": "6cbdae87465de4efd871592059cb594de88002f4fe5a439d77e2b49f3ac13d94",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "cage_iron",
+          "tris": 7288,
+          "bbox": { "min": [-0.563, -0.6564, 0], "max": [0.56, 0.6572, 1.599] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "cage_iron_iron", "source": "palette" },
+            { "name": "cage_iron_iron_worn", "source": "palette" },
+            { "name": "cage_iron_rust", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "campfire_ring": {
       "inputHash": "8763980b1e36c6ac0ce78872263b835687e8425a44ec2167fdc9db1150a15c2c",
       "libVersion": 1,
@@ -2562,6 +2583,52 @@
         }
       ]
     },
+    "prison_bars_door": {
+      "inputHash": "a996555a0ba269aab0b021eb8f037fd998f111fa8ebcd559fe97cbefe09574fd",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "prison_bars_door",
+          "tris": 7120,
+          "bbox": { "min": [-0.748, -0.2, 0], "max": [0.748, 0.2, 2.4] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "prison_bars_door_iron", "source": "palette" },
+            { "name": "prison_bars_door_iron_worn", "source": "palette" },
+            { "name": "prison_bars_door_rust", "source": "palette" },
+            { "name": "prison_bars_door_stone", "source": "palette" },
+            { "name": "prison_bars_door_stone_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "prison_bars_section": {
+      "inputHash": "e2b548440179a9818a2745f2bdf27da6c715f8ea3e7b9fe2962e638054ec8fe4",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "prison_bars_section",
+          "tris": 6088,
+          "bbox": { "min": [-0.748, -0.2013, 0], "max": [0.748, 0.2013, 2.4] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "prison_bars_section_iron", "source": "palette" },
+            { "name": "prison_bars_section_iron_worn", "source": "palette" },
+            { "name": "prison_bars_section_rust", "source": "palette" },
+            { "name": "prison_bars_section_stone", "source": "palette" },
+            { "name": "prison_bars_section_stone_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "puddle_water": {
       "inputHash": "7137583bc758e927496c0d32bb937a1f3a985d69afe30170667b9ddf619aa37d",
       "libVersion": 1,
@@ -2929,6 +2996,27 @@
             { "name": "scroll_rack_seal", "source": "palette" },
             { "name": "scroll_rack_wood", "source": "palette" },
             { "name": "scroll_rack_wood_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "shackles_wall": {
+      "inputHash": "2d1c70e620caa78e9dba008f41309857ac79c2629d8612a49176b2afe2e0efe5",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "shackles_wall",
+          "tris": 6076,
+          "bbox": { "min": [-0.367, -0.0771, 0], "max": [0.409, 0.07, 0.9681] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "shackles_wall_iron", "source": "palette" },
+            { "name": "shackles_wall_iron_worn", "source": "palette" },
+            { "name": "shackles_wall_rust", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
