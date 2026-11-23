@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "id": "prison_bars_door",
+  "name": "Prison bars door section",
+  "description": "The door section of the prison bars, 1.5 m long and 2.4 m high: the same grey stone sill and lintel and round iron bars, with two square posts carrying a barred cell door on three strap hinges, a rusted box lock plate with a keyhole and a ring pull, and a barred transom above it. Joins side by side with the bar sections.",
+  "category": "door",
+  "family": "bars",
+  "tags": [
+    "iron",
+    "stone",
+    "dungeon",
+    "castle",
+    "boundary",
+    "punishment",
+    "tall",
+    "weathered"
+  ],
+  "aliases": [
+    "cell door",
+    "jail door",
+    "prison door",
+    "barred door",
+    "cell gate"
+  ],
+  "variants": ["prison_bars_door"],
+  "size": { "x": 1.5, "y": 0.4, "z": 2.4 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "The matching 1.5 m prison bars section with a barred door and lock plate, about 2.4 m high, joins side by side."
+  },
+  "licence": "CC0-1.0"
+}

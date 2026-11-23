@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "id": "prison_bars_section",
+  "name": "Prison bars section",
+  "description": "A 1.5 m section of a prison cell's front, 2.4 m high: ten round iron bars from a dressed grey stone sill up into a heavy stone lintel, held by flat iron rails and a riveted cross band, a few bars rusted. Sections join side by side, and with the matching barred door.",
+  "category": "structure",
+  "family": "bars",
+  "tags": [
+    "iron",
+    "stone",
+    "dungeon",
+    "castle",
+    "boundary",
+    "punishment",
+    "tall",
+    "weathered"
+  ],
+  "aliases": [
+    "prison bars",
+    "cell bars",
+    "jail bars",
+    "iron bars",
+    "cell front",
+    "grille"
+  ],
+  "variants": ["prison_bars_section"],
+  "size": { "x": 1.5, "y": 0.4, "z": 2.4 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A 1.5 m section of floor-to-lintel iron bars in a stone sill, about 2.4 m high, joins side by side."
+  },
+  "licence": "CC0-1.0"
+}

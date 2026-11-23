@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "shackles_wall",
+  "name": "Wall shackles",
+  "description": "Prison shackles for a wall: a riveted iron plate about 0.9 m up with two heavy rings on staples, one chain running down the wall and along the floor to a pair of manacles lying open on the ground, the other hanging to a pair of rusty cuffs just clear of the floor. The back is flat, to stand against a wall.",
+  "category": "decor",
+  "family": "shackles",
+  "tags": ["iron", "dungeon", "castle", "punishment", "small", "weathered"],
+  "aliases": ["manacles", "chains", "wall chains", "fetters", "irons"],
+  "variants": ["shackles_wall"],
+  "size": { "x": 0.8, "y": 0.15, "z": 1 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "An iron ring plate with two chains and manacles for a wall, about 0.8 × 0.15 × 1 m."
+  },
+  "licence": "CC0-1.0"
+}

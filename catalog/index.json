@@ -464,6 +464,28 @@
       "inputHash": "f54fefaaaa1defcc77e135ad5f14a85b7783046eb2d637ab0d1ceeeb6782c14c"
     },
     {
+      "id": "cage_iron",
+      "name": "Iron cage",
+      "description": "A riveted iron cage a person could crouch in, 1.1 m square and 1.45 m high to its roof: flat iron bands round four corner posts, round bars on every side, a barred roof with a hanging ring, a floor of iron slats on short feet and a barred front door standing ajar on strap hinges, an open padlock hanging from its staple.",
+      "category": "container",
+      "family": "cage",
+      "tags": ["boxy", "castle", "dungeon", "iron", "punishment", "weathered"],
+      "aliases": [
+        "animal cage",
+        "crow cage",
+        "iron cell",
+        "prison cage",
+        "prisoner cage"
+      ],
+      "variants": ["cage_iron"],
+      "size": { "x": 1.15, "y": 1.35, "z": 1.6 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "6cbdae87465de4efd871592059cb594de88002f4fe5a439d77e2b49f3ac13d94"
+    },
+    {
       "id": "campfire_ring",
       "name": "Camp fire in a stone ring",
       "description": "A camp fire about 1.2 m across: a ring of rough grey-brown stones, some blackened, round a bed of grey ash and glowing embers, two logs laid in a cross with three sticks leant together over them and low flames at the heart.",
@@ -1952,6 +1974,69 @@
       "inputHash": "f4cbebc8933145b98914a867e1e423c5f47eae3f15b79366614f41d8554cb1fa"
     },
     {
+      "id": "prison_bars_door",
+      "name": "Prison bars door section",
+      "description": "The door section of the prison bars, 1.5 m long and 2.4 m high: the same grey stone sill and lintel and round iron bars, with two square posts carrying a barred cell door on three strap hinges, a rusted box lock plate with a keyhole and a ring pull, and a barred transom above it. Joins side by side with the bar sections.",
+      "category": "door",
+      "family": "bars",
+      "tags": [
+        "boundary",
+        "castle",
+        "dungeon",
+        "iron",
+        "punishment",
+        "stone",
+        "tall",
+        "weathered"
+      ],
+      "aliases": [
+        "barred door",
+        "cell door",
+        "cell gate",
+        "jail door",
+        "prison door"
+      ],
+      "variants": ["prison_bars_door"],
+      "size": { "x": 1.5, "y": 0.4, "z": 2.4 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "a996555a0ba269aab0b021eb8f037fd998f111fa8ebcd559fe97cbefe09574fd"
+    },
+    {
+      "id": "prison_bars_section",
+      "name": "Prison bars section",
+      "description": "A 1.5 m section of a prison cell's front, 2.4 m high: ten round iron bars from a dressed grey stone sill up into a heavy stone lintel, held by flat iron rails and a riveted cross band, a few bars rusted. Sections join side by side, and with the matching barred door.",
+      "category": "structure",
+      "family": "bars",
+      "tags": [
+        "boundary",
+        "castle",
+        "dungeon",
+        "iron",
+        "punishment",
+        "stone",
+        "tall",
+        "weathered"
+      ],
+      "aliases": [
+        "cell bars",
+        "cell front",
+        "grille",
+        "iron bars",
+        "jail bars",
+        "prison bars"
+      ],
+      "variants": ["prison_bars_section"],
+      "size": { "x": 1.5, "y": 0.4, "z": 2.4 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "e2b548440179a9818a2745f2bdf27da6c715f8ea3e7b9fe2962e638054ec8fe4"
+    },
+    {
       "id": "puddle_water",
       "name": "Water puddle",
       "description": "A shallow puddle of dark, faintly green standing water about 1 m across and a few centimetres high: an irregular glossy pool of merged lobes inside a rim of wet darkened silt, with a few stones and grit at its margin.",
@@ -2207,6 +2292,22 @@
       "source": "handwritten",
       "licence": "CC0-1.0",
       "inputHash": "42f0bfe28dd40ed6c434ee52c9f2e68f86d252ae8210d615fc2dd05d21f0b062"
+    },
+    {
+      "id": "shackles_wall",
+      "name": "Wall shackles",
+      "description": "Prison shackles for a wall: a riveted iron plate about 0.9 m up with two heavy rings on staples, one chain running down the wall and along the floor to a pair of manacles lying open on the ground, the other hanging to a pair of rusty cuffs just clear of the floor. The back is flat, to stand against a wall.",
+      "category": "decor",
+      "family": "shackles",
+      "tags": ["castle", "dungeon", "iron", "punishment", "small", "weathered"],
+      "aliases": ["chains", "fetters", "irons", "manacles", "wall chains"],
+      "variants": ["shackles_wall"],
+      "size": { "x": 0.8, "y": 0.15, "z": 1 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "2d1c70e620caa78e9dba008f41309857ac79c2629d8612a49176b2afe2e0efe5"
     },
     {
       "id": "shelf_wood",
