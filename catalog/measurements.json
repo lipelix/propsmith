@@ -3624,6 +3624,35 @@
         }
       ]
     },
+    "spinning_wheel": {
+      "inputHash": "6c119fc306d42c00f4ecad8f9beb2a8dcf4391b7d98df6a2a4f8f1a8fb020dcc",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "spinning_wheel",
+          "tris": 5264,
+          "bbox": {
+            "min": [-0.4877, -0.2174, 0.0014],
+            "max": [0.4864, 0.2174, 1.092]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "spinning_wheel_band", "source": "palette" },
+            { "name": "spinning_wheel_bench", "source": "palette" },
+            { "name": "spinning_wheel_iron", "source": "palette" },
+            { "name": "spinning_wheel_ribbon", "source": "palette" },
+            { "name": "spinning_wheel_wood", "source": "palette" },
+            { "name": "spinning_wheel_wood_dark", "source": "palette" },
+            { "name": "spinning_wheel_wool", "source": "palette" },
+            { "name": "spinning_wheel_yarn", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "stairs_stone": {
       "inputHash": "d30f55690b921ccedeb337c35906e895fff5d57525eda8ea01d0564f70073073",
       "libVersion": 1,

@@ -2827,6 +2827,22 @@
       "inputHash": "e8a556d161c79e2067226efd8af4de45d1a44ec2dbea6f0f72e0baf304fd7d1b"
     },
     {
+      "id": "spinning_wheel",
+      "name": "Spinning wheel",
+      "description": "A Saxony spinning wheel about 1.1 m high: a plank bench at stool height on three splayed legs, a spoked wheel between two turned uprights driven by a treadle and footman rod, a drive band to the flyer and a bobbin of yarn between two maidens, and a distaff dressed with a cone of raw wool tied with a red ribbon.",
+      "category": "furniture",
+      "family": "spinning_wheel",
+      "tags": ["cloth", "house", "round", "village", "wood", "work", "worn"],
+      "aliases": ["distaff", "flax wheel", "saxony wheel", "wool wheel"],
+      "variants": ["spinning_wheel"],
+      "size": { "x": 1, "y": 0.45, "z": 1.1 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "6c119fc306d42c00f4ecad8f9beb2a8dcf4391b7d98df6a2a4f8f1a8fb020dcc"
+    },
+    {
       "id": "stairs_stone",
       "name": "Stone stairs",
       "description": "A flight of worn stone steps, 1.5 m wide and 3 m long, between two dark blue-grey ashlar crypt walls 3 m high, with a raking string course along both walls and heavy lintels roofing the far end. Going down, the treads sink step by step under an ever lower ceiling into darkness; going up, the steps rise under a lintel to a dark opening.",

@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "spinning_wheel",
+  "name": "Spinning wheel",
+  "description": "A Saxony spinning wheel about 1.1 m high: a plank bench at stool height on three splayed legs, a spoked wheel between two turned uprights driven by a treadle and footman rod, a drive band to the flyer and a bobbin of yarn between two maidens, and a distaff dressed with a cone of raw wool tied with a red ribbon.",
+  "category": "furniture",
+  "family": "spinning_wheel",
+  "tags": ["wood", "cloth", "village", "house", "work", "round", "worn"],
+  "aliases": ["flax wheel", "saxony wheel", "wool wheel", "distaff"],
+  "variants": ["spinning_wheel"],
+  "size": { "x": 1.0, "y": 0.45, "z": 1.1 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A spinning wheel with a distaff of wool and a stool-height bench, about 1 × 0.5 × 1.1 m."
+  },
+  "licence": "CC0-1.0"
+}
