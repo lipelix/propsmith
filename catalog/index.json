@@ -495,6 +495,36 @@
       "inputHash": "8763980b1e36c6ac0ce78872263b835687e8425a44ec2167fdc9db1150a15c2c"
     },
     {
+      "id": "candelabra_standing",
+      "name": "Standing iron candelabra",
+      "description": "A floor candelabra of dark wrought iron about 1.7 m tall: three splayed legs with curled toes, a twisted square stem with a knop, and four arms in a cross bending up to drip pans round a taller centre candle, five ivory candles in all.",
+      "category": "light",
+      "family": "candelabra",
+      "tags": [
+        "castle",
+        "iron",
+        "lighting",
+        "ornate",
+        "tall",
+        "temple",
+        "worship"
+      ],
+      "aliases": [
+        "candelabrum",
+        "candle stand",
+        "candle tree",
+        "five-branch candlestick",
+        "floor candlestick"
+      ],
+      "variants": ["candelabra_standing"],
+      "size": { "x": 0.45, "y": 0.45, "z": 1.7 },
+      "anchors": ["light:candle"],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "237fa7e8b6c2fa0596b5efed63cb61590477a3891b25f5f129d79ae7bb916f70"
+    },
+    {
       "id": "candle_stand",
       "name": "Wrought-iron candle stand",
       "description": "A tall wrought-iron candle stand on a three-legged splayed foot, with a thin slightly twisted iron stem about 1.4 m high and a round drip pan at the top holding one thick ivory wax candle. Dark iron with worn highlights.",

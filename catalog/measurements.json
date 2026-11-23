@@ -713,6 +713,32 @@
         }
       ]
     },
+    "candelabra_standing": {
+      "inputHash": "237fa7e8b6c2fa0596b5efed63cb61590477a3891b25f5f129d79ae7bb916f70",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "candelabra_standing",
+          "tris": 6568,
+          "bbox": {
+            "min": [-0.2225, -0.2492, 0],
+            "max": [0.2188, 0.1935, 1.6916]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "candelabra_standing_flame", "source": "palette" },
+            { "name": "candelabra_standing_iron", "source": "palette" },
+            { "name": "candelabra_standing_iron_worn", "source": "palette" },
+            { "name": "candelabra_standing_wax", "source": "palette" },
+            { "name": "candelabra_standing_wick", "source": "palette" }
+          ],
+          "anchors": [{ "name": "light:candle", "at": [0, 0, 1.663] }],
+          "textures": []
+        }
+      ]
+    },
     "candle_stand": {
       "inputHash": "069e0f55904739e6cb53ca9ee502f1a7c5d3fb09e3369180b45b9d03c36eac3a",
       "libVersion": 1,
