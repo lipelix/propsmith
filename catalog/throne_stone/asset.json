@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "throne_stone",
+  "name": "Stone throne on a dais",
+  "description": "A high-backed throne of carved grey stone on a two-step dais 1.4 m square: heavy arms ending in rolled scrolls, a dull red cushion on the seat, a tall back with a framed carved roundel under a pointed gable crest and a ball finial at 2.4 m, flanked by two round columns.",
+  "category": "furniture",
+  "family": "throne",
+  "tags": ["stone", "castle", "dungeon", "seating", "ornate", "tall", "worn"],
+  "aliases": [
+    "king's seat",
+    "royal seat",
+    "high seat",
+    "dais",
+    "chair of state"
+  ],
+  "variants": ["throne_stone"],
+  "size": { "x": 1.4, "y": 1.4, "z": 2.4 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A high-backed carved stone throne on a two-step dais, about 1.4 × 1.4 × 2.4 m."
+  },
+  "licence": "CC0-1.0"
+}

@@ -495,6 +495,36 @@
       "inputHash": "8763980b1e36c6ac0ce78872263b835687e8425a44ec2167fdc9db1150a15c2c"
     },
     {
+      "id": "candelabra_standing",
+      "name": "Standing iron candelabra",
+      "description": "A floor candelabra of dark wrought iron about 1.7 m tall: three splayed legs with curled toes, a twisted square stem with a knop, and four arms in a cross bending up to drip pans round a taller centre candle, five ivory candles in all.",
+      "category": "light",
+      "family": "candelabra",
+      "tags": [
+        "castle",
+        "iron",
+        "lighting",
+        "ornate",
+        "tall",
+        "temple",
+        "worship"
+      ],
+      "aliases": [
+        "candelabrum",
+        "candle stand",
+        "candle tree",
+        "five-branch candlestick",
+        "floor candlestick"
+      ],
+      "variants": ["candelabra_standing"],
+      "size": { "x": 0.45, "y": 0.45, "z": 1.7 },
+      "anchors": ["light:candle"],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "237fa7e8b6c2fa0596b5efed63cb61590477a3891b25f5f129d79ae7bb916f70"
+    },
+    {
       "id": "candle_stand",
       "name": "Wrought-iron candle stand",
       "description": "A tall wrought-iron candle stand on a three-legged splayed foot, with a thin slightly twisted iron stem about 1.4 m high and a round drip pan at the top holding one thick ivory wax candle. Dark iron with worn highlights.",
@@ -553,6 +583,28 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "09dd2d5433c9f2662dbcb741f2d4993ccec795cb6de504d81dfc45ec1a51f29d"
+    },
+    {
+      "id": "carpet_runner",
+      "name": "Red carpet runner",
+      "description": "A long deep red wool runner about 1.2 × 4 m lying flat on the floor: a woven border of a gold band between dark indigo lines with a chain of small lozenges along it, a sparse lattice of dark diamonds in the field, a gold lozenge near either end and a short knotted fringe on both short ends.",
+      "category": "decor",
+      "family": "rug",
+      "tags": ["castle", "cloth", "long", "low", "ornate", "temple"],
+      "aliases": [
+        "aisle carpet",
+        "carpet",
+        "hall runner",
+        "red carpet",
+        "runner rug"
+      ],
+      "variants": ["carpet_runner"],
+      "size": { "x": 1.2, "y": 4, "z": 0.02 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "0ab2a1e4c67bb290aba36d937497f8970fc1ee6157aee9a24213d0fc2230dcc1"
     },
     {
       "id": "cart_hand",
@@ -625,6 +677,37 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "761f1e571ba5e901467bd10892f817ef128af25b54980c2e6480e0aafb6e0e78"
+    },
+    {
+      "id": "chandelier_iron",
+      "name": "Iron ring chandelier",
+      "description": "A wrought iron ring chandelier about 1.4 m across with eight ivory candles in drip pans, four spokes to a hub with a pointed drop finial, and three chains gathering at a ring under a short hook on a round ceiling plate, 1.3 m above the finial. It stands on its finial's tip; hung with the ring about 2.6 m up, the plate meets a ceiling at about 3.6 m.",
+      "category": "light",
+      "family": "chandelier",
+      "tags": ["castle", "inn", "iron", "lighting", "ornate", "round"],
+      "aliases": [
+        "candle wheel",
+        "corona",
+        "hanging candelabrum",
+        "hanging lamp",
+        "ring of candles"
+      ],
+      "variants": ["chandelier_iron"],
+      "size": { "x": 1.4, "y": 1.4, "z": 1.3 },
+      "anchors": [
+        "light:candle_1",
+        "light:candle_2",
+        "light:candle_3",
+        "light:candle_4",
+        "light:candle_5",
+        "light:candle_6",
+        "light:candle_7",
+        "light:candle_8"
+      ],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "5b03c4cb5541b365fb78ad8b74dfe61d77b7bd31f3bb62a74b9d1fdda36ace23"
     },
     {
       "id": "chest_iron_bound",
@@ -2380,6 +2463,36 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "135d0e037515ca53ca478d79dede50fdddf6aa3844ebf702f4926c495406173a"
+    },
+    {
+      "id": "throne_stone",
+      "name": "Stone throne on a dais",
+      "description": "A high-backed throne of carved grey stone on a two-step dais 1.4 m square: heavy arms ending in rolled scrolls, a dull red cushion on the seat, a tall back with a framed carved roundel under a pointed gable crest and a ball finial at 2.4 m, flanked by two round columns.",
+      "category": "furniture",
+      "family": "throne",
+      "tags": [
+        "castle",
+        "dungeon",
+        "ornate",
+        "seating",
+        "stone",
+        "tall",
+        "worn"
+      ],
+      "aliases": [
+        "chair of state",
+        "dais",
+        "high seat",
+        "king's seat",
+        "royal seat"
+      ],
+      "variants": ["throne_stone"],
+      "size": { "x": 1.4, "y": 1.4, "z": 2.4 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "34a186a6a9ed36fbd5917957b663bf88e76039404bf348a1dbe3b33ea77118bf"
     },
     {
       "id": "torch_wall_sconce",

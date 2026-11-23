@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "carpet_runner",
+  "name": "Red carpet runner",
+  "description": "A long deep red wool runner about 1.2 × 4 m lying flat on the floor: a woven border of a gold band between dark indigo lines with a chain of small lozenges along it, a sparse lattice of dark diamonds in the field, a gold lozenge near either end and a short knotted fringe on both short ends.",
+  "category": "decor",
+  "family": "rug",
+  "tags": ["cloth", "castle", "temple", "low", "long", "ornate"],
+  "aliases": [
+    "carpet",
+    "red carpet",
+    "runner rug",
+    "hall runner",
+    "aisle carpet"
+  ],
+  "variants": ["carpet_runner"],
+  "size": { "x": 1.2, "y": 4.0, "z": 0.02 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A long red runner with a woven border, about 1.2 × 4 m, a centimetre or two high."
+  },
+  "licence": "CC0-1.0"
+}
