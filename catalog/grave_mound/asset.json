@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "grave_mound",
+  "name": "Fresh grave mound",
+  "description": "A long low mound of dark, newly turned earth, lumpy with clods and a few turned-up stones, with a wooden spade with an iron blade and a D-grip stuck into its foot end, leaning a little.",
+  "category": "decor",
+  "family": "grave",
+  "tags": ["wood", "iron", "graveyard", "work", "low", "long", "new"],
+  "aliases": [
+    "fresh grave",
+    "burial mound",
+    "dirt mound",
+    "earth mound",
+    "grave with shovel",
+    "spade"
+  ],
+  "variants": ["grave_mound"],
+  "size": { "x": 2.05, "y": 1.05, "z": 1.1 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "grave_mound: a fresh earth mound with a spade stuck in it, about 2 × 1 × 0.4 m (plan 3, item 7)."
+  },
+  "licence": "CC0-1.0"
+}

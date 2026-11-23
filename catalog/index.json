@@ -1228,6 +1228,37 @@
       "inputHash": "cd886719d47eea96c62f7f1d7c7ca24f68906ea8bad47a76bcb4d7d12087963f"
     },
     {
+      "id": "fence_iron_cemetery",
+      "name": "Iron cemetery railing",
+      "description": "A 1.5 m cemetery fence section: rusted wrought-iron railings of spear-topped bars, two flat rails and a row of rings, set in a low grey stone plinth wall between two square stone piers with pyramid caps; one bar is knocked out of line and rust streaks run down the plinth. Sections join end to end.",
+      "category": "fence",
+      "family": "fence",
+      "tags": [
+        "boundary",
+        "graveyard",
+        "iron",
+        "ornate",
+        "stone",
+        "tall",
+        "weathered"
+      ],
+      "aliases": [
+        "cemetery fence",
+        "fence section",
+        "graveyard railing",
+        "iron railings",
+        "spear fence",
+        "wrought iron fence"
+      ],
+      "variants": ["fence_iron_cemetery"],
+      "size": { "x": 1.5, "y": 0.3, "z": 1.3 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "12a2c718788668a59e39a7dc1d33fda57f81bf2e6efff06bc24996f001f91c6c"
+    },
+    {
       "id": "fence_wood",
       "name": "Wooden rail fence",
       "description": "A rustic fence section of weathered grey-brown wood: two round split posts near the ends and two slightly sagging split rails running the full 1.5 m, so sections join end to end.",
@@ -1491,6 +1522,90 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "2c0de7e2eae6860fcffe2278a56b80f91150856c8e5b7a9717c932ae326470e9"
+    },
+    {
+      "id": "grave_mound",
+      "name": "Fresh grave mound",
+      "description": "A long low mound of dark, newly turned earth, lumpy with clods and a few turned-up stones, with a wooden spade with an iron blade and a D-grip stuck into its foot end, leaning a little.",
+      "category": "decor",
+      "family": "grave",
+      "tags": ["graveyard", "iron", "long", "low", "new", "wood", "work"],
+      "aliases": [
+        "burial mound",
+        "dirt mound",
+        "earth mound",
+        "fresh grave",
+        "grave with shovel",
+        "spade"
+      ],
+      "variants": ["grave_mound"],
+      "size": { "x": 2.05, "y": 1.05, "z": 1.1 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "2cb9873ab9189a807dd324c569917c9742cc9ba3141b331e15feebdc3d481432"
+    },
+    {
+      "id": "gravestone_cross",
+      "name": "Stone grave cross",
+      "description": "A grey limestone Latin cross with flared ends and a ring round the crossing, set in a socket block on two dressed steps, settled a little out of true; a worn inscription panel on the socket and moss on the arms and the steps.",
+      "category": "decor",
+      "family": "gravestone",
+      "tags": [
+        "graveyard",
+        "mossy",
+        "ornate",
+        "stone",
+        "tall",
+        "weathered",
+        "worship"
+      ],
+      "aliases": [
+        "celtic cross",
+        "cross monument",
+        "grave cross",
+        "headstone",
+        "stone cross",
+        "tombstone"
+      ],
+      "variants": ["gravestone_cross"],
+      "size": { "x": 0.7, "y": 0.4, "z": 1.4 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "9771535620f70fd65e828bfe81e4f2b040c753d1624390c48abaf4da92564f68"
+    },
+    {
+      "id": "gravestone_round",
+      "name": "Round-topped gravestone",
+      "description": "A weathered grey-brown sandstone headstone with a semicircular top, leaning back and to one side in a tuft of sod; a worn incised border, a cross in a roundel and a few rows of half-legible lettering on its face, moss on its crown and foot.",
+      "category": "decor",
+      "family": "gravestone",
+      "tags": [
+        "graveyard",
+        "mossy",
+        "plain",
+        "round",
+        "stone",
+        "weathered",
+        "worship"
+      ],
+      "aliases": [
+        "grave marker",
+        "grave stone",
+        "headstone",
+        "tomb stone",
+        "tombstone"
+      ],
+      "variants": ["gravestone_round"],
+      "size": { "x": 0.65, "y": 0.4, "z": 1 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "6c46a14491dae364e4049cec6e344a378bb6aff19bedbb896a4cbebdc7266152"
     },
     {
       "id": "hay_bale",

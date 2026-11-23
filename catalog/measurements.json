@@ -1518,6 +1518,29 @@
         }
       ]
     },
+    "fence_iron_cemetery": {
+      "inputHash": "12a2c718788668a59e39a7dc1d33fda57f81bf2e6efff06bc24996f001f91c6c",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "fence_iron_cemetery",
+          "tris": 4110,
+          "bbox": { "min": [-0.745, -0.145, 0], "max": [0.745, 0.145, 1.3] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "fence_iron_cemetery_iron", "source": "palette" },
+            { "name": "fence_iron_cemetery_rust", "source": "palette" },
+            { "name": "fence_iron_cemetery_rust_light", "source": "palette" },
+            { "name": "fence_iron_cemetery_stone", "source": "palette" },
+            { "name": "fence_iron_cemetery_stone_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "fence_wood": {
       "inputHash": "aa378194da12b10bfd73ba727a78f8c337d6d0ed524df8766891e0ebedb96580",
       "libVersion": 1,
@@ -1880,6 +1903,82 @@
             { "name": "grass_olive_dry", "source": "palette" },
             { "name": "grass_root", "source": "palette" },
             { "name": "grass_straw", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "grave_mound": {
+      "inputHash": "2cb9873ab9189a807dd324c569917c9742cc9ba3141b331e15feebdc3d481432",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "grave_mound",
+          "tris": 2638,
+          "bbox": {
+            "min": [-0.9704, -0.4798, 0],
+            "max": [0.9826, 0.5122, 1.064]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "grave_mound_earth", "source": "palette" },
+            { "name": "grave_mound_earth_dry", "source": "palette" },
+            { "name": "grave_mound_spade_iron", "source": "palette" },
+            { "name": "grave_mound_spade_wood", "source": "palette" },
+            { "name": "grave_mound_stone", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "gravestone_cross": {
+      "inputHash": "9771535620f70fd65e828bfe81e4f2b040c753d1624390c48abaf4da92564f68",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "gravestone_cross",
+          "tris": 1816,
+          "bbox": {
+            "min": [-0.3405, -0.1922, 0],
+            "max": [0.3419, 0.2078, 1.3915]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "gravestone_cross_carve", "source": "palette" },
+            { "name": "gravestone_cross_moss", "source": "palette" },
+            { "name": "gravestone_cross_stone", "source": "palette" },
+            { "name": "gravestone_cross_stone_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "gravestone_round": {
+      "inputHash": "6c46a14491dae364e4049cec6e344a378bb6aff19bedbb896a4cbebdc7266152",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "gravestone_round",
+          "tris": 1936,
+          "bbox": {
+            "min": [-0.2857, -0.1874, 0.0003],
+            "max": [0.3123, 0.1806, 0.9723]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "gravestone_round_carve", "source": "palette" },
+            { "name": "gravestone_round_moss", "source": "palette" },
+            { "name": "gravestone_round_sod", "source": "palette" },
+            { "name": "gravestone_round_stone", "source": "palette" }
           ],
           "anchors": [],
           "textures": []

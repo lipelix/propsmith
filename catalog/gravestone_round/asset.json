@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "id": "gravestone_round",
+  "name": "Round-topped gravestone",
+  "description": "A weathered grey-brown sandstone headstone with a semicircular top, leaning back and to one side in a tuft of sod; a worn incised border, a cross in a roundel and a few rows of half-legible lettering on its face, moss on its crown and foot.",
+  "category": "decor",
+  "family": "gravestone",
+  "tags": [
+    "stone",
+    "graveyard",
+    "worship",
+    "round",
+    "plain",
+    "weathered",
+    "mossy"
+  ],
+  "aliases": [
+    "headstone",
+    "tombstone",
+    "grave marker",
+    "grave stone",
+    "tomb stone"
+  ],
+  "variants": ["gravestone_round"],
+  "size": { "x": 0.65, "y": 0.4, "z": 1 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "gravestone_round: a leaning round-topped headstone with a worn inscription and moss, about 0.6 × 0.2 × 1 m (plan 3, item 7)."
+  },
+  "licence": "CC0-1.0"
+}

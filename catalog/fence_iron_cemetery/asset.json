@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "id": "fence_iron_cemetery",
+  "name": "Iron cemetery railing",
+  "description": "A 1.5 m cemetery fence section: rusted wrought-iron railings of spear-topped bars, two flat rails and a row of rings, set in a low grey stone plinth wall between two square stone piers with pyramid caps; one bar is knocked out of line and rust streaks run down the plinth. Sections join end to end.",
+  "category": "fence",
+  "family": "fence",
+  "tags": [
+    "iron",
+    "stone",
+    "graveyard",
+    "boundary",
+    "tall",
+    "ornate",
+    "weathered"
+  ],
+  "aliases": [
+    "cemetery fence",
+    "graveyard railing",
+    "iron railings",
+    "wrought iron fence",
+    "spear fence",
+    "fence section"
+  ],
+  "variants": ["fence_iron_cemetery"],
+  "size": { "x": 1.5, "y": 0.3, "z": 1.3 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "fence_iron_cemetery: a 1.5 m section of rusted spear-top railings between stone posts, about 1.3 m high, joins like fence_wood (plan 3, item 7)."
+  },
+  "licence": "CC0-1.0"
+}
