@@ -2355,7 +2355,7 @@
       ]
     },
     "mine_support_timber": {
-      "inputHash": "37923b6e13e1c4d235943a319616b36a17ff853e09060e571164e1ced9d3442c",
+      "inputHash": "68aeb4895622eb38c2c3145a974be766ab3299fb15f1076da9f8f3b8d8a2a8eb",
       "libVersion": 1,
       "blender": "5.2.2 LTS",
       "variants": [
@@ -2893,15 +2893,15 @@
       ]
     },
     "rail_track_straight": {
-      "inputHash": "ca0b489eef6d5209c2baec17814f9a9d63d9ead919fee7f371b66e189a85b7bd",
+      "inputHash": "4348bd733cea465f37e8c3154f7dd5087af4378af03d5dfcdf663ce7007cbc8c",
       "libVersion": 1,
       "blender": "5.2.2 LTS",
       "variants": [
         {
           "id": "rail_track_straight",
-          "tris": 2268,
+          "tris": 2548,
           "bbox": {
-            "min": [-0.748, -0.4452, -0.0074],
+            "min": [-0.748, -0.4452, -0.0048],
             "max": [0.748, 0.4305, 0.155]
           },
           "origin": [0, 0, 0],

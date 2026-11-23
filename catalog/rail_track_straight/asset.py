@@ -23,8 +23,8 @@ WOOD = (0.17, 0.11, 0.065)  # linear RGB, dark tarred oak
 WOOD_OLD = (0.2, 0.15, 0.1)  # one grey, older sleeper
 IRON = (0.07, 0.06, 0.052)  # rail sides, rusty dark
 IRON_TOP = (0.2, 0.19, 0.18)  # rail head, worn bright by wheels
-RUST = (0.2, 0.085, 0.035)
-GRAVEL = (0.15, 0.135, 0.115)
+RUST = (0.14, 0.08, 0.05)
+GRAVEL = (0.21, 0.195, 0.17)
 
 
 @prop
@@ -68,8 +68,8 @@ def rail_track_straight():
                          z + FOOT[1] + WEB[1] / 2), iron, segments=6, rot=(-f * 90, 0, 0), bevel=0)
 
     # A thin bed of gravel between the sleepers, kept low so the track still lies flat on any floor.
-    for k in range(16):
+    for k in range(30):
         x = rnd.uniform(-L / 2 + 0.06, L / 2 - 0.06)
         y = rnd.uniform(-0.4, 0.4)
-        r = rnd.uniform(0.025, 0.045)
-        blob(f"gravel_{k}", r, (x, y, r * 0.35), gravel, squash=(1.2, 1, 0.45), subdiv=1, seed=300 + k, jitter=0.25)
+        r = rnd.uniform(0.03, 0.05)
+        blob(f"gravel_{k}", r, (x, y, r * 0.5), gravel, squash=(1.2, 1, 0.5), subdiv=1, seed=300 + k, jitter=0.25)
