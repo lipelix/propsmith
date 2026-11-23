@@ -60,7 +60,7 @@ test("the catalogue searches, filters and opens an asset", async ({ page }) => {
   await expect(tiles).toHaveCount(ironCount);
   await page.getByRole("button", { name: /^light\b/ }).click();
   await expect(tiles).toHaveCount(ironLightCount);
-  await page.getByRole("searchbox").fill("lantern");
+  await page.getByRole("searchbox").fill("lamppost");
   await expect(tiles).toHaveCount(1);
   await expect(tiles.first()).toContainText("Street lamp post");
   await tiles.first().click();
