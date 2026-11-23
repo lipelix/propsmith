@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "rail_track_straight",
+  "name": "Straight mine track",
+  "description": "A straight 1.5 m section of narrow-gauge mine track: two rusty flat-bottomed iron rails with wheel-worn heads, spiked through tie plates to five dark wooden sleepers on a little gravel, bolted with fishplates at one end. Sections join end to end.",
+  "category": "structure",
+  "family": "rail_track",
+  "tags": ["iron", "wood", "mine", "transport", "long", "low", "worn"],
+  "aliases": [
+    "rails",
+    "railway",
+    "mine rails",
+    "minecart track",
+    "tramway",
+    "track section"
+  ],
+  "variants": ["rail_track_straight"],
+  "size": { "x": 1.5, "y": 0.9, "z": 0.2 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "rail_track_straight: a 1.5 m section of narrow rails on sleepers that joins end to end (plan 3, item 8)."
+  },
+  "licence": "CC0-1.0"
+}

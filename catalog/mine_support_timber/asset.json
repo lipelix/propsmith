@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "mine_support_timber",
+  "name": "Mine support timbers",
+  "description": "A mine tunnel set: two barked pine props splayed a little at the foot on flat sill blocks, carrying a squared cap beam with pale wedges driven in over each prop head, iron dogs at the joints and split lagging boards across the top; a coil of rope hangs from a spike on one prop.",
+  "category": "structure",
+  "family": "mine_support",
+  "tags": ["wood", "iron", "mine", "tall", "open", "worn"],
+  "aliases": [
+    "mine timbers",
+    "tunnel support",
+    "timber set",
+    "shaft timbering",
+    "mine entrance",
+    "pit props"
+  ],
+  "variants": ["mine_support_timber"],
+  "size": { "x": 2.2, "y": 0.45, "z": 2.4 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "mine_support_timber: a timber portal of two props and a cap beam with wedges, about 2.2 × 0.4 × 2.4 m (plan 3, item 8)."
+  },
+  "licence": "CC0-1.0"
+}

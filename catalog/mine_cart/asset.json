@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "mine_cart",
+  "name": "Mine ore cart",
+  "description": "A flared wooden ore tub of thick planks bound with iron corner straps and a rim band, on four flanged iron wheels at the gauge of the mine track, half full of dark broken rock with brassy ore glinting in it; coupling links at both ends.",
+  "category": "container",
+  "family": "cart",
+  "tags": ["wood", "iron", "mine", "transport", "storage", "boxy", "worn"],
+  "aliases": ["minecart", "ore cart", "mine car", "tub", "wagon", "trolley"],
+  "variants": ["mine_cart"],
+  "size": { "x": 1.3, "y": 1.0, "z": 1.0 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "mine_cart: an iron-bound wooden ore cart on four flanged wheels, half full of ore, about 1.3 × 0.9 × 1 m (plan 3, item 8)."
+  },
+  "licence": "CC0-1.0"
+}

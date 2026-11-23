@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "ore_vein_rock",
+  "name": "Ore vein rock",
+  "description": "A dark grey rock outcrop, a big rounded boulder with a lower one against its back, crossed by seams of milky quartz studded with glinting brassy and rusty ore, broken chips at its foot and a pickaxe with an iron head standing against it.",
+  "category": "decor",
+  "family": "rock",
+  "tags": ["stone", "iron", "mine", "cave", "work", "large", "weathered"],
+  "aliases": [
+    "ore deposit",
+    "mineral vein",
+    "gold vein",
+    "mining node",
+    "ore rock",
+    "pickaxe"
+  ],
+  "variants": ["ore_vein_rock"],
+  "size": { "x": 1.2, "y": 1.0, "z": 1.0 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "ore_vein_rock: a rock outcrop with glinting ore seams and a pickaxe leaning on it, about 1.2 × 1 × 1 m (plan 3, item 8)."
+  },
+  "licence": "CC0-1.0"
+}
