@@ -1935,6 +1935,36 @@
       "inputHash": "a20892c9b32d29b73511a198895582f6a18608bc57e3ca927d55b60d07f64339"
     },
     {
+      "id": "loom_wood",
+      "name": "Upright weaving loom",
+      "description": "A warp-weighted loom about 1.8 m high: two timber uprights on braced foot beams carrying a cloth beam with a half-woven, blue- and red-banded woollen cloth hanging from it, and below it the warp threads in two layers, the back one over a shed rod, each bundle tied to a hanging clay weight.",
+      "category": "furniture",
+      "family": "loom",
+      "tags": [
+        "clay",
+        "cloth",
+        "house",
+        "tall",
+        "village",
+        "wood",
+        "work",
+        "worn"
+      ],
+      "aliases": [
+        "warp-weighted loom",
+        "weaver's loom",
+        "weaving frame",
+        "weaving loom"
+      ],
+      "variants": ["loom_wood"],
+      "size": { "x": 1.4, "y": 0.6, "z": 1.8 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "4919a6461d93564b7b3d751df51b4535bcfaf32c174c5db2eb8e3b02e663e921"
+    },
+    {
       "id": "market_stall",
       "name": "Market stall",
       "description": "A village market stall about 2.8 m long and 1.3 m deep: a wooden plank counter 0.9 m high on the front, four corner posts and a striped muted red and cream cloth awning sloping down toward the front, top at about 2.3 m. Small crates, baskets and round produce sit on the counter.",

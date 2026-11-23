@@ -2459,6 +2459,33 @@
         }
       ]
     },
+    "loom_wood": {
+      "inputHash": "4919a6461d93564b7b3d751df51b4535bcfaf32c174c5db2eb8e3b02e663e921",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "loom_wood",
+          "tris": 5188,
+          "bbox": { "min": [-0.7, -0.29, 0], "max": [0.7, 0.29, 1.78] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "loom_wood_clay", "source": "palette" },
+            { "name": "loom_wood_clay_dark", "source": "palette" },
+            { "name": "loom_wood_cloth", "source": "palette" },
+            { "name": "loom_wood_cloth_blue", "source": "palette" },
+            { "name": "loom_wood_cloth_red", "source": "palette" },
+            { "name": "loom_wood_polished", "source": "palette" },
+            { "name": "loom_wood_warp", "source": "palette" },
+            { "name": "loom_wood_wood", "source": "palette" },
+            { "name": "loom_wood_wood_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "market_stall": {
       "inputHash": "03fbeea90316653a312f2c0921effe548e94eabb86d0e8314df51379f4b861be",
       "libVersion": 1,

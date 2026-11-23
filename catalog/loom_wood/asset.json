@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "id": "loom_wood",
+  "name": "Upright weaving loom",
+  "description": "A warp-weighted loom about 1.8 m high: two timber uprights on braced foot beams carrying a cloth beam with a half-woven, blue- and red-banded woollen cloth hanging from it, and below it the warp threads in two layers, the back one over a shed rod, each bundle tied to a hanging clay weight.",
+  "category": "furniture",
+  "family": "loom",
+  "tags": ["wood", "cloth", "clay", "village", "house", "work", "tall", "worn"],
+  "aliases": [
+    "weaving loom",
+    "warp-weighted loom",
+    "weaver's loom",
+    "weaving frame"
+  ],
+  "variants": ["loom_wood"],
+  "size": { "x": 1.4, "y": 0.6, "z": 1.8 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "An upright weaving loom with a half-woven cloth and weights, about 1.4 × 0.6 × 1.8 m."
+  },
+  "licence": "CC0-1.0"
+}
