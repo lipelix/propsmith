@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "skeleton_remains",
+  "name": "Skeleton remains",
+  "description": "A yellowed human skeleton slumped against a small grey rock, sitting with its skull drooped on its chest, one leg stretched out and one bent up, a rusted sword by its right hand and a torn leather pack spilling a rolled cloth at its left.",
+  "category": "decor",
+  "family": "skeleton",
+  "tags": [
+    "bone",
+    "stone",
+    "iron",
+    "cave",
+    "dungeon",
+    "crypt",
+    "low",
+    "weathered"
+  ],
+  "aliases": ["dead adventurer", "corpse", "remains", "bones", "dead body"],
+  "variants": ["skeleton_remains"],
+  "size": { "x": 1.3, "y": 0.9, "z": 0.65 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "skeleton_remains: a slumped human skeleton against a small rock with a rusted sword and a torn pack, about 1.2 × 0.8 × 0.7 m (plan 3, item 9)."
+  },
+  "licence": "CC0-1.0"
+}

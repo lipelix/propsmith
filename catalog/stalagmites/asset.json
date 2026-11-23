@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "stalagmites",
+  "name": "Stalagmites",
+  "description": "A group of four wet cream limestone stalagmites of different heights, the tallest about 1.6 m, rising from a shared low flowstone base, with lumpy drip rings and rounded tips, darker and glossy low down.",
+  "category": "decor",
+  "family": "rock",
+  "tags": ["stone", "cave", "tall", "large", "weathered"],
+  "aliases": [
+    "stalagmite",
+    "dripstone",
+    "cave spires",
+    "limestone columns",
+    "speleothems"
+  ],
+  "variants": ["stalagmites"],
+  "size": { "x": 1.05, "y": 1.15, "z": 1.6 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "stalagmites: a group of four wet limestone stalagmites of different heights, about 1.2 × 1.2 × 1.6 m (plan 3, item 9)."
+  },
+  "licence": "CC0-1.0"
+}

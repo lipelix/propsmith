@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "mushroom_giant",
+  "name": "Giant cave toadstool",
+  "description": "A giant cave toadstool about 2.2 m high with a thick pale stem, a ragged ring and a broad domed dusky violet cap with pale warty spots and dark gills, two smaller ones leaning away at its foot on a low mound of dark soil.",
+  "category": "vegetation",
+  "family": "mushroom",
+  "tags": ["cave", "forest", "magic", "tall", "large", "round"],
+  "aliases": [
+    "giant mushroom",
+    "toadstool",
+    "fungus",
+    "cave mushroom",
+    "fungi"
+  ],
+  "variants": ["mushroom_giant"],
+  "size": { "x": 1.5, "y": 1.5, "z": 2.15 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "mushroom_giant: a giant cave toadstool with two smaller ones at its foot, about 1.5 × 1.5 × 2.2 m (plan 3, item 9)."
+  },
+  "licence": "CC0-1.0"
+}

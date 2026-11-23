@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "crystal_cluster",
+  "name": "Crystal cluster",
+  "description": "A cluster of tall six-sided crystals in pale glowing blue and violet growing from a lump of dark rock: one tall central spire about 1.4 m high and a ring of shorter ones leaning outward.",
+  "category": "decor",
+  "family": "crystal_formation",
+  "tags": ["crystal", "stone", "cave", "mine", "magic", "tall", "large"],
+  "aliases": [
+    "crystals",
+    "geode",
+    "gem cluster",
+    "mana crystal",
+    "quartz cluster"
+  ],
+  "variants": ["crystal_cluster"],
+  "size": { "x": 1.1, "y": 0.95, "z": 1.4 },
+  "anchors": ["light:crystal"],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "crystal_cluster: a cluster of tall faceted crystals growing from rock, faintly glowing, about 1 × 1 × 1.4 m; anchor light:crystal (plan 3, item 9)."
+  },
+  "licence": "CC0-1.0"
+}
