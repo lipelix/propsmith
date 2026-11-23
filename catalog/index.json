@@ -988,6 +988,28 @@
       "inputHash": "1eb256ff9744e91e5f0f330aeadf9569ee06f19325b4c339b51b373317ed095a"
     },
     {
+      "id": "cooking_spit",
+      "name": "Camp cooking spit",
+      "description": "Two forked wooden stakes about 1 m high holding an iron spit with a crank and a trussed roasting bird, a sooty iron pot of stew hanging from its middle over a small fire of sticks and embers in a ring of blackened stones.",
+      "category": "light",
+      "family": "spit",
+      "tags": ["camp", "cooking", "forest", "iron", "stone", "wood", "worn"],
+      "aliases": [
+        "camp spit",
+        "cooking fire",
+        "hanging pot",
+        "roasting spit",
+        "spit roast"
+      ],
+      "variants": ["cooking_spit"],
+      "size": { "x": 1.15, "y": 0.55, "z": 1 },
+      "anchors": ["fire:camp", "light:fire"],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "249fb54304a53971bec163564b0b33dcb5e1cdcba897677712b72726d0cd9b24"
+    },
+    {
       "id": "counter_wood",
       "name": "Wooden shop counter",
       "description": "A village shop's closed wooden sales counter, about 2.6 m long, 0.7 m deep and nearly 1 m high: vertical front planks over a darker plinth board, a thick overhanging oak top, and a small iron balance scale and a little stack of coins on it.",
@@ -1778,6 +1800,22 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "724af666bc17f5306268743e9b517fbaebd3f0561b9fb686983312f4f29a0d66"
+    },
+    {
+      "id": "lantern_iron",
+      "name": "Iron hand lantern",
+      "description": "A black iron hand lantern standing on the ground, about 0.2 m wide and 0.4 m high: warm translucent horn panes between four corner posts, a candle stub inside, a pyramid hood with a vent cap and a carrying ring on top.",
+      "category": "light",
+      "family": "lantern",
+      "tags": ["camp", "iron", "lighting", "road", "small", "worn"],
+      "aliases": ["candle lantern", "hand lantern", "horn lantern", "lamp"],
+      "variants": ["lantern_iron"],
+      "size": { "x": 0.2, "y": 0.2, "z": 0.4 },
+      "anchors": ["light:lantern"],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "af19a0fbaacb928e1fc41ae2f3791ad83cb961be2355da658e8deaa33d2243f8"
     },
     {
       "id": "leaves_fallen",
@@ -2909,6 +2947,30 @@
       "inputHash": "92b6ba3695af320c9910a88c806a2b206b241ab626bba692e7afa837f5c6f5f3"
     },
     {
+      "id": "tent_canvas",
+      "name": "Patched canvas ridge tent",
+      "description": "A ridge tent of weathered, patched canvas about 2.5 m long and 1.7 m high on a ridge pole and two uprights, pegged down at the hems; at the front one door flap hangs shut and the other is rolled back and tied open, showing a bedroll with a blanket inside.",
+      "category": "structure",
+      "family": "tent",
+      "tags": [
+        "camp",
+        "cloth",
+        "forest",
+        "roofed",
+        "rope",
+        "weathered",
+        "wood"
+      ],
+      "aliases": ["bivouac", "camp tent", "pup tent", "ridge tent", "shelter"],
+      "variants": ["tent_canvas"],
+      "size": { "x": 2.5, "y": 2, "z": 1.7 },
+      "anchors": [],
+      "closed": false,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "b730f3a94faaee8255a26e404261c69807b4a0b4236235a7ed5cb2846091c714"
+    },
+    {
       "id": "thicket_bramble",
       "name": "Bramble thicket",
       "description": "A dense, impassable mass of brambles and undergrowth about 1.5 × 1.5 m and 1.6 m high: dark bramble leaves over a near-black tangle, purple-red thorny canes arching out and drooping back, a few dead grey canes, clusters of ripe and unripe blackberries and a scatter of pale blossoms. Its ends match and its lumps repeat every 1.5 m, so thickets set side by side along x read as one continuous hedge.",
@@ -3128,6 +3190,37 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "cf17895115e685ac7bbed3e4683ef38f4b25277529eb4b0305db8c30138f4ec1"
+    },
+    {
+      "id": "wagon_covered",
+      "name": "Covered wagon",
+      "description": "A four-wheeled wooden wagon about 4 m long and 2.6 m high: a plank box bed on tall spoked rear wheels and smaller front ones, a weathered canvas tilt on wooden hoops open over the driver's bench, a barrel, sacks and a crate inside, and a draw pole resting on the ground in front.",
+      "category": "structure",
+      "family": "wagon",
+      "tags": [
+        "camp",
+        "cloth",
+        "iron",
+        "large",
+        "road",
+        "transport",
+        "wood",
+        "worn"
+      ],
+      "aliases": [
+        "caravan",
+        "carriage",
+        "cart",
+        "covered wagon",
+        "prairie schooner"
+      ],
+      "variants": ["wagon_covered"],
+      "size": { "x": 3.8, "y": 1.85, "z": 2.55 },
+      "anchors": [],
+      "closed": false,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "b0ba2f50f79723267fb7e1ddf79dfb4d2f1fd9373744d09680d20111cf99e45f"
     },
     {
       "id": "wall_crypt_corner",

@@ -1212,6 +1212,48 @@
         }
       ]
     },
+    "cooking_spit": {
+      "inputHash": "249fb54304a53971bec163564b0b33dcb5e1cdcba897677712b72726d0cd9b24",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "cooking_spit",
+          "tris": 6312,
+          "bbox": {
+            "min": [-0.56, -0.2619, -0.004],
+            "max": [0.59, 0.2437, 0.9645]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "cooking_spit_ash", "source": "palette" },
+            { "name": "cooking_spit_char", "source": "palette" },
+            { "name": "cooking_spit_ember", "source": "palette" },
+            { "name": "cooking_spit_flame", "source": "palette" },
+            { "name": "cooking_spit_iron", "source": "palette" },
+            { "name": "cooking_spit_log", "source": "palette" },
+            { "name": "cooking_spit_roast", "source": "palette" },
+            { "name": "cooking_spit_rust", "source": "palette" },
+            { "name": "cooking_spit_soot", "source": "palette" },
+            { "name": "cooking_spit_stew", "source": "palette" },
+            { "name": "cooking_spit_stone", "source": "palette" },
+            { "name": "cooking_spit_twine", "source": "palette" },
+            { "name": "cooking_spit_wood", "source": "palette" },
+            { "name": "cooking_spit_wood_cut", "source": "palette" }
+          ],
+          "anchors": [
+            {
+              "name": "fire:camp",
+              "at": [0, 0, 0.05],
+              "size": [0.15, 0.15, 0.28]
+            },
+            { "name": "light:fire", "at": [0, 0, 0.18] }
+          ],
+          "textures": []
+        }
+      ]
+    },
     "counter_wood": {
       "inputHash": "92b4523dbdb021902d74c7d3ba646881846cebde7df4c1e83975ffa9f27540e9",
       "libVersion": 1,
@@ -2213,6 +2255,33 @@
             },
             { "name": "light:lantern", "at": [0.5, 0, 1.976] }
           ],
+          "textures": []
+        }
+      ]
+    },
+    "lantern_iron": {
+      "inputHash": "af19a0fbaacb928e1fc41ae2f3791ad83cb961be2355da658e8deaa33d2243f8",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "lantern_iron",
+          "tris": 3864,
+          "bbox": {
+            "min": [-0.0811, -0.084, 0],
+            "max": [0.0811, 0.0811, 0.397]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "lantern_iron_flame", "source": "palette" },
+            { "name": "lantern_iron_horn", "source": "palette" },
+            { "name": "lantern_iron_horn_dark", "source": "palette" },
+            { "name": "lantern_iron_iron", "source": "palette" },
+            { "name": "lantern_iron_rust", "source": "palette" },
+            { "name": "lantern_iron_wax", "source": "palette" }
+          ],
+          "anchors": [{ "name": "light:lantern", "at": [0, 0, 0.139] }],
           "textures": []
         }
       ]
@@ -3739,6 +3808,39 @@
         }
       ]
     },
+    "tent_canvas": {
+      "inputHash": "b730f3a94faaee8255a26e404261c69807b4a0b4236235a7ed5cb2846091c714",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "tent_canvas",
+          "tris": 6648,
+          "bbox": {
+            "min": [-1.255, -1.0024, -0.0021],
+            "max": [1.255, 1.0024, 1.69]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "tent_canvas_canvas", "source": "palette" },
+            { "name": "tent_canvas_canvas_dark", "source": "palette" },
+            { "name": "tent_canvas_cloak", "source": "palette" },
+            { "name": "tent_canvas_patch_0", "source": "palette" },
+            { "name": "tent_canvas_patch_1", "source": "palette" },
+            { "name": "tent_canvas_patch_2", "source": "palette" },
+            { "name": "tent_canvas_patch_3", "source": "palette" },
+            { "name": "tent_canvas_pole", "source": "palette" },
+            { "name": "tent_canvas_pole_cut", "source": "palette" },
+            { "name": "tent_canvas_rope", "source": "palette" },
+            { "name": "tent_canvas_sheet", "source": "palette" },
+            { "name": "tent_canvas_wool", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "thicket_bramble": {
       "inputHash": "135d0e037515ca53ca478d79dede50fdddf6aa3844ebf702f4926c495406173a",
       "libVersion": 1,
@@ -3986,6 +4088,33 @@
             { "name": "urn_funeral_clay", "source": "palette" },
             { "name": "urn_funeral_incised", "source": "palette" },
             { "name": "urn_funeral_stone", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "wagon_covered": {
+      "inputHash": "b0ba2f50f79723267fb7e1ddf79dfb4d2f1fd9373744d09680d20111cf99e45f",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "wagon_covered",
+          "tris": 7820,
+          "bbox": { "min": [-1.811, -0.92, 0], "max": [1.96, 0.92, 2.5026] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wagon_covered_barrel", "source": "palette" },
+            { "name": "wagon_covered_boards", "source": "palette" },
+            { "name": "wagon_covered_canvas", "source": "palette" },
+            { "name": "wagon_covered_canvas_dark", "source": "palette" },
+            { "name": "wagon_covered_crate", "source": "palette" },
+            { "name": "wagon_covered_iron", "source": "palette" },
+            { "name": "wagon_covered_sack", "source": "palette" },
+            { "name": "wagon_covered_wood", "source": "palette" },
+            { "name": "wagon_covered_wood_dark", "source": "palette" }
           ],
           "anchors": [],
           "textures": []

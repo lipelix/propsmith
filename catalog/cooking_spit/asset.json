@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "cooking_spit",
+  "name": "Camp cooking spit",
+  "description": "Two forked wooden stakes about 1 m high holding an iron spit with a crank and a trussed roasting bird, a sooty iron pot of stew hanging from its middle over a small fire of sticks and embers in a ring of blackened stones.",
+  "category": "light",
+  "family": "spit",
+  "tags": ["wood", "iron", "stone", "camp", "forest", "cooking", "worn"],
+  "aliases": [
+    "roasting spit",
+    "camp spit",
+    "cooking fire",
+    "spit roast",
+    "hanging pot"
+  ],
+  "variants": ["cooking_spit"],
+  "size": { "x": 1.15, "y": 0.55, "z": 1.0 },
+  "anchors": ["fire:camp", "light:fire"],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "Two forked stakes with a spit and a hanging pot over a small fire, about 1.2 × 0.6 × 1 m; anchors fire:camp and light:fire."
+  },
+  "licence": "CC0-1.0"
+}

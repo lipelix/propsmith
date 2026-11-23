@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "tent_canvas",
+  "name": "Patched canvas ridge tent",
+  "description": "A ridge tent of weathered, patched canvas about 2.5 m long and 1.7 m high on a ridge pole and two uprights, pegged down at the hems; at the front one door flap hangs shut and the other is rolled back and tied open, showing a bedroll with a blanket inside.",
+  "category": "structure",
+  "family": "tent",
+  "tags": ["cloth", "wood", "rope", "camp", "forest", "roofed", "weathered"],
+  "aliases": ["ridge tent", "camp tent", "pup tent", "shelter", "bivouac"],
+  "variants": ["tent_canvas"],
+  "size": { "x": 2.5, "y": 2.0, "z": 1.7 },
+  "anchors": [],
+  "closed": false,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A ridge tent of patched canvas with one flap tied open and a bedroll visible inside, about 2.5 × 2 × 1.7 m."
+  },
+  "licence": "CC0-1.0"
+}
