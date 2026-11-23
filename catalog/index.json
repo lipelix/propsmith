@@ -1370,6 +1370,36 @@
       "inputHash": "a7fecf74619c8b09ccf64610972c5966521bcd0d679e0bd38042159bfbc8a6b8"
     },
     {
+      "id": "gallows_wood",
+      "name": "Wooden gallows",
+      "description": "A weathered timber gallows: a braced plank platform with a hinged trapdoor and release lever, a steep flight of steps with a handrail, and over the trapdoor two tall uprights carrying a cross beam on knee braces, one rope wound round it and hanging to a coiled noose.",
+      "category": "structure",
+      "family": "gallows",
+      "tags": [
+        "castle",
+        "large",
+        "punishment",
+        "rope",
+        "square",
+        "tall",
+        "weathered",
+        "wood"
+      ],
+      "aliases": [
+        "execution platform",
+        "gibbet",
+        "hanging platform",
+        "scaffold"
+      ],
+      "variants": ["gallows_wood"],
+      "size": { "x": 3, "y": 2.3, "z": 4 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "b7eeccbcc771af97b0425144280a93001999ee9f544c1d9fd7a3fe3b3932ce5c"
+    },
+    {
       "id": "gate_wood",
       "name": "Wooden field gate",
       "description": "A 1.5 m plank field gate in weathered grey-brown wood: four rails, two stiles and a diagonal brace, hung on iron strap hinges between two round posts and closed with an iron latch, matching the rail fence.",
@@ -1398,6 +1428,30 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "37925b2e667719afb0283f6d332b82f152d9a748fdf7e6134c9d47b28a11e53f"
+    },
+    {
+      "id": "gibbet_post",
+      "name": "Gibbet post",
+      "description": "A tall weathered oak post on a cross of braced sills with an arm pegged through its top, from which a short chain hangs an iron body cage of flat hoops and straps shaped to a person from the feet to a domed head.",
+      "category": "structure",
+      "family": "gibbet",
+      "tags": [
+        "castle",
+        "iron",
+        "punishment",
+        "road",
+        "tall",
+        "weathered",
+        "wood"
+      ],
+      "aliases": ["body cage", "crow cage", "gibbet cage", "hanging cage"],
+      "variants": ["gibbet_post"],
+      "size": { "x": 1.5, "y": 0.8, "z": 4 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "c6f74818e36abcb577a1356b74de2fce03cf68c5b9ebf9675887712024d08306"
     },
     {
       "id": "goblin_camp_lean_to",
@@ -2433,6 +2487,22 @@
       "inputHash": "d898d7365ab5ffb8ddd5fb2ee24e991ad095168cd47cf486a7356202886a0e0e"
     },
     {
+      "id": "stocks_wood",
+      "name": "Wooden pillory",
+      "description": "A village pillory on a low plank platform with a step at the front: two braced oak posts tied by a top rail hold a pair of heavy boards that close on a round head hole and two hand holes, the upper board hinged on iron straps and padlocked shut by a hasp.",
+      "category": "structure",
+      "family": "stocks",
+      "tags": ["iron", "punishment", "square", "village", "weathered", "wood"],
+      "aliases": ["pillory", "public stocks", "village stocks"],
+      "variants": ["stocks_wood"],
+      "size": { "x": 1.6, "y": 1, "z": 1.6 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "4ebe1796040364595f93b8f4ceec5f017122cfa5f3c7d4805830f9bd1baa4f5e"
+    },
+    {
       "id": "stool_wood",
       "name": "Wooden stool",
       "description": "A three-legged inn stool with its seat top at 0.45 m: a thick round seat about 0.36 m across on three splayed, tapered legs braced by a ring of round stretchers.",
@@ -2610,6 +2680,36 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "0894b1fd72b25dcbcd11d1d0e6955c2a131f5793621946016d811a0829963f56"
+    },
+    {
+      "id": "torture_rack",
+      "name": "Torture rack",
+      "description": "A long timber rack on four braced legs with a plank bed: a roller across each end wound with rope, the ropes running along the bed to wrist and ankle loops, capstan bars through the head roller and a toothed iron ratchet wheel and pawl on the foot roller.",
+      "category": "furniture",
+      "family": "torture_rack",
+      "tags": [
+        "castle",
+        "dungeon",
+        "iron",
+        "long",
+        "punishment",
+        "rope",
+        "wood",
+        "worn"
+      ],
+      "aliases": [
+        "interrogation rack",
+        "rack",
+        "stretching rack",
+        "torture table"
+      ],
+      "variants": ["torture_rack"],
+      "size": { "x": 2.4, "y": 1.05, "z": 1 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "eed6947f0a285265ee9368e2dfe35c6aa374e71aa7ed35bfe23b6ec6304ac6f7"
     },
     {
       "id": "tower_stone_watch",

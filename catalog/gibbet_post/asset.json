@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "gibbet_post",
+  "name": "Gibbet post",
+  "description": "A tall weathered oak post on a cross of braced sills with an arm pegged through its top, from which a short chain hangs an iron body cage of flat hoops and straps shaped to a person from the feet to a domed head.",
+  "category": "structure",
+  "family": "gibbet",
+  "tags": ["wood", "iron", "road", "castle", "punishment", "tall", "weathered"],
+  "aliases": ["gibbet cage", "hanging cage", "crow cage", "body cage"],
+  "variants": ["gibbet_post"],
+  "size": { "x": 1.5, "y": 0.8, "z": 4.0 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A tall post with an arm and a hanging iron body cage, about 1.5 × 0.8 × 4 m."
+  },
+  "licence": "CC0-1.0"
+}

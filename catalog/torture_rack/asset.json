@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "torture_rack",
+  "name": "Torture rack",
+  "description": "A long timber rack on four braced legs with a plank bed: a roller across each end wound with rope, the ropes running along the bed to wrist and ankle loops, capstan bars through the head roller and a toothed iron ratchet wheel and pawl on the foot roller.",
+  "category": "furniture",
+  "family": "torture_rack",
+  "tags": [
+    "wood",
+    "rope",
+    "iron",
+    "dungeon",
+    "castle",
+    "punishment",
+    "long",
+    "worn"
+  ],
+  "aliases": ["rack", "stretching rack", "torture table", "interrogation rack"],
+  "variants": ["torture_rack"],
+  "size": { "x": 2.4, "y": 1.05, "z": 1.0 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A timber rack with rollers, ropes and a ratchet wheel, about 2.4 × 1 × 1 m."
+  },
+  "licence": "CC0-1.0"
+}

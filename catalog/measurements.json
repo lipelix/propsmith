@@ -1711,6 +1711,33 @@
         }
       ]
     },
+    "gallows_wood": {
+      "inputHash": "b7eeccbcc771af97b0425144280a93001999ee9f544c1d9fd7a3fe3b3932ce5c",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "gallows_wood",
+          "tris": 7460,
+          "bbox": {
+            "min": [-1.5028, -1.165, -0.0007],
+            "max": [1.4823, 1.1044, 3.983]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "gallows_wood_iron", "source": "palette" },
+            { "name": "gallows_wood_iron_worn", "source": "palette" },
+            { "name": "gallows_wood_oak", "source": "palette" },
+            { "name": "gallows_wood_oak_dark", "source": "palette" },
+            { "name": "gallows_wood_oak_old", "source": "palette" },
+            { "name": "gallows_wood_rope", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "gate_wood": {
       "inputHash": "37925b2e667719afb0283f6d332b82f152d9a748fdf7e6134c9d47b28a11e53f",
       "libVersion": 1,
@@ -1729,6 +1756,33 @@
             { "name": "gate_wood_iron", "source": "palette" },
             { "name": "gate_wood_old", "source": "palette" },
             { "name": "gate_wood_wood", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "gibbet_post": {
+      "inputHash": "c6f74818e36abcb577a1356b74de2fce03cf68c5b9ebf9675887712024d08306",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "gibbet_post",
+          "tris": 3688,
+          "bbox": {
+            "min": [-0.7509, -0.4007, 0],
+            "max": [0.6207, 0.4007, 3.98]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "gibbet_post_iron", "source": "palette" },
+            { "name": "gibbet_post_iron_worn", "source": "palette" },
+            { "name": "gibbet_post_oak", "source": "palette" },
+            { "name": "gibbet_post_oak_old", "source": "palette" },
+            { "name": "gibbet_post_rust", "source": "palette" },
+            { "name": "gibbet_post_stone", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
@@ -3188,6 +3242,32 @@
         }
       ]
     },
+    "stocks_wood": {
+      "inputHash": "4ebe1796040364595f93b8f4ceec5f017122cfa5f3c7d4805830f9bd1baa4f5e",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "stocks_wood",
+          "tris": 4808,
+          "bbox": {
+            "min": [-0.7995, -0.4968, 0],
+            "max": [0.7984, 0.4997, 1.595]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "stocks_wood_iron", "source": "palette" },
+            { "name": "stocks_wood_iron_worn", "source": "palette" },
+            { "name": "stocks_wood_oak", "source": "palette" },
+            { "name": "stocks_wood_oak_old", "source": "palette" },
+            { "name": "stocks_wood_rust", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "stool_wood": {
       "inputHash": "0ea88329af3d7c40fbb40294e5043d85be711457016d023142f2a2678abf084b",
       "libVersion": 1,
@@ -3429,6 +3509,31 @@
             },
             { "name": "light:torch", "at": [0, -0.119, 0.5978] }
           ],
+          "textures": []
+        }
+      ]
+    },
+    "torture_rack": {
+      "inputHash": "eed6947f0a285265ee9368e2dfe35c6aa374e71aa7ed35bfe23b6ec6304ac6f7",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "torture_rack",
+          "tris": 6560,
+          "bbox": { "min": [-1.2, -0.525, -0.0007], "max": [1.2, 0.5, 0.9748] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "torture_rack_iron", "source": "palette" },
+            { "name": "torture_rack_iron_worn", "source": "palette" },
+            { "name": "torture_rack_oak", "source": "palette" },
+            { "name": "torture_rack_oak_dark", "source": "palette" },
+            { "name": "torture_rack_oak_old", "source": "palette" },
+            { "name": "torture_rack_rope", "source": "palette" },
+            { "name": "torture_rack_rust", "source": "palette" }
+          ],
+          "anchors": [],
           "textures": []
         }
       ]

@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "gallows_wood",
+  "name": "Wooden gallows",
+  "description": "A weathered timber gallows: a braced plank platform with a hinged trapdoor and release lever, a steep flight of steps with a handrail, and over the trapdoor two tall uprights carrying a cross beam on knee braces, one rope wound round it and hanging to a coiled noose.",
+  "category": "structure",
+  "family": "gallows",
+  "tags": [
+    "wood",
+    "rope",
+    "square",
+    "castle",
+    "punishment",
+    "large",
+    "tall",
+    "weathered"
+  ],
+  "aliases": ["gibbet", "hanging platform", "scaffold", "execution platform"],
+  "variants": ["gallows_wood"],
+  "size": { "x": 3.0, "y": 2.3, "z": 4.0 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A plank platform with steps, a beam and one noose, about 3 × 2.5 × 4 m."
+  },
+  "licence": "CC0-1.0"
+}
