@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "id": "chandelier_iron",
+  "name": "Iron ring chandelier",
+  "description": "A wrought iron ring chandelier about 1.4 m across with eight ivory candles in drip pans, four spokes to a hub with a pointed drop finial, and three chains gathering at a ring under a short hook on a round ceiling plate, 1.3 m above the finial. It stands on its finial's tip; hung with the ring about 2.6 m up, the plate meets a ceiling at about 3.6 m.",
+  "category": "light",
+  "family": "chandelier",
+  "tags": ["iron", "castle", "inn", "lighting", "round", "ornate"],
+  "aliases": [
+    "candle wheel",
+    "hanging candelabrum",
+    "ring of candles",
+    "corona",
+    "hanging lamp"
+  ],
+  "variants": ["chandelier_iron"],
+  "size": { "x": 1.4, "y": 1.4, "z": 1.3 },
+  "anchors": [
+    "light:candle_1",
+    "light:candle_2",
+    "light:candle_3",
+    "light:candle_4",
+    "light:candle_5",
+    "light:candle_6",
+    "light:candle_7",
+    "light:candle_8"
+  ],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "An iron ring chandelier with eight candles on three chains from a short ceiling hook, about 1.4 m across, the ring about 2.6 m above the origin on the floor."
+  },
+  "licence": "CC0-1.0"
+}

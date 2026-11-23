@@ -627,6 +627,37 @@
       "inputHash": "761f1e571ba5e901467bd10892f817ef128af25b54980c2e6480e0aafb6e0e78"
     },
     {
+      "id": "chandelier_iron",
+      "name": "Iron ring chandelier",
+      "description": "A wrought iron ring chandelier about 1.4 m across with eight ivory candles in drip pans, four spokes to a hub with a pointed drop finial, and three chains gathering at a ring under a short hook on a round ceiling plate, 1.3 m above the finial. It stands on its finial's tip; hung with the ring about 2.6 m up, the plate meets a ceiling at about 3.6 m.",
+      "category": "light",
+      "family": "chandelier",
+      "tags": ["castle", "inn", "iron", "lighting", "ornate", "round"],
+      "aliases": [
+        "candle wheel",
+        "corona",
+        "hanging candelabrum",
+        "hanging lamp",
+        "ring of candles"
+      ],
+      "variants": ["chandelier_iron"],
+      "size": { "x": 1.4, "y": 1.4, "z": 1.3 },
+      "anchors": [
+        "light:candle_1",
+        "light:candle_2",
+        "light:candle_3",
+        "light:candle_4",
+        "light:candle_5",
+        "light:candle_6",
+        "light:candle_7",
+        "light:candle_8"
+      ],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "5b03c4cb5541b365fb78ad8b74dfe61d77b7bd31f3bb62a74b9d1fdda36ace23"
+    },
+    {
       "id": "chest_iron_bound",
       "name": "Iron-bound chest",
       "description": "A heavy closed chest of dark stained planks, about 1 m wide, 0.7 m deep and 0.7 m high, with a low domed lid, wrapped in iron: an iron-shod plinth, hoops round the body, corner plates, studded straps over the lid, side ring handles and a round rusty lock plate on the front bearing a raised sigil, a ring round a five-pointed star, under a hasp.",

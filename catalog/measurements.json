@@ -860,6 +860,38 @@
         }
       ]
     },
+    "chandelier_iron": {
+      "inputHash": "5b03c4cb5541b365fb78ad8b74dfe61d77b7bd31f3bb62a74b9d1fdda36ace23",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "chandelier_iron",
+          "tris": 7056,
+          "bbox": { "min": [-0.6828, -0.685, 0], "max": [0.6828, 0.685, 1.3] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "chandelier_iron_flame", "source": "palette" },
+            { "name": "chandelier_iron_iron", "source": "palette" },
+            { "name": "chandelier_iron_iron_worn", "source": "palette" },
+            { "name": "chandelier_iron_wax", "source": "palette" },
+            { "name": "chandelier_iron_wick", "source": "palette" }
+          ],
+          "anchors": [
+            { "name": "light:candle_1", "at": [0.64, 0, 0.4055] },
+            { "name": "light:candle_2", "at": [0.4525, 0.4525, 0.438] },
+            { "name": "light:candle_3", "at": [0, 0.64, 0.4218] },
+            { "name": "light:candle_4", "at": [-0.4525, 0.4525, 0.4055] },
+            { "name": "light:candle_5", "at": [-0.64, 0, 0.438] },
+            { "name": "light:candle_6", "at": [-0.4525, -0.4525, 0.4218] },
+            { "name": "light:candle_7", "at": [0, -0.64, 0.4055] },
+            { "name": "light:candle_8", "at": [0.4525, -0.4525, 0.438] }
+          ],
+          "textures": []
+        }
+      ]
+    },
     "chest_iron_bound": {
       "inputHash": "2eec05333844b85702118bcd9dea68f861c095b51792adb581a77736e4d1e999",
       "libVersion": 1,
