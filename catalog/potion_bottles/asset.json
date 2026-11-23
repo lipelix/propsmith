@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "potion_bottles",
+  "name": "Potion bottles",
+  "description": "A small group of stoppered potion bottles and vials about 0.35 × 0.3 m and 0.3 m high: a tall square bottle of green brew sealed with red wax, a round-bellied red flask with a tied label, a squat blue bottle, a slim blue vial and three little vials of red and green, one lying on its side.",
+  "category": "decor",
+  "family": "bottle",
+  "tags": ["glass", "dungeon", "castle", "market", "magic", "small"],
+  "aliases": [
+    "potions",
+    "vials",
+    "flasks",
+    "phials",
+    "elixirs",
+    "health potion",
+    "mana potion"
+  ],
+  "variants": ["potion_bottles"],
+  "size": { "x": 0.35, "y": 0.3, "z": 0.3 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A small group of stoppered bottles and vials in red, blue and green, about 0.4 × 0.3 × 0.3 m."
+  },
+  "licence": "CC0-1.0"
+}

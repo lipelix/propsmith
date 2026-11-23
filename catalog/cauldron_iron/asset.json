@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "id": "cauldron_iron",
+  "name": "Iron cauldron on a tripod",
+  "description": "A round-bellied black iron cauldron of dark green brew hanging by its bail and a short chain from a wrought iron tripod, about 0.85 m across and 1.2 m high, over a small fire of crossed sticks, embers and low flames in a ring of blackened stones.",
+  "category": "light",
+  "family": "cauldron",
+  "tags": [
+    "iron",
+    "stone",
+    "dungeon",
+    "camp",
+    "cooking",
+    "magic",
+    "round",
+    "worn"
+  ],
+  "aliases": [
+    "witch's cauldron",
+    "cooking pot",
+    "kettle",
+    "brew pot",
+    "tripod pot"
+  ],
+  "variants": ["cauldron_iron"],
+  "size": { "x": 0.85, "y": 0.8, "z": 1.2 },
+  "anchors": ["fire:hearth", "light:fire"],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A black iron cauldron hanging from a tripod over a small fire, about 0.9 × 0.9 × 1.2 m; anchors fire:hearth and light:fire."
+  },
+  "licence": "CC0-1.0"
+}

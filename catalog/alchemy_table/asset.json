@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "alchemy_table",
+  "name": "Alchemy table",
+  "description": "An alchemist's stained oak workbench about 1.5 × 0.7 m with its top at 0.86 m and a back rack of bottles and jars to 1.3 m: a green glass retort in an iron ring stand over a small brass burner, its neck running into a receiving flask, round and conical flasks of red, blue and green brew, a stone mortar and pestle, and a low shelf of clay jars.",
+  "category": "furniture",
+  "family": "workbench",
+  "tags": ["wood", "glass", "castle", "dungeon", "magic", "work", "worn"],
+  "aliases": [
+    "alchemist's bench",
+    "alchemy bench",
+    "laboratory table",
+    "apothecary table",
+    "potion table"
+  ],
+  "variants": ["alchemy_table"],
+  "size": { "x": 1.5, "y": 0.7, "z": 1.3 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A stained workbench with a retort, flasks, a mortar and a small burner, about 1.5 × 0.7 × 1.3 m."
+  },
+  "licence": "CC0-1.0"
+}
