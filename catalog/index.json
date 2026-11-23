@@ -1439,7 +1439,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "b500b6d3465f1103dfd1f9a7218f496846d80d8b749d9f18dbc4965252ce1c34"
+      "inputHash": "547448dae02adb2b887fb5bf0132e16c5e486da9a22bb427e62562688187ae33"
     },
     {
       "id": "fountain_stone",
@@ -1672,6 +1672,27 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "6c46a14491dae364e4049cec6e344a378bb6aff19bedbb896a4cbebdc7266152"
+    },
+    {
+      "id": "grindstone_wheel",
+      "name": "Grindstone wheel",
+      "description": "A thick sandstone wheel about 0.65 m across on an iron axle, turning in a timber frame of two rails on four splayed legs, with an iron crank and a wooden grip at the front and the bottom of the wheel dipping into a plank trough of water.",
+      "category": "decor",
+      "family": "grindstone",
+      "tags": ["iron", "round", "stone", "village", "wood", "work", "worn"],
+      "aliases": [
+        "grinding wheel",
+        "knife grinder",
+        "sharpening wheel",
+        "whetstone wheel"
+      ],
+      "variants": ["grindstone_wheel"],
+      "size": { "x": 1, "y": 0.6, "z": 0.95 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "8044765e304813d6df928a7ead96516d5dada6efbb010749f7a929b4fdf3387e"
     },
     {
       "id": "hay_bale",

@@ -27,7 +27,7 @@ CHIM_W, CHIM_D, CHIM_Y = 0.5, 0.42, 0.28
 TOP = 2.2
 STAND_X0, STAND_X1 = 0.46, 0.84  # the bellows stand's legs
 STAND_H = 0.7
-BELLOWS_X, BELLOWS_R = 0.68, 0.19  # centre of the boards' round end, their radius
+BELLOWS_X, BELLOWS_R = 0.68, 0.2  # centre of the boards' round end, their radius
 TIP = 1.75  # the boards' point reaches TIP * BELLOWS_R towards -x
 
 STONE = (0.29, 0.26, 0.22)  # linear RGB
@@ -36,7 +36,8 @@ SOOT = (0.06, 0.055, 0.05)
 PLASTER = (0.36, 0.33, 0.28)
 WOOD = (0.19, 0.115, 0.06)
 WOOD_OLD = (0.15, 0.1, 0.06)
-LEATHER = (0.14, 0.075, 0.04)
+LEATHER = (0.075, 0.042, 0.026)
+BOARD = (0.27, 0.17, 0.09)
 IRON = (0.04, 0.04, 0.04)
 IRON_RUST = (0.09, 0.05, 0.03)
 COAL = (0.035, 0.032, 0.03)
@@ -106,6 +107,7 @@ def forge_stone():
     plaster = material("forge_stone_plaster", PLASTER, rough=0.95, vary=0.22, scale=5, crevice=0.6)
     wood = material("forge_stone_wood", WOOD, vary=0.28, scale=14)
     old = material("forge_stone_wood_old", WOOD_OLD, vary=0.3, scale=11)
+    board = material("forge_stone_board", BOARD, vary=0.25, scale=16)
     leather = material("forge_stone_leather", LEATHER, rough=0.7, vary=0.3, scale=10, crevice=0.7)
     iron = material("forge_stone_iron", IRON, rough=0.55, vary=0.2, scale=14, metal=0.6, crevice=0.6)
     rust = material("forge_stone_rust", IRON_RUST, rough=0.8, vary=0.3, scale=16, metal=0.3)
@@ -128,7 +130,7 @@ def forge_stone():
     bed = HEARTH_H + 0.01
     _settle(blob("coal_bed", 0.3, (FIRE_X, FIRE_Y, bed), coal, squash=(1.0, 0.9, 0.16), subdiv=2, seed=4,
                  jitter=0.2), HEARTH_H - 0.005)
-    _settle(blob("embers", 0.17, (FIRE_X, FIRE_Y, bed), ember, squash=(1.1, 0.95, 0.35), subdiv=2, seed=5,
+    _settle(blob("embers", 0.21, (FIRE_X, FIRE_Y, bed), ember, squash=(1.1, 0.9, 0.28), subdiv=2, seed=5,
                  jitter=0.25), HEARTH_H + 0.02)
     for i in range(9):
         a = rnd.uniform(0, 2 * math.pi)
@@ -144,7 +146,7 @@ def forge_stone():
              squash=(0.85, 0.8, h / (2 * fr)), subdiv=1, seed=70 + i, jitter=0.12)
 
     # The back wall up to the hood, and the hood: a plastered frustum on a timber lintel, drawing into the chimney.
-    _courses("wall", X0, X1, WALL_Y, Y1, HEARTH_H, HOOD_Z0, 3, rnd, [dark, stone, soot])
+    _courses("wall", X0, X1, WALL_Y, Y1, HEARTH_H, HOOD_Z0, 3, rnd, [dark, stone, stone])
     hx0, hx1 = X0 + 0.02, X1 - 0.02
     cx = FIRE_X
     _frustum("hood", (hx0, hx1, HOOD_Y0, Y1, HOOD_Z0 + 0.1),
@@ -187,17 +189,17 @@ def forge_stone():
 
     # The bellows: a lower board, a leather body, an upper board tilted open, a handle and an iron nozzle.
     zb = STAND_H + 0.06
-    _board("bellows_low", BELLOWS_X, zb, wood)
-    blob("bellows_leather", BELLOWS_R * 0.95, (BELLOWS_X - 0.02, 0, zb + 0.08), leather,
-         squash=(1.12, 0.95, 0.3), subdiv=2, seed=9, jitter=0.06)
-    top_board = _board("bellows_high", BELLOWS_X, zb + 0.13, old, tilt=7)
+    _board("bellows_low", BELLOWS_X, zb, board)
+    blob("bellows_leather", BELLOWS_R * 0.97, (BELLOWS_X - 0.03, 0, zb + 0.105), leather,
+         squash=(1.2, 0.95, 0.5), subdiv=2, seed=9, jitter=0.06)
+    top_board = _board("bellows_high", BELLOWS_X, zb + 0.2, board, tilt=12)
     top_board.location.x += 0.01
     for i in range(4):
         a = math.radians(-60 + 40 * i)
         box(f"bellows_nail_{i}", (0.02, 0.02, 0.012),
-            (BELLOWS_X + 0.14 * math.cos(a), 0.14 * math.sin(a), zb + 0.17 + 0.01 * i), iron, bevel=0)
-    _rod("bellows_handle", 0.018, (BELLOWS_X + BELLOWS_R - 0.03, 0, zb + 0.16),
-         (STAND_X1 + 0.05, 0, zb + 0.32), old, segments=8)
+            (BELLOWS_X + 0.14 * math.cos(a), 0.14 * math.sin(a), zb + 0.23 + 0.012 * i), iron, bevel=0)
+    _rod("bellows_handle", 0.018, (BELLOWS_X + BELLOWS_R - 0.03, 0, zb + 0.24),
+         (STAND_X1 + 0.05, 0, zb + 0.4), old, segments=8)
     nose = Vector((BELLOWS_X - BELLOWS_R * TIP + 0.02, 0, zb + 0.05))
     _rod("bellows_nozzle", 0.04, nose, nose + Vector((-0.1, 0, 0)), iron, segments=10, r_top=0.022)
     pipe_in = Vector((FIRE_X + PIT_X / 2 + RIM_W * 0.4, FIRE_Y + 0.02, HEARTH_H + RIM_H * 0.5))
