@@ -1766,6 +1766,46 @@
         }
       ]
     },
+    "forge_stone": {
+      "inputHash": "b500b6d3465f1103dfd1f9a7218f496846d80d8b749d9f18dbc4965252ce1c34",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "forge_stone",
+          "tris": 7632,
+          "bbox": {
+            "min": [-0.915, -0.6461, -0.0015],
+            "max": [0.9053, 0.565, 2.2]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "forge_stone_coal", "source": "palette" },
+            { "name": "forge_stone_ember", "source": "palette" },
+            { "name": "forge_stone_flame", "source": "palette" },
+            { "name": "forge_stone_iron", "source": "palette" },
+            { "name": "forge_stone_leather", "source": "palette" },
+            { "name": "forge_stone_plaster", "source": "palette" },
+            { "name": "forge_stone_rust", "source": "palette" },
+            { "name": "forge_stone_soot", "source": "palette" },
+            { "name": "forge_stone_stone", "source": "palette" },
+            { "name": "forge_stone_stone_dark", "source": "palette" },
+            { "name": "forge_stone_wood", "source": "palette" },
+            { "name": "forge_stone_wood_old", "source": "palette" }
+          ],
+          "anchors": [
+            {
+              "name": "fire:hearth",
+              "at": [-0.29, -0.06, 0.76],
+              "size": [0.27, 0.24, 0.5]
+            },
+            { "name": "light:fire", "at": [-0.29, -0.06, 0.97] }
+          ],
+          "textures": []
+        }
+      ]
+    },
     "fountain_stone": {
       "inputHash": "a7fecf74619c8b09ccf64610972c5966521bcd0d679e0bd38042159bfbc8a6b8",
       "libVersion": 1,
