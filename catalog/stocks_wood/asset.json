@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "stocks_wood",
+  "name": "Wooden pillory",
+  "description": "A village pillory on a low plank platform with a step at the front: two braced oak posts tied by a top rail hold a pair of heavy boards that close on a round head hole and two hand holes, the upper board hinged on iron straps and padlocked shut by a hasp.",
+  "category": "structure",
+  "family": "stocks",
+  "tags": ["wood", "village", "square", "punishment", "weathered", "iron"],
+  "aliases": ["pillory", "village stocks", "public stocks"],
+  "variants": ["stocks_wood"],
+  "size": { "x": 1.6, "y": 1.0, "z": 1.6 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A village pillory: two posts and a hinged board with head and hand holes on a low platform, about 1.6 × 1 × 1.6 m."
+  },
+  "licence": "CC0-1.0"
+}
