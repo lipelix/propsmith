@@ -2382,6 +2382,36 @@
       "inputHash": "135d0e037515ca53ca478d79dede50fdddf6aa3844ebf702f4926c495406173a"
     },
     {
+      "id": "throne_stone",
+      "name": "Stone throne on a dais",
+      "description": "A high-backed throne of carved grey stone on a two-step dais 1.4 m square: heavy arms ending in rolled scrolls, a dull red cushion on the seat, a tall back with a framed carved roundel under a pointed gable crest and a ball finial at 2.4 m, flanked by two round columns.",
+      "category": "furniture",
+      "family": "throne",
+      "tags": [
+        "castle",
+        "dungeon",
+        "ornate",
+        "seating",
+        "stone",
+        "tall",
+        "worn"
+      ],
+      "aliases": [
+        "chair of state",
+        "dais",
+        "high seat",
+        "king's seat",
+        "royal seat"
+      ],
+      "variants": ["throne_stone"],
+      "size": { "x": 1.4, "y": 1.4, "z": 2.4 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "34a186a6a9ed36fbd5917957b663bf88e76039404bf348a1dbe3b33ea77118bf"
+    },
+    {
       "id": "torch_wall_sconce",
       "name": "Wall torch in an iron sconce",
       "description": "A wrought-iron wall bracket, a riveted plate with two scrolls, holding a pitch torch that leans out from the wall: a wooden haft, a dark pitch-soaked rag head bound with cord, glowing at the top under a short flame.",
