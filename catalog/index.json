@@ -3192,6 +3192,37 @@
       "inputHash": "cf17895115e685ac7bbed3e4683ef38f4b25277529eb4b0305db8c30138f4ec1"
     },
     {
+      "id": "wagon_covered",
+      "name": "Covered wagon",
+      "description": "A four-wheeled wooden wagon about 4 m long and 2.6 m high: a plank box bed on tall spoked rear wheels and smaller front ones, a weathered canvas tilt on wooden hoops open over the driver's bench, a barrel, sacks and a crate inside, and a draw pole resting on the ground in front.",
+      "category": "structure",
+      "family": "wagon",
+      "tags": [
+        "camp",
+        "cloth",
+        "iron",
+        "large",
+        "road",
+        "transport",
+        "wood",
+        "worn"
+      ],
+      "aliases": [
+        "caravan",
+        "carriage",
+        "cart",
+        "covered wagon",
+        "prairie schooner"
+      ],
+      "variants": ["wagon_covered"],
+      "size": { "x": 3.8, "y": 1.85, "z": 2.55 },
+      "anchors": [],
+      "closed": false,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "b0ba2f50f79723267fb7e1ddf79dfb4d2f1fd9373744d09680d20111cf99e45f"
+    },
+    {
       "id": "wall_crypt_corner",
       "name": "Crypt wall corner",
       "description": "An L-shaped corner of crypt wall, 0.6 m thick and 3 m high, in the cool, dark dressed ashlar of the crypt wall section: long quoins alternate between the arms over a square corner pier, worn rounded arrises over dark recessed joints, a slightly proud footing course and a plain coping. One arm runs 0.75 m from the corner to +x, the other to +y, where they meet straight sections. Damp darkens the footing and streaks the outer faces.",

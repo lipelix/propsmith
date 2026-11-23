@@ -4094,6 +4094,33 @@
         }
       ]
     },
+    "wagon_covered": {
+      "inputHash": "b0ba2f50f79723267fb7e1ddf79dfb4d2f1fd9373744d09680d20111cf99e45f",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "wagon_covered",
+          "tris": 7820,
+          "bbox": { "min": [-1.811, -0.92, 0], "max": [1.96, 0.92, 2.5026] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "wagon_covered_barrel", "source": "palette" },
+            { "name": "wagon_covered_boards", "source": "palette" },
+            { "name": "wagon_covered_canvas", "source": "palette" },
+            { "name": "wagon_covered_canvas_dark", "source": "palette" },
+            { "name": "wagon_covered_crate", "source": "palette" },
+            { "name": "wagon_covered_iron", "source": "palette" },
+            { "name": "wagon_covered_sack", "source": "palette" },
+            { "name": "wagon_covered_wood", "source": "palette" },
+            { "name": "wagon_covered_wood_dark", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "wall_crypt_corner": {
       "inputHash": "49295a9584b7e736b0591ffc8e2ea7b197a4308f7715c804b98f974094236604",
       "libVersion": 1,
