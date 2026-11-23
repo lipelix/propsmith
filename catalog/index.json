@@ -1857,6 +1857,52 @@
       "inputHash": "03fbeea90316653a312f2c0921effe548e94eabb86d0e8314df51379f4b861be"
     },
     {
+      "id": "mine_cart",
+      "name": "Mine ore cart",
+      "description": "A flared wooden ore tub of thick planks bound with iron corner straps and a rim band, on four flanged iron wheels at the gauge of the mine track, half full of dark broken rock with brassy ore glinting in it; coupling links at both ends.",
+      "category": "container",
+      "family": "cart",
+      "tags": ["boxy", "iron", "mine", "storage", "transport", "wood", "worn"],
+      "aliases": [
+        "mine car",
+        "minecart",
+        "ore cart",
+        "trolley",
+        "tub",
+        "wagon"
+      ],
+      "variants": ["mine_cart"],
+      "size": { "x": 1.3, "y": 1, "z": 1 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "e009a496e6a26fbdcad044bceee624d5419e891342b67717497459169df62240"
+    },
+    {
+      "id": "mine_support_timber",
+      "name": "Mine support timbers",
+      "description": "A mine tunnel set: two barked pine props splayed a little at the foot on flat sill blocks, carrying a squared cap beam with pale wedges driven in over each prop head, iron dogs at the joints and split lagging boards across the top; a coil of rope hangs from a spike on one prop.",
+      "category": "structure",
+      "family": "mine_support",
+      "tags": ["iron", "mine", "open", "tall", "wood", "worn"],
+      "aliases": [
+        "mine entrance",
+        "mine timbers",
+        "pit props",
+        "shaft timbering",
+        "timber set",
+        "tunnel support"
+      ],
+      "variants": ["mine_support_timber"],
+      "size": { "x": 2.2, "y": 0.45, "z": 2.4 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "68aeb4895622eb38c2c3145a974be766ab3299fb15f1076da9f8f3b8d8a2a8eb"
+    },
+    {
       "id": "moss_patch",
       "name": "Moss patch",
       "description": "A flat, low lumpy cushion of moss with a soft irregular outline, small rounded bumps and a few tiny tufts, flat underneath so it sits on stones, wall caps and the foot of walls. Mid moss green with deep green hollows and yellow-green lit bumps and rims; variants are a patch and a long thin strip for a wall cap.",
@@ -1957,6 +2003,29 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "6b8acbed3cfb70069171c5fe3d6dcd7bc87e9c8ddedf8737e8fbffe4b84719f4"
+    },
+    {
+      "id": "ore_vein_rock",
+      "name": "Ore vein rock",
+      "description": "A dark grey rock outcrop, a big rounded boulder with a lower one against its back, crossed by seams of milky quartz studded with glinting brassy and rusty ore, broken chips at its foot and a pickaxe with an iron head standing against it.",
+      "category": "decor",
+      "family": "rock",
+      "tags": ["cave", "iron", "large", "mine", "stone", "weathered", "work"],
+      "aliases": [
+        "gold vein",
+        "mineral vein",
+        "mining node",
+        "ore deposit",
+        "ore rock",
+        "pickaxe"
+      ],
+      "variants": ["ore_vein_rock"],
+      "size": { "x": 1.2, "y": 1, "z": 1 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "498fc93d7fc19b82c5de9255eb6f1b0ef5e2529de199f54d268fc7aab64fe89e"
     },
     {
       "id": "pebbles",
@@ -2220,6 +2289,29 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "7137583bc758e927496c0d32bb937a1f3a985d69afe30170667b9ddf619aa37d"
+    },
+    {
+      "id": "rail_track_straight",
+      "name": "Straight mine track",
+      "description": "A straight 1.5 m section of narrow-gauge mine track: two rusty flat-bottomed iron rails with wheel-worn heads, spiked through tie plates to five dark wooden sleepers on a little gravel, bolted with fishplates at one end. Sections join end to end.",
+      "category": "structure",
+      "family": "rail_track",
+      "tags": ["iron", "long", "low", "mine", "transport", "wood", "worn"],
+      "aliases": [
+        "mine rails",
+        "minecart track",
+        "rails",
+        "railway",
+        "track section",
+        "tramway"
+      ],
+      "variants": ["rail_track_straight"],
+      "size": { "x": 1.5, "y": 0.9, "z": 0.2 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "4348bd733cea465f37e8c3154f7dd5087af4378af03d5dfcdf663ce7007cbc8c"
     },
     {
       "id": "reeds_clump",

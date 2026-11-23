@@ -2325,6 +2325,62 @@
         }
       ]
     },
+    "mine_cart": {
+      "inputHash": "e009a496e6a26fbdcad044bceee624d5419e891342b67717497459169df62240",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "mine_cart",
+          "tris": 7448,
+          "bbox": {
+            "min": [-0.6299, -0.4991, 0],
+            "max": [0.6299, 0.4991, 0.9912]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "mine_cart_iron", "source": "palette" },
+            { "name": "mine_cart_ore", "source": "palette" },
+            { "name": "mine_cart_rock", "source": "palette" },
+            { "name": "mine_cart_rock_dark", "source": "palette" },
+            { "name": "mine_cart_rust", "source": "palette" },
+            { "name": "mine_cart_tread", "source": "palette" },
+            { "name": "mine_cart_wood", "source": "palette" },
+            { "name": "mine_cart_wood_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "mine_support_timber": {
+      "inputHash": "68aeb4895622eb38c2c3145a974be766ab3299fb15f1076da9f8f3b8d8a2a8eb",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "mine_support_timber",
+          "tris": 2756,
+          "bbox": {
+            "min": [-1.087, -0.2174, 0],
+            "max": [1.087, 0.2159, 2.3802]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "mine_support_bark", "source": "palette" },
+            { "name": "mine_support_iron", "source": "palette" },
+            { "name": "mine_support_rope", "source": "palette" },
+            { "name": "mine_support_wedge", "source": "palette" },
+            { "name": "mine_support_wood", "source": "palette" },
+            { "name": "mine_support_wood_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "moss_patch": {
       "inputHash": "733af34c73bdb99c98ab16a5a452ef9f262296b7cb5b25dba2733b4ece208ed9",
       "libVersion": 1,
@@ -2474,6 +2530,34 @@
             { "name": "oak_tree_leaves", "source": "palette" },
             { "name": "oak_tree_leaves_core", "source": "palette" },
             { "name": "oak_tree_leaves_lit", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "ore_vein_rock": {
+      "inputHash": "498fc93d7fc19b82c5de9255eb6f1b0ef5e2529de199f54d268fc7aab64fe89e",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "ore_vein_rock",
+          "tris": 7928,
+          "bbox": {
+            "min": [-0.5928, -0.5623, 0],
+            "max": [0.5755, 0.4641, 0.9667]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "ore_vein_rock_haft", "source": "palette" },
+            { "name": "ore_vein_rock_ore", "source": "palette" },
+            { "name": "ore_vein_rock_ore_rust", "source": "palette" },
+            { "name": "ore_vein_rock_pick", "source": "palette" },
+            { "name": "ore_vein_rock_quartz", "source": "palette" },
+            { "name": "ore_vein_rock_stone", "source": "palette" },
+            { "name": "ore_vein_rock_stone_dark", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
@@ -2802,6 +2886,33 @@
             { "name": "puddle_water_stone", "source": "palette" },
             { "name": "puddle_water_stone_old", "source": "palette" },
             { "name": "puddle_water_water", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "rail_track_straight": {
+      "inputHash": "4348bd733cea465f37e8c3154f7dd5087af4378af03d5dfcdf663ce7007cbc8c",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "rail_track_straight",
+          "tris": 2548,
+          "bbox": {
+            "min": [-0.748, -0.4452, -0.0048],
+            "max": [0.748, 0.4305, 0.155]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "rail_track_gravel", "source": "palette" },
+            { "name": "rail_track_head", "source": "palette" },
+            { "name": "rail_track_iron", "source": "palette" },
+            { "name": "rail_track_rust", "source": "palette" },
+            { "name": "rail_track_sleeper", "source": "palette" },
+            { "name": "rail_track_sleeper_old", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
