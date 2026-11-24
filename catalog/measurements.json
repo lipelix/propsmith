@@ -3748,6 +3748,37 @@
         }
       ]
     },
+    "ruin_arch_stone": {
+      "inputHash": "e7f56df43d9ab326e3e8c053c065a8d8a8baef5d12258817b59ed12d0d4fe697",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "ruin_arch_stone",
+          "tris": 7336,
+          "bbox": {
+            "min": [-1.4625, -0.6114, 0.0003],
+            "max": [1.4509, 0.5918, 3.2453]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "ruin_arch_stone_grass", "source": "palette" },
+            { "name": "ruin_arch_stone_ivy_0", "source": "palette" },
+            { "name": "ruin_arch_stone_ivy_1", "source": "palette" },
+            { "name": "ruin_arch_stone_ivy_2", "source": "palette" },
+            { "name": "ruin_arch_stone_mortar", "source": "palette" },
+            { "name": "ruin_arch_stone_moss", "source": "palette" },
+            { "name": "ruin_arch_stone_old", "source": "palette" },
+            { "name": "ruin_arch_stone_pale", "source": "palette" },
+            { "name": "ruin_arch_stone_stone", "source": "palette" },
+            { "name": "ruin_arch_stone_vine", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "sacks_grain": {
       "inputHash": "9196ee4fc062d99492a6592f0e9655a302b069af56f041722ad6ed07236dca46",
       "libVersion": 1,

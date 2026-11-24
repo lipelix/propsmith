@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "ruin_arch_stone",
+  "name": "Ruined stone arch",
+  "description": "A broken free-standing arch of weathered grey-brown sandstone blocks: a full-height left pier with a ragged wall stump, the round arch reaching just past its crown before it breaks off, the right pier broken below the springing; fallen blocks and a voussoir in the grass, ivy climbing the left pier and spilling over the arch.",
+  "category": "structure",
+  "family": "arch",
+  "tags": ["stone", "forest", "road", "tall", "large", "broken", "mossy"],
+  "aliases": [
+    "ruins",
+    "ruined arch",
+    "broken arch",
+    "archway ruin",
+    "ancient gate",
+    "ruined gateway"
+  ],
+  "variants": ["ruin_arch_stone"],
+  "size": { "x": 2.95, "y": 1.25, "z": 3.25 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "ruin_arch_stone: a broken free-standing stone arch with fallen blocks and ivy, about 3 × 1 × 3.5 m (plan 3, item 16)."
+  },
+  "licence": "CC0-1.0"
+}

@@ -2967,6 +2967,29 @@
       "inputHash": "80a84d9851a48a0051992f38dbf63c27b2bbfeb869baa757f59c4625cf6ca016"
     },
     {
+      "id": "ruin_arch_stone",
+      "name": "Ruined stone arch",
+      "description": "A broken free-standing arch of weathered grey-brown sandstone blocks: a full-height left pier with a ragged wall stump, the round arch reaching just past its crown before it breaks off, the right pier broken below the springing; fallen blocks and a voussoir in the grass, ivy climbing the left pier and spilling over the arch.",
+      "category": "structure",
+      "family": "arch",
+      "tags": ["broken", "forest", "large", "mossy", "road", "stone", "tall"],
+      "aliases": [
+        "ancient gate",
+        "archway ruin",
+        "broken arch",
+        "ruined arch",
+        "ruined gateway",
+        "ruins"
+      ],
+      "variants": ["ruin_arch_stone"],
+      "size": { "x": 2.95, "y": 1.25, "z": 3.25 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "e7f56df43d9ab326e3e8c053c065a8d8a8baef5d12258817b59ed12d0d4fe697"
+    },
+    {
       "id": "sacks_grain",
       "name": "Grain sacks",
       "description": "A heap of three plump burlap grain sacks, two lying side by side and one propped on top, each tied at the neck with twine; the coarse cloth is a warm desaturated tan with a darker patch or two, slightly slumped and lumpy, about 0.7 m high. A variant is a single upright sack about 0.6 m high.",
