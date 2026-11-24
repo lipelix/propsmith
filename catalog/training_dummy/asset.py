@@ -130,7 +130,7 @@ def training_dummy():
     for i, (x, z) in enumerate([(-0.08, 1.4), (0.1, 1.14)]):
         box(f"patch_{i}", (0.09, 0.02, 0.08), (x, -0.12, z), sack_dark, rot=(rnd.uniform(-8, 8), 0,
                                                                              rnd.uniform(-10, 10)), bevel=0.004)
-    torus("waist_rope", 0.15, 0.018, (0, 0, BODY_Z - 0.2), rope, major=24, minor=6).scale = (1, 0.72, 1)
+    torus("waist_rope", 0.155, 0.018, (0, 0, BODY_Z - 0.17), rope, major=24, minor=6).scale = (1, 0.72, 1)
     for i in range(10):
         a = 2 * math.pi * i / 10 + rnd.uniform(-0.2, 0.2)
         x, y = 0.09 * math.cos(a), 0.06 * math.sin(a)
