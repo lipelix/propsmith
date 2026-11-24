@@ -91,6 +91,37 @@
       "inputHash": "0451ea6ca8b2a6f471193fba119132fc10f615cf487731f2c4dd816ef4a9484f"
     },
     {
+      "id": "archery_target",
+      "name": "Archery target",
+      "description": "A round boss of coiled straw rope faced with painted rings in pale, red, blue and gold, leaning back on a timber tripod with a ledge rail, about 1.1 × 0.9 × 1.5 m, with two arrows stuck in it.",
+      "category": "decor",
+      "family": "archery_target",
+      "tags": [
+        "castle",
+        "round",
+        "straw",
+        "training",
+        "village",
+        "wood",
+        "worn"
+      ],
+      "aliases": [
+        "archery butt",
+        "arrows",
+        "bullseye",
+        "butts",
+        "practice target",
+        "target"
+      ],
+      "variants": ["archery_target"],
+      "size": { "x": 1.1, "y": 0.9, "z": 1.5 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "1b4589dd026b928000a60cc09e66930d6e21781ebadb3668d4449c4bfc64bf5e"
+    },
+    {
       "id": "armour_stand",
       "name": "Armour stand",
       "description": "A wooden armour stand about 0.65 × 0.5 × 1.8 m: a cross-footed base and a post with a shoulder yoke carrying a knee-length mail shirt with short sleeves and a belted waist, a round iron helm with a nasal on top.",

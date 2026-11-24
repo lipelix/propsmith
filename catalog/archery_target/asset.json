@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "archery_target",
+  "name": "Archery target",
+  "description": "A round boss of coiled straw rope faced with painted rings in pale, red, blue and gold, leaning back on a timber tripod with a ledge rail, about 1.1 × 0.9 × 1.5 m, with two arrows stuck in it.",
+  "category": "decor",
+  "family": "archery_target",
+  "tags": ["straw", "wood", "castle", "village", "training", "round", "worn"],
+  "aliases": [
+    "target",
+    "archery butt",
+    "bullseye",
+    "butts",
+    "practice target",
+    "arrows"
+  ],
+  "variants": ["archery_target"],
+  "size": { "x": 1.1, "y": 0.9, "z": 1.5 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A round straw boss with painted rings on a timber tripod, two arrows in it, about 1.1 × 0.9 × 1.5 m."
+  },
+  "licence": "CC0-1.0"
+}

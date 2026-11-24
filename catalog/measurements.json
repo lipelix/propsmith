@@ -125,6 +125,40 @@
         }
       ]
     },
+    "archery_target": {
+      "inputHash": "1b4589dd026b928000a60cc09e66930d6e21781ebadb3668d4449c4bfc64bf5e",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "archery_target",
+          "tris": 5672,
+          "bbox": {
+            "min": [-0.5323, -0.4376, 0.0046],
+            "max": [0.5323, 0.4529, 1.4522]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "archery_target_fletch", "source": "palette" },
+            { "name": "archery_target_fletch_dark", "source": "palette" },
+            { "name": "archery_target_paint_blue", "source": "palette" },
+            { "name": "archery_target_paint_gold", "source": "palette" },
+            { "name": "archery_target_paint_pale", "source": "palette" },
+            { "name": "archery_target_paint_pale_inner", "source": "palette" },
+            { "name": "archery_target_paint_red", "source": "palette" },
+            { "name": "archery_target_rope", "source": "palette" },
+            { "name": "archery_target_shaft", "source": "palette" },
+            { "name": "archery_target_straw", "source": "palette" },
+            { "name": "archery_target_straw_dark", "source": "palette" },
+            { "name": "archery_target_wood", "source": "palette" },
+            { "name": "archery_target_wood_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "armour_stand": {
       "inputHash": "7a40450fc4eaf6c4d34977e2ac286ab6ae91b3d38cd6ea6c8bb7ad572f63421b",
       "libVersion": 1,
