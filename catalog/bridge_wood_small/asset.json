@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "id": "bridge_wood_small",
+  "name": "Small wooden footbridge",
+  "description": "A plank footbridge about 4 m long and 1.6 m wide: weathered planks laid across two stringers that rise in a gentle hump from the ground at both ends, held up by two low trestles of splayed round legs on flat stones, with a handrail and a middle rail on square posts along both sides.",
+  "category": "structure",
+  "family": "bridge",
+  "tags": [
+    "wood",
+    "stone",
+    "village",
+    "road",
+    "forest",
+    "long",
+    "open",
+    "weathered"
+  ],
+  "aliases": [
+    "footbridge",
+    "plank bridge",
+    "trestle bridge",
+    "boardwalk",
+    "crossing"
+  ],
+  "variants": ["bridge_wood_small"],
+  "size": { "x": 4.0, "y": 1.6, "z": 1.4 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "bridge_wood_small: a plank footbridge with handrails on two trestles, about 4 × 1.6 × 1.4 m, ends at ground level (plan 3, item 17)."
+  },
+  "licence": "CC0-1.0"
+}

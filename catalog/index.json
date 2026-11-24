@@ -459,6 +459,67 @@
       "inputHash": "ea5644605e108e4987ffca6d28431d6c338498a71745b88608f701b364734116"
     },
     {
+      "id": "bridge_stone_arch",
+      "name": "Stone arch bridge",
+      "description": "A single-arch fieldstone bridge about 5 m long and 2.2 m wide: a humpbacked gravel road rising from the ground at both ends over a segmental arch of dressed voussoirs, the spandrels and low parapets faced with rough fieldstones, the parapets capped with flat coping stones and squat end blocks.",
+      "category": "structure",
+      "family": "bridge",
+      "tags": [
+        "forest",
+        "large",
+        "long",
+        "road",
+        "stone",
+        "village",
+        "weathered"
+      ],
+      "aliases": [
+        "arch bridge",
+        "crossing",
+        "humpback bridge",
+        "packhorse bridge",
+        "stone bridge"
+      ],
+      "variants": ["bridge_stone_arch"],
+      "size": { "x": 5, "y": 2.3, "z": 1.9 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "a6da5f70c1f1b5eaca08c51424a93feb34818fbdaaba48a393efa0b623fbb217"
+    },
+    {
+      "id": "bridge_wood_small",
+      "name": "Small wooden footbridge",
+      "description": "A plank footbridge about 4 m long and 1.6 m wide: weathered planks laid across two stringers that rise in a gentle hump from the ground at both ends, held up by two low trestles of splayed round legs on flat stones, with a handrail and a middle rail on square posts along both sides.",
+      "category": "structure",
+      "family": "bridge",
+      "tags": [
+        "forest",
+        "long",
+        "open",
+        "road",
+        "stone",
+        "village",
+        "weathered",
+        "wood"
+      ],
+      "aliases": [
+        "boardwalk",
+        "crossing",
+        "footbridge",
+        "plank bridge",
+        "trestle bridge"
+      ],
+      "variants": ["bridge_wood_small"],
+      "size": { "x": 4, "y": 1.6, "z": 1.4 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "d6a6b22141a4a4228cbd7472a808f99771b26955ddafc201c4d944330f163d79"
+    },
+    {
       "id": "bucket_wood",
       "name": "Wooden bucket",
       "description": "A small wooden water bucket about 0.35 m high and 0.3 m across, its tapered staves held by two dark iron hoops, with an iron bail handle and dark water inside. The tipped variant lies empty on its side.",
@@ -2031,6 +2092,27 @@
       "inputHash": "490219223c60fc2e7b39e7050810f5314b62897bb038a50da61d56488efd8401"
     },
     {
+      "id": "ladder_wood",
+      "name": "Wooden pole ladder",
+      "description": "A pole ladder about 3 m tall leaning as against a wall: two peeled, slightly crooked poles narrowing towards the top, with ten round rungs set through them and lashed with rope at every joint.",
+      "category": "decor",
+      "family": "ladder",
+      "tags": ["farm", "rope", "tall", "village", "wood", "work", "worn"],
+      "aliases": [
+        "leaning ladder",
+        "loft ladder",
+        "pole ladder",
+        "rung ladder"
+      ],
+      "variants": ["ladder_wood"],
+      "size": { "x": 0.65, "y": 0.95, "z": 3 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "c9b49092696623c32280b11a019982446036c405963d9bdba5b5a2b9f97ff655"
+    },
+    {
       "id": "lamp_post",
       "name": "Street lamp post",
       "description": "A tall dark timber post about 2.6 m high on a small stone foot, with an iron bracket arm at the top from which hangs a small four-sided iron lantern with warm glass panes.",
@@ -2429,6 +2511,38 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "498fc93d7fc19b82c5de9255eb6f1b0ef5e2529de199f54d268fc7aab64fe89e"
+    },
+    {
+      "id": "outhouse_wood",
+      "name": "Wooden outhouse",
+      "description": "A plank privy about 1.1 × 1.1 × 2.2 m: a small shed of weathered vertical boards on corner posts and sill beams under a mossy lean-to board roof, with a ledged and braced plank door on iron strap hinges and a crescent moon cut through it near the top.",
+      "category": "structure",
+      "family": "outhouse",
+      "tags": [
+        "farm",
+        "house",
+        "iron",
+        "roofed",
+        "small",
+        "village",
+        "weathered",
+        "wood"
+      ],
+      "aliases": [
+        "jakes",
+        "latrine",
+        "loo",
+        "outdoor toilet",
+        "privy",
+        "toilet"
+      ],
+      "variants": ["outhouse_wood"],
+      "size": { "x": 1.1, "y": 1.1, "z": 2.2 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "37695bac2756298407baf3144adecbbc0b4763e2e4b283d4ac18df590a156bf0"
     },
     {
       "id": "oven_bread_stone",

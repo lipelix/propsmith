@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "ladder_wood",
+  "name": "Wooden pole ladder",
+  "description": "A pole ladder about 3 m tall leaning as against a wall: two peeled, slightly crooked poles narrowing towards the top, with ten round rungs set through them and lashed with rope at every joint.",
+  "category": "decor",
+  "family": "ladder",
+  "tags": ["wood", "rope", "farm", "village", "work", "tall", "worn"],
+  "aliases": ["pole ladder", "rung ladder", "leaning ladder", "loft ladder"],
+  "variants": ["ladder_wood"],
+  "size": { "x": 0.65, "y": 0.95, "z": 3.0 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "ladder_wood: a pole ladder with lashed rungs leaning as against a wall, about 0.6 × 1 × 3 m (plan 3, item 17)."
+  },
+  "licence": "CC0-1.0"
+}

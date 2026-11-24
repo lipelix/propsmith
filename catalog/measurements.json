@@ -577,6 +577,62 @@
         }
       ]
     },
+    "bridge_stone_arch": {
+      "inputHash": "a6da5f70c1f1b5eaca08c51424a93feb34818fbdaaba48a393efa0b623fbb217",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "bridge_stone_arch",
+          "tris": 4852,
+          "bbox": {
+            "min": [-2.5036, -1.1413, 0],
+            "max": [2.504, 1.141, 1.8609]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "bridge_stone_arch_dressed", "source": "palette" },
+            { "name": "bridge_stone_arch_gravel", "source": "palette" },
+            { "name": "bridge_stone_arch_mortar", "source": "palette" },
+            { "name": "bridge_stone_arch_moss", "source": "palette" },
+            { "name": "bridge_stone_arch_stone_0", "source": "palette" },
+            { "name": "bridge_stone_arch_stone_1", "source": "palette" },
+            { "name": "bridge_stone_arch_stone_2", "source": "palette" },
+            { "name": "bridge_stone_arch_stone_3", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "bridge_wood_small": {
+      "inputHash": "d6a6b22141a4a4228cbd7472a808f99771b26955ddafc201c4d944330f163d79",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "bridge_wood_small",
+          "tris": 6120,
+          "bbox": {
+            "min": [-1.9997, -0.776, 0],
+            "max": [1.9835, 0.7767, 1.3964]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "bridge_wood_small_frame", "source": "palette" },
+            { "name": "bridge_wood_small_iron", "source": "palette" },
+            { "name": "bridge_wood_small_planks", "source": "palette" },
+            { "name": "bridge_wood_small_planks_old", "source": "palette" },
+            { "name": "bridge_wood_small_rail", "source": "palette" },
+            { "name": "bridge_wood_small_stone", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "bucket_wood": {
       "inputHash": "43c783c804b2431db8d473d93f7b66a0c89da636e66ac2be418d12dad4adfee7",
       "libVersion": 1,
@@ -2534,6 +2590,31 @@
         }
       ]
     },
+    "ladder_wood": {
+      "inputHash": "c9b49092696623c32280b11a019982446036c405963d9bdba5b5a2b9f97ff655",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "ladder_wood",
+          "tris": 3864,
+          "bbox": {
+            "min": [-0.3128, -0.4608, 0.0037],
+            "max": [0.3188, 0.4518, 2.9685]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "ladder_wood_rails", "source": "palette" },
+            { "name": "ladder_wood_rails_old", "source": "palette" },
+            { "name": "ladder_wood_rope", "source": "palette" },
+            { "name": "ladder_wood_rungs", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "lamp_post": {
       "inputHash": "724af666bc17f5306268743e9b517fbaebd3f0561b9fb686983312f4f29a0d66",
       "libVersion": 1,
@@ -3040,6 +3121,34 @@
             { "name": "ore_vein_rock_quartz", "source": "palette" },
             { "name": "ore_vein_rock_stone", "source": "palette" },
             { "name": "ore_vein_rock_stone_dark", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "outhouse_wood": {
+      "inputHash": "37695bac2756298407baf3144adecbbc0b4763e2e4b283d4ac18df590a156bf0",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "outhouse_wood",
+          "tris": 6484,
+          "bbox": {
+            "min": [-0.5399, -0.577, 0],
+            "max": [0.5419, 0.5252, 2.1562]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "outhouse_wood_boards", "source": "palette" },
+            { "name": "outhouse_wood_boards_old", "source": "palette" },
+            { "name": "outhouse_wood_frame", "source": "palette" },
+            { "name": "outhouse_wood_inside", "source": "palette" },
+            { "name": "outhouse_wood_iron", "source": "palette" },
+            { "name": "outhouse_wood_moss", "source": "palette" },
+            { "name": "outhouse_wood_roof", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
