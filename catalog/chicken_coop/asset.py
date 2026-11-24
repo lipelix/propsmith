@@ -55,10 +55,12 @@ def chicken_coop():
                 bevel=0.01)
     box("floor", (lx - 0.02, 2 * HALF_Y - 0.02, 0.05), (cx, 0, FLOOR_Z - 0.025), old, bevel=0.008)
     for j, y in enumerate((-HALF_Y + POST / 2, HALF_Y - POST / 2)):
-        d = (lx - POST) / 2
-        a = math.degrees(math.atan2(FLOOR_Z - 0.2, d))
-        box(f"brace_{j}", (math.hypot(d, FLOOR_Z - 0.2) + 0.04, 0.04, 0.05),
-            (X0 + POST + d / 2 - 0.03, y, 0.2 + (FLOOR_Z - 0.2) / 2 - 0.02), old, rot=(0, a, 0), bevel=0.006)
+        # Two knee braces a side, each from a leg up to the floor bearer nearer the middle.
+        for k, (xp, sx) in enumerate(((X0 + POST, 1), (X1 - POST, -1))):
+            run, rise = 0.24, FLOOR_Z - 0.06 - 0.16
+            box(f"brace_{j}{k}", (math.hypot(run, rise), 0.04, 0.045),
+                (xp + sx * run / 2, y, 0.16 + rise / 2), old,
+                rot=(0, -sx * math.degrees(math.atan2(rise, run)), 0), bevel=0.006)
 
     # The house: a core box behind the boards, vertical boards front and back, horizontal boards on the ends.
     box("core", (lx - 0.06, 2 * HALF_Y - 0.06, wall_h), (cx, 0, FLOOR_Z + wall_h / 2), dark, bevel=0)

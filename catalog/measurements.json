@@ -1078,13 +1078,13 @@
       ]
     },
     "chicken_coop": {
-      "inputHash": "c6ad228bbabdedf4517c7fe509a58b77688f9475f705b2bdfcd60c4e75ed6883",
+      "inputHash": "81d7638ca38ba8e2bdb9e3081b7fe6ff05d1437939acbf95b6166462579ef0a5",
       "libVersion": 1,
       "blender": "5.2.2 LTS",
       "variants": [
         {
           "id": "chicken_coop",
-          "tris": 6068,
+          "tris": 6284,
           "bbox": {
             "min": [-0.76, -0.5693, 0],
             "max": [0.7658, 0.5693, 1.5822]
