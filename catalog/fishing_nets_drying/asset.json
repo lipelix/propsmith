@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "fishing_nets_drying",
+  "name": "Fishing nets drying",
+  "description": "A tan fishing net hung to dry in loose folds over a long pole, about 2.45 × 0.75 × 2 m, the pole resting on two crossed-pole trestles lashed at the top, the net's foot rope strung with cork floats and a few spare floats on the ground.",
+  "category": "decor",
+  "family": "net",
+  "tags": ["rope", "wood", "harbour", "work", "large", "open", "weathered"],
+  "aliases": [
+    "fishing net",
+    "drying rack",
+    "net rack",
+    "cork floats",
+    "fishnet"
+  ],
+  "variants": ["fishing_nets_drying"],
+  "size": { "x": 2.45, "y": 0.75, "z": 2.0 },
+  "anchors": [],
+  "closed": false,
+  "provenance": {
+    "source": "generated",
+    "prompt": "Nets with cork floats hung over a pole frame to dry, about 2.5 × 0.8 × 2 m."
+  },
+  "licence": "CC0-1.0"
+}

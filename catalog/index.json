@@ -1501,6 +1501,28 @@
       "inputHash": "0251b1e9909bb545a05f4d996d4e3ea0eceaeaa83bfea76a8849fbc2e9d54eb6"
     },
     {
+      "id": "fishing_nets_drying",
+      "name": "Fishing nets drying",
+      "description": "A tan fishing net hung to dry in loose folds over a long pole, about 2.45 × 0.75 × 2 m, the pole resting on two crossed-pole trestles lashed at the top, the net's foot rope strung with cork floats and a few spare floats on the ground.",
+      "category": "decor",
+      "family": "net",
+      "tags": ["harbour", "large", "open", "rope", "weathered", "wood", "work"],
+      "aliases": [
+        "cork floats",
+        "drying rack",
+        "fishing net",
+        "fishnet",
+        "net rack"
+      ],
+      "variants": ["fishing_nets_drying"],
+      "size": { "x": 2.45, "y": 0.75, "z": 2 },
+      "anchors": [],
+      "closed": false,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "20b8971612d3d3012b8540ab01a83ffd4f7ebbb21327d552057a005c40d6b036"
+    },
+    {
       "id": "flower_pot_clay",
       "name": "Clay flower pot",
       "description": "A terracotta pot of soil with green leaves and red and yellow flowers.",

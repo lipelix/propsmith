@@ -1865,6 +1865,33 @@
         }
       ]
     },
+    "fishing_nets_drying": {
+      "inputHash": "20b8971612d3d3012b8540ab01a83ffd4f7ebbb21327d552057a005c40d6b036",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "fishing_nets_drying",
+          "tris": 7602,
+          "bbox": {
+            "min": [-1.2202, -0.368, -0.0062],
+            "max": [1.2202, 0.368, 1.95]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 5406,
+          "materials": [
+            { "name": "fishing_nets_drying_cork", "source": "palette" },
+            { "name": "fishing_nets_drying_net", "source": "palette" },
+            { "name": "fishing_nets_drying_net_old", "source": "palette" },
+            { "name": "fishing_nets_drying_pole", "source": "palette" },
+            { "name": "fishing_nets_drying_pole_old", "source": "palette" },
+            { "name": "fishing_nets_drying_rope", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "flower_pot_clay": {
       "inputHash": "8ae3d8665dced07873aa2f87da540a4378c0e1820bc11ab02a76d5a9d96140a5",
       "libVersion": 1,
