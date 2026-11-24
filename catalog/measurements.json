@@ -3594,6 +3594,38 @@
         }
       ]
     },
+    "scarecrow": {
+      "inputHash": "64c12159e1bf8da7e0262b1b01b78661d13cc4c67423ba52d86004de5b4d968f",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "scarecrow",
+          "tris": 5248,
+          "bbox": {
+            "min": [-0.7866, -0.2152, -0.0016],
+            "max": [0.7995, 0.2155, 2.0466]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "scarecrow_coat", "source": "palette" },
+            { "name": "scarecrow_earth", "source": "palette" },
+            { "name": "scarecrow_hat", "source": "palette" },
+            { "name": "scarecrow_patch", "source": "palette" },
+            { "name": "scarecrow_patch_grey", "source": "palette" },
+            { "name": "scarecrow_rope", "source": "palette" },
+            { "name": "scarecrow_sack", "source": "palette" },
+            { "name": "scarecrow_stitch", "source": "palette" },
+            { "name": "scarecrow_straw", "source": "palette" },
+            { "name": "scarecrow_wood", "source": "palette" },
+            { "name": "scarecrow_wood_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "scroll_rack": {
       "inputHash": "42f0bfe28dd40ed6c434ee52c9f2e68f86d252ae8210d615fc2dd05d21f0b062",
       "libVersion": 1,

@@ -2798,6 +2798,22 @@
       "inputHash": "2723e33a7bd6d41156e85da1ecba2f83cc748baf5d06a0ec36bfdad631b4f2e5"
     },
     {
+      "id": "scarecrow",
+      "name": "Scarecrow",
+      "description": "A ragged scarecrow on a cross pole in a heap of earth, about 1.6 × 0.45 × 2.05 m: a patched old coat with straw out of the cuffs and hem, a rope belt, a stuffed sack head with a stitched face and a battered wide-brimmed hat.",
+      "category": "decor",
+      "family": "scarecrow",
+      "tags": ["cloth", "farm", "garden", "straw", "tall", "wood", "worn"],
+      "aliases": ["bird scarer", "hay man", "straw man", "tattie bogle"],
+      "variants": ["scarecrow"],
+      "size": { "x": 1.6, "y": 0.45, "z": 2.05 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "64c12159e1bf8da7e0262b1b01b78661d13cc4c67423ba52d86004de5b4d968f"
+    },
+    {
       "id": "scroll_rack",
       "name": "Scroll rack",
       "description": "A scribe's wooden pigeonhole rack for a wall, about 0.9 × 0.3 × 1.2 m: a plank case on a low plinth divided into five by five square cells, most holding rolled parchment scrolls with their ends to the front, some tied with cords or sealed, a few cells empty and one holding a leather scroll case.",
