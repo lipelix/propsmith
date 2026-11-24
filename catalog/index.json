@@ -3370,6 +3370,30 @@
       "inputHash": "cf17895115e685ac7bbed3e4683ef38f4b25277529eb4b0305db8c30138f4ec1"
     },
     {
+      "id": "vegetable_crates",
+      "name": "Vegetable crates",
+      "description": "Three shallow slatted crates of produce standing on the ground: green cabbages on straw and a heap of red and yellow apples side by side at the back, carrots with green tops in front; a stray cabbage and two apples lie on the ground.",
+      "category": "container",
+      "family": "crate",
+      "tags": ["cooking", "farm", "low", "market", "storage", "trade", "wood"],
+      "aliases": [
+        "apples",
+        "cabbages",
+        "carrots",
+        "fruit",
+        "greengrocer",
+        "produce",
+        "vegetables"
+      ],
+      "variants": ["vegetable_crates"],
+      "size": { "x": 1.2, "y": 0.8, "z": 0.3 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "227e65eeabcddadf45458428cefc6cd0c021bf6fd433c4c5ce32228a8a931dfa"
+    },
+    {
       "id": "wagon_covered",
       "name": "Covered wagon",
       "description": "A four-wheeled wooden wagon about 4 m long and 2.6 m high: a plank box bed on tall spoked rear wheels and smaller front ones, a weathered canvas tilt on wooden hoops open over the driver's bench, a barrel, sacks and a crate inside, and a draw pole resting on the ground in front.",

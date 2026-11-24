@@ -4323,6 +4323,39 @@
         }
       ]
     },
+    "vegetable_crates": {
+      "inputHash": "227e65eeabcddadf45458428cefc6cd0c021bf6fd433c4c5ce32228a8a931dfa",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "vegetable_crates",
+          "tris": 6752,
+          "bbox": {
+            "min": [-0.5824, -0.4106, -0.001],
+            "max": [0.5851, 0.4158, 0.2909]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "vegetable_crates_apple", "source": "palette" },
+            { "name": "vegetable_crates_apple_yellow", "source": "palette" },
+            { "name": "vegetable_crates_cabbage", "source": "palette" },
+            { "name": "vegetable_crates_carrot", "source": "palette" },
+            { "name": "vegetable_crates_inside", "source": "palette" },
+            { "name": "vegetable_crates_leaf", "source": "palette" },
+            { "name": "vegetable_crates_posts", "source": "palette" },
+            { "name": "vegetable_crates_stalk", "source": "palette" },
+            { "name": "vegetable_crates_straw", "source": "palette" },
+            { "name": "vegetable_crates_tops", "source": "palette" },
+            { "name": "vegetable_crates_wood", "source": "palette" },
+            { "name": "vegetable_crates_wood_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "wagon_covered": {
       "inputHash": "b0ba2f50f79723267fb7e1ddf79dfb4d2f1fd9373744d09680d20111cf99e45f",
       "libVersion": 1,
