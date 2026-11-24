@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "bridge_stone_arch",
+  "name": "Stone arch bridge",
+  "description": "A single-arch fieldstone bridge about 5 m long and 2.2 m wide: a humpbacked gravel road rising from the ground at both ends over a segmental arch of dressed voussoirs, the spandrels and low parapets faced with rough fieldstones, the parapets capped with flat coping stones and squat end blocks.",
+  "category": "structure",
+  "family": "bridge",
+  "tags": ["stone", "village", "road", "forest", "large", "long", "weathered"],
+  "aliases": [
+    "arch bridge",
+    "humpback bridge",
+    "packhorse bridge",
+    "stone bridge",
+    "crossing"
+  ],
+  "variants": ["bridge_stone_arch"],
+  "size": { "x": 5.0, "y": 2.3, "z": 1.9 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "bridge_stone_arch: a single-arch fieldstone bridge with low parapets, about 5 × 2.2 × 2 m, ends at ground level (plan 3, item 17)."
+  },
+  "licence": "CC0-1.0"
+}

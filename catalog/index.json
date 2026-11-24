@@ -459,6 +459,36 @@
       "inputHash": "ea5644605e108e4987ffca6d28431d6c338498a71745b88608f701b364734116"
     },
     {
+      "id": "bridge_stone_arch",
+      "name": "Stone arch bridge",
+      "description": "A single-arch fieldstone bridge about 5 m long and 2.2 m wide: a humpbacked gravel road rising from the ground at both ends over a segmental arch of dressed voussoirs, the spandrels and low parapets faced with rough fieldstones, the parapets capped with flat coping stones and squat end blocks.",
+      "category": "structure",
+      "family": "bridge",
+      "tags": [
+        "forest",
+        "large",
+        "long",
+        "road",
+        "stone",
+        "village",
+        "weathered"
+      ],
+      "aliases": [
+        "arch bridge",
+        "crossing",
+        "humpback bridge",
+        "packhorse bridge",
+        "stone bridge"
+      ],
+      "variants": ["bridge_stone_arch"],
+      "size": { "x": 5, "y": 2.3, "z": 1.9 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "a6da5f70c1f1b5eaca08c51424a93feb34818fbdaaba48a393efa0b623fbb217"
+    },
+    {
       "id": "bridge_wood_small",
       "name": "Small wooden footbridge",
       "description": "A plank footbridge about 4 m long and 1.6 m wide: weathered planks laid across two stringers that rise in a gentle hump from the ground at both ends, held up by two low trestles of splayed round legs on flat stones, with a handrail and a middle rail on square posts along both sides.",

@@ -577,6 +577,35 @@
         }
       ]
     },
+    "bridge_stone_arch": {
+      "inputHash": "a6da5f70c1f1b5eaca08c51424a93feb34818fbdaaba48a393efa0b623fbb217",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "bridge_stone_arch",
+          "tris": 4852,
+          "bbox": {
+            "min": [-2.5036, -1.1413, 0],
+            "max": [2.504, 1.141, 1.8609]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "bridge_stone_arch_dressed", "source": "palette" },
+            { "name": "bridge_stone_arch_gravel", "source": "palette" },
+            { "name": "bridge_stone_arch_mortar", "source": "palette" },
+            { "name": "bridge_stone_arch_moss", "source": "palette" },
+            { "name": "bridge_stone_arch_stone_0", "source": "palette" },
+            { "name": "bridge_stone_arch_stone_1", "source": "palette" },
+            { "name": "bridge_stone_arch_stone_2", "source": "palette" },
+            { "name": "bridge_stone_arch_stone_3", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "bridge_wood_small": {
       "inputHash": "d6a6b22141a4a4228cbd7472a808f99771b26955ddafc201c4d944330f163d79",
       "libVersion": 1,
