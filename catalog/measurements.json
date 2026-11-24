@@ -577,6 +577,33 @@
         }
       ]
     },
+    "bridge_wood_small": {
+      "inputHash": "d6a6b22141a4a4228cbd7472a808f99771b26955ddafc201c4d944330f163d79",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "bridge_wood_small",
+          "tris": 6120,
+          "bbox": {
+            "min": [-1.9997, -0.776, 0],
+            "max": [1.9835, 0.7767, 1.3964]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "bridge_wood_small_frame", "source": "palette" },
+            { "name": "bridge_wood_small_iron", "source": "palette" },
+            { "name": "bridge_wood_small_planks", "source": "palette" },
+            { "name": "bridge_wood_small_planks_old", "source": "palette" },
+            { "name": "bridge_wood_small_rail", "source": "palette" },
+            { "name": "bridge_wood_small_stone", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "bucket_wood": {
       "inputHash": "43c783c804b2431db8d473d93f7b66a0c89da636e66ac2be418d12dad4adfee7",
       "libVersion": 1,

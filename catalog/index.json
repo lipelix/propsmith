@@ -459,6 +459,37 @@
       "inputHash": "ea5644605e108e4987ffca6d28431d6c338498a71745b88608f701b364734116"
     },
     {
+      "id": "bridge_wood_small",
+      "name": "Small wooden footbridge",
+      "description": "A plank footbridge about 4 m long and 1.6 m wide: weathered planks laid across two stringers that rise in a gentle hump from the ground at both ends, held up by two low trestles of splayed round legs on flat stones, with a handrail and a middle rail on square posts along both sides.",
+      "category": "structure",
+      "family": "bridge",
+      "tags": [
+        "forest",
+        "long",
+        "open",
+        "road",
+        "stone",
+        "village",
+        "weathered",
+        "wood"
+      ],
+      "aliases": [
+        "boardwalk",
+        "crossing",
+        "footbridge",
+        "plank bridge",
+        "trestle bridge"
+      ],
+      "variants": ["bridge_wood_small"],
+      "size": { "x": 4, "y": 1.6, "z": 1.4 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "d6a6b22141a4a4228cbd7472a808f99771b26955ddafc201c4d944330f163d79"
+    },
+    {
       "id": "bucket_wood",
       "name": "Wooden bucket",
       "description": "A small wooden water bucket about 0.35 m high and 0.3 m across, its tapered staves held by two dark iron hoops, with an iron bail handle and dark water inside. The tipped variant lies empty on its side.",
