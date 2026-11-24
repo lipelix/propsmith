@@ -2534,6 +2534,31 @@
         }
       ]
     },
+    "ladder_wood": {
+      "inputHash": "c9b49092696623c32280b11a019982446036c405963d9bdba5b5a2b9f97ff655",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "ladder_wood",
+          "tris": 3864,
+          "bbox": {
+            "min": [-0.3128, -0.4608, 0.0037],
+            "max": [0.3188, 0.4518, 2.9685]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "ladder_wood_rails", "source": "palette" },
+            { "name": "ladder_wood_rails_old", "source": "palette" },
+            { "name": "ladder_wood_rope", "source": "palette" },
+            { "name": "ladder_wood_rungs", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "lamp_post": {
       "inputHash": "724af666bc17f5306268743e9b517fbaebd3f0561b9fb686983312f4f29a0d66",
       "libVersion": 1,

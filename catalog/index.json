@@ -2031,6 +2031,27 @@
       "inputHash": "490219223c60fc2e7b39e7050810f5314b62897bb038a50da61d56488efd8401"
     },
     {
+      "id": "ladder_wood",
+      "name": "Wooden pole ladder",
+      "description": "A pole ladder about 3 m tall leaning as against a wall: two peeled, slightly crooked poles narrowing towards the top, with ten round rungs set through them and lashed with rope at every joint.",
+      "category": "decor",
+      "family": "ladder",
+      "tags": ["farm", "rope", "tall", "village", "wood", "work", "worn"],
+      "aliases": [
+        "leaning ladder",
+        "loft ladder",
+        "pole ladder",
+        "rung ladder"
+      ],
+      "variants": ["ladder_wood"],
+      "size": { "x": 0.65, "y": 0.95, "z": 3 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "c9b49092696623c32280b11a019982446036c405963d9bdba5b5a2b9f97ff655"
+    },
+    {
       "id": "lamp_post",
       "name": "Street lamp post",
       "description": "A tall dark timber post about 2.6 m high on a small stone foot, with an iron bracket arm at the top from which hangs a small four-sided iron lantern with warm glass panes.",
