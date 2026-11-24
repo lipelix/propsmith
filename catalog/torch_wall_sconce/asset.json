@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "torch_wall_sconce",
   "name": "Wall torch in an iron sconce",
-  "description": "A wrought-iron wall bracket, a riveted plate with two scrolls, holding a pitch torch that leans out from the wall: a wooden haft, a dark pitch-soaked rag head bound with cord, glowing at the top under a short flame.",
+  "description": "A wrought-iron wall bracket, a riveted plate with two scrolls, holding a pitch torch that leans out from the wall: a wooden haft, a dark pitch-soaked rag head bound with cord, glowing at the top under a short flame. It hangs on a wall by the back of its plate, lifted 1.4 m so the flame burns at about 2 m.",
   "category": "light",
   "family": "torch",
   "tags": ["iron", "wood", "crypt", "dungeon", "lighting", "small", "worn"],
@@ -11,6 +11,7 @@
   "size": { "x": 0.25, "y": 0.35, "z": 0.6 },
   "anchors": ["fire:torch", "light:torch"],
   "closed": true,
+  "mount": { "kind": "wall", "lift": 1.4 },
   "provenance": {
     "source": "generated",
     "prompt": "An iron wall bracket with a pitch torch, about 0.3 x 0.35 x 0.6 m; anchors fire:torch and light:torch."

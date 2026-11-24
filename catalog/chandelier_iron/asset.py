@@ -1,8 +1,8 @@
 """A wrought iron ring chandelier: a heavy flat-hung iron ring about 1.4 m across carrying eight ivory candles in drip
 pans, held to a central hub by four spokes with a pointed drop finial under it and small scrolls between the candles,
 hung on three chains that gather at a ring and run up a short chain to a hook on a round ceiling plate. The model
-stands on the tip of its finial; a game hangs it at the height it wants (the ring about 2.6 m above the floor puts
-the plate at about 3.6 m)."""
+stands on the tip of its finial; asset.json's mount hangs it from the plate, lifted 2.35 m: the ring at 2.6 m and the
+plate against a ceiling at 3.65 m."""
 import math
 
 from mathutils import Quaternion, Vector
