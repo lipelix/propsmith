@@ -1,6 +1,6 @@
 # Plan 3: the props people reach for most
 
-**Status:** planned 2026-11-20; worked by the HQ runner on the Linux laptop (Blender 5.2.2), one kit per session. Done: item 1 (treasure, #120), item 2 (library, #122), item 3 (alchemy, #124), item 4 (throne room, #125), item 5 (prison, #127), item 6 (punishment, #108), item 7 (graveyard, #109), item 8 (mine, #110), item 9 (cave, #111), item 10 (camp, #112), item 11 (smithy and crafts, #113), item 12 (kitchen and food, #114), item 13 (training yard, #115), item 14 (farm, #116), item 15 (harbour, #117).
+**Status:** planned 2026-11-20; worked by the HQ runner on the Linux laptop (Blender 5.2.2), one kit per session. Done: item 1 (treasure, #120), item 2 (library, #122), item 3 (alchemy, #124), item 4 (throne room, #125), item 5 (prison, #127), item 6 (punishment, #108), item 7 (graveyard, #109), item 8 (mine, #110), item 9 (cave, #111), item 10 (camp, #112), item 11 (smithy and crafts, #113), item 12 (kitchen and food, #114), item 13 (training yard, #115), item 14 (farm, #116), item 15 (harbour, #117), item 16 (ruins and magic, #118).
 
 ## Goal
 

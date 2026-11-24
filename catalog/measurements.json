@@ -2992,6 +2992,32 @@
         }
       ]
     },
+    "obelisk_rune": {
+      "inputHash": "c1aededae273439f1750280e67fe879013cf0782de6864be45be44d5f611100d",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "obelisk_rune",
+          "tris": 1808,
+          "bbox": {
+            "min": [-0.3862, -0.3753, 0],
+            "max": [0.3862, 0.3673, 2.93]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "obelisk_rune_glow", "source": "palette" },
+            { "name": "obelisk_rune_moss", "source": "palette" },
+            { "name": "obelisk_rune_sod", "source": "palette" },
+            { "name": "obelisk_rune_stone", "source": "palette" },
+            { "name": "obelisk_rune_stone_dark", "source": "palette" }
+          ],
+          "anchors": [{ "name": "light:rune", "at": [0, -0.37, 1.55] }],
+          "textures": []
+        }
+      ]
+    },
     "ore_vein_rock": {
       "inputHash": "498fc93d7fc19b82c5de9255eb6f1b0ef5e2529de199f54d268fc7aab64fe89e",
       "libVersion": 1,
@@ -3254,6 +3280,33 @@
             { "name": "plough_wood_wood_old", "source": "palette" }
           ],
           "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "portal_arch_stone": {
+      "inputHash": "1e50be8f929b61eaf3f4dbc1544558adbdb925bef60bb5bf6c0f32a2727dafbb",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "portal_arch_stone",
+          "tris": 5080,
+          "bbox": {
+            "min": [-1.3003, -0.409, 0.0018],
+            "max": [1.2988, 0.4102, 2.79]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "portal_arch_stone_glow", "source": "palette" },
+            { "name": "portal_arch_stone_mortar", "source": "palette" },
+            { "name": "portal_arch_stone_moss", "source": "palette" },
+            { "name": "portal_arch_stone_old", "source": "palette" },
+            { "name": "portal_arch_stone_pale", "source": "palette" },
+            { "name": "portal_arch_stone_stone", "source": "palette" }
+          ],
+          "anchors": [{ "name": "light:portal", "at": [0, 0, 1.46] }],
           "textures": []
         }
       ]
@@ -3695,6 +3748,37 @@
         }
       ]
     },
+    "ruin_arch_stone": {
+      "inputHash": "e7f56df43d9ab326e3e8c053c065a8d8a8baef5d12258817b59ed12d0d4fe697",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "ruin_arch_stone",
+          "tris": 7336,
+          "bbox": {
+            "min": [-1.4625, -0.6114, 0.0003],
+            "max": [1.4509, 0.5918, 3.2453]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "ruin_arch_stone_grass", "source": "palette" },
+            { "name": "ruin_arch_stone_ivy_0", "source": "palette" },
+            { "name": "ruin_arch_stone_ivy_1", "source": "palette" },
+            { "name": "ruin_arch_stone_ivy_2", "source": "palette" },
+            { "name": "ruin_arch_stone_mortar", "source": "palette" },
+            { "name": "ruin_arch_stone_moss", "source": "palette" },
+            { "name": "ruin_arch_stone_old", "source": "palette" },
+            { "name": "ruin_arch_stone_pale", "source": "palette" },
+            { "name": "ruin_arch_stone_stone", "source": "palette" },
+            { "name": "ruin_arch_stone_vine", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "sacks_grain": {
       "inputHash": "9196ee4fc062d99492a6592f0e9655a302b069af56f041722ad6ed07236dca46",
       "libVersion": 1,
@@ -3924,6 +4008,39 @@
             { "name": "shield_rack_wood_old", "source": "palette" }
           ],
           "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "shrine_roadside": {
+      "inputHash": "5e97215ed447ac7b25a4cef5c1e7b3d509ba1790f4cd48b358e1c376c78bc9f4",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "shrine_roadside",
+          "tris": 2604,
+          "bbox": { "min": [-0.3039, -0.26, 0], "max": [0.3039, 0.26, 1.7363] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "shrine_roadside_clay", "source": "palette" },
+            { "name": "shrine_roadside_flame", "source": "palette" },
+            { "name": "shrine_roadside_gilt", "source": "palette" },
+            { "name": "shrine_roadside_icon", "source": "palette" },
+            { "name": "shrine_roadside_moss", "source": "palette" },
+            { "name": "shrine_roadside_petal_0", "source": "palette" },
+            { "name": "shrine_roadside_petal_1", "source": "palette" },
+            { "name": "shrine_roadside_petal_2", "source": "palette" },
+            { "name": "shrine_roadside_petal_3", "source": "palette" },
+            { "name": "shrine_roadside_stem", "source": "palette" },
+            { "name": "shrine_roadside_stone", "source": "palette" },
+            { "name": "shrine_roadside_stone_old", "source": "palette" },
+            { "name": "shrine_roadside_wax", "source": "palette" },
+            { "name": "shrine_roadside_wood", "source": "palette" },
+            { "name": "shrine_roadside_wood_dark", "source": "palette" }
+          ],
+          "anchors": [{ "name": "light:candle", "at": [0.1, -0.03, 1.15] }],
           "textures": []
         }
       ]

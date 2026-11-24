@@ -2377,6 +2377,37 @@
       "inputHash": "6b8acbed3cfb70069171c5fe3d6dcd7bc87e9c8ddedf8737e8fbffe4b84719f4"
     },
     {
+      "id": "obelisk_rune",
+      "name": "Rune obelisk",
+      "description": "A tall weathered grey standing stone with a square tapering shaft and a low pyramid cap on a rough slab plinth, each face carved with a column of angular runes filled with a faint pale blue-green glow; moss at its foot.",
+      "category": "decor",
+      "family": "standing_stone",
+      "tags": [
+        "forest",
+        "magic",
+        "mossy",
+        "stone",
+        "tall",
+        "weathered",
+        "worship"
+      ],
+      "aliases": [
+        "ley stone",
+        "menhir",
+        "monolith",
+        "obelisk",
+        "rune stone",
+        "runestone"
+      ],
+      "variants": ["obelisk_rune"],
+      "size": { "x": 0.8, "y": 0.75, "z": 2.95 },
+      "anchors": ["light:rune"],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "c1aededae273439f1750280e67fe879013cf0782de6864be45be44d5f611100d"
+    },
+    {
       "id": "ore_vein_rock",
       "name": "Ore vein rock",
       "description": "A dark grey rock outcrop, a big rounded boulder with a lower one against its back, crossed by seams of milky quartz studded with glinting brassy and rusty ore, broken chips at its foot and a pickaxe with an iron head standing against it.",
@@ -2550,6 +2581,38 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "a73b92baa32a419d8cae24aef9c9874c4db6e26c669af9cd1eca8e623b124c02"
+    },
+    {
+      "id": "portal_arch_stone",
+      "name": "Stone portal ring",
+      "description": "A round gate of grey stone, empty inside: a full ring of wedge voussoirs with a proud keystone, set upright on a two-step base of worn slabs between two curved chock stones, every block carved with an angular glyph filled with a faint pale violet glow; moss on the steps.",
+      "category": "structure",
+      "family": "portal",
+      "tags": [
+        "large",
+        "magic",
+        "ornate",
+        "round",
+        "stone",
+        "weathered",
+        "worship"
+      ],
+      "aliases": [
+        "gateway",
+        "moongate",
+        "portal",
+        "ring gate",
+        "rune gate",
+        "stargate",
+        "teleporter"
+      ],
+      "variants": ["portal_arch_stone"],
+      "size": { "x": 2.6, "y": 0.8, "z": 2.8 },
+      "anchors": ["light:portal"],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "1e50be8f929b61eaf3f4dbc1544558adbdb925bef60bb5bf6c0f32a2727dafbb"
     },
     {
       "id": "potion_bottles",
@@ -2904,6 +2967,29 @@
       "inputHash": "80a84d9851a48a0051992f38dbf63c27b2bbfeb869baa757f59c4625cf6ca016"
     },
     {
+      "id": "ruin_arch_stone",
+      "name": "Ruined stone arch",
+      "description": "A broken free-standing arch of weathered grey-brown sandstone blocks: a full-height left pier with a ragged wall stump, the round arch reaching just past its crown before it breaks off, the right pier broken below the springing; fallen blocks and a voussoir in the grass, ivy climbing the left pier and spilling over the arch.",
+      "category": "structure",
+      "family": "arch",
+      "tags": ["broken", "forest", "large", "mossy", "road", "stone", "tall"],
+      "aliases": [
+        "ancient gate",
+        "archway ruin",
+        "broken arch",
+        "ruined arch",
+        "ruined gateway",
+        "ruins"
+      ],
+      "variants": ["ruin_arch_stone"],
+      "size": { "x": 2.95, "y": 1.25, "z": 3.25 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "e7f56df43d9ab326e3e8c053c065a8d8a8baef5d12258817b59ed12d0d4fe697"
+    },
+    {
       "id": "sacks_grain",
       "name": "Grain sacks",
       "description": "A heap of three plump burlap grain sacks, two lying side by side and one propped on top, each tied at the neck with twine; the coarse cloth is a warm desaturated tan with a darker patch or two, slightly slumped and lumpy, about 0.7 m high. A variant is a single upright sack about 0.6 m high.",
@@ -3071,6 +3157,36 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "5e58dd380abf8fe1139c4b29dba51972697c06667ad36c99c606d8388c0468cd"
+    },
+    {
+      "id": "shrine_roadside",
+      "name": "Roadside shrine",
+      "description": "A small wayside shrine: a square grey-brown stone post on a low footing carrying a stone niche under a steep gabled roof of weathered boards; in the niche a painted icon panel, a lit candle and a clay pot of wildflowers, with a little bunch of flowers laid at its foot.",
+      "category": "decor",
+      "family": "shrine",
+      "tags": [
+        "road",
+        "roofed",
+        "small",
+        "stone",
+        "weathered",
+        "wood",
+        "worship"
+      ],
+      "aliases": [
+        "prayer niche",
+        "roadside altar",
+        "votive shrine",
+        "wayside cross",
+        "wayside shrine"
+      ],
+      "variants": ["shrine_roadside"],
+      "size": { "x": 0.65, "y": 0.55, "z": 1.75 },
+      "anchors": ["light:candle"],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "5e97215ed447ac7b25a4cef5c1e7b3d509ba1790f4cd48b358e1c376c78bc9f4"
     },
     {
       "id": "sign_board",
