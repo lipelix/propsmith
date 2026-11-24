@@ -3981,6 +3981,39 @@
         }
       ]
     },
+    "shrine_roadside": {
+      "inputHash": "5e97215ed447ac7b25a4cef5c1e7b3d509ba1790f4cd48b358e1c376c78bc9f4",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "shrine_roadside",
+          "tris": 2604,
+          "bbox": { "min": [-0.3039, -0.26, 0], "max": [0.3039, 0.26, 1.7363] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "shrine_roadside_clay", "source": "palette" },
+            { "name": "shrine_roadside_flame", "source": "palette" },
+            { "name": "shrine_roadside_gilt", "source": "palette" },
+            { "name": "shrine_roadside_icon", "source": "palette" },
+            { "name": "shrine_roadside_moss", "source": "palette" },
+            { "name": "shrine_roadside_petal_0", "source": "palette" },
+            { "name": "shrine_roadside_petal_1", "source": "palette" },
+            { "name": "shrine_roadside_petal_2", "source": "palette" },
+            { "name": "shrine_roadside_petal_3", "source": "palette" },
+            { "name": "shrine_roadside_stem", "source": "palette" },
+            { "name": "shrine_roadside_stone", "source": "palette" },
+            { "name": "shrine_roadside_stone_old", "source": "palette" },
+            { "name": "shrine_roadside_wax", "source": "palette" },
+            { "name": "shrine_roadside_wood", "source": "palette" },
+            { "name": "shrine_roadside_wood_dark", "source": "palette" }
+          ],
+          "anchors": [{ "name": "light:candle", "at": [0.1, -0.03, 1.15] }],
+          "textures": []
+        }
+      ]
+    },
     "sign_board": {
       "inputHash": "7d9ec81ae585b8df3cc3ef2286d6ae67f4ed6116ee2c9255bd89857b47a9a37f",
       "libVersion": 1,

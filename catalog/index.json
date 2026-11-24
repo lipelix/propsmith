@@ -3136,6 +3136,36 @@
       "inputHash": "5e58dd380abf8fe1139c4b29dba51972697c06667ad36c99c606d8388c0468cd"
     },
     {
+      "id": "shrine_roadside",
+      "name": "Roadside shrine",
+      "description": "A small wayside shrine: a square grey-brown stone post on a low footing carrying a stone niche under a steep gabled roof of weathered boards; in the niche a painted icon panel, a lit candle and a clay pot of wildflowers, with a little bunch of flowers laid at its foot.",
+      "category": "decor",
+      "family": "shrine",
+      "tags": [
+        "road",
+        "roofed",
+        "small",
+        "stone",
+        "weathered",
+        "wood",
+        "worship"
+      ],
+      "aliases": [
+        "prayer niche",
+        "roadside altar",
+        "votive shrine",
+        "wayside cross",
+        "wayside shrine"
+      ],
+      "variants": ["shrine_roadside"],
+      "size": { "x": 0.65, "y": 0.55, "z": 1.75 },
+      "anchors": ["light:candle"],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "5e97215ed447ac7b25a4cef5c1e7b3d509ba1790f4cd48b358e1c376c78bc9f4"
+    },
+    {
       "id": "sign_board",
       "name": "Hanging inn sign",
       "description": "A square timber post about 2.2 m high on a small stone footing, with a short arm at the top from which a painted plank hangs on two short chains, its dark face showing a faded ochre tankard.",

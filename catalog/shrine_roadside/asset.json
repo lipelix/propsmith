@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "shrine_roadside",
+  "name": "Roadside shrine",
+  "description": "A small wayside shrine: a square grey-brown stone post on a low footing carrying a stone niche under a steep gabled roof of weathered boards; in the niche a painted icon panel, a lit candle and a clay pot of wildflowers, with a little bunch of flowers laid at its foot.",
+  "category": "decor",
+  "family": "shrine",
+  "tags": ["stone", "wood", "road", "worship", "roofed", "small", "weathered"],
+  "aliases": [
+    "wayside shrine",
+    "wayside cross",
+    "roadside altar",
+    "prayer niche",
+    "votive shrine"
+  ],
+  "variants": ["shrine_roadside"],
+  "size": { "x": 0.65, "y": 0.55, "z": 1.75 },
+  "anchors": ["light:candle"],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "shrine_roadside: a small roofed wayside shrine on a stone post with a niche, a candle and flowers, about 0.6 × 0.5 × 1.8 m (plan 3, item 16)."
+  },
+  "licence": "CC0-1.0"
+}
