@@ -42,6 +42,25 @@ const sizeSchema = z
   })
   .strict();
 
+/** Where a hanging prop is fixed. The model still stands on z = 0 in the catalogue; a game lifts it by `lift`. */
+export const MOUNTS = ["ceiling", "wall"] as const;
+export type MountKind = (typeof MOUNTS)[number];
+
+const mountSchema = z
+  .object({
+    /**
+     * `ceiling`: it hangs from the top of the model, its highest point against the ceiling (chandelier, lantern on a
+     * chain). `wall`: its back (the largest y, the front faces -y) lies flat on the wall (sconce, shield, sign).
+     */
+    kind: z.enum(MOUNTS),
+    /**
+     * Metres to raise the model off the floor to hang it where it was made to hang: a ceiling prop's top then meets
+     * a ceiling at `lift` plus its height.
+     */
+    lift: z.number().positive().max(12),
+  })
+  .strict();
+
 const provenanceSchema = z.discriminatedUnion("source", [
   z
     .object({
@@ -90,6 +109,8 @@ export const assetSchema = z
       .refine(unique, "anchors repeat"),
     /** Every part is a closed mesh (the `manifold` check): needed for fracture or printing. */
     closed: z.boolean(),
+    /** How a hanging prop is fixed; absent for a prop that stands on the floor. */
+    mount: mountSchema.optional(),
     provenance: provenanceSchema,
     licence: z.literal(LICENCE),
   })

@@ -109,9 +109,23 @@ export function boundsFit(asset: Asset, result: Measured): Check {
   );
 }
 
-/** The origin is the centre of the base on the ground and the model stands on it (neither floats nor sinks). */
-export function originGround(result: Measured): Check {
+/**
+ * The origin is the centre of the base on the ground and the model stands on it (neither floats nor sinks). A hanging
+ * prop (`mount`) stands on its lowest point too; the detail says where it hangs: a ceiling prop's top meets the
+ * ceiling at `lift` plus its height, a wall prop's back (its largest y) lies on the wall.
+ */
+export function originGround(asset: Asset, result: Measured): Check {
   const tol = BUDGET.ground;
+  const standing = "origin at the centre of the base, standing on the ground";
+  const max = (i: 1 | 2) =>
+    Math.max(...result.variants.map((v) => v.bbox.max[i]));
+  const { mount } = asset;
+  const hung =
+    mount === undefined
+      ? ""
+      : mount.kind === "ceiling"
+        ? `; hung ${n(mount.lift)} m up, its top meets a ceiling at ${n(mount.lift + max(2))} m`
+        : `; hung ${n(mount.lift)} m up on a wall at y ${n(max(1))}`;
   return perVariant(
     "origin-ground",
     result,
@@ -124,7 +138,7 @@ export function originGround(result: Measured): Check {
       if (z0 < -tol) problems.push(`sinks ${n(-z0)} m below the ground`);
       return problems;
     },
-    "origin at the centre of the base, standing on the ground",
+    standing + hung,
   );
 }
 
@@ -240,7 +254,7 @@ export function runChecks(input: CheckInput): Check[] {
       : check(result);
   return [
     needsBuild("bounds-fit", (r) => boundsFit(asset, r)),
-    needsBuild("origin-ground", originGround),
+    needsBuild("origin-ground", (r) => originGround(asset, r)),
     needsBuild("tri-budget", triBudget),
     needsBuild("manifold", (r) => manifold(asset, r)),
     needsBuild("materials-known", (r) => materialsKnown(r, input.ledger)),

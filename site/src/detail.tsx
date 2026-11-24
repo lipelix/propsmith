@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "preact/hooks";
 
-import { type Asset, count, DATA, kilobytes, metres } from "./data.ts";
+import { type Asset, count, DATA, hangs, kilobytes, metres } from "./data.ts";
 import {
   BackIcon,
   CopyIcon,
@@ -127,6 +127,7 @@ export function Detail({
   }, [settings]);
 
   if (!variant) return null;
+  const hanging = hangs(asset, variant);
   const set = (patch: Partial<Settings>) =>
     setSettings((current) => ({ ...current, ...patch }));
   const lightChanged = (
@@ -403,6 +404,12 @@ export function Detail({
               <>
                 <dt>Anchors</dt>
                 <dd class="num">{asset.anchors.join(", ")}</dd>
+              </>
+            )}
+            {hanging !== null && (
+              <>
+                <dt>Hangs</dt>
+                <dd>{hanging}</dd>
               </>
             )}
             <dt>Mesh</dt>

@@ -53,8 +53,8 @@ def barrel_wood_open():
 - **Metres, z up.** Keep every overall dimension in named constants at the top, from real-world sizes. Never scatter
   magic numbers for overall sizes through the code.
 - **Axes and origin.** The origin is the centre of the base on the ground. The model stands on z = 0: nothing floats,
-  nothing sinks (the lowest point within 7 mm of 0). Local x spans `size.x`, local y `size.y`. The review camera sees
-  the +x and -y faces, so put the front (door, drawer, face) on -y.
+  nothing sinks (the lowest point within 7 mm of 0), a hanging prop too (see `mount`). Local x spans `size.x`, local
+  y `size.y`. The review camera sees the +x and -y faces, so put the front (door, drawer, face) on -y.
 - **Stay inside `size`:** x within ±`size.x`/2, y within ±`size.y`/2 (0.075 m slack), top at or under `size.z`.
 - **Shapes** from `propsmith.shapes`: `box`, `cylinder` (stands on `at`, grows up +z), `torus`, `blob` (lumpy
   icosphere, centred on `at`). Every part is its own mesh; the build joins them. Rotations are in degrees.
@@ -81,6 +81,11 @@ def barrel_wood_open():
 - `anchors`: the anchor names, as in `asset.py`.
 - `closed`: true when every part is a closed mesh (needed to fracture or print it); the `manifold` check then holds
   you to it. Use it for things a game would break: crates, barrels, pots, furniture.
+- `mount` (only for a prop that hangs): `{ "kind": "ceiling", "lift": 2.35 }` hangs from its top (chandelier, chained
+  lantern), `{ "kind": "wall", "lift": 1.4 }` hangs by its back on +y, which must be flat (sconce, sign, shield). The
+  model still stands on z = 0 on its lowest point; `lift` is how many metres a game raises it to hang it where it was
+  made to hang (a ceiling prop's top then meets the ceiling at `lift` plus its height). Name that height in the
+  description too.
 - `provenance` and `licence`: keep what `npm run new` wrote (`source: generated`, the prompt, `CC0-1.0`).
 
 ## Style (the default kit: a painterly medieval village)

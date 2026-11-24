@@ -1,7 +1,7 @@
 """A wrought-iron wall sconce holding a burning pitch torch, front on -y: a riveted wall plate flanked by two scrolls,
 an arm out to a collar and a strap down to a cup that hold the torch leaning out from the wall, its head a bound
 pitch-soaked rag wrap glowing under a short flame. The back of the plate is flat on +y, to hang on a wall; the model
-stands on the foot of the torch, so a game lifts it to the height it wants."""
+stands on the foot of the torch, and asset.json's mount lifts it 1.4 m, the flame at about 2 m."""
 import math
 
 from propsmith import anchor, prop
@@ -56,8 +56,9 @@ def torch_wall_sconce():
     py = WALL_Y - PLATE_T / 2
     ph = PLATE_Z1 - PLATE_Z0
     box("plate", (PLATE_W, PLATE_T, ph), (0, py, PLATE_Z0 + ph / 2), iron, bevel=0.004)
-    cylinder("plate_point", PLATE_W / math.sqrt(2) * 0.72, 0.05, (0, py, PLATE_Z1 - 0.003), iron, r_top=0.004,
-             segments=4, rot=(0, 0, 45), bevel=0.003)
+    point = 0.05  # height of the point above the plate, flat on the wall like the plate
+    box("plate_point", (point * math.sqrt(2), PLATE_T, point * math.sqrt(2)), (0, py, PLATE_Z1), iron, rot=(0, 45, 0),
+        bevel=0.003)
     for sx in (-1, 1):
         for z in (PLATE_Z0 + 0.03, PLATE_Z1 - 0.03):
             cylinder(f"rivet_{sx}_{z:.2f}", 0.011, 0.012, (sx * (PLATE_W / 2 - 0.022), py - PLATE_T / 2 + 0.002, z),
