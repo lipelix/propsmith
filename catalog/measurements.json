@@ -1373,6 +1373,30 @@
         }
       ]
     },
+    "crane_dock_wood": {
+      "inputHash": "f07048eabbf61e67c021d9af7d11578961a80440b437fa7a3b02d30e1adcd591",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "crane_dock_wood",
+          "tris": 4760,
+          "bbox": { "min": [-1.2407, -0.73, 0], "max": [1.2987, 0.73, 3.38] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "crane_dock_wood_iron", "source": "palette" },
+            { "name": "crane_dock_wood_rope", "source": "palette" },
+            { "name": "crane_dock_wood_stone", "source": "palette" },
+            { "name": "crane_dock_wood_timber", "source": "palette" },
+            { "name": "crane_dock_wood_timber_dark", "source": "palette" },
+            { "name": "crane_dock_wood_timber_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "crate_small": {
       "inputHash": "9eb45b569b62c09988a4929f22f0faf9e928c5208a7531f2b6562c56b767e1dc",
       "libVersion": 1,

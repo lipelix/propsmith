@@ -1100,6 +1100,38 @@
       "inputHash": "92b4523dbdb021902d74c7d3ba646881846cebde7df4c1e83975ffa9f27540e9"
     },
     {
+      "id": "crane_dock_wood",
+      "name": "Wooden dock crane",
+      "description": "A small timber dock crane about 2.55 × 1.5 × 3.4 m: a squared mast on crossed sill beams with three braces, a jib reaching out to a sheave tied back to the mast head, a hand winch with a rope drum, a ratchet and two cranks, and the rope running over the sheave down to a pulley block and an iron hook.",
+      "category": "structure",
+      "family": "crane",
+      "tags": [
+        "harbour",
+        "iron",
+        "large",
+        "rope",
+        "tall",
+        "transport",
+        "wood",
+        "work"
+      ],
+      "aliases": [
+        "cargo crane",
+        "derrick",
+        "dock crane",
+        "hoist",
+        "jib crane",
+        "winch"
+      ],
+      "variants": ["crane_dock_wood"],
+      "size": { "x": 2.55, "y": 1.5, "z": 3.4 },
+      "anchors": [],
+      "closed": false,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "f07048eabbf61e67c021d9af7d11578961a80440b437fa7a3b02d30e1adcd591"
+    },
+    {
       "id": "crate_small",
       "name": "Small wooden crates",
       "description": "Two small wooden crates stacked, the top one smaller and slightly turned, each with plank sides, darker corner battens and a lid, about 0.35 m and 0.28 m cubes, total height about 0.6 m. Variant `crate_small_open`: one open small crate (no lid) full of round dull red and green apples.",

@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "id": "crane_dock_wood",
+  "name": "Wooden dock crane",
+  "description": "A small timber dock crane about 2.55 × 1.5 × 3.4 m: a squared mast on crossed sill beams with three braces, a jib reaching out to a sheave tied back to the mast head, a hand winch with a rope drum, a ratchet and two cranks, and the rope running over the sheave down to a pulley block and an iron hook.",
+  "category": "structure",
+  "family": "crane",
+  "tags": [
+    "wood",
+    "rope",
+    "iron",
+    "harbour",
+    "transport",
+    "work",
+    "tall",
+    "large"
+  ],
+  "aliases": [
+    "derrick",
+    "hoist",
+    "jib crane",
+    "winch",
+    "dock crane",
+    "cargo crane"
+  ],
+  "variants": ["crane_dock_wood"],
+  "size": { "x": 2.55, "y": 1.5, "z": 3.4 },
+  "anchors": [],
+  "closed": false,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A small timber dock crane with a jib, rope, hook and a hand winch, about 2.5 × 1.5 × 3.5 m."
+  },
+  "licence": "CC0-1.0"
+}
