@@ -1077,6 +1077,36 @@
         }
       ]
     },
+    "chicken_coop": {
+      "inputHash": "81d7638ca38ba8e2bdb9e3081b7fe6ff05d1437939acbf95b6166462579ef0a5",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "chicken_coop",
+          "tris": 6284,
+          "bbox": {
+            "min": [-0.76, -0.5693, 0],
+            "max": [0.7658, 0.5693, 1.5822]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "chicken_coop_dark", "source": "palette" },
+            { "name": "chicken_coop_iron", "source": "palette" },
+            { "name": "chicken_coop_rope", "source": "palette" },
+            { "name": "chicken_coop_straw", "source": "palette" },
+            { "name": "chicken_coop_thatch", "source": "palette" },
+            { "name": "chicken_coop_thatch_old", "source": "palette" },
+            { "name": "chicken_coop_wood", "source": "palette" },
+            { "name": "chicken_coop_wood_grey", "source": "palette" },
+            { "name": "chicken_coop_wood_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "chopping_block": {
       "inputHash": "b3e3adf0dd9e14c4a1ce2f65c59ce8c426eae54b8309477eb0f595580285c1a2",
       "libVersion": 1,
@@ -3091,6 +3121,34 @@
         }
       ]
     },
+    "plough_wood": {
+      "inputHash": "a73b92baa32a419d8cae24aef9c9874c4db6e26c669af9cd1eca8e623b124c02",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "plough_wood",
+          "tris": 4580,
+          "bbox": {
+            "min": [-1.1363, -0.2823, -0.001],
+            "max": [1.1, 0.2823, 0.9775]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "plough_wood_earth", "source": "palette" },
+            { "name": "plough_wood_grip", "source": "palette" },
+            { "name": "plough_wood_iron", "source": "palette" },
+            { "name": "plough_wood_rust", "source": "palette" },
+            { "name": "plough_wood_share_edge", "source": "palette" },
+            { "name": "plough_wood_wood", "source": "palette" },
+            { "name": "plough_wood_wood_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "potion_bottles": {
       "inputHash": "673c6f3c2e3b18445a1cec48eae2668dd66eaa7b822f475585ea52e6cc5c285d",
       "libVersion": 1,
@@ -3242,6 +3300,35 @@
             { "name": "puddle_water_stone", "source": "palette" },
             { "name": "puddle_water_stone_old", "source": "palette" },
             { "name": "puddle_water_water", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "pumpkin_patch": {
+      "inputHash": "946ea0b5415cff1597351db3d33d6472745d73b56b16ccccf06522a3ceff1ffb",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "pumpkin_patch",
+          "tris": 4176,
+          "bbox": {
+            "min": [-0.7344, -0.7056, 0],
+            "max": [0.7344, 0.7056, 0.3973]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "pumpkin_patch_earth", "source": "palette" },
+            { "name": "pumpkin_patch_leaf", "source": "palette" },
+            { "name": "pumpkin_patch_leaf_dark", "source": "palette" },
+            { "name": "pumpkin_patch_orange", "source": "palette" },
+            { "name": "pumpkin_patch_pale", "source": "palette" },
+            { "name": "pumpkin_patch_stem", "source": "palette" },
+            { "name": "pumpkin_patch_unripe", "source": "palette" },
+            { "name": "pumpkin_patch_vine", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
@@ -3588,6 +3675,38 @@
             { "name": "sarcophagus_moss_deep", "source": "palette" },
             { "name": "sarcophagus_stone", "source": "palette" },
             { "name": "sarcophagus_stone_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "scarecrow": {
+      "inputHash": "64c12159e1bf8da7e0262b1b01b78661d13cc4c67423ba52d86004de5b4d968f",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "scarecrow",
+          "tris": 5248,
+          "bbox": {
+            "min": [-0.7866, -0.2152, -0.0016],
+            "max": [0.7995, 0.2155, 2.0466]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "scarecrow_coat", "source": "palette" },
+            { "name": "scarecrow_earth", "source": "palette" },
+            { "name": "scarecrow_hat", "source": "palette" },
+            { "name": "scarecrow_patch", "source": "palette" },
+            { "name": "scarecrow_patch_grey", "source": "palette" },
+            { "name": "scarecrow_rope", "source": "palette" },
+            { "name": "scarecrow_sack", "source": "palette" },
+            { "name": "scarecrow_stitch", "source": "palette" },
+            { "name": "scarecrow_straw", "source": "palette" },
+            { "name": "scarecrow_wood", "source": "palette" },
+            { "name": "scarecrow_wood_old", "source": "palette" }
           ],
           "anchors": [],
           "textures": []
@@ -6413,6 +6532,40 @@
             { "name": "washing_line_wood_old", "source": "palette" }
           ],
           "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "water_trough": {
+      "inputHash": "63d2e65e12b0952b6bbe0e7e3080f4fdb6ff973b6a758c0bfb9583f90f2fe24a",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "water_trough",
+          "tris": 2252,
+          "bbox": {
+            "min": [-0.865, -0.2948, -0.0053],
+            "max": [0.9, 0.2509, 0.485]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "water_trough_bark", "source": "palette" },
+            { "name": "water_trough_block", "source": "palette" },
+            { "name": "water_trough_earth", "source": "palette" },
+            { "name": "water_trough_end_grain", "source": "palette" },
+            { "name": "water_trough_hewn", "source": "palette" },
+            { "name": "water_trough_moss", "source": "palette" },
+            { "name": "water_trough_water", "source": "palette" }
+          ],
+          "anchors": [
+            {
+              "name": "water:basin",
+              "at": [0, 0, 0.435],
+              "size": [0.74, 0.133, 0.275]
+            }
+          ],
           "textures": []
         }
       ]

@@ -857,6 +857,28 @@
       "inputHash": "d3dcb554c84ee5598b2d78efcbc04309cad86f19599b2053f7e94ec24cb253ca"
     },
     {
+      "id": "chicken_coop",
+      "name": "Chicken coop",
+      "description": "A small plank hen house on four legs, about 1.5 × 1.2 × 1.6 m: board walls with a hinged egg door and a slatted window on the front, a pop hole with a slide shutter and a cleated ramp down to the ground at one end, and a steep thatched gable roof with a rope-bound ridge.",
+      "category": "structure",
+      "family": "chicken_coop",
+      "tags": ["farm", "roofed", "small", "thatch", "village", "wood", "worn"],
+      "aliases": [
+        "chicken house",
+        "hen coop",
+        "hen house",
+        "henhouse",
+        "poultry house"
+      ],
+      "variants": ["chicken_coop"],
+      "size": { "x": 1.5, "y": 1.2, "z": 1.6 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "81d7638ca38ba8e2bdb9e3081b7fe6ff05d1437939acbf95b6166462579ef0a5"
+    },
+    {
       "id": "chopping_block",
       "name": "Chopping block",
       "description": "A thick round chopping block cut from a tree trunk, about 0.5 m across and 0.45 m high, with a pale ringed top and dark bark. A wood axe with a dark iron head and an ash haft is stuck into its top at an angle, and a few split logs and chips lie around it.",
@@ -2408,6 +2430,22 @@
       "inputHash": "c3b50467f44b599355d6944bf871c8afebc47f507aaab63ddc16234a15a121f1"
     },
     {
+      "id": "plough_wood",
+      "name": "Wooden plough",
+      "description": "A wooden plough about 2.2 × 0.6 × 1 m: a long draw beam from two splayed handles with worn grips to an iron hitch ring, a small iron-tyred foot wheel under its front, an iron coulter and a pointed iron share on a sole, and a twisted plank mouldboard.",
+      "category": "decor",
+      "family": "plough",
+      "tags": ["farm", "iron", "long", "village", "wood", "work", "worn"],
+      "aliases": ["ard", "farm plough", "hand plough", "plow", "wooden plow"],
+      "variants": ["plough_wood"],
+      "size": { "x": 2.2, "y": 0.6, "z": 1 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "a73b92baa32a419d8cae24aef9c9874c4db6e26c669af9cd1eca8e623b124c02"
+    },
+    {
       "id": "potion_bottles",
       "name": "Potion bottles",
       "description": "A small group of stoppered potion bottles and vials about 0.35 × 0.3 m and 0.3 m high: a tall square bottle of green brew sealed with red wax, a round-bellied red flask with a tied label, a squat blue bottle, a slim blue vial and three little vials of red and green, one lying on its side.",
@@ -2564,6 +2602,28 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "7137583bc758e927496c0d32bb937a1f3a985d69afe30170667b9ddf619aa37d"
+    },
+    {
+      "id": "pumpkin_patch",
+      "name": "Pumpkin patch",
+      "description": "Five ribbed pumpkins of different sizes, orange, pale yellow and one still green, lying on a patch of dug earth among broad leaves on stalks and creeping vines, about 1.5 × 1.45 × 0.4 m.",
+      "category": "vegetation",
+      "family": "pumpkin_patch",
+      "tags": ["farm", "garden", "low", "planting", "round", "village"],
+      "aliases": [
+        "gourds",
+        "harvest",
+        "pumpkins",
+        "squash patch",
+        "vegetable patch"
+      ],
+      "variants": ["pumpkin_patch"],
+      "size": { "x": 1.5, "y": 1.45, "z": 0.4 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "946ea0b5415cff1597351db3d33d6472745d73b56b16ccccf06522a3ceff1ffb"
     },
     {
       "id": "rail_track_straight",
@@ -2796,6 +2856,22 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "2723e33a7bd6d41156e85da1ecba2f83cc748baf5d06a0ec36bfdad631b4f2e5"
+    },
+    {
+      "id": "scarecrow",
+      "name": "Scarecrow",
+      "description": "A ragged scarecrow on a cross pole in a heap of earth, about 1.6 × 0.45 × 2.05 m: a patched old coat with straw out of the cuffs and hem, a rope belt, a stuffed sack head with a stitched face and a battered wide-brimmed hat.",
+      "category": "decor",
+      "family": "scarecrow",
+      "tags": ["cloth", "farm", "garden", "straw", "tall", "wood", "worn"],
+      "aliases": ["bird scarer", "hay man", "straw man", "tattie bogle"],
+      "variants": ["scarecrow"],
+      "size": { "x": 1.6, "y": 0.45, "z": 2.05 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "64c12159e1bf8da7e0262b1b01b78661d13cc4c67423ba52d86004de5b4d968f"
     },
     {
       "id": "scroll_rack",
@@ -3994,6 +4070,28 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "c6060653866dc3568b121ba2fb8bc77dfe5b5295768ecf5abf1f6479473c1559"
+    },
+    {
+      "id": "water_trough",
+      "name": "Log water trough",
+      "description": "A barked log hewn flat on top and dug out into a trough full of still dark water, about 1.8 × 0.5 × 0.5 m, its ends left solid, resting on two squared timber blocks with a bung in one end and moss at its foot.",
+      "category": "container",
+      "family": "trough",
+      "tags": ["farm", "long", "low", "village", "water", "weathered", "wood"],
+      "aliases": [
+        "cattle trough",
+        "drinking trough",
+        "horse trough",
+        "log trough",
+        "water trough"
+      ],
+      "variants": ["water_trough"],
+      "size": { "x": 1.8, "y": 0.5, "z": 0.5 },
+      "anchors": ["water:basin"],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "63d2e65e12b0952b6bbe0e7e3080f4fdb6ff973b6a758c0bfb9583f90f2fe24a"
     },
     {
       "id": "waterfall_rock",

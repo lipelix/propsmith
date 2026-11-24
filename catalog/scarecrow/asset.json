@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "scarecrow",
+  "name": "Scarecrow",
+  "description": "A ragged scarecrow on a cross pole in a heap of earth, about 1.6 × 0.45 × 2.05 m: a patched old coat with straw out of the cuffs and hem, a rope belt, a stuffed sack head with a stitched face and a battered wide-brimmed hat.",
+  "category": "decor",
+  "family": "scarecrow",
+  "tags": ["straw", "cloth", "wood", "farm", "garden", "tall", "worn"],
+  "aliases": ["straw man", "bird scarer", "tattie bogle", "hay man"],
+  "variants": ["scarecrow"],
+  "size": { "x": 1.6, "y": 0.45, "z": 2.05 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A ragged scarecrow of straw and old clothes on a cross pole with a sack head and a hat, about 1.6 × 0.4 × 2.1 m."
+  },
+  "licence": "CC0-1.0"
+}
