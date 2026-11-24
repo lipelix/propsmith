@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "shield_rack",
+  "name": "Shield rack",
+  "description": "A timber rack of two footed uprights and three rails, about 1.5 × 0.4 × 1.2 m, holding three round wooden shields with iron bosses and rims, painted with a pale cross on red, a pale ring on blue and red and ochre quarters.",
+  "category": "furniture",
+  "family": "shield_rack",
+  "tags": ["wood", "iron", "castle", "training", "storage", "long", "worn"],
+  "aliases": [
+    "shields",
+    "round shield",
+    "armoury rack",
+    "armory rack",
+    "shield stand"
+  ],
+  "variants": ["shield_rack"],
+  "size": { "x": 1.5, "y": 0.4, "z": 1.2 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A timber rack holding three round painted shields, about 1.5 × 0.4 × 1.2 m."
+  },
+  "licence": "CC0-1.0"
+}

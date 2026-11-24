@@ -91,6 +91,37 @@
       "inputHash": "0451ea6ca8b2a6f471193fba119132fc10f615cf487731f2c4dd816ef4a9484f"
     },
     {
+      "id": "archery_target",
+      "name": "Archery target",
+      "description": "A round boss of coiled straw rope faced with painted rings in pale, red, blue and gold, leaning back on a timber tripod with a ledge rail, about 1.1 × 0.9 × 1.5 m, with two arrows stuck in it.",
+      "category": "decor",
+      "family": "archery_target",
+      "tags": [
+        "castle",
+        "round",
+        "straw",
+        "training",
+        "village",
+        "wood",
+        "worn"
+      ],
+      "aliases": [
+        "archery butt",
+        "arrows",
+        "bullseye",
+        "butts",
+        "practice target",
+        "target"
+      ],
+      "variants": ["archery_target"],
+      "size": { "x": 1.1, "y": 0.9, "z": 1.5 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "1b4589dd026b928000a60cc09e66930d6e21781ebadb3668d4449c4bfc64bf5e"
+    },
+    {
       "id": "armour_stand",
       "name": "Armour stand",
       "description": "A wooden armour stand about 0.65 × 0.5 × 1.8 m: a cross-footed base and a post with a shoulder yoke carrying a knee-length mail shirt with short sleeves and a belted waist, a round iron helm with a nasal on top.",
@@ -2838,6 +2869,28 @@
       "inputHash": "49181076e06365a945c0d86219925c94b004ebe8376015d01a51b5f70e03293f"
     },
     {
+      "id": "shield_rack",
+      "name": "Shield rack",
+      "description": "A timber rack of two footed uprights and three rails, about 1.5 × 0.4 × 1.2 m, holding three round wooden shields with iron bosses and rims, painted with a pale cross on red, a pale ring on blue and red and ochre quarters.",
+      "category": "furniture",
+      "family": "shield_rack",
+      "tags": ["castle", "iron", "long", "storage", "training", "wood", "worn"],
+      "aliases": [
+        "armory rack",
+        "armoury rack",
+        "round shield",
+        "shield stand",
+        "shields"
+      ],
+      "variants": ["shield_rack"],
+      "size": { "x": 1.5, "y": 0.4, "z": 1.2 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "5e58dd380abf8fe1139c4b29dba51972697c06667ad36c99c606d8388c0468cd"
+    },
+    {
       "id": "sign_board",
       "name": "Hanging inn sign",
       "description": "A square timber post about 2.2 m high on a small stone footing, with a short arm at the top from which a painted plank hangs on two short chains, its dark face showing a faded ochre tankard.",
@@ -3273,6 +3326,29 @@
       "source": "handwritten",
       "licence": "CC0-1.0",
       "inputHash": "e8be463ff31c6ecc06ed4283804d5acab91dd29fb5ac0cfdb3d7d8744f2b75e9"
+    },
+    {
+      "id": "training_dummy",
+      "name": "Training dummy",
+      "description": "A straw-stuffed sackcloth dummy on a post with crossed feet, about 0.95 × 0.5 × 1.9 m: sack arms on a crossbar with straw out of the ends, a rope-tied waist, a dented iron pot helm with an eye slit and a battered red round shield on its arm.",
+      "category": "decor",
+      "family": "training_dummy",
+      "tags": ["castle", "cloth", "straw", "tall", "training", "wood", "worn"],
+      "aliases": [
+        "combat dummy",
+        "pell",
+        "practice dummy",
+        "quintain",
+        "sparring dummy",
+        "target dummy"
+      ],
+      "variants": ["training_dummy"],
+      "size": { "x": 0.95, "y": 0.5, "z": 1.9 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "beae079e5d9178dd8c5a0f38d8c3b21fb5df5411b1f58b82423e7a9a827147db"
     },
     {
       "id": "treasure_pile",
