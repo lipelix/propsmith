@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "id": "outhouse_wood",
+  "name": "Wooden outhouse",
+  "description": "A plank privy about 1.1 × 1.1 × 2.2 m: a small shed of weathered vertical boards on corner posts and sill beams under a mossy lean-to board roof, with a ledged and braced plank door on iron strap hinges and a crescent moon cut through it near the top.",
+  "category": "structure",
+  "family": "outhouse",
+  "tags": [
+    "wood",
+    "iron",
+    "village",
+    "farm",
+    "house",
+    "roofed",
+    "small",
+    "weathered"
+  ],
+  "aliases": ["privy", "latrine", "toilet", "outdoor toilet", "jakes", "loo"],
+  "variants": ["outhouse_wood"],
+  "size": { "x": 1.1, "y": 1.1, "z": 2.2 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "outhouse_wood: a plank privy with a lean roof and a door with a cut crescent, about 1.1 × 1.1 × 2.2 m (plan 3, item 17)."
+  },
+  "licence": "CC0-1.0"
+}

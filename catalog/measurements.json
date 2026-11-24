@@ -3071,6 +3071,34 @@
         }
       ]
     },
+    "outhouse_wood": {
+      "inputHash": "37695bac2756298407baf3144adecbbc0b4763e2e4b283d4ac18df590a156bf0",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "outhouse_wood",
+          "tris": 6484,
+          "bbox": {
+            "min": [-0.5399, -0.577, 0],
+            "max": [0.5419, 0.5252, 2.1562]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "outhouse_wood_boards", "source": "palette" },
+            { "name": "outhouse_wood_boards_old", "source": "palette" },
+            { "name": "outhouse_wood_frame", "source": "palette" },
+            { "name": "outhouse_wood_inside", "source": "palette" },
+            { "name": "outhouse_wood_iron", "source": "palette" },
+            { "name": "outhouse_wood_moss", "source": "palette" },
+            { "name": "outhouse_wood_roof", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "oven_bread_stone": {
       "inputHash": "f847c00a0fe814b3274b0da07ae0d580e119033f20b23d17e2dc27a2501a1569",
       "libVersion": 1,

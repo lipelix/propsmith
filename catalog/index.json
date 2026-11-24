@@ -2452,6 +2452,38 @@
       "inputHash": "498fc93d7fc19b82c5de9255eb6f1b0ef5e2529de199f54d268fc7aab64fe89e"
     },
     {
+      "id": "outhouse_wood",
+      "name": "Wooden outhouse",
+      "description": "A plank privy about 1.1 × 1.1 × 2.2 m: a small shed of weathered vertical boards on corner posts and sill beams under a mossy lean-to board roof, with a ledged and braced plank door on iron strap hinges and a crescent moon cut through it near the top.",
+      "category": "structure",
+      "family": "outhouse",
+      "tags": [
+        "farm",
+        "house",
+        "iron",
+        "roofed",
+        "small",
+        "village",
+        "weathered",
+        "wood"
+      ],
+      "aliases": [
+        "jakes",
+        "latrine",
+        "loo",
+        "outdoor toilet",
+        "privy",
+        "toilet"
+      ],
+      "variants": ["outhouse_wood"],
+      "size": { "x": 1.1, "y": 1.1, "z": 2.2 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "37695bac2756298407baf3144adecbbc0b4763e2e4b283d4ac18df590a156bf0"
+    },
+    {
       "id": "oven_bread_stone",
       "name": "Stone bread oven",
       "description": "A domed bread oven of plastered stone on a waist-high fieldstone plinth, its stone front wall pierced by an arched mouth glowing with embers under a short flue; a long wooden peel leans against the plinth beside a few split logs.",
