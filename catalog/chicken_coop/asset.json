@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "chicken_coop",
+  "name": "Chicken coop",
+  "description": "A small plank hen house on four legs, about 1.5 × 1.2 × 1.6 m: board walls with a hinged egg door and a slatted window on the front, a pop hole with a slide shutter and a cleated ramp down to the ground at one end, and a steep thatched gable roof with a rope-bound ridge.",
+  "category": "structure",
+  "family": "chicken_coop",
+  "tags": ["wood", "thatch", "farm", "village", "roofed", "small", "worn"],
+  "aliases": [
+    "hen house",
+    "henhouse",
+    "chicken house",
+    "poultry house",
+    "hen coop"
+  ],
+  "variants": ["chicken_coop"],
+  "size": { "x": 1.5, "y": 1.2, "z": 1.6 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A small plank hen house on legs with a ramp and a thatched roof, about 1.5 × 1.2 × 1.6 m."
+  },
+  "licence": "CC0-1.0"
+}

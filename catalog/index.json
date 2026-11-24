@@ -857,6 +857,28 @@
       "inputHash": "d3dcb554c84ee5598b2d78efcbc04309cad86f19599b2053f7e94ec24cb253ca"
     },
     {
+      "id": "chicken_coop",
+      "name": "Chicken coop",
+      "description": "A small plank hen house on four legs, about 1.5 × 1.2 × 1.6 m: board walls with a hinged egg door and a slatted window on the front, a pop hole with a slide shutter and a cleated ramp down to the ground at one end, and a steep thatched gable roof with a rope-bound ridge.",
+      "category": "structure",
+      "family": "chicken_coop",
+      "tags": ["farm", "roofed", "small", "thatch", "village", "wood", "worn"],
+      "aliases": [
+        "chicken house",
+        "hen coop",
+        "hen house",
+        "henhouse",
+        "poultry house"
+      ],
+      "variants": ["chicken_coop"],
+      "size": { "x": 1.5, "y": 1.2, "z": 1.6 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "c6ad228bbabdedf4517c7fe509a58b77688f9475f705b2bdfcd60c4e75ed6883"
+    },
+    {
       "id": "chopping_block",
       "name": "Chopping block",
       "description": "A thick round chopping block cut from a tree trunk, about 0.5 m across and 0.45 m high, with a pale ringed top and dark bark. A wood axe with a dark iron head and an ash haft is stuck into its top at an angle, and a few split logs and chips lie around it.",

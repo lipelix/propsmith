@@ -1077,6 +1077,36 @@
         }
       ]
     },
+    "chicken_coop": {
+      "inputHash": "c6ad228bbabdedf4517c7fe509a58b77688f9475f705b2bdfcd60c4e75ed6883",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "chicken_coop",
+          "tris": 6068,
+          "bbox": {
+            "min": [-0.76, -0.5693, 0],
+            "max": [0.7658, 0.5693, 1.5822]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "chicken_coop_dark", "source": "palette" },
+            { "name": "chicken_coop_iron", "source": "palette" },
+            { "name": "chicken_coop_rope", "source": "palette" },
+            { "name": "chicken_coop_straw", "source": "palette" },
+            { "name": "chicken_coop_thatch", "source": "palette" },
+            { "name": "chicken_coop_thatch_old", "source": "palette" },
+            { "name": "chicken_coop_wood", "source": "palette" },
+            { "name": "chicken_coop_wood_grey", "source": "palette" },
+            { "name": "chicken_coop_wood_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "chopping_block": {
       "inputHash": "b3e3adf0dd9e14c4a1ce2f65c59ce8c426eae54b8309477eb0f595580285c1a2",
       "libVersion": 1,
