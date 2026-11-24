@@ -2992,6 +2992,32 @@
         }
       ]
     },
+    "obelisk_rune": {
+      "inputHash": "c1aededae273439f1750280e67fe879013cf0782de6864be45be44d5f611100d",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "obelisk_rune",
+          "tris": 1808,
+          "bbox": {
+            "min": [-0.3862, -0.3753, 0],
+            "max": [0.3862, 0.3673, 2.93]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "obelisk_rune_glow", "source": "palette" },
+            { "name": "obelisk_rune_moss", "source": "palette" },
+            { "name": "obelisk_rune_sod", "source": "palette" },
+            { "name": "obelisk_rune_stone", "source": "palette" },
+            { "name": "obelisk_rune_stone_dark", "source": "palette" }
+          ],
+          "anchors": [{ "name": "light:rune", "at": [0, -0.37, 1.55] }],
+          "textures": []
+        }
+      ]
+    },
     "ore_vein_rock": {
       "inputHash": "498fc93d7fc19b82c5de9255eb6f1b0ef5e2529de199f54d268fc7aab64fe89e",
       "libVersion": 1,

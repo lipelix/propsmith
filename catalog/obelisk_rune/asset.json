@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "obelisk_rune",
+  "name": "Rune obelisk",
+  "description": "A tall weathered grey standing stone with a square tapering shaft and a low pyramid cap on a rough slab plinth, each face carved with a column of angular runes filled with a faint pale blue-green glow; moss at its foot.",
+  "category": "decor",
+  "family": "standing_stone",
+  "tags": ["stone", "magic", "worship", "forest", "tall", "weathered", "mossy"],
+  "aliases": [
+    "obelisk",
+    "rune stone",
+    "runestone",
+    "menhir",
+    "monolith",
+    "ley stone"
+  ],
+  "variants": ["obelisk_rune"],
+  "size": { "x": 0.8, "y": 0.75, "z": 2.95 },
+  "anchors": ["light:rune"],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "obelisk_rune: a tall standing stone carved with faintly glowing runes, about 0.8 × 0.8 × 3 m; anchor light:rune (plan 3, item 16)."
+  },
+  "licence": "CC0-1.0"
+}
