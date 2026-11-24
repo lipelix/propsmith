@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "training_dummy",
+  "name": "Training dummy",
+  "description": "A straw-stuffed sackcloth dummy on a post with crossed feet, about 0.95 × 0.5 × 1.9 m: sack arms on a crossbar with straw out of the ends, a rope-tied waist, a dented iron pot helm with an eye slit and a battered red round shield on its arm.",
+  "category": "decor",
+  "family": "training_dummy",
+  "tags": ["straw", "cloth", "wood", "castle", "training", "tall", "worn"],
+  "aliases": [
+    "practice dummy",
+    "combat dummy",
+    "pell",
+    "quintain",
+    "target dummy",
+    "sparring dummy"
+  ],
+  "variants": ["training_dummy"],
+  "size": { "x": 0.95, "y": 0.5, "z": 1.9 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A straw-stuffed sackcloth dummy on a post with a battered shield and a pot helm, about 0.9 × 0.5 × 1.9 m."
+  },
+  "licence": "CC0-1.0"
+}

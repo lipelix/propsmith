@@ -3275,6 +3275,29 @@
       "inputHash": "e8be463ff31c6ecc06ed4283804d5acab91dd29fb5ac0cfdb3d7d8744f2b75e9"
     },
     {
+      "id": "training_dummy",
+      "name": "Training dummy",
+      "description": "A straw-stuffed sackcloth dummy on a post with crossed feet, about 0.95 × 0.5 × 1.9 m: sack arms on a crossbar with straw out of the ends, a rope-tied waist, a dented iron pot helm with an eye slit and a battered red round shield on its arm.",
+      "category": "decor",
+      "family": "training_dummy",
+      "tags": ["castle", "cloth", "straw", "tall", "training", "wood", "worn"],
+      "aliases": [
+        "combat dummy",
+        "pell",
+        "practice dummy",
+        "quintain",
+        "sparring dummy",
+        "target dummy"
+      ],
+      "variants": ["training_dummy"],
+      "size": { "x": 0.95, "y": 0.5, "z": 1.9 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "8b70325f1533a0e4b9653694f1386558578cb47813f093a2c8e9c49d5db9e429"
+    },
+    {
       "id": "treasure_pile",
       "name": "Treasure pile",
       "description": "A heap of gold coins about 1.2 m across and 0.5 m high, strewn with loose coins, with a jewelled goblet half buried near the top, a crown tipped on its side on the front slope, a few cut rubies, sapphires and emeralds, and coins spilt round its foot.",

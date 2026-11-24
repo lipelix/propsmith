@@ -4214,6 +4214,38 @@
         }
       ]
     },
+    "training_dummy": {
+      "inputHash": "8b70325f1533a0e4b9653694f1386558578cb47813f093a2c8e9c49d5db9e429",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "training_dummy",
+          "tris": 6212,
+          "bbox": {
+            "min": [-0.4833, -0.2488, 0],
+            "max": [0.464, 0.23, 1.8649]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "training_dummy_iron", "source": "palette" },
+            { "name": "training_dummy_iron_dark", "source": "palette" },
+            { "name": "training_dummy_leather", "source": "palette" },
+            { "name": "training_dummy_paint", "source": "palette" },
+            { "name": "training_dummy_rope", "source": "palette" },
+            { "name": "training_dummy_sack", "source": "palette" },
+            { "name": "training_dummy_sack_dark", "source": "palette" },
+            { "name": "training_dummy_shield_wood", "source": "palette" },
+            { "name": "training_dummy_straw", "source": "palette" },
+            { "name": "training_dummy_wood", "source": "palette" },
+            { "name": "training_dummy_wood_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "treasure_pile": {
       "inputHash": "90de38a719fcebc45062db3cf54044ad272a0d1e6fbd876b1659196a2f5b53f2",
       "libVersion": 1,
