@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "id": "portal_arch_stone",
+  "name": "Stone portal ring",
+  "description": "A round gate of grey stone, empty inside: a full ring of wedge voussoirs with a proud keystone, set upright on a two-step base of worn slabs between two curved chock stones, every block carved with an angular glyph filled with a faint pale violet glow; moss on the steps.",
+  "category": "structure",
+  "family": "portal",
+  "tags": [
+    "stone",
+    "magic",
+    "worship",
+    "round",
+    "large",
+    "ornate",
+    "weathered"
+  ],
+  "aliases": [
+    "portal",
+    "stargate",
+    "ring gate",
+    "gateway",
+    "teleporter",
+    "moongate",
+    "rune gate"
+  ],
+  "variants": ["portal_arch_stone"],
+  "size": { "x": 2.6, "y": 0.8, "z": 2.8 },
+  "anchors": ["light:portal"],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "portal_arch_stone: a round stone ring gate on a stepped base with carved glyphs, empty inside, about 2.6 × 0.8 × 3 m; anchor light:portal (plan 3, item 16)."
+  },
+  "licence": "CC0-1.0"
+}

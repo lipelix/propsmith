@@ -3284,6 +3284,33 @@
         }
       ]
     },
+    "portal_arch_stone": {
+      "inputHash": "1e50be8f929b61eaf3f4dbc1544558adbdb925bef60bb5bf6c0f32a2727dafbb",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "portal_arch_stone",
+          "tris": 5080,
+          "bbox": {
+            "min": [-1.3003, -0.409, 0.0018],
+            "max": [1.2988, 0.4102, 2.79]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "portal_arch_stone_glow", "source": "palette" },
+            { "name": "portal_arch_stone_mortar", "source": "palette" },
+            { "name": "portal_arch_stone_moss", "source": "palette" },
+            { "name": "portal_arch_stone_old", "source": "palette" },
+            { "name": "portal_arch_stone_pale", "source": "palette" },
+            { "name": "portal_arch_stone_stone", "source": "palette" }
+          ],
+          "anchors": [{ "name": "light:portal", "at": [0, 0, 1.46] }],
+          "textures": []
+        }
+      ]
+    },
     "potion_bottles": {
       "inputHash": "673c6f3c2e3b18445a1cec48eae2668dd66eaa7b822f475585ea52e6cc5c285d",
       "libVersion": 1,
