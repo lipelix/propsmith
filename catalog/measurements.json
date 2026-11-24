@@ -3278,6 +3278,35 @@
         }
       ]
     },
+    "pumpkin_patch": {
+      "inputHash": "946ea0b5415cff1597351db3d33d6472745d73b56b16ccccf06522a3ceff1ffb",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "pumpkin_patch",
+          "tris": 4176,
+          "bbox": {
+            "min": [-0.7344, -0.7056, 0],
+            "max": [0.7344, 0.7056, 0.3973]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "pumpkin_patch_earth", "source": "palette" },
+            { "name": "pumpkin_patch_leaf", "source": "palette" },
+            { "name": "pumpkin_patch_leaf_dark", "source": "palette" },
+            { "name": "pumpkin_patch_orange", "source": "palette" },
+            { "name": "pumpkin_patch_pale", "source": "palette" },
+            { "name": "pumpkin_patch_stem", "source": "palette" },
+            { "name": "pumpkin_patch_unripe", "source": "palette" },
+            { "name": "pumpkin_patch_vine", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "rail_track_straight": {
       "inputHash": "4348bd733cea465f37e8c3154f7dd5087af4378af03d5dfcdf663ce7007cbc8c",
       "libVersion": 1,

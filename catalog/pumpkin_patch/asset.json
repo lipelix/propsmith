@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "pumpkin_patch",
+  "name": "Pumpkin patch",
+  "description": "Five ribbed pumpkins of different sizes, orange, pale yellow and one still green, lying on a patch of dug earth among broad leaves on stalks and creeping vines, about 1.5 × 1.45 × 0.4 m.",
+  "category": "vegetation",
+  "family": "pumpkin_patch",
+  "tags": ["farm", "garden", "village", "planting", "low", "round"],
+  "aliases": [
+    "pumpkins",
+    "squash patch",
+    "gourds",
+    "vegetable patch",
+    "harvest"
+  ],
+  "variants": ["pumpkin_patch"],
+  "size": { "x": 1.5, "y": 1.45, "z": 0.4 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "Five pumpkins of different sizes among broad leaves and vines, about 1.5 × 1.45 × 0.4 m."
+  },
+  "licence": "CC0-1.0"
+}

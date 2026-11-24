@@ -2588,6 +2588,28 @@
       "inputHash": "7137583bc758e927496c0d32bb937a1f3a985d69afe30170667b9ddf619aa37d"
     },
     {
+      "id": "pumpkin_patch",
+      "name": "Pumpkin patch",
+      "description": "Five ribbed pumpkins of different sizes, orange, pale yellow and one still green, lying on a patch of dug earth among broad leaves on stalks and creeping vines, about 1.5 × 1.45 × 0.4 m.",
+      "category": "vegetation",
+      "family": "pumpkin_patch",
+      "tags": ["farm", "garden", "low", "planting", "round", "village"],
+      "aliases": [
+        "gourds",
+        "harvest",
+        "pumpkins",
+        "squash patch",
+        "vegetable patch"
+      ],
+      "variants": ["pumpkin_patch"],
+      "size": { "x": 1.5, "y": 1.45, "z": 0.4 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "946ea0b5415cff1597351db3d33d6472745d73b56b16ccccf06522a3ceff1ffb"
+    },
+    {
       "id": "rail_track_straight",
       "name": "Straight mine track",
       "description": "A straight 1.5 m section of narrow-gauge mine track: two rusty flat-bottomed iron rails with wheel-worn heads, spiked through tie plates to five dark wooden sleepers on a little gravel, bolted with fishplates at one end. Sections join end to end.",
