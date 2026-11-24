@@ -98,6 +98,32 @@
         }
       ]
     },
+    "anchor_iron": {
+      "inputHash": "8d1576b0540ba5ae5cadc9800044649fe4178a2415bd7ef3f8c9c7a1820126a6",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "anchor_iron",
+          "tris": 4468,
+          "bbox": {
+            "min": [-0.6301, -0.3994, -0.0046],
+            "max": [0.6301, 0.3289, 1.4773]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "anchor_iron_iron", "source": "palette" },
+            { "name": "anchor_iron_rope", "source": "palette" },
+            { "name": "anchor_iron_rope_old", "source": "palette" },
+            { "name": "anchor_iron_rust", "source": "palette" },
+            { "name": "anchor_iron_rust_dark", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "anvil_iron": {
       "inputHash": "0451ea6ca8b2a6f471193fba119132fc10f615cf487731f2c4dd816ef4a9484f",
       "libVersion": 1,
@@ -1347,6 +1373,30 @@
         }
       ]
     },
+    "crane_dock_wood": {
+      "inputHash": "f07048eabbf61e67c021d9af7d11578961a80440b437fa7a3b02d30e1adcd591",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "crane_dock_wood",
+          "tris": 4760,
+          "bbox": { "min": [-1.2407, -0.73, 0], "max": [1.2987, 0.73, 3.38] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "crane_dock_wood_iron", "source": "palette" },
+            { "name": "crane_dock_wood_rope", "source": "palette" },
+            { "name": "crane_dock_wood_stone", "source": "palette" },
+            { "name": "crane_dock_wood_timber", "source": "palette" },
+            { "name": "crane_dock_wood_timber_dark", "source": "palette" },
+            { "name": "crane_dock_wood_timber_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "crate_small": {
       "inputHash": "9eb45b569b62c09988a4929f22f0faf9e928c5208a7531f2b6562c56b767e1dc",
       "libVersion": 1,
@@ -1801,6 +1851,65 @@
             { "name": "firewood_stack_beam", "source": "palette" },
             { "name": "firewood_stack_split", "source": "palette" },
             { "name": "firewood_stack_split_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "fish_crates": {
+      "inputHash": "0251b1e9909bb545a05f4d996d4e3ea0eceaeaa83bfea76a8849fbc2e9d54eb6",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "fish_crates",
+          "tris": 7340,
+          "bbox": {
+            "min": [-0.602, -0.4214, -0.0014],
+            "max": [0.5774, 0.3868, 0.406]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "fish_crates_fin", "source": "palette" },
+            { "name": "fish_crates_fish_back", "source": "palette" },
+            { "name": "fish_crates_fish_under", "source": "palette" },
+            { "name": "fish_crates_inside", "source": "palette" },
+            { "name": "fish_crates_leather", "source": "palette" },
+            { "name": "fish_crates_posts", "source": "palette" },
+            { "name": "fish_crates_silver", "source": "palette" },
+            { "name": "fish_crates_wicker", "source": "palette" },
+            { "name": "fish_crates_wicker_old", "source": "palette" },
+            { "name": "fish_crates_wood", "source": "palette" },
+            { "name": "fish_crates_wood_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "fishing_nets_drying": {
+      "inputHash": "20b8971612d3d3012b8540ab01a83ffd4f7ebbb21327d552057a005c40d6b036",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "fishing_nets_drying",
+          "tris": 7602,
+          "bbox": {
+            "min": [-1.2202, -0.368, -0.0062],
+            "max": [1.2202, 0.368, 1.95]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 5406,
+          "materials": [
+            { "name": "fishing_nets_drying_cork", "source": "palette" },
+            { "name": "fishing_nets_drying_net", "source": "palette" },
+            { "name": "fishing_nets_drying_net_old", "source": "palette" },
+            { "name": "fishing_nets_drying_pole", "source": "palette" },
+            { "name": "fishing_nets_drying_pole_old", "source": "palette" },
+            { "name": "fishing_nets_drying_rope", "source": "palette" }
           ],
           "anchors": [],
           "textures": []

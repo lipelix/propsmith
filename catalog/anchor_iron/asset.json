@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "anchor_iron",
+  "name": "Iron anchor",
+  "description": "A large rusted iron anchor about 1.3 × 0.75 × 1.5 m standing on its crown: a tapered shank with a ring at the top, a ball-ended stock under it and two curved arms with spade flukes, leaning back on a tall coil of hemp rope whose end is tied to the ring.",
+  "category": "decor",
+  "family": "anchor",
+  "tags": ["iron", "rope", "harbour", "tall", "large", "weathered"],
+  "aliases": ["ship anchor", "admiralty anchor", "boat anchor", "rope coil"],
+  "variants": ["anchor_iron"],
+  "size": { "x": 1.3, "y": 0.75, "z": 1.5 },
+  "anchors": [],
+  "closed": false,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A large rusted iron anchor leaning on a coil of rope, about 1.2 × 0.8 × 1.5 m."
+  },
+  "licence": "CC0-1.0"
+}
