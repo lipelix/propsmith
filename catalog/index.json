@@ -93,7 +93,7 @@
       "closed": false,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "3c91029e77522f30ac0caed8470b9f59b426e16b17b076adb9728524cefd6232"
+      "inputHash": "8d1576b0540ba5ae5cadc9800044649fe4178a2415bd7ef3f8c9c7a1820126a6"
     },
     {
       "id": "anvil_iron",
@@ -1468,6 +1468,37 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "8e377edb344b6dee90f0119272851e40a91f5323ff27dd1fb96896d1fb683df7"
+    },
+    {
+      "id": "fish_crates",
+      "name": "Fish crates",
+      "description": "Two shallow slatted crates of fresh silver fish, one heaped with small fish and one with larger fish laid head to tail, beside a lidded wicker creel on a leather strap with a tail poking out, and one fish dropped on the ground.",
+      "category": "container",
+      "family": "crate",
+      "tags": [
+        "cooking",
+        "harbour",
+        "low",
+        "market",
+        "storage",
+        "trade",
+        "wood"
+      ],
+      "aliases": [
+        "catch",
+        "creel",
+        "fish",
+        "fish basket",
+        "fishmonger",
+        "herring"
+      ],
+      "variants": ["fish_crates"],
+      "size": { "x": 1.2, "y": 0.85, "z": 0.45 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "0251b1e9909bb545a05f4d996d4e3ea0eceaeaa83bfea76a8849fbc2e9d54eb6"
     },
     {
       "id": "flower_pot_clay",

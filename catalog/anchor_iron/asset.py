@@ -105,7 +105,7 @@ def anchor_iron():
             r1 = ARM_R[0] + (ARM_R[1] - ARM_R[0]) * (k + 1) / steps
             a, b = Vector(pts[k]), Vector(pts[k + 1])
             ext = (b - a).normalized() * r1 * 0.5
-            _rod(f"arm_{s}_{k}", m, a - ext * (1 if k else 0), b + ext, r0, rust if k % 2 else rust_dark, r_top=r1)
+            _rod(f"arm_{s}_{k}", m, a - ext * (1 if k else 0), b + ext, r0, rust, r_top=r1)
         # The fluke: a flat barbed arrowhead in the plane of the arms, over the arm's end.
         t = math.radians(ARC_DEG)
         tip = Vector(pts[-1])

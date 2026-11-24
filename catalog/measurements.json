@@ -99,7 +99,7 @@
       ]
     },
     "anchor_iron": {
-      "inputHash": "3c91029e77522f30ac0caed8470b9f59b426e16b17b076adb9728524cefd6232",
+      "inputHash": "8d1576b0540ba5ae5cadc9800044649fe4178a2415bd7ef3f8c9c7a1820126a6",
       "libVersion": 1,
       "blender": "5.2.2 LTS",
       "variants": [
@@ -1827,6 +1827,38 @@
             { "name": "firewood_stack_beam", "source": "palette" },
             { "name": "firewood_stack_split", "source": "palette" },
             { "name": "firewood_stack_split_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "fish_crates": {
+      "inputHash": "0251b1e9909bb545a05f4d996d4e3ea0eceaeaa83bfea76a8849fbc2e9d54eb6",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "fish_crates",
+          "tris": 7340,
+          "bbox": {
+            "min": [-0.602, -0.4214, -0.0014],
+            "max": [0.5774, 0.3868, 0.406]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "fish_crates_fin", "source": "palette" },
+            { "name": "fish_crates_fish_back", "source": "palette" },
+            { "name": "fish_crates_fish_under", "source": "palette" },
+            { "name": "fish_crates_inside", "source": "palette" },
+            { "name": "fish_crates_leather", "source": "palette" },
+            { "name": "fish_crates_posts", "source": "palette" },
+            { "name": "fish_crates_silver", "source": "palette" },
+            { "name": "fish_crates_wicker", "source": "palette" },
+            { "name": "fish_crates_wicker_old", "source": "palette" },
+            { "name": "fish_crates_wood", "source": "palette" },
+            { "name": "fish_crates_wood_old", "source": "palette" }
           ],
           "anchors": [],
           "textures": []

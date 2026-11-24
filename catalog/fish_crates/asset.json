@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "fish_crates",
+  "name": "Fish crates",
+  "description": "Two shallow slatted crates of fresh silver fish, one heaped with small fish and one with larger fish laid head to tail, beside a lidded wicker creel on a leather strap with a tail poking out, and one fish dropped on the ground.",
+  "category": "container",
+  "family": "crate",
+  "tags": ["wood", "harbour", "market", "trade", "cooking", "storage", "low"],
+  "aliases": ["fish", "catch", "fish basket", "creel", "fishmonger", "herring"],
+  "variants": ["fish_crates"],
+  "size": { "x": 1.2, "y": 0.85, "z": 0.45 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "Two crates of silver fish and a wicker creel, about 1.2 × 0.8 × 0.5 m."
+  },
+  "licence": "CC0-1.0"
+}
