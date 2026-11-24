@@ -2869,6 +2869,28 @@
       "inputHash": "49181076e06365a945c0d86219925c94b004ebe8376015d01a51b5f70e03293f"
     },
     {
+      "id": "shield_rack",
+      "name": "Shield rack",
+      "description": "A timber rack of two footed uprights and three rails, about 1.5 × 0.4 × 1.2 m, holding three round wooden shields with iron bosses and rims, painted with a pale cross on red, a pale ring on blue and red and ochre quarters.",
+      "category": "furniture",
+      "family": "shield_rack",
+      "tags": ["castle", "iron", "long", "storage", "training", "wood", "worn"],
+      "aliases": [
+        "armory rack",
+        "armoury rack",
+        "round shield",
+        "shield stand",
+        "shields"
+      ],
+      "variants": ["shield_rack"],
+      "size": { "x": 1.5, "y": 0.4, "z": 1.2 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "5e58dd380abf8fe1139c4b29dba51972697c06667ad36c99c606d8388c0468cd"
+    },
+    {
       "id": "sign_board",
       "name": "Hanging inn sign",
       "description": "A square timber post about 2.2 m high on a small stone footing, with a short arm at the top from which a painted plank hangs on two short chains, its dark face showing a faded ochre tankard.",

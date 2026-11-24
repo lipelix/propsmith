@@ -3672,6 +3672,34 @@
         }
       ]
     },
+    "shield_rack": {
+      "inputHash": "5e58dd380abf8fe1139c4b29dba51972697c06667ad36c99c606d8388c0468cd",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "shield_rack",
+          "tris": 6780,
+          "bbox": { "min": [-0.74, -0.1905, 0], "max": [0.74, 0.2144, 1.16] },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "shield_rack_iron", "source": "palette" },
+            { "name": "shield_rack_iron_dark", "source": "palette" },
+            { "name": "shield_rack_leather", "source": "palette" },
+            { "name": "shield_rack_paint_blue", "source": "palette" },
+            { "name": "shield_rack_paint_ochre", "source": "palette" },
+            { "name": "shield_rack_paint_pale", "source": "palette" },
+            { "name": "shield_rack_paint_red", "source": "palette" },
+            { "name": "shield_rack_shield_wood", "source": "palette" },
+            { "name": "shield_rack_wood", "source": "palette" },
+            { "name": "shield_rack_wood_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "sign_board": {
       "inputHash": "7d9ec81ae585b8df3cc3ef2286d6ae67f4ed6116ee2c9255bd89857b47a9a37f",
       "libVersion": 1,
