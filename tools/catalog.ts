@@ -36,6 +36,8 @@ export interface IndexEntry {
   size: Asset["size"];
   anchors: string[];
   closed: boolean;
+  /** How a hanging prop is fixed; absent for one that stands on the floor. */
+  mount?: Asset["mount"];
   source: Asset["provenance"]["source"];
   licence: Asset["licence"];
   /** SHA-256 of the asset folder, the library and the build script: what the model is built from. */
@@ -121,6 +123,7 @@ function entry(asset: Asset, hash: string): IndexEntry {
     size: asset.size,
     anchors: [...asset.anchors].sort(compare),
     closed: asset.closed,
+    ...(asset.mount === undefined ? {} : { mount: asset.mount }),
     source: asset.provenance.source,
     licence: asset.licence,
     inputHash: hash,

@@ -68,6 +68,7 @@ describe("origin-ground", () => {
     [{ bbox: { min: [0, 0, -0.05], max: [0, 0, 1] } }, "sinks 0.05 m"],
   ] as const)("fails %j", (over, detail) => {
     const check = originGround(
+      asset(),
       measured(variant(over as Partial<MeasuredVariant>)),
     );
     expect(check.status).toBe("FAILED");
@@ -78,7 +79,33 @@ describe("origin-ground", () => {
     const m = measured(
       variant({ bbox: { min: [0, 0, 0.007], max: [0, 0, 1] } }),
     );
-    expect(originGround(m).status).toBe("OK");
+    expect(originGround(asset(), m).status).toBe("OK");
+  });
+
+  it("says where a hanging prop hangs", () => {
+    const m = measured(
+      variant({ bbox: { min: [-0.5, -0.5, 0], max: [0.5, 0.2, 1.3] } }),
+    );
+    const ceiling = originGround(
+      asset({ mount: { kind: "ceiling", lift: 2.3 } }),
+      m,
+    );
+    expect(ceiling.status).toBe("OK");
+    expect(ceiling.detail).toBe(
+      "origin at the centre of the base, standing on the ground; hung 2.3 m up, its top meets a ceiling at 3.6 m",
+    );
+    expect(
+      originGround(asset({ mount: { kind: "wall", lift: 1.4 } }), m).detail,
+    ).toContain("; hung 1.4 m up on a wall at y 0.2");
+  });
+
+  it("still fails a hanging prop that floats", () => {
+    const m = measured(
+      variant({ bbox: { min: [0, 0, 0.5], max: [0, 0, 1.3] } }),
+    );
+    expect(
+      originGround(asset({ mount: { kind: "ceiling", lift: 2.3 } }), m).status,
+    ).toBe("FAILED");
   });
 });
 

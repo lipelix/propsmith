@@ -27,6 +27,11 @@ export interface Asset {
   size: Vec3;
   anchors: string[];
   closed: boolean;
+  /**
+   * How a hanging prop is fixed: from the ceiling by its top, or on a wall by its back (+y). The model stands on the
+   * floor; `lift` raises it to where it was made to hang.
+   */
+  mount?: { kind: "ceiling" | "wall"; lift: number };
   source: "generated" | "handwritten" | "pack";
   licence: string;
   variants: Variant[];
@@ -116,6 +121,16 @@ export async function load(): Promise<Catalogue> {
 
 /** `0.64 × 0.64 × 0.9 m` */
 export const metres = (v: Vec3): string => `${v.x} × ${v.y} × ${v.z} m`;
+
+/** How a hanging prop hangs, for the facts; null for one that stands on the floor. */
+export function hangs(asset: Asset, variant: Variant): string | null {
+  const { mount } = asset;
+  if (mount === undefined) return null;
+  const lift = round(mount.lift);
+  return mount.kind === "ceiling"
+    ? `from a ceiling by its top, raised ${lift} m (the ceiling at ${round(mount.lift + variant.measured.z)} m)`
+    : `on a wall by its back, raised ${lift} m`;
+}
 
 /** `6.9k` from 6,936; plain below a thousand. */
 export const count = (n: number): string =>

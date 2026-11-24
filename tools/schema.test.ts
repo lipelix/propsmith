@@ -29,6 +29,10 @@ describe("assetSchema", () => {
     ["a size with extra axes", { size: { x: 1, y: 1, z: 1, w: 1 } }],
     ["a bad anchor", { anchors: ["glow:lamp"] }],
     ["repeated anchors", { anchors: ["light:lamp", "light:lamp"] }],
+    ["an unknown mount", { mount: { kind: "floor", lift: 1 } }],
+    ["a mount with no lift", { mount: { kind: "wall" } }],
+    ["a mount with a zero lift", { mount: { kind: "ceiling", lift: 0 } }],
+    ["a mount with extra fields", { mount: { kind: "wall", lift: 1, h: 2 } }],
     ["another licence", { licence: "MIT" }],
     ["an unknown provenance", { provenance: { source: "found" } }],
     [
@@ -66,6 +70,19 @@ describe("assetSchema", () => {
           tags,
         ).variants,
       ).toEqual(["barrel_wood", "barrel_wood_open"]);
+  });
+});
+
+describe("mount", () => {
+  it("is optional and accepts a ceiling and a wall", () => {
+    expect(parseAsset(assetJson("barrel_wood"), tags).mount).toBeUndefined();
+    for (const mount of [
+      { kind: "ceiling", lift: 2.3 },
+      { kind: "wall", lift: 1.4 },
+    ])
+      expect(
+        parseAsset(assetJson("barrel_wood", { mount }), tags).mount,
+      ).toEqual(mount);
   });
 });
 

@@ -69,6 +69,8 @@ docs/plans/           design and plan
 - `size`: `{ x, y, z }` in metres, the box the model must stay inside
 - `anchors`: named points for effects (`light:`, `fire:`, `smoke:`, `water:`)
 - `closed`: true when every part must be a closed mesh (for fracture or printing)
+- `mount` (optional, hanging props): `kind` `ceiling` (fixed by its top) or `wall` (fixed by its back, +y) and `lift`,
+  the metres a game raises the model to hang it as made; the model still stands on the ground in the catalogue
 - `provenance`: `generated` (prompt) | `handwritten` | `pack`; `licence`
 
 `asset.py`: metres, z up, origin at the centre of the base on the ground, front on -y, overall dimensions as named
