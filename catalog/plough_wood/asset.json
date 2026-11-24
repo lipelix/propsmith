@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "id": "plough_wood",
+  "name": "Wooden plough",
+  "description": "A wooden plough about 2.2 × 0.6 × 1 m: a long draw beam from two splayed handles with worn grips to an iron hitch ring, a small iron-tyred foot wheel under its front, an iron coulter and a pointed iron share on a sole, and a twisted plank mouldboard.",
+  "category": "decor",
+  "family": "plough",
+  "tags": ["wood", "iron", "farm", "village", "work", "long", "worn"],
+  "aliases": ["plow", "ard", "wooden plow", "farm plough", "hand plough"],
+  "variants": ["plough_wood"],
+  "size": { "x": 2.2, "y": 0.6, "z": 1.0 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A wooden plough with an iron share and two handles, about 2.2 × 0.6 × 1 m."
+  },
+  "licence": "CC0-1.0"
+}
