@@ -6479,6 +6479,40 @@
         }
       ]
     },
+    "water_trough": {
+      "inputHash": "63d2e65e12b0952b6bbe0e7e3080f4fdb6ff973b6a758c0bfb9583f90f2fe24a",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "water_trough",
+          "tris": 2252,
+          "bbox": {
+            "min": [-0.865, -0.2948, -0.0053],
+            "max": [0.9, 0.2509, 0.485]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "water_trough_bark", "source": "palette" },
+            { "name": "water_trough_block", "source": "palette" },
+            { "name": "water_trough_earth", "source": "palette" },
+            { "name": "water_trough_end_grain", "source": "palette" },
+            { "name": "water_trough_hewn", "source": "palette" },
+            { "name": "water_trough_moss", "source": "palette" },
+            { "name": "water_trough_water", "source": "palette" }
+          ],
+          "anchors": [
+            {
+              "name": "water:basin",
+              "at": [0, 0, 0.435],
+              "size": [0.74, 0.133, 0.275]
+            }
+          ],
+          "textures": []
+        }
+      ]
+    },
     "waterfall_rock": {
       "inputHash": "76394adfa2db1cdcf4ac067f30e1b292e2575ad8e6b660984555b6e2d53ce808",
       "libVersion": 1,

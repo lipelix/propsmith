@@ -4034,6 +4034,28 @@
       "inputHash": "c6060653866dc3568b121ba2fb8bc77dfe5b5295768ecf5abf1f6479473c1559"
     },
     {
+      "id": "water_trough",
+      "name": "Log water trough",
+      "description": "A barked log hewn flat on top and dug out into a trough full of still dark water, about 1.8 × 0.5 × 0.5 m, its ends left solid, resting on two squared timber blocks with a bung in one end and moss at its foot.",
+      "category": "container",
+      "family": "trough",
+      "tags": ["farm", "long", "low", "village", "water", "weathered", "wood"],
+      "aliases": [
+        "cattle trough",
+        "drinking trough",
+        "horse trough",
+        "log trough",
+        "water trough"
+      ],
+      "variants": ["water_trough"],
+      "size": { "x": 1.8, "y": 0.5, "z": 0.5 },
+      "anchors": ["water:basin"],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "63d2e65e12b0952b6bbe0e7e3080f4fdb6ff973b6a758c0bfb9583f90f2fe24a"
+    },
+    {
       "id": "waterfall_rock",
       "name": "Rock waterfall",
       "description": "A small waterfall about 3 m high: a stream runs between stacked grey rocks, spills over a jutting mossy lip stone and falls as a pale sheet with foam streaks into a dark pool ringed by rim stones, moss on every ledge.",

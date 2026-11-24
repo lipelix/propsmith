@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "water_trough",
+  "name": "Log water trough",
+  "description": "A barked log hewn flat on top and dug out into a trough full of still dark water, about 1.8 × 0.5 × 0.5 m, its ends left solid, resting on two squared timber blocks with a bung in one end and moss at its foot.",
+  "category": "container",
+  "family": "trough",
+  "tags": ["wood", "farm", "village", "water", "long", "low", "weathered"],
+  "aliases": [
+    "water trough",
+    "horse trough",
+    "drinking trough",
+    "log trough",
+    "cattle trough"
+  ],
+  "variants": ["water_trough"],
+  "size": { "x": 1.8, "y": 0.5, "z": 0.5 },
+  "anchors": ["water:basin"],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A hollowed-log trough full of water on two blocks, about 1.8 × 0.5 × 0.5 m; anchor water:basin with size."
+  },
+  "licence": "CC0-1.0"
+}
