@@ -1766,6 +1766,38 @@
         }
       ]
     },
+    "food_platter": {
+      "inputHash": "5fd9881d07f0f364695b93fc9bdbceb057b37790fbf9ba2785a62596325c3bf2",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "food_platter",
+          "tris": 3008,
+          "bbox": {
+            "min": [-0.2875, -0.199, 0],
+            "max": [0.3176, 0.207, 0.1455]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "food_platter_board", "source": "palette" },
+            { "name": "food_platter_bone", "source": "palette" },
+            { "name": "food_platter_cheese", "source": "palette" },
+            { "name": "food_platter_crust", "source": "palette" },
+            { "name": "food_platter_crust_dark", "source": "palette" },
+            { "name": "food_platter_fat", "source": "palette" },
+            { "name": "food_platter_ham", "source": "palette" },
+            { "name": "food_platter_ham_cut", "source": "palette" },
+            { "name": "food_platter_rind", "source": "palette" },
+            { "name": "food_platter_steel", "source": "palette" },
+            { "name": "food_platter_wood_dark", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "forge_stone": {
       "inputHash": "547448dae02adb2b887fb5bf0132e16c5e486da9a22bb427e62562688187ae33",
       "libVersion": 1,
@@ -2298,6 +2330,37 @@
         }
       ]
     },
+    "kitchen_shelf_pots": {
+      "inputHash": "490219223c60fc2e7b39e7050810f5314b62897bb038a50da61d56488efd8401",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "kitchen_shelf_pots",
+          "tris": 7868,
+          "bbox": {
+            "min": [-0.6007, -0.2353, 0],
+            "max": [0.6007, 0.1733, 1.557]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "kitchen_shelf_pots_back", "source": "palette" },
+            { "name": "kitchen_shelf_pots_clay", "source": "palette" },
+            { "name": "kitchen_shelf_pots_clay_pale", "source": "palette" },
+            { "name": "kitchen_shelf_pots_copper", "source": "palette" },
+            { "name": "kitchen_shelf_pots_copper_dark", "source": "palette" },
+            { "name": "kitchen_shelf_pots_cork", "source": "palette" },
+            { "name": "kitchen_shelf_pots_glaze", "source": "palette" },
+            { "name": "kitchen_shelf_pots_iron", "source": "palette" },
+            { "name": "kitchen_shelf_pots_wood", "source": "palette" },
+            { "name": "kitchen_shelf_pots_wood_old", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "lamp_post": {
       "inputHash": "724af666bc17f5306268743e9b517fbaebd3f0561b9fb686983312f4f29a0d66",
       "libVersion": 1,
@@ -2780,6 +2843,45 @@
             { "name": "ore_vein_rock_stone_dark", "source": "palette" }
           ],
           "anchors": [],
+          "textures": []
+        }
+      ]
+    },
+    "oven_bread_stone": {
+      "inputHash": "f847c00a0fe814b3274b0da07ae0d580e119033f20b23d17e2dc27a2501a1569",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "oven_bread_stone",
+          "tris": 5192,
+          "bbox": {
+            "min": [-0.7134, -0.8168, -0.0011],
+            "max": [0.6933, 0.6654, 1.595]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "oven_bread_stone_ember", "source": "palette" },
+            { "name": "oven_bread_stone_flame", "source": "palette" },
+            { "name": "oven_bread_stone_inside", "source": "palette" },
+            { "name": "oven_bread_stone_log", "source": "palette" },
+            { "name": "oven_bread_stone_log_cut", "source": "palette" },
+            { "name": "oven_bread_stone_peel", "source": "palette" },
+            { "name": "oven_bread_stone_plaster", "source": "palette" },
+            { "name": "oven_bread_stone_soot", "source": "palette" },
+            { "name": "oven_bread_stone_stone", "source": "palette" },
+            { "name": "oven_bread_stone_stone_dark", "source": "palette" },
+            { "name": "oven_bread_stone_wood_old", "source": "palette" }
+          ],
+          "anchors": [
+            {
+              "name": "fire:hearth",
+              "at": [0, -0.42, 0.76],
+              "size": [0.17, 0.1, 0.28]
+            },
+            { "name": "light:fire", "at": [0, -0.6, 0.94] }
+          ],
           "textures": []
         }
       ]

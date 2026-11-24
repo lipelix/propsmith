@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "food_platter",
+  "name": "Food platter",
+  "description": "A wooden serving board with a handle, laid with a round scored loaf, a wedge of yellow cheese with a dark rind, a cured ham leg with its bone sticking out and a carving knife across the front.",
+  "category": "decor",
+  "family": "platter",
+  "tags": ["wood", "inn", "house", "cooking", "small", "low"],
+  "aliases": [
+    "food",
+    "meal",
+    "bread and cheese",
+    "ham",
+    "cheese board",
+    "feast",
+    "banquet"
+  ],
+  "variants": ["food_platter"],
+  "size": { "x": 0.6, "y": 0.4, "z": 0.15 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A wooden board with a loaf, a cheese wedge, a ham and a knife, about 0.6 × 0.4 × 0.2 m."
+  },
+  "licence": "CC0-1.0"
+}
