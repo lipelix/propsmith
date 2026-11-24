@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "id": "vegetable_crates",
+  "name": "Vegetable crates",
+  "description": "Three shallow slatted crates of produce standing on the ground: green cabbages on straw and a heap of red and yellow apples side by side at the back, carrots with green tops in front; a stray cabbage and two apples lie on the ground.",
+  "category": "container",
+  "family": "crate",
+  "tags": ["wood", "market", "farm", "cooking", "trade", "storage", "low"],
+  "aliases": [
+    "produce",
+    "vegetables",
+    "fruit",
+    "cabbages",
+    "carrots",
+    "apples",
+    "greengrocer"
+  ],
+  "variants": ["vegetable_crates"],
+  "size": {
+    "x": 1.2,
+    "y": 0.8,
+    "z": 0.3
+  },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "Three shallow crates of cabbages, carrots and apples, about 1.2 × 0.8 × 0.5 m."
+  },
+  "licence": "CC0-1.0"
+}

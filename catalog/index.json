@@ -1420,6 +1420,30 @@
       "inputHash": "8ae3d8665dced07873aa2f87da540a4378c0e1820bc11ab02a76d5a9d96140a5"
     },
     {
+      "id": "food_platter",
+      "name": "Food platter",
+      "description": "A wooden serving board with a handle, laid with a round scored loaf, a wedge of yellow cheese with a dark rind, a cured ham leg with its bone sticking out and a carving knife across the front.",
+      "category": "decor",
+      "family": "platter",
+      "tags": ["cooking", "house", "inn", "low", "small", "wood"],
+      "aliases": [
+        "banquet",
+        "bread and cheese",
+        "cheese board",
+        "feast",
+        "food",
+        "ham",
+        "meal"
+      ],
+      "variants": ["food_platter"],
+      "size": { "x": 0.6, "y": 0.4, "z": 0.15 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "5fd9881d07f0f364695b93fc9bdbceb057b37790fbf9ba2785a62596325c3bf2"
+    },
+    {
       "id": "forge_stone",
       "name": "Blacksmith's stone forge",
       "description": "A waist-high hearth of coursed fieldstone with a bed of glowing coals in a blackened rim, a tapering plastered hood on a timber lintel rising into a short stone chimney about 2.2 m high, and a pair of leather bellows on a timber stand at its side blowing through an iron pipe into the fire; tongs hang from the lintel and a poker lies in the coals.",
@@ -1814,6 +1838,40 @@
       "inputHash": "c994635152c6f248c53e13db6d45efb8c8093061a9d9554bb37dc68c0863e0b3"
     },
     {
+      "id": "kitchen_shelf_pots",
+      "name": "Kitchen shelf with pots",
+      "description": "A plank kitchen shelf unit for a wall, stocked with big clay storage jars, copper pots and pans, stacked bowls and glazed crocks, with ladles, a skimmer and a wooden spoon hanging from hooks on an iron rail along the front.",
+      "category": "furniture",
+      "family": "shelf",
+      "tags": [
+        "clay",
+        "cooking",
+        "house",
+        "inn",
+        "iron",
+        "storage",
+        "tall",
+        "wood"
+      ],
+      "aliases": [
+        "copper pots",
+        "crockery",
+        "dresser",
+        "kitchen shelves",
+        "ladles",
+        "pans",
+        "pantry",
+        "pot shelf"
+      ],
+      "variants": ["kitchen_shelf_pots"],
+      "size": { "x": 1.2, "y": 0.4, "z": 1.6 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "490219223c60fc2e7b39e7050810f5314b62897bb038a50da61d56488efd8401"
+    },
+    {
       "id": "lamp_post",
       "name": "Street lamp post",
       "description": "A tall dark timber post about 2.6 m high on a small stone foot, with an iron bracket arm at the top from which hangs a small four-sided iron lantern with warm glass panes.",
@@ -2181,6 +2239,37 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "498fc93d7fc19b82c5de9255eb6f1b0ef5e2529de199f54d268fc7aab64fe89e"
+    },
+    {
+      "id": "oven_bread_stone",
+      "name": "Stone bread oven",
+      "description": "A domed bread oven of plastered stone on a waist-high fieldstone plinth, its stone front wall pierced by an arched mouth glowing with embers under a short flue; a long wooden peel leans against the plinth beside a few split logs.",
+      "category": "structure",
+      "family": "oven",
+      "tags": [
+        "cooking",
+        "large",
+        "plaster",
+        "stone",
+        "village",
+        "wood",
+        "worn"
+      ],
+      "aliases": [
+        "bake oven",
+        "baker's oven",
+        "bakery",
+        "bread oven",
+        "clay oven",
+        "wood-fired oven"
+      ],
+      "variants": ["oven_bread_stone"],
+      "size": { "x": 1.45, "y": 1.5, "z": 1.6 },
+      "anchors": ["fire:hearth", "light:fire"],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "f847c00a0fe814b3274b0da07ae0d580e119033f20b23d17e2dc27a2501a1569"
     },
     {
       "id": "pebbles",
@@ -3279,6 +3368,30 @@
       "source": "generated",
       "licence": "CC0-1.0",
       "inputHash": "cf17895115e685ac7bbed3e4683ef38f4b25277529eb4b0305db8c30138f4ec1"
+    },
+    {
+      "id": "vegetable_crates",
+      "name": "Vegetable crates",
+      "description": "Three shallow slatted crates of produce standing on the ground: green cabbages on straw and a heap of red and yellow apples side by side at the back, carrots with green tops in front; a stray cabbage and two apples lie on the ground.",
+      "category": "container",
+      "family": "crate",
+      "tags": ["cooking", "farm", "low", "market", "storage", "trade", "wood"],
+      "aliases": [
+        "apples",
+        "cabbages",
+        "carrots",
+        "fruit",
+        "greengrocer",
+        "produce",
+        "vegetables"
+      ],
+      "variants": ["vegetable_crates"],
+      "size": { "x": 1.2, "y": 0.8, "z": 0.3 },
+      "anchors": [],
+      "closed": true,
+      "source": "generated",
+      "licence": "CC0-1.0",
+      "inputHash": "227e65eeabcddadf45458428cefc6cd0c021bf6fd433c4c5ce32228a8a931dfa"
     },
     {
       "id": "wagon_covered",

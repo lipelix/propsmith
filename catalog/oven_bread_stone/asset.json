@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "oven_bread_stone",
+  "name": "Stone bread oven",
+  "description": "A domed bread oven of plastered stone on a waist-high fieldstone plinth, its stone front wall pierced by an arched mouth glowing with embers under a short flue; a long wooden peel leans against the plinth beside a few split logs.",
+  "category": "structure",
+  "family": "oven",
+  "tags": ["stone", "plaster", "wood", "village", "cooking", "large", "worn"],
+  "aliases": [
+    "bread oven",
+    "bake oven",
+    "baker's oven",
+    "clay oven",
+    "wood-fired oven",
+    "bakery"
+  ],
+  "variants": ["oven_bread_stone"],
+  "size": { "x": 1.45, "y": 1.5, "z": 1.6 },
+  "anchors": ["fire:hearth", "light:fire"],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A domed bread oven of plastered stone with an arched mouth and a peel leaning on it, about 1.5 × 1.5 × 1.6 m; anchors fire:hearth and light:fire."
+  },
+  "licence": "CC0-1.0"
+}

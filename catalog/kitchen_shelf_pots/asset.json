@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "id": "kitchen_shelf_pots",
+  "name": "Kitchen shelf with pots",
+  "description": "A plank kitchen shelf unit for a wall, stocked with big clay storage jars, copper pots and pans, stacked bowls and glazed crocks, with ladles, a skimmer and a wooden spoon hanging from hooks on an iron rail along the front.",
+  "category": "furniture",
+  "family": "shelf",
+  "tags": [
+    "wood",
+    "clay",
+    "iron",
+    "inn",
+    "house",
+    "cooking",
+    "storage",
+    "tall"
+  ],
+  "aliases": [
+    "kitchen shelves",
+    "pot shelf",
+    "pans",
+    "copper pots",
+    "ladles",
+    "crockery",
+    "dresser",
+    "pantry"
+  ],
+  "variants": ["kitchen_shelf_pots"],
+  "size": { "x": 1.2, "y": 0.4, "z": 1.6 },
+  "anchors": [],
+  "closed": true,
+  "provenance": {
+    "source": "generated",
+    "prompt": "A wall shelf unit of copper pots, clay jars and hanging ladles, about 1.2 × 0.35 × 1.6 m."
+  },
+  "licence": "CC0-1.0"
+}
