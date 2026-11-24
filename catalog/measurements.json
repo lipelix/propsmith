@@ -98,6 +98,32 @@
         }
       ]
     },
+    "anchor_iron": {
+      "inputHash": "3c91029e77522f30ac0caed8470b9f59b426e16b17b076adb9728524cefd6232",
+      "libVersion": 1,
+      "blender": "5.2.2 LTS",
+      "variants": [
+        {
+          "id": "anchor_iron",
+          "tris": 4468,
+          "bbox": {
+            "min": [-0.6301, -0.3994, -0.0046],
+            "max": [0.6301, 0.3289, 1.4773]
+          },
+          "origin": [0, 0, 0],
+          "nonManifoldEdges": 0,
+          "materials": [
+            { "name": "anchor_iron_iron", "source": "palette" },
+            { "name": "anchor_iron_rope", "source": "palette" },
+            { "name": "anchor_iron_rope_old", "source": "palette" },
+            { "name": "anchor_iron_rust", "source": "palette" },
+            { "name": "anchor_iron_rust_dark", "source": "palette" }
+          ],
+          "anchors": [],
+          "textures": []
+        }
+      ]
+    },
     "anvil_iron": {
       "inputHash": "0451ea6ca8b2a6f471193fba119132fc10f615cf487731f2c4dd816ef4a9484f",
       "libVersion": 1,
