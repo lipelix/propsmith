@@ -5,6 +5,16 @@ export interface Vec3 {
   z: number;
 }
 
+/** A grip point (`grip()` in asset.py), in the asset's metres: x, y (front -y), z up. */
+export interface GripPoint {
+  name: "main" | "off" | "stock" | "trigger";
+  at: [number, number, number];
+  /** A hand's: along the handle, towards the thumb. */
+  axis?: [number, number, number];
+  /** A hand's: the handle's radius there. */
+  radius?: number | null;
+}
+
 export interface Variant {
   id: string;
   glb: string;
@@ -13,6 +23,8 @@ export interface Variant {
   tris: number;
   /** Measured size in metres. */
   measured: Vec3;
+  /** Where hands hold it (a weapon); empty for other props. */
+  grips: GripPoint[];
 }
 
 export interface Asset {
@@ -32,6 +44,8 @@ export interface Asset {
    * floor; `lift` raises it to where it was made to hang.
    */
   mount?: { kind: "ceiling" | "wall"; lift: number };
+  /** Where hands hold it (a weapon): its grip points and the hand breadth (m) they are spaced for. */
+  grip?: { points: GripPoint["name"][]; hand: number };
   source: "generated" | "handwritten" | "pack";
   licence: string;
   variants: Variant[];
@@ -54,6 +68,7 @@ interface MeasurementsFile {
         id: string;
         tris: number;
         bbox: { min: number[]; max: number[] };
+        grips?: GripPoint[];
       }[];
     }
   >;
@@ -98,6 +113,7 @@ export function join(
           ...b,
           tris: m.tris,
           measured: { x: round(x1 - x0), y: round(y1 - y0), z: round(z1 - z0) },
+          grips: m.grips ?? [],
         },
       ];
     });
@@ -130,6 +146,27 @@ export function hangs(asset: Asset, variant: Variant): string | null {
   return mount.kind === "ceiling"
     ? `from a ceiling by its top, raised ${lift} m (the ceiling at ${round(mount.lift + variant.measured.z)} m)`
     : `on a wall by its back, raised ${lift} m`;
+}
+
+/** How a weapon is held, for the facts; null for a prop nobody holds. */
+export function holds(asset: Asset, variant: Variant): string | null {
+  const { grip } = asset;
+  if (grip === undefined) return null;
+  const at = (name: GripPoint["name"]) =>
+    variant.grips.find((g) => g.name === name);
+  const main = at("main");
+  const off = at("off");
+  const hands =
+    main && off
+      ? `two hands, ${round(Math.hypot(...main.at.map((c, i) => c - (off.at[i] ?? 0))))} m apart`
+      : "one hand";
+  const radius = main?.radius;
+  const handle =
+    typeof radius === "number"
+      ? ` on a ${round(radius * 2 * 100)} cm handle`
+      : "";
+  const extra = grip.points.filter((p) => p === "stock" || p === "trigger");
+  return `${hands}${handle}${extra.length > 0 ? `; ${extra.join(" and ")} points` : ""} (for a hand ${grip.hand} m across)`;
 }
 
 /** `6.9k` from 6,936; plain below a thousand. */

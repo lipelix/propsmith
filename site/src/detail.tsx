@@ -1,6 +1,14 @@
 import { useEffect, useRef, useState } from "preact/hooks";
 
-import { type Asset, count, DATA, hangs, kilobytes, metres } from "./data.ts";
+import {
+  type Asset,
+  count,
+  DATA,
+  hangs,
+  holds,
+  kilobytes,
+  metres,
+} from "./data.ts";
 import {
   BackIcon,
   CopyIcon,
@@ -116,7 +124,7 @@ export function Detail({
   useEffect(() => {
     if (!viewer.current || !variant) return;
     setLoad("loading");
-    viewer.current.load(`${DATA}/${variant.glb}`).then(
+    viewer.current.load(`${DATA}/${variant.glb}`, variant.grips).then(
       () => setLoad("ready"),
       () => setLoad("failed"),
     );
@@ -128,6 +136,7 @@ export function Detail({
 
   if (!variant) return null;
   const hanging = hangs(asset, variant);
+  const held = holds(asset, variant);
   const set = (patch: Partial<Settings>) =>
     setSettings((current) => ({ ...current, ...patch }));
   const lightChanged = (
@@ -373,6 +382,13 @@ export function Detail({
             checked={settings.grid}
             onChange={(grid) => set({ grid })}
           />
+          {variant.grips.length > 0 && (
+            <Switch
+              label="Grip points"
+              checked={settings.grips}
+              onChange={(grips) => set({ grips })}
+            />
+          )}
         </section>
 
         <section class="group" aria-labelledby="facts-h">
@@ -410,6 +426,20 @@ export function Detail({
               <>
                 <dt>Hangs</dt>
                 <dd>{hanging}</dd>
+              </>
+            )}
+            {held !== null && (
+              <>
+                <dt>Held</dt>
+                <dd>
+                  {held}
+                  <span class="grip-key">
+                    <span class="grip-main">main hand</span>
+                    {asset.grip?.points.includes("off") === true && (
+                      <span class="grip-off">off hand</span>
+                    )}
+                  </span>
+                </dd>
               </>
             )}
             <dt>Mesh</dt>
