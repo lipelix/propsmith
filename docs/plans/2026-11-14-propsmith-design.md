@@ -71,6 +71,12 @@ docs/plans/           design and plan
 - `closed`: true when every part must be a closed mesh (for fracture or printing)
 - `mount` (optional, hanging props): `kind` `ceiling` (fixed by its top) or `wall` (fixed by its back, +y) and `lift`,
   the metres a game raises the model to hang it as made; the model still stands on the ground in the catalogue
+- `grip` (a `weapon` has one): `points`, the grip points every variant has (`main` always, `off` for two hands,
+  `stock` and `trigger` for a crossbow), and `hand`, the knuckle breadth in metres the hands are spaced for. The
+  points themselves are `grip()` empties in `asset.py`: the build measures each (and a hand's handle radius) into
+  `measurements.json`, and the GLB carries them as nodes `grip:<name>`. A hand's empty has +Z along the handle towards
+  the thumb and +X the way the edge, head or bolt points. Weapons are modelled as held: the main hand's handle along
+  +z (a melee weapon stands on its pommel or butt, blade or head up), the edge, head or bolt to +x, real scale
 - `provenance`: `generated` (prompt) | `handwritten` | `pack`; `licence`
 
 `asset.py`: metres, z up, origin at the centre of the base on the ground, front on -y, overall dimensions as named

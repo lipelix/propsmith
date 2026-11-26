@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "greataxe",
+  "name": "Greataxe",
+  "description": "A two-handed greataxe, 1.35 m from butt to head (the long class of axes, 1.2–1.5 m): an ash haft with an iron butt cap and two leather wraps, an iron head with a broad crescent steel edge and a back spike. It stands on its butt as held, haft along +z and edge to +x.",
+  "category": "weapon",
+  "family": "axe",
+  "tags": ["steel", "wood", "leather", "combat", "two_handed", "long", "worn"],
+  "aliases": [
+    "battleaxe",
+    "battle axe",
+    "great axe",
+    "two-handed axe",
+    "bardiche"
+  ],
+  "variants": ["greataxe"],
+  "size": { "x": 0.4, "y": 0.1, "z": 1.35 },
+  "anchors": [],
+  "closed": false,
+  "grip": { "points": ["main", "off"], "hand": 0.085 },
+  "provenance": { "source": "handwritten" },
+  "licence": "CC0-1.0"
+}

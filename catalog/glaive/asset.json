@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "id": "glaive",
+  "name": "Glaive",
+  "description": "A glaive, 2.1 m from butt to point (the long class of polearms, 2 m and more): an ash shaft with an iron butt cap and two leather wraps, iron langets up to a socket, and a long single-edged blade widening to a swept-back point, with a small back hook. It stands on its butt as held, shaft along +z and edge to +x.",
+  "category": "weapon",
+  "family": "polearm",
+  "tags": [
+    "steel",
+    "wood",
+    "leather",
+    "castle",
+    "combat",
+    "two_handed",
+    "long",
+    "tall",
+    "worn"
+  ],
+  "aliases": ["fauchard", "pole blade", "pole arm", "naginata"],
+  "variants": ["glaive"],
+  "size": {
+    "x": 0.2,
+    "y": 0.1,
+    "z": 2.15
+  },
+  "anchors": [],
+  "closed": false,
+  "grip": {
+    "points": ["main", "off"],
+    "hand": 0.085
+  },
+  "provenance": {
+    "source": "handwritten"
+  },
+  "licence": "CC0-1.0"
+}

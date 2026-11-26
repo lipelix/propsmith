@@ -1,17 +1,19 @@
 """Turns what a variant builder added into one mesh object, and exports it as GLB."""
 import bpy
 
-from .registry import ANCHOR
+from .registry import ANCHOR, GRIP
 
 _CONVERTIBLE = {"MESH", "CURVE", "SURFACE", "META", "FONT"}
 
 
 def consolidate(name, added):
     """Applies every modifier, joins all geometry into one mesh object `name` with its origin at the world origin (the
-    centre of the base on the ground) and no transform, and parents the anchor empties to it. Other objects (helper
-    empties, cameras, lights) are removed. Returns (object, anchors sorted by name)."""
+    centre of the base on the ground) and no transform, and parents the anchor and grip empties to it. Other objects
+    (helper empties, cameras, lights) are removed. Returns (object, anchors and grips sorted by name)."""
     bpy.context.view_layer.update()  # objects made this frame have no matrix_world yet
-    anchors = sorted((o for o in added if o.type == "EMPTY" and ANCHOR.match(o.name)), key=lambda o: o.name)
+    anchors = sorted(
+        (o for o in added if o.type == "EMPTY" and (ANCHOR.match(o.name) or GRIP.match(o.name))), key=lambda o: o.name
+    )
     for a in anchors:
         world = a.matrix_world.copy()
         a.parent = None

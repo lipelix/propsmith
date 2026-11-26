@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "id": "sling",
+  "name": "Sling",
+  "description": "A shepherd's sling hanging from the hand that holds it, 0.55 m from finger loop to pouch: two cords bound into a leather hand-hold with a finger loop, running down to a leather pouch cradling a round stone. The hand closes round the hand-hold along +z.",
+  "category": "weapon",
+  "family": "sling",
+  "tags": [
+    "leather",
+    "rope",
+    "stone",
+    "farm",
+    "combat",
+    "hunting",
+    "small",
+    "worn"
+  ],
+  "aliases": ["shepherd's sling", "slingshot"],
+  "variants": ["sling"],
+  "size": {
+    "x": 0.15,
+    "y": 0.1,
+    "z": 0.55
+  },
+  "anchors": [],
+  "closed": false,
+  "grip": {
+    "points": ["main"],
+    "hand": 0.085
+  },
+  "provenance": {
+    "source": "handwritten"
+  },
+  "licence": "CC0-1.0"
+}

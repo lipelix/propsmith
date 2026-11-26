@@ -20,7 +20,19 @@ describe("assetSchema", () => {
     ["an unknown field", { footprint: { w: 1 } }],
     ["a game fact", { gameplay: { blocks: true } }],
     ["a bad id", { id: "Barrel-Wood" }],
-    ["an unknown category", { category: "weapon" }],
+    ["an unknown category", { category: "tool" }],
+    ["a weapon with no grip", { category: "weapon" }],
+    ["a grip with no main hand", { grip: { points: ["off"], hand: 0.085 } }],
+    [
+      "an unknown grip point",
+      { grip: { points: ["main", "tail"], hand: 0.085 } },
+    ],
+    [
+      "repeated grip points",
+      { grip: { points: ["main", "main"], hand: 0.085 } },
+    ],
+    ["a grip with no hand", { grip: { points: ["main"] } }],
+    ["a grip for a giant's hand", { grip: { points: ["main"], hand: 0.3 } }],
     ["repeated tags", { tags: ["wood", "wood"] }],
     ["no variants", { variants: [] }],
     ["a variant of another asset", { variants: ["crate_wood"] }],
@@ -83,6 +95,17 @@ describe("mount", () => {
       expect(
         parseAsset(assetJson("barrel_wood", { mount }), tags).mount,
       ).toEqual(mount);
+  });
+});
+
+describe("grip", () => {
+  it("is optional and carries the points and the hand", () => {
+    expect(parseAsset(assetJson("barrel_wood"), tags).grip).toBeUndefined();
+    const grip = { points: ["main", "off", "stock", "trigger"], hand: 0.085 };
+    expect(
+      parseAsset(assetJson("barrel_wood", { category: "weapon", grip }), tags)
+        .grip,
+    ).toEqual(grip);
   });
 });
 

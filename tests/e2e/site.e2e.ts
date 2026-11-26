@@ -162,3 +162,28 @@ test("an unknown asset says so and leads back", async ({ page }) => {
   await page.getByRole("link", { name: "Back to the catalogue" }).click();
   await expect(page.locator(".tile")).toHaveCount(ASSETS.length);
 });
+
+test("a weapon is filtered by its category and shows its grip points", async ({
+  page,
+}) => {
+  const weapons = ASSETS.filter((a) => a.category === "weapon").length;
+  await page.goto("/");
+  await page.getByRole("button", { name: /^weapon\b/ }).click();
+  await expect(page.locator(".tile")).toHaveCount(weapons);
+
+  await page.goto("/#/asset/greatsword");
+  await ready(page);
+  await expect(page.locator(".facts")).toContainText("two hands");
+  const switched = page.getByRole("switch", { name: "Grip points" });
+  await expect(switched).toBeChecked();
+  await page.waitForTimeout(500);
+  const shown = await picture(page);
+  await switched.uncheck({ force: true });
+  await expect.poll(() => picture(page), { timeout: 10_000 }).not.toBe(shown);
+
+  await page.goto("/#/asset/well_stone");
+  await ready(page);
+  await expect(page.getByRole("switch", { name: "Grip points" })).toHaveCount(
+    0,
+  );
+});

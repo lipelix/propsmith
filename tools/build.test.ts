@@ -262,7 +262,7 @@ def lamp_test():
       expect(existsSync(join(out, file ?? "missing"))).toBe(true);
 
     const report = reportAsset(root, "lamp_test", built);
-    expect(report.checks.map((c) => c.status)).toEqual(Array(6).fill("OK"));
+    expect(report.checks.map((c) => c.status)).toEqual(Array(7).fill("OK"));
     expect(buildAsset(root, "lamp_test").cached).toBe(true);
 
     await record(root, [{ id: "lamp_test", built }]);

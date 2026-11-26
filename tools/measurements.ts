@@ -5,7 +5,7 @@ import { z } from "zod";
 
 /**
  * `catalog/measurements.json`: what Blender measured for every built asset, so `npm run check` can run the build checks
- * (bounds, ground, triangles, manifold, materials, anchors) in CI, which has no Blender. `npm run build` writes it from
+ * (bounds, ground, triangles, manifold, materials, anchors, grips) in CI, which has no Blender. `npm run build` writes it from
  * each full build's `result.json`; only facts the checks read are kept (no file names, no timings), so a rebuild of the
  * same inputs writes the same bytes. `inputHash` ties an entry to the inputs it was measured from: an entry whose hash
  * no longer matches is stale. All lengths are metres in the asset's own space.
@@ -30,6 +30,22 @@ export const measuredVariantSchema = z
       z.object({ name: z.string(), at: vec3, size: vec3.optional() }).strict(),
     ),
     textures: z.array(z.string()),
+    /**
+     * Grip points (`grip()` in asset.py), only when the variant has any. A hand's (`main`, `off`) has its `axis` along
+     * the handle towards the thumb, and the handle's `radius` there (null: the point is not inside a handle).
+     */
+    grips: z
+      .array(
+        z
+          .object({
+            name: z.string(),
+            at: vec3,
+            axis: vec3.optional(),
+            radius: z.number().nullable().optional(),
+          })
+          .strict(),
+      )
+      .optional(),
   })
   .strict();
 export type MeasuredVariant = z.infer<typeof measuredVariantSchema>;
@@ -90,6 +106,7 @@ export function measuredOf(result: FullResult): MeasuredAsset {
       materials: v.materials,
       anchors: v.anchors,
       textures: v.textures,
+      ...(v.grips === undefined ? {} : { grips: v.grips }),
     })),
   };
 }

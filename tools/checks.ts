@@ -16,6 +16,7 @@ export const CHECK_IDS = [
   "manifold",
   "materials-known",
   "anchors-declared",
+  "grip-points",
 ] as const;
 export type CheckId = (typeof CHECK_IDS)[number];
 
@@ -32,6 +33,10 @@ export const BUDGET = {
   boundsSlack: 0.075,
   /** How far the origin and the lowest point may sit off the ground, in metres (measurements are rounded to 1e-4). */
   ground: 0.0075,
+  /** The thickest handle a hand closes round (radius, metres): a crossbow's stock is about this. */
+  handle: 0.04,
+  /** How far the main hand's handle may lean off +z, in degrees (a crossbow's pistol grip leans). */
+  handleLean: 45,
 } as const;
 
 /** Anchors whose effect has an extent (`anchor(..., size=...)` in asset.py): fires, water spouts and basins. */
@@ -245,6 +250,83 @@ export function anchorsDeclared(asset: Asset, result: Measured): Check {
   );
 }
 
+/**
+ * Every grip point `asset.json` declares is in every variant and no variant has an undeclared one. Each hand (`main`,
+ * `off`) sits inside a handle a hand can close round; the main hand's handle runs along +z (the orientation a
+ * consumer relies on), and two hands are at least a hand's breadth apart.
+ */
+export function gripPoints(asset: Asset, result: Measured): Check {
+  const declared: readonly string[] = asset.grip?.points ?? [];
+  const hand = asset.grip?.hand ?? 0;
+  const radii = new Set<number>();
+  const check = perVariant(
+    "grip-points",
+    result,
+    (v) => {
+      const grips = v.grips ?? [];
+      const found = new Set(grips.map((g) => g.name));
+      const problems = [
+        ...declared
+          .filter((g) => !found.has(g))
+          .map((g) => `declared grip ${g} is missing`),
+        ...[...found]
+          .filter((g) => !declared.includes(g))
+          .sort()
+          .map((g) => `grip ${g} is not declared in asset.json`),
+      ];
+      for (const g of grips) {
+        if (g.name !== "main" && g.name !== "off") continue;
+        if (g.radius === undefined || g.radius === null)
+          problems.push(`grip ${g.name} is not inside a handle`);
+        else if (g.radius > BUDGET.handle)
+          problems.push(
+            `grip ${g.name}'s handle is ${n(g.radius)} m in radius, over ${BUDGET.handle} for a hand`,
+          );
+        else radii.add(g.radius);
+      }
+      const main = grips.find((g) => g.name === "main");
+      const lean =
+        main?.axis === undefined
+          ? 0
+          : (Math.acos(Math.max(-1, Math.min(1, main.axis[2]))) * 180) /
+            Math.PI;
+      if (lean > BUDGET.handleLean)
+        problems.push(
+          `grip main's handle leans ${Math.round(lean)}° off +z, over ${BUDGET.handleLean}°`,
+        );
+      const off = grips.find((g) => g.name === "off");
+      if (main && off) {
+        const apart = Math.hypot(
+          ...main.at.map((c, i) => c - (off.at[i] ?? 0)),
+        );
+        if (apart < hand)
+          problems.push(
+            `the hands are ${n(apart)} m apart, under a hand's breadth (${n(hand)} m)`,
+          );
+      }
+      return problems;
+    },
+    "",
+  );
+  if (check.status !== "OK") return check;
+  if (declared.length === 0)
+    return ok(
+      "grip-points",
+      `no grip points, none declared${variantsNote(result)}`,
+    );
+  const r = [...new Set([...radii].map(n))].sort(
+    (a, b) => Number(a) - Number(b),
+  );
+  const handles =
+    r.length === 0
+      ? ""
+      : `, hands on handles of ${r.length === 1 ? r[0] : `${r[0]}–${r[r.length - 1]}`} m radius`;
+  return ok(
+    "grip-points",
+    `${declared.join(", ")} in every variant${handles}${variantsNote(result)}`,
+  );
+}
+
 /** All checks of one asset, in `CHECK_IDS` order. */
 export function runChecks(input: CheckInput): Check[] {
   const { asset, result } = input;
@@ -259,6 +341,7 @@ export function runChecks(input: CheckInput): Check[] {
     needsBuild("manifold", (r) => manifold(asset, r)),
     needsBuild("materials-known", (r) => materialsKnown(r, input.ledger)),
     needsBuild("anchors-declared", (r) => anchorsDeclared(asset, r)),
+    needsBuild("grip-points", (r) => gripPoints(asset, r)),
   ];
 }
 
