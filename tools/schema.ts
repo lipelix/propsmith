@@ -18,6 +18,7 @@ export const CATEGORIES = [
   "decor",
   "vegetation",
   "light",
+  "weapon",
 ] as const;
 export type Category = (typeof CATEGORIES)[number];
 
@@ -58,6 +59,30 @@ const mountSchema = z
      * a ceiling at `lift` plus its height.
      */
     lift: z.number().positive().max(12),
+  })
+  .strict();
+
+/**
+ * A hand-held prop's grip points (`grip()` in asset.py, measured by the build). `main` and `off` are where each hand
+ * closes round the handle, each with an axis along it; `stock` is where a crossbow sets against the shoulder and
+ * `trigger` where a finger pulls.
+ */
+export const GRIPS = ["main", "off", "stock", "trigger"] as const;
+export type GripName = (typeof GRIPS)[number];
+
+const gripSchema = z
+  .object({
+    /** The grip points every variant has; `main` always, `off` for a two-handed hold. */
+    points: z
+      .array(z.enum(GRIPS))
+      .min(1)
+      .refine(unique, "grip points repeat")
+      .refine((points) => points.includes("main"), "needs main"),
+    /**
+     * The hand the grips are laid out for: its breadth across the knuckles in metres (an adult's is about 0.085). A
+     * consumer with a bigger or smaller hand scales the spacing of `main` and `off` by its own over this.
+     */
+    hand: z.number().min(0.05).max(0.15),
   })
   .strict();
 
@@ -111,11 +136,19 @@ export const assetSchema = z
     closed: z.boolean(),
     /** How a hanging prop is fixed; absent for a prop that stands on the floor. */
     mount: mountSchema.optional(),
+    /** Where hands hold it; every weapon has one. */
+    grip: gripSchema.optional(),
     provenance: provenanceSchema,
     licence: z.literal(LICENCE),
   })
   .strict()
   .superRefine((asset, ctx) => {
+    if (asset.category === "weapon" && asset.grip === undefined)
+      ctx.addIssue({
+        code: "custom",
+        path: ["grip"],
+        message: "a weapon needs its grip points",
+      });
     for (const [i, variant] of asset.variants.entries())
       if (!isVariantOf(variant, asset.id))
         ctx.addIssue({

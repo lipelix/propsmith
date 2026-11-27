@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "id": "crossbow",
+  "name": "Crossbow",
+  "description": "A crossbow lying level as held, cocked with a bolt in the groove: a wooden tiller with a deep butt, a pistol grip and a trigger lever, a prod across the nose and an iron stirrup. The light crossbow is 0.9 m long with a 0.7 m wooden prod; the heavy crossbow is 1.1 m long with a 0.9 m steel prod in iron bridles. The bolt points +x; the main hand on the grip, the off hand under the fore-stock, the butt at the shoulder.",
+  "category": "weapon",
+  "family": "crossbow",
+  "tags": [
+    "wood",
+    "steel",
+    "castle",
+    "combat",
+    "hunting",
+    "two_handed",
+    "long"
+  ],
+  "aliases": ["arbalest", "light crossbow", "heavy crossbow"],
+  "variants": ["crossbow", "crossbow_heavy"],
+  "size": {
+    "x": 1.2,
+    "y": 0.95,
+    "z": 0.2
+  },
+  "anchors": [],
+  "closed": false,
+  "grip": {
+    "points": ["main", "off", "stock", "trigger"],
+    "hand": 0.085
+  },
+  "provenance": {
+    "source": "handwritten"
+  },
+  "licence": "CC0-1.0"
+}

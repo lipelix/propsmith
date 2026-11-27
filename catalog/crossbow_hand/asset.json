@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "id": "crossbow_hand",
+  "name": "Hand crossbow",
+  "description": "A hand crossbow lying level as held in one hand, cocked with a bolt in the groove: 0.4 m long with a 0.34 m steel prod in a brass block, a short tiller over a pistol grip with a brass pommel cap and a trigger lever. The bolt points +x; one hand on the grip, a finger on the trigger.",
+  "category": "weapon",
+  "family": "crossbow",
+  "tags": ["wood", "steel", "castle", "combat", "small", "ornate"],
+  "aliases": ["pistol crossbow", "hand-held crossbow"],
+  "variants": ["crossbow_hand"],
+  "size": {
+    "x": 0.45,
+    "y": 0.35,
+    "z": 0.2
+  },
+  "anchors": [],
+  "closed": false,
+  "grip": {
+    "points": ["main", "trigger"],
+    "hand": 0.085
+  },
+  "provenance": {
+    "source": "handwritten"
+  },
+  "licence": "CC0-1.0"
+}

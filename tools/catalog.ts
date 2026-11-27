@@ -38,6 +38,8 @@ export interface IndexEntry {
   closed: boolean;
   /** How a hanging prop is fixed; absent for one that stands on the floor. */
   mount?: Asset["mount"];
+  /** Where hands hold it (a weapon); the points' positions are in `catalog/measurements.json` and the GLB. */
+  grip?: Asset["grip"];
   source: Asset["provenance"]["source"];
   licence: Asset["licence"];
   /** SHA-256 of the asset folder, the library and the build script: what the model is built from. */
@@ -124,6 +126,7 @@ function entry(asset: Asset, hash: string): IndexEntry {
     anchors: [...asset.anchors].sort(compare),
     closed: asset.closed,
     ...(asset.mount === undefined ? {} : { mount: asset.mount }),
+    ...(asset.grip === undefined ? {} : { grip: asset.grip }),
     source: asset.provenance.source,
     licence: asset.licence,
     inputHash: hash,

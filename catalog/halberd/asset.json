@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "id": "halberd",
+  "name": "Halberd",
+  "description": "A halberd, 2.25 m from butt to spike (the long class of polearms, 2 m and more): an ash shaft on an iron butt spike with two leather wraps, iron langets up to a socket, an axe blade with a straight steel edge, a hooked back fluke and a long thrusting spike. It stands on its butt as held, shaft along +z and edge to +x.",
+  "category": "weapon",
+  "family": "polearm",
+  "tags": [
+    "steel",
+    "wood",
+    "leather",
+    "castle",
+    "combat",
+    "two_handed",
+    "long",
+    "tall",
+    "worn"
+  ],
+  "aliases": ["poleaxe", "bill", "pole arm", "polearm"],
+  "variants": ["halberd"],
+  "size": {
+    "x": 0.35,
+    "y": 0.1,
+    "z": 2.35
+  },
+  "anchors": [],
+  "closed": false,
+  "grip": {
+    "points": ["main", "off"],
+    "hand": 0.085
+  },
+  "provenance": {
+    "source": "handwritten"
+  },
+  "licence": "CC0-1.0"
+}

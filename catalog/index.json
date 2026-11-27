@@ -22,7 +22,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "3f67140de6225c1e3fab2bcdb100febeee09a9b9cace88aa61aaae13bb480809"
+      "inputHash": "02760cfa8e19a733495c94cec5e8650141f08e4d91921d0df512ebdf269997ec"
     },
     {
       "id": "altar_stone",
@@ -51,7 +51,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "71a1180cdb3e6a4b5bc37febc33a0226b2ad7199d9b4c1898c643e416b535fce"
+      "inputHash": "7998c7cc1d1f015ab414f87b8ed94bb5e0c44c41987e7819ae81375ec3b61c15"
     },
     {
       "id": "altar_stone_crude",
@@ -72,7 +72,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "a6484047e3e8a37487c05f32218d4ecc184a9a3dc43d8875c001d12e1b540238"
+      "inputHash": "e34b199c01e7683dd62ced2862eb6d0538106d2ec25c8579371872195cc0d5e2"
     },
     {
       "id": "anchor_iron",
@@ -93,7 +93,7 @@
       "closed": false,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "8d1576b0540ba5ae5cadc9800044649fe4178a2415bd7ef3f8c9c7a1820126a6"
+      "inputHash": "c1729b3ebedd6930a0280b7587afe01c536f2cba6b7b0256130c1f3bb42e276a"
     },
     {
       "id": "anvil_iron",
@@ -109,7 +109,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "0451ea6ca8b2a6f471193fba119132fc10f615cf487731f2c4dd816ef4a9484f"
+      "inputHash": "daf8376b1b2334ab7b18dd98d45537f29b4c24451cb0a039084fa43e98eea7ed"
     },
     {
       "id": "archery_target",
@@ -140,7 +140,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "1b4589dd026b928000a60cc09e66930d6e21781ebadb3668d4449c4bfc64bf5e"
+      "inputHash": "badbfa544ec9d97de1c186dfce5413ff871d35d2492fc3fed1d80f40628b3f76"
     },
     {
       "id": "armour_stand",
@@ -164,7 +164,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "7a40450fc4eaf6c4d34977e2ac286ab6ae91b3d38cd6ea6c8bb7ad572f63421b"
+      "inputHash": "3c89c0a989f3838a877a011d8ce4f331e409075fa411b985d40b481491f80b4a"
     },
     {
       "id": "banner_cult",
@@ -180,7 +180,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "df81f2747a6ad8581a71d67d071bf43659bf9fa0dd7e9faef2ffe28377657f41"
+      "inputHash": "a9798f15c08a592990fe55a78dd174579e2a26ea670111a3f795b6d9e7eeba35"
     },
     {
       "id": "barrel_wood",
@@ -205,7 +205,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "4fc1ec58097f1d6a2d69ccf2183339742fb9ce9e21a2de01681ce9c727543e13"
+      "inputHash": "95097bb88e4adf2730bf92b65fefbd9b5e272e16726d6034e34e9d3fd917d6d4"
     },
     {
       "id": "bed_wood",
@@ -230,7 +230,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "6ac9afbee10d0d43d50388ae97a1992b2cc2974e9d6e324fe1b927197dbbcc18"
+      "inputHash": "453cb3cffe107a94094050b924d5f3ac8ee87b90b81e508f7c592611fe815334"
     },
     {
       "id": "bedroll_cloth",
@@ -253,7 +253,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "c9ce82480f15299f5f4837fca460b41f73bc29c76e622129f82d692376d9cc1a"
+      "inputHash": "ddce764ec07c927c9042a2079c80537f17cd34db32fb0580c48e4a4bd7054e58"
     },
     {
       "id": "beehive_skep",
@@ -269,7 +269,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "13d83bbc7c1f74571a51b1841c40b0c700456ad0676bd3ae05ce356734056253"
+      "inputHash": "c7f6b27e6333592988e9fcf38a4e3b604f912e63524c370d47f92f336717a637"
     },
     {
       "id": "bench_wood",
@@ -294,7 +294,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "648215e9f84e9342c1c2f0629114dbb165aa0fc2bc9f780c9abc7cf7fd354abd"
+      "inputHash": "6dc19e2f5434fa38872bf26d6ce51709e8e7c70d89ce73e323b59932ea03efdf"
     },
     {
       "id": "birch_tree",
@@ -316,7 +316,7 @@
       "closed": false,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "6d9354bc18fe533054e57891e37d94105b4e3cc469433b52f74e97f52d5ef9b1"
+      "inputHash": "538f599a72075ecc93e740eb2369eab90b042dda55785667a45ea6b66091b23e"
     },
     {
       "id": "bones_pile",
@@ -332,7 +332,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "599d0993bdee28c9711f6e9943fd33f3fda7fcf537f487bb653417a7a8cc7925"
+      "inputHash": "31151cb03cae294e12865b63f4a0b12e6e3a55087aaf1a9b26da654d1b00b676"
     },
     {
       "id": "books_stack",
@@ -355,7 +355,7 @@
       "closed": true,
       "source": "handwritten",
       "licence": "CC0-1.0",
-      "inputHash": "a9508ad40e7fb518509afdb83e33c813f81b73d6e8a885c04322854373c36c5c"
+      "inputHash": "4b796e6acfc96de51757e9790819a00c3c2c354618bc4259713254d60763f944"
     },
     {
       "id": "bookshelf_wood",
@@ -386,7 +386,7 @@
       "closed": true,
       "source": "handwritten",
       "licence": "CC0-1.0",
-      "inputHash": "bf0173b4ca13db5fe8300c8a7b29498062d7312ebefee26acc49b5e7e137ea93"
+      "inputHash": "77d551c4e942081e4fe8ee81c7586b3b98c0e2b60bf1e5f5553ad7424d701b7d"
     },
     {
       "id": "boulders_shore",
@@ -402,7 +402,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "bf3929860928242b5ba4dd5ea8dc4753e13cf4987f71526d9d1266cb08e9da4c"
+      "inputHash": "c1a6176170d561a0e23bcd05f4278efb508df405acc90f4da574458eec5abce2"
     },
     {
       "id": "bramble_low",
@@ -426,7 +426,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "6dff8f3b86a25727771cf6569b6ca7b6ef0cf3755c4b2ec6f0e162ea47d865a9"
+      "inputHash": "bc8190ad15679b8818610b2746ee510f2e280cfd560e2aab1cc16794e128b2f0"
     },
     {
       "id": "brazier_iron",
@@ -456,7 +456,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "ea5644605e108e4987ffca6d28431d6c338498a71745b88608f701b364734116"
+      "inputHash": "a1799e935eec613f2a78c8e38170a6a9d677fc848cf17f4183c76439c455a406"
     },
     {
       "id": "bridge_stone_arch",
@@ -486,7 +486,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "a6da5f70c1f1b5eaca08c51424a93feb34818fbdaaba48a393efa0b623fbb217"
+      "inputHash": "9b90ee40b84f74723700b0dea343ffcf1709dcb9887ead97b79847c9c967b9b5"
     },
     {
       "id": "bridge_wood_small",
@@ -517,7 +517,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "d6a6b22141a4a4228cbd7472a808f99771b26955ddafc201c4d944330f163d79"
+      "inputHash": "6777c017524316023853b8697bd21a7334cc7395ca16ea70406ebabf5fe72e14"
     },
     {
       "id": "bucket_wood",
@@ -542,7 +542,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "43c783c804b2431db8d473d93f7b66a0c89da636e66ac2be418d12dad4adfee7"
+      "inputHash": "e305bd96b8aa12527558712d4e373ce7828f6700c7ed409b2236d342bfb6ea97"
     },
     {
       "id": "bush_flowering",
@@ -558,7 +558,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "d4dcdb32fa0c977b11f385ef5046723afc03b65cbfd2621c67571190feed4f98"
+      "inputHash": "1119123fb484a75b14fbd8f0ecbe421928dfd44c22025e21b482a3e98d0852e0"
     },
     {
       "id": "bush_round",
@@ -574,7 +574,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "f54fefaaaa1defcc77e135ad5f14a85b7783046eb2d637ab0d1ceeeb6782c14c"
+      "inputHash": "4fac6853584af6b33b649f445b09800f4d2f2aeffe8ea1380d6f1eb7e28889b9"
     },
     {
       "id": "cage_iron",
@@ -596,7 +596,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "6cbdae87465de4efd871592059cb594de88002f4fe5a439d77e2b49f3ac13d94"
+      "inputHash": "d30ba76c97c45f2322cd9fdd3e37af0de2582fe2488842cfdf23450a56a78ec0"
     },
     {
       "id": "campfire_ring",
@@ -627,7 +627,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "8763980b1e36c6ac0ce78872263b835687e8425a44ec2167fdc9db1150a15c2c"
+      "inputHash": "2737ab9bc0c656dddd1c954f44ad66c1c52d2795c66b4cfd916d8f7037f10118"
     },
     {
       "id": "candelabra_standing",
@@ -657,7 +657,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "237fa7e8b6c2fa0596b5efed63cb61590477a3891b25f5f129d79ae7bb916f70"
+      "inputHash": "11025d43271176b64b0fee5353ebcc178c26cc266dfaf94c705bd265107c1ab3"
     },
     {
       "id": "candle_stand",
@@ -687,7 +687,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "069e0f55904739e6cb53ca9ee502f1a7c5d3fb09e3369180b45b9d03c36eac3a"
+      "inputHash": "4a5c9d585b6439a4f74c8b9bd6f91ed05dd9e58212183882c8106ba1fe7c1b85"
     },
     {
       "id": "candles_melted",
@@ -717,7 +717,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "09dd2d5433c9f2662dbcb741f2d4993ccec795cb6de504d81dfc45ec1a51f29d"
+      "inputHash": "51c6d74542ac6040a930193e348d0de536481018d70eb1ce52eb6425b02c011b"
     },
     {
       "id": "carpet_runner",
@@ -739,7 +739,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "0ab2a1e4c67bb290aba36d937497f8970fc1ee6157aee9a24213d0fc2230dcc1"
+      "inputHash": "ff6a92bb7778d247ca951938b40b7301011e36219a43352f97824c828d2a5e8d"
     },
     {
       "id": "cart_hand",
@@ -764,7 +764,7 @@
       "closed": true,
       "source": "handwritten",
       "licence": "CC0-1.0",
-      "inputHash": "67af58d600d578242e3faa1df4c5d955152fe3f001f5ad75ecc217c20278cc7b"
+      "inputHash": "ef6d50165b1c07607f160685caca8f4e1483d147589a368e237976f499976885"
     },
     {
       "id": "cauldron_iron",
@@ -795,7 +795,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "e586d5e881a45fb07fde055ce2fae085ab47ae6c2369db244a24b73675855a6e"
+      "inputHash": "52215e5b6105fa99fcee6ce3c8fd71d6dcac7633cfc25339bac62381dba4de0a"
     },
     {
       "id": "chair_wood",
@@ -811,7 +811,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "761f1e571ba5e901467bd10892f817ef128af25b54980c2e6480e0aafb6e0e78"
+      "inputHash": "e0a8a445c92606fc53be453007f32638b6093ed10604d59c824899901f949351"
     },
     {
       "id": "chandelier_iron",
@@ -843,7 +843,7 @@
       "mount": { "kind": "ceiling", "lift": 2.35 },
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "75f046597b331ca84719c5c11d4ad839ce572d61ae312275e0d64c0e8501bfb2"
+      "inputHash": "69551b2c8a3b558b99ddea2527f48bbe5efab578a18cc57be4190a9a443978f5"
     },
     {
       "id": "chest_iron_bound",
@@ -874,7 +874,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "2eec05333844b85702118bcd9dea68f861c095b51792adb581a77736e4d1e999"
+      "inputHash": "30245c23f11c9fef70fdaa4a1521aa3022dd14d32fe19c9fce06d7c0872db5ab"
     },
     {
       "id": "chest_wood",
@@ -905,7 +905,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "3831e2dd75928f9a8efcd549e7e19794a1bd8e7e145c32acf9a43e05c585f713"
+      "inputHash": "893ccae23530f3843756b17787418906e8c5da094185b3835fb3537a99719efb"
     },
     {
       "id": "chest_wood_open",
@@ -937,7 +937,7 @@
       "closed": true,
       "source": "handwritten",
       "licence": "CC0-1.0",
-      "inputHash": "d3dcb554c84ee5598b2d78efcbc04309cad86f19599b2053f7e94ec24cb253ca"
+      "inputHash": "89b1bbd30dd904ffcd238a22521d57c177d6c509a568ef806b87c7c29ff706d4"
     },
     {
       "id": "chicken_coop",
@@ -959,7 +959,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "81d7638ca38ba8e2bdb9e3081b7fe6ff05d1437939acbf95b6166462579ef0a5"
+      "inputHash": "e0778216bc0616a49db993789de5f84f64c6ae7000d773b4fee171d75a5aeeae"
     },
     {
       "id": "chopping_block",
@@ -984,7 +984,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "b3e3adf0dd9e14c4a1ce2f65c59ce8c426eae54b8309477eb0f595580285c1a2"
+      "inputHash": "d639bbd79716cf55f45348b66a7c0861101aa7c8df7eadb2a1a096c9e03c8599"
     },
     {
       "id": "cliff_rock_corner",
@@ -1016,7 +1016,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "29011b14d759d965ceeb1ccfd2fa17350c1acf253058d900b73dd83373e8da24"
+      "inputHash": "32b8a56abf2e39bdd883e47e89fb3514fc563445deaa17fa6b3eadcf4ce97ec0"
     },
     {
       "id": "cliff_rock_straight",
@@ -1048,7 +1048,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "b02564db770319776776612cfc2e41adc4657d227d6d029edcc8b57c8f6691e2"
+      "inputHash": "efdcc40bb5fa535c2349db7c5776bf4cbab7d2d34d02efe5be23646da03207fe"
     },
     {
       "id": "cobweb_corner",
@@ -1064,7 +1064,7 @@
       "closed": false,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "3e522d4395e5b9c8a5cd4d389bebbf6b5da1ffcd5af2d7a43a2faa7113908865"
+      "inputHash": "4c1cdb2b6708d9fd3457a1e894f581ba2d0065187eba6315a9d933e466e84e5c"
     },
     {
       "id": "coffin_wood",
@@ -1089,7 +1089,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "c6e88a56957f4b31a2e5d761ce9df295fc0f6ff4186a3efcb526a5a6177344db"
+      "inputHash": "cc119774f30f181861cda8ff748a06d042e6779a2562d33a34bae63f43dc3dcd"
     },
     {
       "id": "coin_sacks",
@@ -1121,7 +1121,7 @@
       "closed": true,
       "source": "handwritten",
       "licence": "CC0-1.0",
-      "inputHash": "1eb256ff9744e91e5f0f330aeadf9569ee06f19325b4c339b51b373317ed095a"
+      "inputHash": "b518ad9a762365922133fa10321e9ac07db2a4b3986af5fdf5b2e932022dea49"
     },
     {
       "id": "cooking_spit",
@@ -1143,7 +1143,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "249fb54304a53971bec163564b0b33dcb5e1cdcba897677712b72726d0cd9b24"
+      "inputHash": "147ddaeee2aaf55c15296553339c2ac8a744dfc78c32f7813e5633ef942c8230"
     },
     {
       "id": "counter_wood",
@@ -1159,7 +1159,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "92b4523dbdb021902d74c7d3ba646881846cebde7df4c1e83975ffa9f27540e9"
+      "inputHash": "07583f285afabed493de0c5d35846af0316d069aee8e6fe788cb0bd1ef10859c"
     },
     {
       "id": "crane_dock_wood",
@@ -1191,7 +1191,7 @@
       "closed": false,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "f07048eabbf61e67c021d9af7d11578961a80440b437fa7a3b02d30e1adcd591"
+      "inputHash": "fbcd72543642bd855a72b2a190e49c6860a63f8af3900396840971bc741d4528"
     },
     {
       "id": "crate_small",
@@ -1207,7 +1207,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "9eb45b569b62c09988a4929f22f0faf9e928c5208a7531f2b6562c56b767e1dc"
+      "inputHash": "12f71841e780af56fc21fd632c2b574bd32b2bdf6306d3009140ed5eadd759eb"
     },
     {
       "id": "crate_wood",
@@ -1223,7 +1223,49 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "a1af54e6d8a26d3da939a5c7aeab12e808d31c59e28ad5cc3c82e76d411cd156"
+      "inputHash": "3665009b515e164819b6d4a76dc15d44549e7d60f03893504e8c0f056c7a2c1f"
+    },
+    {
+      "id": "crossbow",
+      "name": "Crossbow",
+      "description": "A crossbow lying level as held, cocked with a bolt in the groove: a wooden tiller with a deep butt, a pistol grip and a trigger lever, a prod across the nose and an iron stirrup. The light crossbow is 0.9 m long with a 0.7 m wooden prod; the heavy crossbow is 1.1 m long with a 0.9 m steel prod in iron bridles. The bolt points +x; the main hand on the grip, the off hand under the fore-stock, the butt at the shoulder.",
+      "category": "weapon",
+      "family": "crossbow",
+      "tags": [
+        "castle",
+        "combat",
+        "hunting",
+        "long",
+        "steel",
+        "two_handed",
+        "wood"
+      ],
+      "aliases": ["arbalest", "heavy crossbow", "light crossbow"],
+      "variants": ["crossbow", "crossbow_heavy"],
+      "size": { "x": 1.2, "y": 0.95, "z": 0.2 },
+      "anchors": [],
+      "closed": false,
+      "grip": { "points": ["main", "off", "stock", "trigger"], "hand": 0.085 },
+      "source": "handwritten",
+      "licence": "CC0-1.0",
+      "inputHash": "67139753f274b4d8a44d272f3fb38743f2c4807945e451fae7cab3c4e5b843a4"
+    },
+    {
+      "id": "crossbow_hand",
+      "name": "Hand crossbow",
+      "description": "A hand crossbow lying level as held in one hand, cocked with a bolt in the groove: 0.4 m long with a 0.34 m steel prod in a brass block, a short tiller over a pistol grip with a brass pommel cap and a trigger lever. The bolt points +x; one hand on the grip, a finger on the trigger.",
+      "category": "weapon",
+      "family": "crossbow",
+      "tags": ["castle", "combat", "ornate", "small", "steel", "wood"],
+      "aliases": ["hand-held crossbow", "pistol crossbow"],
+      "variants": ["crossbow_hand"],
+      "size": { "x": 0.45, "y": 0.35, "z": 0.2 },
+      "anchors": [],
+      "closed": false,
+      "grip": { "points": ["main", "trigger"], "hand": 0.085 },
+      "source": "handwritten",
+      "licence": "CC0-1.0",
+      "inputHash": "8ae73bedbbe37ac01022664ff2ae468c3455c9c9a4ecad43c43058fdb280b453"
     },
     {
       "id": "crypt_entrance_stone",
@@ -1255,7 +1297,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "fa77b04f5f73537ac62f8d06dfc88f94ab6a0e074952b97b0723c2a12e308382"
+      "inputHash": "a54cbc595572c3bcb8459ff1853bcce1429c025b7e344494da37825a1cc3c3cd"
     },
     {
       "id": "crypt_gate_iron",
@@ -1286,7 +1328,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "de44372ec3978731ba84875ec3f449ad01c02da1be6217d5335de6253042c820"
+      "inputHash": "eea5fcc1d642b7490c00b66b5ea449d1ba74bdf735d23f9ae66b17ecb49f5a4c"
     },
     {
       "id": "crystal_ball_stand",
@@ -1317,7 +1359,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "ccf7ff8dd922a1b364eecaa043834457a3c5007d63e2bbd87d22b91125f8f538"
+      "inputHash": "90f3433604fae3e9d306b6de6f8620b03b775b57e5ba97909bd8ab88f6999534"
     },
     {
       "id": "crystal_cluster",
@@ -1339,7 +1381,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "c56219cb234a461cfb07ed6c3d864c5d0b6bea26d02b18979661bf7ba6388c35"
+      "inputHash": "81fffd42542ee96fcc06237dd669a10aabcc5afb6040141104ed74d0462f8a72"
     },
     {
       "id": "desk_writing",
@@ -1362,7 +1404,7 @@
       "closed": true,
       "source": "handwritten",
       "licence": "CC0-1.0",
-      "inputHash": "8fd65a76b289397e8a9e24ce76dce0a31236192555bfc6228c3ae3cdea8563bd"
+      "inputHash": "1fa3ad3c67beef9c9c6bf4fcd68ddc26d0e9de09485910a925568ef1807a293b"
     },
     {
       "id": "door_iron_bound",
@@ -1384,7 +1426,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "bd6fdad6888c276ad65d3764d436def9e1b3b4111419b4d249af9f77ec202169"
+      "inputHash": "b98900ea5ad366be54afa2e0938e9ba43033f6c7363585be85ccc1798bc7cee9"
     },
     {
       "id": "door_wood",
@@ -1414,7 +1456,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "dba54c2e899e7e94ce864bf2a709293c2ad6c2fbfbd899849469cbe2bb155591"
+      "inputHash": "5c9e156382fd0b7423f6fd90c7c9256691c70dceaab7b8b57e5c31e1f6bc6b9e"
     },
     {
       "id": "farm_tools",
@@ -1437,7 +1479,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "cd886719d47eea96c62f7f1d7c7ca24f68906ea8bad47a76bcb4d7d12087963f"
+      "inputHash": "aa40b6fcd02a51de2aa5d6a17f34401980ae7c364fde9e89be50f83b1e103bb9"
     },
     {
       "id": "fence_iron_cemetery",
@@ -1468,7 +1510,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "12a2c718788668a59e39a7dc1d33fda57f81bf2e6efff06bc24996f001f91c6c"
+      "inputHash": "ff900e0ffd7403252cb8c093725c539474c84ef1029b3a164f1a1501c1e2fd01"
     },
     {
       "id": "fence_wood",
@@ -1498,7 +1540,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "aa378194da12b10bfd73ba727a78f8c337d6d0ed524df8766891e0ebedb96580"
+      "inputHash": "a465f4677713086d63c524d92e91861ad6b3f23c0863a9b6e8b270fa3720cb1a"
     },
     {
       "id": "fern_clump",
@@ -1514,7 +1556,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "3ac90d8514de10b66ba8683518ea33f6395b86c0082ea48fe29bea55c4d22e5b"
+      "inputHash": "55e65f306779dc1fddf0bdb253efb5c743a6cb4e4468f798a9236f3958521837"
     },
     {
       "id": "fireplace_stone",
@@ -1545,7 +1587,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "180ec84f99eaeeca5915714a10efa965ca7a66756a52b1191cf9f0d2e8034759"
+      "inputHash": "b3dab4bc22a97027f2e17ea2cc91538b0e0b1ab4849ddbb750dcb73999147b32"
     },
     {
       "id": "firewood_stack",
@@ -1561,7 +1603,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "8e377edb344b6dee90f0119272851e40a91f5323ff27dd1fb96896d1fb683df7"
+      "inputHash": "2c7b43ef91e821a5a8984db31a31046176f2e5682397eedadbae51524c2e19c2"
     },
     {
       "id": "fish_crates",
@@ -1592,7 +1634,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "0251b1e9909bb545a05f4d996d4e3ea0eceaeaa83bfea76a8849fbc2e9d54eb6"
+      "inputHash": "2e645451c3aadd2f490b660c061e061077c60680765b5d327f755bddce86077d"
     },
     {
       "id": "fishing_nets_drying",
@@ -1614,7 +1656,7 @@
       "closed": false,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "20b8971612d3d3012b8540ab01a83ffd4f7ebbb21327d552057a005c40d6b036"
+      "inputHash": "e0299a14b6db321992c5ef771e2e5c607cca7887978b663aaee55fe781db351c"
     },
     {
       "id": "flower_pot_clay",
@@ -1638,7 +1680,7 @@
       "closed": true,
       "source": "handwritten",
       "licence": "CC0-1.0",
-      "inputHash": "8ae3d8665dced07873aa2f87da540a4378c0e1820bc11ab02a76d5a9d96140a5"
+      "inputHash": "41c41f3ee5b54376fab0b7d85ee1da53de68dc185891cb9fa58e136b56a7123a"
     },
     {
       "id": "food_platter",
@@ -1662,7 +1704,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "5fd9881d07f0f364695b93fc9bdbceb057b37790fbf9ba2785a62596325c3bf2"
+      "inputHash": "fcce83ff198e7f5635c4913cb2a0dd34be2d546b3ba6b03f0eb403afed66c927"
     },
     {
       "id": "forge_stone",
@@ -1684,7 +1726,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "547448dae02adb2b887fb5bf0132e16c5e486da9a22bb427e62562688187ae33"
+      "inputHash": "7bf30792f8014011b02d0d1fe3030eedc64089880b8d1f8cde15e74f8c0788c4"
     },
     {
       "id": "fountain_stone",
@@ -1709,7 +1751,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "a7fecf74619c8b09ccf64610972c5966521bcd0d679e0bd38042159bfbc8a6b8"
+      "inputHash": "ca5cbe227afc2fce776cbef4d8b4f374d50223bd6e289c2bc1deaffaf3303d2c"
     },
     {
       "id": "gallows_wood",
@@ -1739,7 +1781,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "b7eeccbcc771af97b0425144280a93001999ee9f544c1d9fd7a3fe3b3932ce5c"
+      "inputHash": "c56ddcb8667ce58a2f61e1ce3976757898fa2429be1fc09e7056f43cedabf665"
     },
     {
       "id": "gate_wood",
@@ -1769,7 +1811,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "37925b2e667719afb0283f6d332b82f152d9a748fdf7e6134c9d47b28a11e53f"
+      "inputHash": "682febc26ea7daf5dbd6a9e4c37ed2ce760ec974af2e5d0cfec913befda843c5"
     },
     {
       "id": "gibbet_post",
@@ -1793,7 +1835,34 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "c6f74818e36abcb577a1356b74de2fce03cf68c5b9ebf9675887712024d08306"
+      "inputHash": "e1740cbaf87619a57f1a9e0752368001cc9af76a6929c732a646b5cb18d16cc8"
+    },
+    {
+      "id": "glaive",
+      "name": "Glaive",
+      "description": "A glaive, 2.1 m from butt to point (the long class of polearms, 2 m and more): an ash shaft with an iron butt cap and two leather wraps, iron langets up to a socket, and a long single-edged blade widening to a swept-back point, with a small back hook. It stands on its butt as held, shaft along +z and edge to +x.",
+      "category": "weapon",
+      "family": "polearm",
+      "tags": [
+        "castle",
+        "combat",
+        "leather",
+        "long",
+        "steel",
+        "tall",
+        "two_handed",
+        "wood",
+        "worn"
+      ],
+      "aliases": ["fauchard", "naginata", "pole arm", "pole blade"],
+      "variants": ["glaive"],
+      "size": { "x": 0.2, "y": 0.1, "z": 2.15 },
+      "anchors": [],
+      "closed": false,
+      "grip": { "points": ["main", "off"], "hand": 0.085 },
+      "source": "handwritten",
+      "licence": "CC0-1.0",
+      "inputHash": "d5d1e7bf2f44d13c7a6f1afa98113132c8695bd5abd533c534fabf6219dc35f2"
     },
     {
       "id": "goblin_camp_lean_to",
@@ -1816,7 +1885,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "e2244467a549547cb30b1b32d68787339dd2e875464a46a9f9f3b0c8dc4b48e6"
+      "inputHash": "1640e71e8238370f3e2f2413cd50dcaa70336fcb1e09fd7539a2fc2e35e8ac14"
     },
     {
       "id": "grass_tuft",
@@ -1832,7 +1901,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "2c0de7e2eae6860fcffe2278a56b80f91150856c8e5b7a9717c932ae326470e9"
+      "inputHash": "f01ff3a9170ffa69dbc848f061de3cd69746966298f46508d04bb461e36f7650"
     },
     {
       "id": "grave_mound",
@@ -1855,7 +1924,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "2cb9873ab9189a807dd324c569917c9742cc9ba3141b331e15feebdc3d481432"
+      "inputHash": "39a6b47b6cc3fe69629823c2db9015c9a2e7b20ac2440eedf5eb80ea3a9f7ff2"
     },
     {
       "id": "gravestone_cross",
@@ -1886,7 +1955,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "9771535620f70fd65e828bfe81e4f2b040c753d1624390c48abaf4da92564f68"
+      "inputHash": "66ebc6887379e36bf6c1fc75318d2aaed0db1860e72d92faf97f6f530528a5e9"
     },
     {
       "id": "gravestone_round",
@@ -1916,7 +1985,69 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "6c46a14491dae364e4049cec6e344a378bb6aff19bedbb896a4cbebdc7266152"
+      "inputHash": "7cbb9a6e5fdf538521bf62dcfe1cd0f68ecfb66ba60342c7951e7cbd935ed30b"
+    },
+    {
+      "id": "greataxe",
+      "name": "Greataxe",
+      "description": "A two-handed greataxe, 1.35 m from butt to head (the long class of axes, 1.2–1.5 m): an ash haft with an iron butt cap and two leather wraps, an iron head with a broad crescent steel edge and a back spike. It stands on its butt as held, haft along +z and edge to +x.",
+      "category": "weapon",
+      "family": "axe",
+      "tags": [
+        "combat",
+        "leather",
+        "long",
+        "steel",
+        "two_handed",
+        "wood",
+        "worn"
+      ],
+      "aliases": [
+        "bardiche",
+        "battle axe",
+        "battleaxe",
+        "great axe",
+        "two-handed axe"
+      ],
+      "variants": ["greataxe"],
+      "size": { "x": 0.4, "y": 0.1, "z": 1.35 },
+      "anchors": [],
+      "closed": false,
+      "grip": { "points": ["main", "off"], "hand": 0.085 },
+      "source": "handwritten",
+      "licence": "CC0-1.0",
+      "inputHash": "dc648991343412c0feb038add480f1cf4e01357aab466f3dc9d5ab79c68ce09a"
+    },
+    {
+      "id": "greatsword",
+      "name": "Greatsword",
+      "description": "A two-handed greatsword, 1.45 m from pommel to point (the long class of swords, 1.3–1.5 m): a wheel pommel, a long leather grip bound with cord, a broad crossguard with down-turned quillons, a ricasso with parrying lugs and a long double-edged blade. It stands on its pommel as held, grip along +z and edges to ±x.",
+      "category": "weapon",
+      "family": "sword",
+      "tags": [
+        "castle",
+        "combat",
+        "leather",
+        "long",
+        "new",
+        "steel",
+        "two_handed"
+      ],
+      "aliases": [
+        "blade",
+        "claymore",
+        "longsword",
+        "two-handed sword",
+        "zweihander"
+      ],
+      "variants": ["greatsword"],
+      "size": { "x": 0.4, "y": 0.1, "z": 1.5 },
+      "anchors": [],
+      "closed": false,
+      "grip": { "points": ["main", "off"], "hand": 0.085 },
+      "source": "handwritten",
+      "licence": "CC0-1.0",
+      "inputHash": "a8d48be7c2d30e6b15361ead3e5f41d206c279e48b1d7ae2903ab920e44d6e65"
     },
     {
       "id": "grindstone_wheel",
@@ -1937,7 +2068,34 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "8044765e304813d6df928a7ead96516d5dada6efbb010749f7a929b4fdf3387e"
+      "inputHash": "37c337655897040279542e95196821a5af7d4df87c8854323440a27d95281aa8"
+    },
+    {
+      "id": "halberd",
+      "name": "Halberd",
+      "description": "A halberd, 2.25 m from butt to spike (the long class of polearms, 2 m and more): an ash shaft on an iron butt spike with two leather wraps, iron langets up to a socket, an axe blade with a straight steel edge, a hooked back fluke and a long thrusting spike. It stands on its butt as held, shaft along +z and edge to +x.",
+      "category": "weapon",
+      "family": "polearm",
+      "tags": [
+        "castle",
+        "combat",
+        "leather",
+        "long",
+        "steel",
+        "tall",
+        "two_handed",
+        "wood",
+        "worn"
+      ],
+      "aliases": ["bill", "pole arm", "polearm", "poleaxe"],
+      "variants": ["halberd"],
+      "size": { "x": 0.35, "y": 0.1, "z": 2.35 },
+      "anchors": [],
+      "closed": false,
+      "grip": { "points": ["main", "off"], "hand": 0.085 },
+      "source": "handwritten",
+      "licence": "CC0-1.0",
+      "inputHash": "b3798e222e992fa3110b2839782c2ae0c15949bc6b209285ed327b98da0a0ca6"
     },
     {
       "id": "hay_bale",
@@ -1953,7 +2111,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "925af0d92c4d464d130f8405d4cdad639dde09639811be70f4585a8ce1f18a67"
+      "inputHash": "7d98ce212d2cb68a88fd2383e5a6b812c47b8a79c3aadffb004d50fad617ad51"
     },
     {
       "id": "haystack",
@@ -1969,7 +2127,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "326f9393e77cea5ffacfb256beb63354dc7df593ad8c8a3c50e6862ed9c482cb"
+      "inputHash": "3cd87a6da137309690eb910fd49d55156f40eae8ed488ebcf4c7023a7fd88b9d"
     },
     {
       "id": "herb_pots",
@@ -2002,7 +2160,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "6246b10089158bb38d458215615aec5a4cc189fd5878e0c93a41155aa34a5f97"
+      "inputHash": "c748c50904cc427318aad79ce6118e835ff9de0641144e03983a860e4855afb0"
     },
     {
       "id": "ivy_creeper",
@@ -2032,7 +2190,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "9def8059dce1279a3ff00e87493a9354d4b49c293a79e3af439e0a91881e1a00"
+      "inputHash": "9615afd9ae1576b6da429cdfce55002bc0812b64d7656ba0a32e43a6892ae144"
     },
     {
       "id": "keg_rack",
@@ -2056,7 +2214,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "c994635152c6f248c53e13db6d45efb8c8093061a9d9554bb37dc68c0863e0b3"
+      "inputHash": "7e4ff2a9ada21ab75970d09c33ff2aea5f962b577d2577ecadede29653653a7a"
     },
     {
       "id": "kitchen_shelf_pots",
@@ -2090,7 +2248,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "490219223c60fc2e7b39e7050810f5314b62897bb038a50da61d56488efd8401"
+      "inputHash": "7c16f301e8534a24d7099d21d5c0fc8d2eb55ae0d2800c782c2c611c7e57ef1d"
     },
     {
       "id": "ladder_wood",
@@ -2111,7 +2269,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "c9b49092696623c32280b11a019982446036c405963d9bdba5b5a2b9f97ff655"
+      "inputHash": "3ea837ae059558327704d819db986352b51b1f357f581cbb8b632b01480a29c9"
     },
     {
       "id": "lamp_post",
@@ -2142,7 +2300,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "724af666bc17f5306268743e9b517fbaebd3f0561b9fb686983312f4f29a0d66"
+      "inputHash": "4bc273d07f25534704f2d65b4e7f44b1e87a07ff1a5c1e21ebe30054909541d1"
     },
     {
       "id": "lantern_iron",
@@ -2158,7 +2316,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "af19a0fbaacb928e1fc41ae2f3791ad83cb961be2355da658e8deaa33d2243f8"
+      "inputHash": "4c2783a6608ff023934a685198edf508a53410337b6586a34fd9c27bce8b39f9"
     },
     {
       "id": "leaves_fallen",
@@ -2188,7 +2346,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "b425c89ee9d8e2d9bede741f54ffffe83883234e4af6c2b493427ad860f25558"
+      "inputHash": "2e00244da3bdf5675e57b1524db2541a3c570c4f04cf1681c1125fb4ed3c411e"
     },
     {
       "id": "lectern_wood",
@@ -2210,7 +2368,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "be6ad7b3539088e8d3cc8d969735a9d2ed49aea9b1d04b6d3e5ee09a45e7f57c"
+      "inputHash": "0a72882fb8a96b5fcbfba770518bf1a901d7fc0b376a93f9a7ed873c2e765003"
     },
     {
       "id": "log_fallen",
@@ -2232,7 +2390,7 @@
       "closed": false,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "a20892c9b32d29b73511a198895582f6a18608bc57e3ca927d55b60d07f64339"
+      "inputHash": "cc80e7c220a270c8ea21ef9a3367727e626f5d5450b43d6ca869016cd1032a9e"
     },
     {
       "id": "loom_wood",
@@ -2262,7 +2420,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "4919a6461d93564b7b3d751df51b4535bcfaf32c174c5db2eb8e3b02e663e921"
+      "inputHash": "a35e22fb138bce1b5db3af674bdfb4bc1d559efe1c38954ccc73f9c4dc5c4c19"
     },
     {
       "id": "market_stall",
@@ -2287,7 +2445,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "03fbeea90316653a312f2c0921effe548e94eabb86d0e8314df51379f4b861be"
+      "inputHash": "0057cd078234f2df25ce168acff4f5ea9d66ce9d0998ded828cb50edd12e1b4a"
     },
     {
       "id": "mine_cart",
@@ -2310,7 +2468,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "e009a496e6a26fbdcad044bceee624d5419e891342b67717497459169df62240"
+      "inputHash": "7f3d48e1abe2815235e80e09e38426657c5ee76a897ef997dd47fcff6069d72b"
     },
     {
       "id": "mine_support_timber",
@@ -2333,7 +2491,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "68aeb4895622eb38c2c3145a974be766ab3299fb15f1076da9f8f3b8d8a2a8eb"
+      "inputHash": "76baa28e44928cfc74a8ea5baa0d04ff105f655e21cea554c76441e24bbbce12"
     },
     {
       "id": "moss_patch",
@@ -2349,7 +2507,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "733af34c73bdb99c98ab16a5a452ef9f262296b7cb5b25dba2733b4ece208ed9"
+      "inputHash": "521972537ff57074ee0fb15672cb4d4daf11f74a49711b3375cb2d7a5bf4a72c"
     },
     {
       "id": "mushroom_giant",
@@ -2371,7 +2529,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "bff714e90a6ebfb220402e9ec4616e5e27088f04067baf4e13a26d59a7f967cd"
+      "inputHash": "3203e9a41325eadfddfc30234d6a4a8b9c8d047fe52cb28053f73669f563114e"
     },
     {
       "id": "mushrooms_cluster",
@@ -2387,7 +2545,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "4619f69c08718498b87f31bdbc1be4bc2fc681bc002f12590d29eac831f98443"
+      "inputHash": "6c573878b99981732addc5486545532c9c48946b98bf7d284436b91558e68858"
     },
     {
       "id": "net_trap_fallen",
@@ -2403,7 +2561,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "15e797bdda2ec17d4b86a5b3485f4f3ee21c470ca842150ee2f4d8dbff93d411"
+      "inputHash": "47236a8757fd22acf707d84e83a459f001aeb989aba666be4a6b65ecc1088cb8"
     },
     {
       "id": "notice_board",
@@ -2433,7 +2591,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "8f8bd11d393be6ef9b61a1f67cccf04023ac6a878ba392b24894836e9558948b"
+      "inputHash": "41f9aebfd61fc6d75b577daecda954c6b0834ef2b0b7f84346dc045f676b8098"
     },
     {
       "id": "oak_tree",
@@ -2457,7 +2615,7 @@
       "closed": false,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "6b8acbed3cfb70069171c5fe3d6dcd7bc87e9c8ddedf8737e8fbffe4b84719f4"
+      "inputHash": "c6a17315787fa12811f4a1175452a2334e5570cd320d3333314b62dac27d0303"
     },
     {
       "id": "obelisk_rune",
@@ -2488,7 +2646,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "c1aededae273439f1750280e67fe879013cf0782de6864be45be44d5f611100d"
+      "inputHash": "578a1ae2e71f7c9d44f57ca16c9b73814f73ea2d2c0fddc5bcc6e6b50a70fff7"
     },
     {
       "id": "ore_vein_rock",
@@ -2511,7 +2669,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "498fc93d7fc19b82c5de9255eb6f1b0ef5e2529de199f54d268fc7aab64fe89e"
+      "inputHash": "56056cca7040fe40c2a9168f619066662de49de9444d9bf89a6432ffcfc58d78"
     },
     {
       "id": "outhouse_wood",
@@ -2543,7 +2701,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "37695bac2756298407baf3144adecbbc0b4763e2e4b283d4ac18df590a156bf0"
+      "inputHash": "c84f43a68880f8aceb2501c1199d0eaf2696b10a469d5c58906cec050d81c625"
     },
     {
       "id": "oven_bread_stone",
@@ -2574,7 +2732,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "f847c00a0fe814b3274b0da07ae0d580e119033f20b23d17e2dc27a2501a1569"
+      "inputHash": "eabb19baef9c6105d081848ef7b82d8161ab12399511f22b03a67a65a1564e01"
     },
     {
       "id": "pebbles",
@@ -2590,7 +2748,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "fd223b557d43a09f05bbebb0cd9eee513d593d7ac882b28ee057fd66e682ad89"
+      "inputHash": "11dfd783d558f89f260c4f537e23540d7847815c8a6bf88638421bcc7b1bad07"
     },
     {
       "id": "pier_wood",
@@ -2615,7 +2773,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "8420d0e9a787a227d46ea12d480abc7e9a84a790602208d3934c53fc6ebd68f0"
+      "inputHash": "cd290e9320c3c96513eaa32f55e62f6c2ac9b52db5c31d28b3ddb426102c3b41"
     },
     {
       "id": "pillar_stone",
@@ -2631,7 +2789,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "ace45b8ac282f822ba600b42fed356ac35cd434a51821fd618be81c2b6a6ee6d"
+      "inputHash": "6611f4ad1d87e782c10bc3e1a4fe031c88bde7de813532562e353504c738cc5f"
     },
     {
       "id": "pillar_stone_broken",
@@ -2647,7 +2805,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "6cb942fcebc5032a5d8337343c7c9c50bab1cfae277c3d29f40c2063ed757da8"
+      "inputHash": "569d2676fdf45d5140b84530e51c1c7e25ce49a95b9929812db526d1c5d5b2ec"
     },
     {
       "id": "pine_tree",
@@ -2663,7 +2821,7 @@
       "closed": false,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "7e549e42b36c16aac4e318aee31bbd57c656b430caa37a4b4be09e51f8c22375"
+      "inputHash": "f37f68f2e34190ddfe7aafb153a811a6109597058819aeef26a6185ea2a6cf84"
     },
     {
       "id": "pit_open_spiked",
@@ -2679,7 +2837,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "c3b50467f44b599355d6944bf871c8afebc47f507aaab63ddc16234a15a121f1"
+      "inputHash": "29c4f323f1e1fcf6027e39a55c1005823cebd46cae192ff424f37fadca34b5fd"
     },
     {
       "id": "plough_wood",
@@ -2695,7 +2853,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "a73b92baa32a419d8cae24aef9c9874c4db6e26c669af9cd1eca8e623b124c02"
+      "inputHash": "81d4bd6c0f47be680a2b0f3a1b3479f534b6b6e3aec2edf6dec17d8c9db0d659"
     },
     {
       "id": "portal_arch_stone",
@@ -2727,7 +2885,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "1e50be8f929b61eaf3f4dbc1544558adbdb925bef60bb5bf6c0f32a2727dafbb"
+      "inputHash": "58015d73a41847657965159284114b1bb40f7677f162c7956f4e0d2edb79dbe9"
     },
     {
       "id": "potion_bottles",
@@ -2751,7 +2909,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "673c6f3c2e3b18445a1cec48eae2668dd66eaa7b822f475585ea52e6cc5c285d"
+      "inputHash": "f23761f5f0c692934063c62c8c7d70b994090fdf3de40ab3a6894ce6870e6f75"
     },
     {
       "id": "potion_shelf",
@@ -2784,7 +2942,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "7bbdad9b2409af1f29c1c7e25a48d0f79c80d007d58e0304222e8485b79b4604"
+      "inputHash": "bd3984acef2a2f649731b4fab3916a3ff477cbcc6109fc215cdd969da722d55f"
     },
     {
       "id": "pressure_plate_stone",
@@ -2806,7 +2964,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "f4cbebc8933145b98914a867e1e423c5f47eae3f15b79366614f41d8554cb1fa"
+      "inputHash": "db3baaf6e88bd0140587165495364a44d23120f9e8238f48029a6994f26ff1d2"
     },
     {
       "id": "prison_bars_door",
@@ -2837,7 +2995,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "a996555a0ba269aab0b021eb8f037fd998f111fa8ebcd559fe97cbefe09574fd"
+      "inputHash": "2dd6bb7f6fa74b3b955b86e01876de5bb74d62c245e880bebbb76e7380b54cc2"
     },
     {
       "id": "prison_bars_section",
@@ -2869,7 +3027,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "e2b548440179a9818a2745f2bdf27da6c715f8ea3e7b9fe2962e638054ec8fe4"
+      "inputHash": "26b2d7803484220cb5a0d37c7c018ce7f7f07007ee1724f6c87f8980281ad316"
     },
     {
       "id": "puddle_water",
@@ -2885,7 +3043,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "7137583bc758e927496c0d32bb937a1f3a985d69afe30170667b9ddf619aa37d"
+      "inputHash": "00fc17e8a3377cac50dfa60f64377884c8cc18b2f475fd814e9ee20a7462fa4b"
     },
     {
       "id": "pumpkin_patch",
@@ -2907,7 +3065,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "946ea0b5415cff1597351db3d33d6472745d73b56b16ccccf06522a3ceff1ffb"
+      "inputHash": "dd3a54359a36525b64d2d71d73baef7b4b2d1c0d9648c35ce2feb67d92376ac0"
     },
     {
       "id": "rail_track_straight",
@@ -2930,7 +3088,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "4348bd733cea465f37e8c3154f7dd5087af4378af03d5dfcdf663ce7007cbc8c"
+      "inputHash": "9555b9654bf26a406ab1977dae282160c94a7447de82f3826fcab309f19a50d4"
     },
     {
       "id": "reeds_clump",
@@ -2953,7 +3111,7 @@
       "closed": false,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "633ec0b3dca579ac5a32cf324c9b0bd72378f9426d776996951b009aee95012c"
+      "inputHash": "9b7476d315211dd66ff9fe55b7bd9ef2f162a66245d9e603c04546f944dd4ed7"
     },
     {
       "id": "ritual_circle_floor",
@@ -2975,7 +3133,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "d741b9575e1a43966babac6d1eb659fddae8e8901bbaff9f7b7333030810b5ac"
+      "inputHash": "9dd4ef46c4b682e1d4d5d9d2acc923e4e2be702613494ee5e7180e3b550d7473"
     },
     {
       "id": "rock_mass_block",
@@ -3006,7 +3164,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "f24967cb0fb2d780ec2e750eaf74792401612f36a48bdfbfc22941c52f77946a"
+      "inputHash": "cecea1142d325ea27e7cdd78dc3379ce0af61eabed5a4f40ffda8c9882d9c1d0"
     },
     {
       "id": "rock_mossy",
@@ -3022,7 +3180,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "c86aa9c93a336ae1b26662b19e6dda6dcda363410e4e5207aa9e8275afd61ffc"
+      "inputHash": "fd15e0893e628952b8861091a891f12774ff7434d06589e5af3bf3ac1c706d22"
     },
     {
       "id": "rowboat_wood",
@@ -3047,7 +3205,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "43552aa8390acbe38d23844e3fb76af90a4af10cf6d7a1f47895d19e7d289641"
+      "inputHash": "c0a3084237e773811174b401f1952514ea3dcbfbacc36d3d5164769c2d3f50d7"
     },
     {
       "id": "rubble_stone",
@@ -3063,7 +3221,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "cb862c2214be8023323fa24a172ed8b7950e0d120578a9e67f0af7d9897536c2"
+      "inputHash": "a3e530b5186d4dc0684e02008bde41846ab1558933faa8ed4c430a69ae97f443"
     },
     {
       "id": "rug_woven",
@@ -3079,7 +3237,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "80a84d9851a48a0051992f38dbf63c27b2bbfeb869baa757f59c4625cf6ca016"
+      "inputHash": "8889240e791e77373607e136acb5a67e10cf59df127ba5aecbba2a7ea77ef6b5"
     },
     {
       "id": "ruin_arch_stone",
@@ -3102,7 +3260,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "e7f56df43d9ab326e3e8c053c065a8d8a8baef5d12258817b59ed12d0d4fe697"
+      "inputHash": "a872d9e35baee5cf6f113b1b72f21656c300fd27f45ade526e5506bebd6f050f"
     },
     {
       "id": "sacks_grain",
@@ -3118,7 +3276,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "9196ee4fc062d99492a6592f0e9655a302b069af56f041722ad6ed07236dca46"
+      "inputHash": "33742f156370852e4095e6af55fb9641016583c00586d5357bc9d99bf3835c1a"
     },
     {
       "id": "sapling_young",
@@ -3140,7 +3298,7 @@
       "closed": false,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "bdc941aeaa2be1ba04d20cf66a6e6ad70523697f4a561b1a059a30b8bbab78b8"
+      "inputHash": "ba9bca526e637770df6492466eb8cf4a1f3ae07fcfe91ffcd6be78bb1cc41cec"
     },
     {
       "id": "sarcophagus_stone",
@@ -3162,7 +3320,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "2723e33a7bd6d41156e85da1ecba2f83cc748baf5d06a0ec36bfdad631b4f2e5"
+      "inputHash": "75267966a8ee4ac500cc47a7865724bc45f8a69df1fb25b07fce3340406a98f8"
     },
     {
       "id": "scarecrow",
@@ -3178,7 +3336,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "64c12159e1bf8da7e0262b1b01b78661d13cc4c67423ba52d86004de5b4d968f"
+      "inputHash": "a8a74f87bf7c57d4e0a6787741a2720659439804a0928204b9a801182599ba88"
     },
     {
       "id": "scroll_rack",
@@ -3210,7 +3368,7 @@
       "closed": true,
       "source": "handwritten",
       "licence": "CC0-1.0",
-      "inputHash": "42f0bfe28dd40ed6c434ee52c9f2e68f86d252ae8210d615fc2dd05d21f0b062"
+      "inputHash": "0d463e6154774b6264f7029150e6bf9a315aab8ce3d2f7eb77ee76e137094f66"
     },
     {
       "id": "shackles_wall",
@@ -3226,7 +3384,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "2d1c70e620caa78e9dba008f41309857ac79c2629d8612a49176b2afe2e0efe5"
+      "inputHash": "350fc857867cec063a15d6efa0f1286dd3c003273514dafe0535760594deaa52"
     },
     {
       "id": "shelf_wood",
@@ -3249,7 +3407,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "49181076e06365a945c0d86219925c94b004ebe8376015d01a51b5f70e03293f"
+      "inputHash": "a83da63697c32207f99e971dabbbe935ae3dc02ed49b00d219f829fc3966969d"
     },
     {
       "id": "shield_rack",
@@ -3271,7 +3429,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "5e58dd380abf8fe1139c4b29dba51972697c06667ad36c99c606d8388c0468cd"
+      "inputHash": "2d185cf5a36f48002400a166c3c36ebb599458bd9d7634c6874cb43886a485d1"
     },
     {
       "id": "shrine_roadside",
@@ -3301,7 +3459,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "5e97215ed447ac7b25a4cef5c1e7b3d509ba1790f4cd48b358e1c376c78bc9f4"
+      "inputHash": "da89c146b9cc9139c4672e758d969d74eeb0c08944c5573570f4ba38b27d3cd5"
     },
     {
       "id": "sign_board",
@@ -3332,7 +3490,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "7d9ec81ae585b8df3cc3ef2286d6ae67f4ed6116ee2c9255bd89857b47a9a37f"
+      "inputHash": "ef076fe190fe4268c7dd435c545d6988a0f08b724afaac20fcd57932d73be961"
     },
     {
       "id": "signpost_wood",
@@ -3354,7 +3512,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "ae41f237d05f225d28704075b7e572c2fde3ffd5705cec8484cfe31d7b698bb0"
+      "inputHash": "9b502509e74772021f480b5a219852a1298b29538a4152962ac61b5058385c75"
     },
     {
       "id": "skeleton_remains",
@@ -3379,7 +3537,33 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "e8a556d161c79e2067226efd8af4de45d1a44ec2dbea6f0f72e0baf304fd7d1b"
+      "inputHash": "5f977b77dc327318c025cd616d32b74d74bbe0b9d08582a05c7f1803755d8d6e"
+    },
+    {
+      "id": "sling",
+      "name": "Sling",
+      "description": "A shepherd's sling hanging from the hand that holds it, 0.55 m from finger loop to pouch: two cords bound into a leather hand-hold with a finger loop, running down to a leather pouch cradling a round stone. The hand closes round the hand-hold along +z.",
+      "category": "weapon",
+      "family": "sling",
+      "tags": [
+        "combat",
+        "farm",
+        "hunting",
+        "leather",
+        "rope",
+        "small",
+        "stone",
+        "worn"
+      ],
+      "aliases": ["shepherd's sling", "slingshot"],
+      "variants": ["sling"],
+      "size": { "x": 0.15, "y": 0.1, "z": 0.55 },
+      "anchors": [],
+      "closed": false,
+      "grip": { "points": ["main"], "hand": 0.085 },
+      "source": "handwritten",
+      "licence": "CC0-1.0",
+      "inputHash": "77bea29e8321233195196ede01df7c11a3c7f3797343ffc417573c831a63d7f7"
     },
     {
       "id": "spinning_wheel",
@@ -3395,7 +3579,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "6c119fc306d42c00f4ecad8f9beb2a8dcf4391b7d98df6a2a4f8f1a8fb020dcc"
+      "inputHash": "9de152b07cdc78d105f56a9cfb4f85f615f8db0c9c6006dd2216487ccacf9324"
     },
     {
       "id": "stairs_stone",
@@ -3418,7 +3602,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "d30f55690b921ccedeb337c35906e895fff5d57525eda8ea01d0564f70073073"
+      "inputHash": "37f1cd20054b01b54ea85c25e6a8e5be6694f716085d257390402d6cb6020dc8"
     },
     {
       "id": "stalagmites",
@@ -3440,7 +3624,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "24ec06be629675d18993b74609e738086fe5f355462af73794f3e8e3a6fb4aac"
+      "inputHash": "3d81b998b8da692be89768380742237e13493b218b7d1a784a74d67e5073ac32"
     },
     {
       "id": "statue_stone",
@@ -3464,7 +3648,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "d898d7365ab5ffb8ddd5fb2ee24e991ad095168cd47cf486a7356202886a0e0e"
+      "inputHash": "bbe44e201191ab498096c01dbce845c2f39caf415186cc1d2fd395075c04d106"
     },
     {
       "id": "stocks_wood",
@@ -3480,7 +3664,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "4ebe1796040364595f93b8f4ceec5f017122cfa5f3c7d4805830f9bd1baa4f5e"
+      "inputHash": "b312454c3182ed97477c57b8b04c0cc852a9785283ce572402fdb0d83811a313"
     },
     {
       "id": "stool_wood",
@@ -3510,7 +3694,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "0ea88329af3d7c40fbb40294e5043d85be711457016d023142f2a2678abf084b"
+      "inputHash": "5b570a04288c7300177bfbb5c1f93ab7136ae6b52e8273666a9ed23a01d07f80"
     },
     {
       "id": "straw_scatter",
@@ -3526,7 +3710,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "89baa7b1742971c0be8a88f1b997547f8b2ca702573392bd25c28c8b04840a31"
+      "inputHash": "3ad1dcfc709aecd095bf5d7defb54c995192895f015846c154b848c2664137ee"
     },
     {
       "id": "table_wood",
@@ -3548,7 +3732,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "a7841b1add2af09d25b2cf83a698c7be9927e5f28385ec23e70314e9dbb8870b"
+      "inputHash": "aa6934abd3c083264c88b2f1db541e2df0d46898907e0d4f9e6e8ff05767daf7"
     },
     {
       "id": "tankards_pewter",
@@ -3572,7 +3756,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "1add065819fd0fa5044129a9aab7e359af99c64932c830ec3e11edf29e89c4c1"
+      "inputHash": "6137c724509e56c389d548af64e935683aa81804a3dfbd306e5ee68a1d6bbdce"
     },
     {
       "id": "tapestry_hanging",
@@ -3588,7 +3772,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "92b6ba3695af320c9910a88c806a2b206b241ab626bba692e7afa837f5c6f5f3"
+      "inputHash": "da8e9f57dc617431bcb506e07d2bfbd37110ca3c53b603f5297389a97cc5de40"
     },
     {
       "id": "tent_canvas",
@@ -3612,7 +3796,7 @@
       "closed": false,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "b730f3a94faaee8255a26e404261c69807b4a0b4236235a7ed5cb2846091c714"
+      "inputHash": "ddd85b4cf3d61594f6b7fbb6103160e869a8230bfa0f0f0c79c7913af1b94dd0"
     },
     {
       "id": "thicket_bramble",
@@ -3637,7 +3821,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "135d0e037515ca53ca478d79dede50fdddf6aa3844ebf702f4926c495406173a"
+      "inputHash": "cd4b16fcf855dbdc16907f72868aa5d0b8b549dbf9c13b7c51714080002b3c5b"
     },
     {
       "id": "throne_stone",
@@ -3667,7 +3851,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "34a186a6a9ed36fbd5917957b663bf88e76039404bf348a1dbe3b33ea77118bf"
+      "inputHash": "42d44f4f27d05aa4b5b07d9fc17f7f16d6e52f015ab1d9d7c302cbdb7e090aed"
     },
     {
       "id": "torch_wall_sconce",
@@ -3684,7 +3868,7 @@
       "mount": { "kind": "wall", "lift": 1.4 },
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "7aa13603be2aaa693bd550c18f2ba946b6ca4d705f26c35523a3b2a85f38dfdd"
+      "inputHash": "a2adc818ba57ab6cc4625278f1923fcd87100f7b19199083fda3e72e50ab5527"
     },
     {
       "id": "torture_rack",
@@ -3714,7 +3898,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "eed6947f0a285265ee9368e2dfe35c6aa374e71aa7ed35bfe23b6ec6304ac6f7"
+      "inputHash": "36db52af0ac988476433e19f57b79d6cec6f292c4d0d579958d60c3c81dc3145"
     },
     {
       "id": "tower_stone_watch",
@@ -3739,7 +3923,7 @@
       "closed": false,
       "source": "handwritten",
       "licence": "CC0-1.0",
-      "inputHash": "e8be463ff31c6ecc06ed4283804d5acab91dd29fb5ac0cfdb3d7d8744f2b75e9"
+      "inputHash": "ca299960dbe59f9274c4333b581f1c835a8f6a5e6094ba3e783dc77d70226ea5"
     },
     {
       "id": "training_dummy",
@@ -3762,7 +3946,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "beae079e5d9178dd8c5a0f38d8c3b21fb5df5411b1f58b82423e7a9a827147db"
+      "inputHash": "884b41ac27e073698d23039cc504ae21c21767816909fd39627582760e619c0b"
     },
     {
       "id": "treasure_pile",
@@ -3786,7 +3970,7 @@
       "closed": true,
       "source": "handwritten",
       "licence": "CC0-1.0",
-      "inputHash": "90de38a719fcebc45062db3cf54044ad272a0d1e6fbd876b1659196a2f5b53f2"
+      "inputHash": "deec04ee1c5b0480da5187a8afa83f9247ba531ecda2a47b501de6f88fe39fbf"
     },
     {
       "id": "tree_dead",
@@ -3808,7 +3992,7 @@
       "closed": false,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "2d7c5023b64a02d0222b8002e4cc2bfe6aab900df75a86a703cf4c4ca29a87e2"
+      "inputHash": "3b2fdd555f4087f543457fa2ed3042fd0889b7413c32476e3c8c4497b16a3ecf"
     },
     {
       "id": "tree_stump",
@@ -3832,7 +4016,7 @@
       "closed": false,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "c93d7e54ee537b191a9a1bacae2837939268230989df6d7a0e90d8105c06e2b0"
+      "inputHash": "8e8f98c474eb2fe6500ff93f43358e6d65da1894b589052b3d9eee14a4d48e6d"
     },
     {
       "id": "urn_funeral",
@@ -3857,7 +4041,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "cf17895115e685ac7bbed3e4683ef38f4b25277529eb4b0305db8c30138f4ec1"
+      "inputHash": "141b62334b0b49ab1c4e4e1f9510c0945bba1bdc9b7d94cdef146bd34a49f679"
     },
     {
       "id": "vegetable_crates",
@@ -3881,7 +4065,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "227e65eeabcddadf45458428cefc6cd0c021bf6fd433c4c5ce32228a8a931dfa"
+      "inputHash": "e6175f20462e2b7692fc3eeb3150a76aa6465243f4ce14af0af674483afbe49a"
     },
     {
       "id": "wagon_covered",
@@ -3912,7 +4096,7 @@
       "closed": false,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "b0ba2f50f79723267fb7e1ddf79dfb4d2f1fd9373744d09680d20111cf99e45f"
+      "inputHash": "a7205511a287061439f6c7111cd9211b3f2955b138cefebd98121d7838d88e9e"
     },
     {
       "id": "wall_crypt_corner",
@@ -3943,7 +4127,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "49295a9584b7e736b0591ffc8e2ea7b197a4308f7715c804b98f974094236604"
+      "inputHash": "da729665470143d0df85219897d4302e89f3c5622d38e9fd26b67db045eddf7e"
     },
     {
       "id": "wall_crypt_doorway",
@@ -3967,7 +4151,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "e3891a51da524cdcf6c9caefb4726d48a427d47bedcdabc3e1ed8b695cdb2e3c"
+      "inputHash": "4295d1fb160cc9efa2950eb16b1f311765e992ab5e63a7823648c27b725a49d0"
     },
     {
       "id": "wall_crypt_niche",
@@ -3991,7 +4175,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "cac2d8be02cb1ae89d29a0c44aa22dda976a07b8439359c03e6c7b57f34b2e0c"
+      "inputHash": "2ada6bdb398ba9b08d3a648f943f0a27cc43987c3221697e4fe682201fabdaf5"
     },
     {
       "id": "wall_crypt_straight",
@@ -4022,7 +4206,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "9d2c2f88700b68104d7bfe7bc1d4de0890c9a6318d44e08187e0818dc1889c4a"
+      "inputHash": "18727df203f67c74e179e5acf1841ff428f92a0f9e50248c4bab764da2cdf594"
     },
     {
       "id": "wall_stone_corner",
@@ -4063,7 +4247,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "c5c27488dd9acb3baff4f07c4fb5389c6b0e1fc23ca1c4813c1e556a7e9eb0ab"
+      "inputHash": "d76daa6c54a9511d0f800d9f93422cc8042eef5d827e725942609ff607d656c8"
     },
     {
       "id": "wall_stone_cross",
@@ -4105,7 +4289,7 @@
       "closed": true,
       "source": "handwritten",
       "licence": "CC0-1.0",
-      "inputHash": "cb7fcd403e25798c0136750055d9fed8690aecf75e3851500fbcb5e91f1cd03e"
+      "inputHash": "92278a5686ed19c39356d17f0dfa52ddd1347260461ac791e4143e33e3b58cc3"
     },
     {
       "id": "wall_stone_doorframe",
@@ -4147,7 +4331,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "d859f97af9119f47aaea30ef42aa8049287bee0548dcf3bfa3b50068fd1ec92c"
+      "inputHash": "feeed85af24448863717f38a15aa4ed371d8ef8d43e5200bfa22896ceeffc46e"
     },
     {
       "id": "wall_stone_straight",
@@ -4188,7 +4372,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "7d1aaceecd2fce587fc01f19474963af9d6df87d063d27b2ec48d99301d87c00"
+      "inputHash": "c36cf07b5a55677698ff19fcea70e50617a609dca496b64e81f4f5611eab2e16"
     },
     {
       "id": "wall_stone_tee",
@@ -4229,7 +4413,7 @@
       "closed": true,
       "source": "handwritten",
       "licence": "CC0-1.0",
-      "inputHash": "e5d4c477bdd3c36c7eb931120f2abdf60617ea53988d7361639175c25ba997ae"
+      "inputHash": "ce0400b1fe9815b9b74a1114e9248ab88602b7d374bfcbbf25aef77c85db8d6b"
     },
     {
       "id": "wall_timber_corner",
@@ -4261,7 +4445,7 @@
       "closed": true,
       "source": "handwritten",
       "licence": "CC0-1.0",
-      "inputHash": "a37a43c8d3648413ddb24f84539bafc3a123cf8a9153cd709ac74630fe60f6d0"
+      "inputHash": "59f3e1c0736ef60fe5c3dc5a33dc9829277e8c205c0be71f4474cf229866cd42"
     },
     {
       "id": "wall_timber_cross",
@@ -4293,7 +4477,7 @@
       "closed": true,
       "source": "handwritten",
       "licence": "CC0-1.0",
-      "inputHash": "febd0848bbf924f5071bdafc1c34548de77315af9e4ba7daa13453d5ccfbf863"
+      "inputHash": "9c4aefb1f53789287ab2182c12c9fd9440d66fb7131ab7dcf5f4015a0cd8213b"
     },
     {
       "id": "wall_timber_straight",
@@ -4343,7 +4527,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "23ff0972751443f800717f62ce22ecb2ddafa35a74410efbae683191f0754c7e"
+      "inputHash": "e96a198d3ac55198ddf4307f8b0a90df18322167613c8d4adad0cf5651321588"
     },
     {
       "id": "wall_timber_tee",
@@ -4375,7 +4559,7 @@
       "closed": true,
       "source": "handwritten",
       "licence": "CC0-1.0",
-      "inputHash": "da4e85c7010ee678539d5cbbf5bf6fb176c4e0e20b8d7921d38569bd141cd4e7"
+      "inputHash": "ae4259fe6554ec9baa4bb0bee04cdd2eaf36492284e9781a3658cae58a556566"
     },
     {
       "id": "wardrobe_wood",
@@ -4391,7 +4575,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "8ed467330a2626a5b1ffec5d569192351aacd8aefc6ef030dc22cfa4cdf6e5e4"
+      "inputHash": "211bdba0c752c173e435efbfc6779bd8bb2b3b77d3da0e2b90319e95c6edd101"
     },
     {
       "id": "washing_line",
@@ -4407,7 +4591,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "c6060653866dc3568b121ba2fb8bc77dfe5b5295768ecf5abf1f6479473c1559"
+      "inputHash": "3602ca011c41e62d7e339200ca911a96160dfb05ae56be573c3c15156371a049"
     },
     {
       "id": "water_trough",
@@ -4429,7 +4613,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "63d2e65e12b0952b6bbe0e7e3080f4fdb6ff973b6a758c0bfb9583f90f2fe24a"
+      "inputHash": "299d0ffc921287aada455aaf10f422efdd28efe2ead44bdaaee415ae44cb1fdb"
     },
     {
       "id": "waterfall_rock",
@@ -4453,7 +4637,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "76394adfa2db1cdcf4ac067f30e1b292e2575ad8e6b660984555b6e2d53ce808"
+      "inputHash": "b95a951ee3a42fc5d2a0e9375af779a434b5a6d895448f6be3e9b1a2bbbba129"
     },
     {
       "id": "weapon_rack",
@@ -4486,7 +4670,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "6b74a1066ec723ad4beb55824ec66c245113ee380214533ecd955aa1f54fe88d"
+      "inputHash": "e468bafbc8f3349a2a237a0c88e879793208e3eb24d9def2eea34bb8f33d973b"
     },
     {
       "id": "well_stone",
@@ -4510,7 +4694,7 @@
       "closed": false,
       "source": "handwritten",
       "licence": "CC0-1.0",
-      "inputHash": "f7a886b9c227d8a329141a39f5e897d84e7f5c47da1bf95294bcddb56f0bff60"
+      "inputHash": "4883ca43b44fef1405c2ddf92505ff96a9b72ffa5bab961f51666ec130d920ab"
     },
     {
       "id": "wheelbarrow",
@@ -4535,7 +4719,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "c10297f27aa0f7536ae14d42c57dbcc73de356a1061e0df0833513ab69739780"
+      "inputHash": "9d81cea598c4654c3d3b181322ee147e90e3f0270790b8fed3722a504a1f8120"
     },
     {
       "id": "wildflowers",
@@ -4551,7 +4735,7 @@
       "closed": true,
       "source": "generated",
       "licence": "CC0-1.0",
-      "inputHash": "4b4758a525777ef242efa410401592a7034615cf281ead9f86ed0955b4a9af02"
+      "inputHash": "952db97b57dd39fa28ddbfbbfaf20fb4bf1c0f60f83c78d295c096ef6912a7d8"
     }
   ]
 }

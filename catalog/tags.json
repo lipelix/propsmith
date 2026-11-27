@@ -16,7 +16,9 @@
       "gold",
       "bone",
       "crystal",
-      "paper"
+      "paper",
+      "steel",
+      "leather"
     ],
     "setting": [
       "village",
@@ -54,7 +56,9 @@
       "magic",
       "study",
       "punishment",
-      "training"
+      "training",
+      "combat",
+      "hunting"
     ],
     "look": [
       "round",
@@ -67,7 +71,8 @@
       "roofed",
       "open",
       "ornate",
-      "plain"
+      "plain",
+      "two_handed"
     ],
     "condition": ["new", "worn", "weathered", "broken", "mossy"]
   }

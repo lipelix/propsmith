@@ -138,6 +138,7 @@ describe("catalogue data", () => {
         ...baked("barrel_wood"),
         tris: 6936,
         measured: { x: 0.64, y: 0.64, z: 0.9 },
+        grips: [],
       },
     ]);
     expect(catalogue.tagGroups).toEqual({ wood: "material", iron: "material" });

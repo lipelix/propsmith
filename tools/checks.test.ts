@@ -7,6 +7,7 @@ import {
   deltaLine,
   exitCode,
   formatReport,
+  gripPoints,
   manifold,
   materialsKnown,
   originGround,
@@ -202,6 +203,63 @@ describe("anchors-declared", () => {
   });
 });
 
+describe("grip-points", () => {
+  const weapon = (points: string[]) =>
+    asset({ category: "weapon", grip: { points, hand: 0.085 } });
+  const hand = (name: string, z: number, over = {}) => ({
+    name,
+    at: [0, 0, z] as [number, number, number],
+    axis: [0, 0, 1] as [number, number, number],
+    radius: 0.016,
+    ...over,
+  });
+
+  it("passes a prop with no grips", () => {
+    expect(gripPoints(asset(), measured()).detail).toBe(
+      "no grip points, none declared",
+    );
+  });
+
+  it("passes two hands on a handle along +z", () => {
+    const m = measured(
+      variant({
+        grips: [hand("main", 0.3), hand("off", 0.15, { radius: 0.018 })],
+      }),
+    );
+    const check = gripPoints(weapon(["main", "off"]), m);
+    expect(check.status).toBe("OK");
+    expect(check.detail).toBe(
+      "main, off in every variant, hands on handles of 0.016–0.018 m radius",
+    );
+  });
+
+  it("fails missing and undeclared grips, a hand off its handle, a lean and hands too close", () => {
+    const m = measured(
+      variant({
+        grips: [
+          hand("main", 0.3, { axis: [1, 0, 0] }),
+          hand("off", 0.25, { radius: null }),
+          { name: "trigger", at: [0, 0, 0.1] },
+        ],
+      }),
+    );
+    const check = gripPoints(weapon(["main", "off", "stock"]), m);
+    expect(check.status).toBe("FAILED");
+    expect(check.detail).toBe(
+      "barrel_wood: declared grip stock is missing; barrel_wood: grip trigger is not declared in asset.json; barrel_wood: grip off is not inside a handle; barrel_wood: grip main's handle leans 90° off +z, over 45°; barrel_wood: the hands are 0.05 m apart, under a hand's breadth (0.085 m)",
+    );
+  });
+
+  it("fails a handle too thick for a hand", () => {
+    const m = measured(
+      variant({ grips: [hand("main", 0.3, { radius: 0.05 })] }),
+    );
+    expect(gripPoints(weapon(["main"]), m).detail).toBe(
+      "barrel_wood: grip main's handle is 0.05 m in radius, over 0.04 for a hand",
+    );
+  });
+});
+
 describe("the report", () => {
   it("is NOT CHECKED everywhere without a build, with the reason given", () => {
     const checks = runChecks({
@@ -240,10 +298,10 @@ describe("the report", () => {
     expect(lines[1]).toMatch(
       /^ {2}OK {11}bounds-fit {8}within 1×1×1 m ± 0.075$/,
     );
-    expect(tally([report])).toEqual({ OK: 6, FAILED: 0, "NOT CHECKED": 0 });
+    expect(tally([report])).toEqual({ OK: 7, FAILED: 0, "NOT CHECKED": 0 });
     expect(exitCode([report])).toBe(0);
     expect(summary([report], 1)).toBe(
-      "2 assets: 6 OK, 0 FAILED, 0 NOT CHECKED, 1 not built",
+      "2 assets: 7 OK, 0 FAILED, 0 NOT CHECKED, 1 not built",
     );
   });
 

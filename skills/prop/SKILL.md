@@ -65,13 +65,20 @@ def barrel_wood_open():
 - **Anchors** for effects: `anchor("light:lamp", (x, y, z))` (also `fire:`, `smoke:`, `water:`). Every anchor is
   listed in `asset.json` `anchors` and present in every variant. A fire, a `water:spout*` and a `water:basin*` need
   an extent: `anchor("fire:hearth", at, size=(half_width, half_depth, flame_height))`.
+- **Grip points** for a hand-held prop (a weapon): `grip("main", at, axis)` where the main hand closes round the
+  handle, `grip("off", at, axis)` for the other hand on a two-handed one, `grip("stock", at)` where a crossbow sets
+  against the shoulder and `grip("trigger", at)` under the finger. `at` is on the handle's centre line; `axis` runs
+  along the handle towards the thumb (the blade's, head's or bolt's end). Model the weapon as held: the main hand's
+  handle along +z (a sword or polearm stands on its pommel or butt, blade or head up; a crossbow lies level with its
+  pistol grip under it), the edge, head or bolt to +x, the flats to ±y, at real scale. Space two hands at least a
+  hand's breadth (`grip.hand`) apart.
 - **Deterministic.** Randomness only from `random.Random(<fixed seed>)` and the `seed` of `blob`. No time, no unseeded
   `random`, no reading files, no network. The same `asset.py` must build the same bytes.
 
 ## `asset.json`
 
 - `name`: short English noun phrase ("Wooden barrel"). `description`: one or two sentences of what it looks like.
-- `category`: one of `structure`, `door`, `fence`, `container`, `furniture`, `decor`, `vegetation`, `light`.
+- `category`: one of `structure`, `door`, `fence`, `container`, `furniture`, `decor`, `vegetation`, `light`, `weapon`.
 - `family`: what kind of thing it is across materials (`barrel`, `well`, `cart`, `pot`). Snake case.
 - `tags`: only from `catalog/tags.json`, never repeating the family or an alias. Pick the material, setting, use, look
   and condition that fit; 4 to 8 tags. Do not add tags to the vocabulary yourself.
@@ -86,6 +93,9 @@ def barrel_wood_open():
   model still stands on z = 0 on its lowest point; `lift` is how many metres a game raises it to hang it where it was
   made to hang (a ceiling prop's top then meets the ceiling at `lift` plus its height). Name that height in the
   description too.
+- `grip` (every weapon): `{ "points": ["main", "off"], "hand": 0.085 }`: the grip points every variant has, as in
+  `asset.py`, and the knuckle breadth of the hand they are laid out for (0.085 m, an adult's). Name the length class in
+  the description (a greatsword's 1.3–1.5 m, a halberd's 2 m and more).
 - `provenance` and `licence`: keep what `npm run new` wrote (`source: generated`, the prompt, `CC0-1.0`).
 
 ## Style (the default kit: a painterly medieval village)
@@ -123,6 +133,9 @@ At most 5 rounds (or the number you were given). One round:
    - `manifold`: replace open parts with closed ones.
    - `materials-known`: use `material()` or a ledger `texture()`.
    - `anchors-declared`: make `asset.json` and the `anchor()` calls agree; give fires and water their `size`.
+   - `grip-points`: make `asset.json`'s `grip.points` and the `grip()` calls agree; put each hand on its handle's
+     centre line (inside it, the handle at most 4 cm in radius), the main hand's handle within 45° of +z, the hands a
+     hand's breadth apart.
 4. **Look at the snapshots** in `.cache/assets/<id>/review/`: `<variant>_iso.png` (three-quarter view),
    `<variant>_top.png` (the declared size outlined) and `<variant>_front.png`. Judge only the look: does it read as
    the description, is the silhouette clear, are the colours in the palette, are there gaps, floating bits,

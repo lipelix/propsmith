@@ -3,10 +3,14 @@ import importlib.util
 import re
 
 import bpy
+from mathutils import Matrix, Vector
 
 VARIANTS = []
 
 ANCHOR = re.compile(r"^(light|fire|smoke|water):[a-z0-9]+(_[a-z0-9]+)*$")
+# A grip point of a hand-held prop (a weapon): where a hand closes on it (`main`, `off`) or what else a holder meets.
+GRIP = re.compile(r"^grip:(main|off|stock|trigger)$")
+HANDS = ("main", "off")
 # Custom property on an anchor empty made with a `size` (its scale is then the effect's extent).
 SIZED = "propsmith_anchor_sized"
 
@@ -35,6 +39,35 @@ def anchor(name, at, size=None):
             raise ValueError(f"anchor {name!r}: size must be three positive metres, not {size!r}")
         obj.scale = size
         obj[SIZED] = True
+    bpy.context.scene.collection.objects.link(obj)
+    return obj
+
+
+def grip(name, at, axis=None):
+    """A grip point of a hand-held prop: an empty named `grip:<name>` at `at` (metres, asset space).
+
+    `main` and `off` are where a hand closes round the handle: `at` on the handle's centre line, `axis` along the
+    handle towards the thumb (the end the blade, head or bolt is on). The empty's +Z is that axis and its +X the
+    model's +X made square to it: the way the edge, the head or the bolt points (the model's +Z instead when the
+    handle runs along x, as a crossbow's fore-stock). The build measures the handle's radius there. `stock` (where it sets against the shoulder) and `trigger` are points and take no axis."""
+    key = f"grip:{name}"
+    if not GRIP.match(key):
+        raise ValueError(f"grip {name!r} must be one of main, off, stock, trigger")
+    obj = bpy.data.objects.new(key, None)
+    obj.empty_display_type, obj.empty_display_size = "ARROWS", 0.05
+    if name in HANDS:
+        if axis is None:
+            raise ValueError(f"grip {name!r} needs an axis along the handle")
+        z = Vector(axis).normalized()
+        x = Vector((1, 0, 0)) - z * z.x
+        if x.length < 0.5:
+            x = Vector((0, 0, 1)) - z * z.z
+        x.normalize()
+        obj.matrix_world = Matrix.Translation(at) @ Matrix((x, z.cross(x), z)).transposed().to_4x4()
+    else:
+        if axis is not None:
+            raise ValueError(f"grip {name!r} is a point and takes no axis")
+        obj.location = at
     bpy.context.scene.collection.objects.link(obj)
     return obj
 

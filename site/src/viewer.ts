@@ -1,12 +1,16 @@
 import {
   AgXToneMapping,
   Box3,
+  BufferGeometry,
   Color,
   DirectionalLight,
   GridHelper,
   Group,
+  Line,
+  LineBasicMaterial,
   type Material,
   Mesh,
+  MeshBasicMaterial,
   type Object3D,
   OrthographicCamera,
   PerspectiveCamera,
@@ -14,6 +18,7 @@ import {
   PMREMGenerator,
   Scene,
   ShadowMaterial,
+  SphereGeometry,
   type Texture,
   Vector3,
   VSMShadowMap,
@@ -21,6 +26,8 @@ import {
 } from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
+
+import type { GripPoint } from "./data.ts";
 
 /**
  * The live view of an asset: the published GLB under the review rig of the Blender snapshots
@@ -46,6 +53,8 @@ export interface Settings {
   quarterTurns: number;
   shadow: boolean;
   grid: boolean;
+  /** Markers on a weapon's grip points, seen through the model. */
+  grips: boolean;
 }
 
 /** The review rig of `tools/blender/style.json`. */
@@ -60,6 +69,7 @@ export const BLENDER: Settings = {
   quarterTurns: 0,
   shadow: true,
   grid: false,
+  grips: true,
 };
 
 const SUN_COLOR = new Color(1.0, 0.87, 0.7);
@@ -67,6 +77,15 @@ const SKY_COLOR = new Color(0.5, 0.56, 0.68);
 const CAMERA_ELEVATION = 30;
 const CAMERA_AZIMUTH = 45;
 const SHADOW_OPACITY = 0.6;
+/** Grip marker colours: the main hand, the off hand, and the other points (stock, trigger). */
+const GRIP_COLORS: Record<GripPoint["name"], number> = {
+  main: 0xff7a1a,
+  off: 0x2aa8ff,
+  stock: 0xd9d9d9,
+  trigger: 0xd9d9d9,
+};
+/** Half the length of the line drawn along a hand's handle, metres. */
+const GRIP_REACH = 0.07;
 
 const rad = (deg: number): number => (deg * Math.PI) / 180;
 
@@ -89,6 +108,7 @@ export class Viewer {
   private readonly sun = new DirectionalLight(SUN_COLOR, BLENDER.sunStrength);
   private readonly ground: Mesh;
   private readonly model = new Group();
+  private readonly markers = new Group();
   private readonly controls: OrbitControls;
   private readonly sky: Texture;
   private grid: GridHelper | null = null;
@@ -165,8 +185,11 @@ export class Viewer {
       : this.persp;
   }
 
-  /** Loads a GLB and frames it; resolves when it is on screen, rejects when the file cannot be read. */
-  async load(url: string): Promise<void> {
+  /**
+   * Loads a GLB and frames it, with markers on its grip points; resolves when it is on screen, rejects when the file
+   * cannot be read.
+   */
+  async load(url: string, grips: readonly GripPoint[] = []): Promise<void> {
     const load = ++this.loads;
     const gltf = await new GLTFLoader().loadAsync(url);
     if (this.disposed || load !== this.loads) return;
@@ -190,10 +213,44 @@ export class Viewer {
     shadow.near = 0.1;
     shadow.far = this.radius * 40;
     shadow.updateProjectionMatrix();
+    this.addMarkers(grips);
     this.setGrid(this.settings.grid);
     this.placeSun();
     this.resize();
     this.resetView();
+  }
+
+  /** A dot on each grip point and a line along each hand's handle, drawn over the model (it hides them). */
+  private addMarkers(grips: readonly GripPoint[]): void {
+    // The asset's (x, y, z) is three's (x, z, -y).
+    const v = ([x, y, z]: readonly number[]) =>
+      new Vector3(x ?? 0, z ?? 0, -(y ?? 0));
+    for (const g of grips) {
+      const color = GRIP_COLORS[g.name];
+      const dot = new Mesh(
+        new SphereGeometry(g.axis ? 0.018 : 0.012, 16, 8),
+        new MeshBasicMaterial({ color, depthTest: false, transparent: true }),
+      );
+      dot.position.copy(v(g.at));
+      dot.renderOrder = 10;
+      dot.name = `grip:${g.name}`;
+      this.markers.add(dot);
+      if (g.axis) {
+        const at = v(g.at);
+        const along = v(g.axis).multiplyScalar(GRIP_REACH);
+        const line = new Line(
+          new BufferGeometry().setFromPoints([
+            at.clone().sub(along),
+            at.clone().add(along),
+          ]),
+          new LineBasicMaterial({ color, depthTest: false, transparent: true }),
+        );
+        line.renderOrder = 10;
+        this.markers.add(line);
+      }
+    }
+    this.markers.visible = this.settings.grips;
+    this.model.add(this.markers);
   }
 
   /** Applies the settings; cheap enough to call on every slider move. */
@@ -208,6 +265,7 @@ export class Viewer {
     this.renderer.toneMappingExposure = 2 ** settings.exposure;
     this.model.rotation.y = (-settings.quarterTurns * Math.PI) / 2;
     this.controls.autoRotate = settings.turntable;
+    this.markers.visible = settings.grips;
     this.placeSun();
     if (settings.grid !== before.grid) this.setGrid(settings.grid);
     if (settings.projection !== before.projection) {
@@ -286,7 +344,7 @@ export class Viewer {
 
   private clearModel(): void {
     this.model.traverse((node: Object3D) => {
-      if (!(node instanceof Mesh)) return;
+      if (!(node instanceof Mesh) && !(node instanceof Line)) return;
       node.geometry.dispose();
       for (const material of [node.material].flat() as Material[]) {
         for (const value of Object.values(material))
@@ -295,6 +353,7 @@ export class Viewer {
         material.dispose();
       }
     });
+    this.markers.clear();
     this.model.clear();
   }
 
