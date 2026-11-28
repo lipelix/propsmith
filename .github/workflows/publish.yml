@@ -37,9 +37,10 @@ jobs:
   publish:
     # GitHub's Ubuntu runner, not RUNNER_LABELS: the bake needs Blender's Linux build and Mesa's software OpenGL.
     runs-on: ubuntu-24.04
-    # A cold cache builds and bakes every variant, about a minute each on this runner (41 assets, 70 variants: about
-    # 80 minutes); a warm one redoes only what changed.
-    timeout-minutes: 180
+    # A cold cache builds and bakes every variant, about a minute each on this runner (190 assets: longer than one
+    # job may run, after a change to lib/ or tools/blender/); a warm one redoes only what changed. The bake stops in
+    # time to save what it did, and the next run (a re-run, or the next push) goes on from there.
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
 
@@ -118,7 +119,28 @@ jobs:
 
       # xvfb gives Blender's OpenGL (EEVEE review snapshots and thumbnails) a display; Mesa draws in software.
       - name: Build and bake
+        id: bake
+        timeout-minutes: 300
+        continue-on-error: true
         run: xvfb-run --auto-servernum npm run bake
+
+      # A bake that ran out of time or failed keeps what it finished under a key of its own, which the next run
+      # restores (the newest catalog- key), then the job fails.
+      - name: Save the unfinished builds and bakes
+        if: steps.bake.outcome != 'success'
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            .cache
+            !.cache/e2e
+            dist/catalog
+          key: catalog-${{ env.BLENDER_VERSION }}-${{ hashFiles('catalog/**', 'lib/**', 'tools/**') }}-unfinished-${{ github.run_id }}-${{ github.run_attempt }}
+
+      - name: Stop after an unfinished bake
+        if: steps.bake.outcome != 'success'
+        run: |
+          echo "::error::The bake did not finish; what it did is saved, re-run the job to go on"
+          exit 1
 
       # Saved right after the bake, so a later failure (the e2e tests) does not cost a cold rebuild of every asset.
       - name: Save builds and bakes
